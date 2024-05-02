@@ -21,7 +21,13 @@ module.exports = (config) => {
   });
 
   config.addCollection("organizers", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/_content/organizers/*.md").filter(item => !item.data.hidden);
+    return collectionApi.getFilteredByGlob("src/_content/organizers/*.md").sort(function(a, b) {
+        let nameA = a.data.name.toUpperCase();
+        let nameB = b.data.name.toUpperCase();
+        if (nameA < nameB) return -1;
+        else if (nameA > nameB) return 1;
+        else return 0;
+    }).filter(item => !item.data.hidden);
   });
 
   config.addCollection("sponsorsByLevel", function(collectionApi) {
