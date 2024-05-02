@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Opportunity Grant
 name: Python Software Foundation
 date: 2021-10-04
