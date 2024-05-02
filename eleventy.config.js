@@ -35,7 +35,7 @@ module.exports = (config) => {
     const visibleSponsors = sponsors.filter(sponsor => !sponsor.data.hidden);
     const levelOrder = [
       "Diamond",
-      "Platnum",
+      "Platinum",
       "Gold",
       "Silver",
       "Bronze",
