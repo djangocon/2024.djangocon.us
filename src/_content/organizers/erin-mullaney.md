@@ -1,7 +1,7 @@
 ---
 name: Erin Mullaney
 photo: erin-mullaney.jpg
-role: Public Health chair
+role: "Program Co-Chair, Public Health Chair"
 social:
     twitter: _erin_rachel
     website: null
