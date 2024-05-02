@@ -14,7 +14,7 @@ title: "Heads Up! End of our Opportunity Grants is coming up!"
 
 **UPDATE**: The application window has been extended to Monday, April 29th at Noon EDT!
 
-Here to remind you that the [opportunity grants](https://2024.djangocon.us/opportunity-grants/) will be closing on April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
+Here to remind you that the [opportunity grants](https://2024.djangocon.us/about/opportunity-grants/) will be closing on April 29, 2024 at [12 PM EDT](https://time.is/1200PM_29_Apr_2024_in_New_York?DjangoCon_US_2024_CFP_closes).
 
 If you haven't already applied, make sure to fill the [opportunity grant application form](https://forms.gle/Pi12J6vFQHq2CSAy5) soon.
 
@@ -33,6 +33,6 @@ Anyone, anyone who needs financial support attending our conference.
 
 You will be notified by **June 14, 2024**.
 
-If you would like more information on opportunity grants, click [here](https://2024.djangocon.us/opportunity-grants/) to go to the grants information page.
+If you would like more information on opportunity grants, click [here](https://2024.djangocon.us/about/opportunity-grants/) to go to the grants information page.
 
 Happy Scrolling!
