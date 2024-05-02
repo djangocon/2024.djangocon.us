@@ -1,7 +1,7 @@
 ---
 name: "Boxcar Bar & Arcade"
 hidden: false
-photo: "21c-museum.png"
+photo: "boxcar.jpg"
 location: "621 Foster Street"
 distance: "5 blocks (0.4 miles) away"
 map: "https://goo.gl/maps/1V9XiyibxNzJvs1r6"
