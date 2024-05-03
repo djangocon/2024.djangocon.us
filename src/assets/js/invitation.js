@@ -1,33 +1,39 @@
-
-const form = document.getElementById("form");
+const form = document.getElementById("inviteForm");
 form.addEventListener("submit", start);
 
-const loader = document.querySelector("#loading");
-// showing loading
+const loader = document.getElementById("loader");
+
 function displayLoading() {
-  loader.classList.add("display");
+  loader.hidden = false;
 }
 
-// hiding loading
 function hideLoading() {
-  loader.classList.remove("display");
+  loader.hidden = true;
 }
 
 async function start(ev) {
   ev.preventDefault();
+
   console.log("start form");
 
-  $("#inprogress").show();
-  const form = new FormData(ev.target);
-  const fullname = form.get("fullname");
-  const address = form.get("address");
-  const email = form.get("email");
-  const dob = form.get("dob");
-  const lettertype = form.get("letterselection");
-  const og = form.get("og");
-  const speaker = form.get("talk");
-  const passport_no = form.get("passport_no");
-  var data
+  // Show in progress message
+  const inProgressMsg = document.getElementById("inProgressMsg");
+  inProgressMsg.hidden = false;
+
+  const form = new FormData(ev.target);;
+
+  const {
+    fullname,
+    address,
+    email,
+    dob,
+    letterselection: lettertype,
+    og,
+    talk: speaker,
+    passport_no
+  } = Object.fromEntries(form);
+
+  let data;
 
   displayLoading();
 
@@ -39,7 +45,6 @@ async function start(ev) {
       "dob": dob,
       "passport_no": passport_no
     }
-
   } else if (lettertype == "og") {
     data = {
       "fullname": fullname,
@@ -66,8 +71,11 @@ async function start(ev) {
     };
   }
 
-  displayLoading()
-  $("#form").hide();
+  displayLoading();
+
+  const formElem = document.getElementById("inviteForm");
+  formElem.hidden = true;
+
   await fetch('https://djc-invitation-letter-api-noahalorwu.vercel.app/invitation', {
     method: 'POST',
     headers: {
@@ -75,27 +83,32 @@ async function start(ev) {
     },
     body: JSON.stringify(data)
   }).then(res => res.json()).then(data => {
-    hideLoading()
-    console.log(data)
-    $("#inprogress").hide();
-    $("#ready").show();
+    hideLoading();
+    console.log(data);
+    inProgressMsg.hidden = true;
+    document.getElementById("readyMsg").hidden = false;
   });
 }
 
-$(document).ready(function () {
-  $("#letterselection").change(function () {
-    var selected = $(this).val();
+// Update fields shown dependent upon attendee type
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("letterselection").addEventListener("change", function() {
+    let selected = this.value;
+
+    const ogElem = document.getElementById("og");
+    const speakerElem = document.getElementById("speaker");
+
     if (selected == "none") {
-      $("#og").hide();
-      $("#speaker").hide();
+      ogElem.hidden = true;
+      speakerElem.hidden = true;
     }
     else if (selected == "og") {
-      $("#og").show();
-      $("#speaker").hide();
+      ogElem.hidden = false;
+      speakerElem.hidden = true;
     }
     else if (selected == "speaker") {
-      $("#og").hide();
-      $("#speaker").show();
+      ogElem.hidden = true;
+      speakerElem.hidden = false;
     }
   });
 });
