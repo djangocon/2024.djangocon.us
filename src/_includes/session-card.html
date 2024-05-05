@@ -1,4 +1,4 @@
-<li>
+<li class="p-6 bg-gray-100">
   {% assign link = session.link | default: session.url %}
   {% if link %}
     <a href="{{ session.link }}" class="link">Read more</a>
@@ -7,7 +7,7 @@
   <h4>{{ session.title }}</h4>
 
   {% if session.difficulty %}
-    <span class="label"><span class="sr-only">Audience level: </span>{{ session.difficulty }}</span>
+    <span class="badge badge-blue"><span class="sr-only">Audience level: </span>{{ session.difficulty }}</span>
   {% endif %}
   {% if session.room %}
     <p class="location">{{ session.room }}</p>
