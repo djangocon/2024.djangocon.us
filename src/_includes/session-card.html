@@ -1,0 +1,33 @@
+<li>
+  {% assign link = session.link | default: session.url %}
+  {% if link %}
+    <a href="{{ session.link }}" class="link">Read more</a>
+  {% endif %}
+
+  <h4>{{ session.title }}</h4>
+
+  {% if session.difficulty %}
+    <span class="label"><span class="sr-only">Audience level: </span>{{ session.difficulty }}</span>
+  {% endif %}
+  {% if session.room %}
+    <p class="location">{{ session.room }}</p>
+  {% endif %}
+
+  {% if session.presenter_slugs %}
+    {% for presenter_slug in session.presenter_slugs %}
+      {% assign presenter = site.presenters | where: "slug", presenter_slug | first %}
+      <p class="event-speaker">
+        {% if presenter.photo_url != blank %}
+          <img
+            class="avatar"
+            src="{{ presenter.photo_url }}"
+            alt="Photo of {{ presenter.name }}" />
+        {% endif %}
+        {{ presenter.name }}
+        {% if presenter.pronouns != blank %}
+          ({{ presenter.pronouns }})
+        {% endif %}
+      </p>
+    {% endfor %}
+  {% endif %}
+</li>

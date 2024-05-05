@@ -1,0 +1,38 @@
+---
+title: Schedule
+layout: default
+description: >
+  The schedule for DjangoCon US 2024.
+---
+
+
+<div class="hero">
+  <div class="wrapper">
+    <h1 class="pageheading">{{ title }}</h1>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+
+    <div class="space-y-20">
+      {% for day in collections.sessionsByDateAndTime %}
+        <div>
+          <h2 class="text-2xl">{{ day[0] | date: "%A, %B %d" }}</h2>
+          <div class="space-y-8">
+            {% for slot in day[1] %}
+              <div>
+                {{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}
+                <ul class="grid-1-2">
+                  {% for session in slot.sessions %}
+                    {% include "session-card.html" %}
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -4,10 +4,12 @@ const Image = require('@11ty/eleventy-img');
 const markdownIt = require("markdown-it");
 
 const setupCollections = require('./lib/collections');
+const setupTalks = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 
 module.exports = (config) => {
   setupCollections(config);
+  setupTalks(config);
   setupFeed(config);
 
   /*
