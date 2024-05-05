@@ -1,0 +1,74 @@
+---
+layout: default
+
+description: >
+  Request your visa invitation letter for DjangoCon US 2024 here.
+
+title: Visa Invitation Letter
+
+permalink: /invitation/
+---
+
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <h1 class="mb-6 text-center pageheading">{{ title }}</h1>
+    <form
+      class="max-w-2xl p-4 mx-auto bg-white rounded lg:p-12"
+      id="inviteForm"
+      method="POST"
+      enctype="multipart/form-data">
+      <ul class="space-y-8">
+        <li>
+          <label for="fullname">Full name (as it appears on your passport)</label>
+          <input type="text" name="fullname" id="fullname" placeholder="Noah Doe" required>
+        </li>
+        <li>
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" placeholder="125 32nd Street, Durham, North Carolina, USA" required>
+        </li>
+        <li>
+          <label for="dob">Date of Birth</label>
+          <input type="text" name="dob" id="dob" placeholder="July 09 1990" required>
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="visas@djangocon.us" required>
+        </li>
+        <li>
+          <label for="passport_no">Passport Number</label>
+          <input type="text" name="passport_no" id="passport_no" placeholder="A01923459B" required>
+        </li>
+        <li>
+          <label for="letterselection">Are you a Speaker, an Opportunity Grant recipient, or a general attendee?</label>
+          <select name="letterselection" id="letterselection" required>
+        <option value="none">Attendee</option>
+        <option value="og">Opportunity Grant recipient</option>
+        <option value="speaker">Speaker</option>
+          </select>
+        </li>
+        <li id="og" hidden>
+          <label for="og">Grant Amount (if applicable)</label>
+          <input type="number" name="og" id="og" placeholder="2000.00">
+        </li>
+        <li id="speaker" hidden>
+          <label for="talk">Talk/Tutorial Title</label>
+          <input type="text" name="talk" id="talk" placeholder="DjangoCon US is the best!">
+        </li>
+      </ul>
+
+      <div class="mt-8">
+        <button id="submit" type="submit" class="button bg-mosaic-blue">Submit</button>
+      </div>
+    </form>
+
+    <div>
+      <div id="loader" hidden></div>
+      <p id="inProgressMsg" hidden class="max-w-2xl p-4 mx-auto text-lg bg-white border-4 rounded lg:p-12 text-medium lg:text-xl border-central-park-green">
+        Thank you for your interest in DjangoCon US 2024! We're generating your invitation letter.
+      </p>
+      <p id="readyMsg" hidden class="max-w-2xl p-4 mx-auto text-lg bg-white border-4 rounded lg:p-12 text-medium lg:text-xl border-central-park-green">Your invitation letter has been sent to the DjangoCon US organizers for review. Once they approve it, they will email it to you. Thanks for your interest!</p>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/invitation.js"></script>
