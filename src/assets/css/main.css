@@ -95,7 +95,7 @@
   }
 
   .photo-effect {
-    @apply relative;
+    @apply block relative;
   }
 
   .photo-effect::before {
