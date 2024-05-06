@@ -19,13 +19,15 @@ description: >
       {% for day in collections.sessionsByDateAndTime %}
         <div class="relative">
           <h2
-            class="sticky top-0 z-10 py-6 text-3xl bg-white"
+            class="sticky z-10 w-full py-2 text-xl font-bold bg-white top-20 lg:text-2xl lg:top-0 lg:bg-white"
             id="Day-{{ forloop.index }}"><a href="#Day-{{ forloop.index }}">{{ day[0] | utcDate | date: "%A, %B %-d" }}</a></h2>
           <div class="space-y-8">
             {% for slot in day[1] %}
-              <div class="flex flex-wrap gap-8">
-                <h3 class="lg:w-[20ch]">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
-                <ul class="grid flex-1 gap-4 lg:grid-cols-3">
+              <div class="flex flex-wrap gap-4 lg:gap-8">
+                <div class="w-full md:w-[20ch] sticky top-[120px] lg:static">
+                  <h3 class="w-full pb-3 text-lg font-semibold bg-white lg:sticky lg:top-12">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
+                </div>
+                <ul class="grid flex-1 grid-cols-1 gap-4 lg:grid-cols-3">
                   {% for session in slot.sessions %}
                     {% include "session-card.html" %}
                   {% endfor %}
