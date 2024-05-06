@@ -1,8 +1,10 @@
-<li class="p-6 bg-gray-100">
+{% assign classes = "space-y-2 rounded p-6 border border-gray-300" %}
+{% if session.track == "all" %}
+  {% assign classes = classes | append: " col-span-3" %}
+{% endif %}
+
+<li class="{{ classes }}">
   {% assign link = session.link | default: session.url %}
-  {% if link %}
-    <a href="{{ session.link }}" class="link">Read more</a>
-  {% endif %}
 
   <h4>{{ session.title }}</h4>
 
@@ -30,4 +32,6 @@
       </p>
     {% endfor %}
   {% endif %}
+
+  <a href="{{ session.link }}" class="link">Read more</a>
 </li>

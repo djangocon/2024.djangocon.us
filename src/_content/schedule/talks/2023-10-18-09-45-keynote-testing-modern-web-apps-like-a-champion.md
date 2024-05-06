@@ -14,9 +14,8 @@ room: Junior Ballroom
 sitemap: true
 featured: true
 slug: keynote-testing-modern-web-apps-like-a-champion
-talk_slot: full
+track: all
 title: 'Keynote: Testing Modern Web Apps Like a Champion'
-track: t1
 video_url: https://youtu.be/Ze62p97coaY
 ---
 

@@ -19,8 +19,8 @@ description: >
       {% for day in collections.sessionsByDateAndTime %}
         <div class="relative">
           <h2
-            class="sticky top-0 py-6 text-3xl bg-white"
-            id="Day-{{ forloop.index }}"><a href="#Day-{{ forloop.index }}">{{ day[0] | date: "%A, %B %d" }}</h2>
+            class="sticky top-0 z-10 py-6 text-3xl bg-white"
+            id="Day-{{ forloop.index }}"><a href="#Day-{{ forloop.index }}">{{ day[0] | utcDate | date: "%A, %B %-d" }}</a></h2>
           <div class="space-y-8">
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-8">

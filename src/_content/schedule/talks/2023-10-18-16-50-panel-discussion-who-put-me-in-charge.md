@@ -13,10 +13,9 @@ presenter_slugs:
 room: Junior Ballroom
 sitemap: true
 slug: panel-discussion-who-put-me-in-charge
-talk_slot: full
+track: all
 title: 'Panel Discussion: Who put me in charge? Moving beyond day-to-day coding in
   Django'
-track: t1
 video_url: https://youtu.be/8HbI9HvPzaI
 ---
 

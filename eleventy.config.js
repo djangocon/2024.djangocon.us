@@ -7,6 +7,8 @@ const setupCollections = require('./lib/collections');
 const setupTalks = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 
+const { UTCDate } = require('@date-fns/utc');
+
 module.exports = (config) => {
   setupCollections(config);
   setupTalks(config);
@@ -79,6 +81,11 @@ module.exports = (config) => {
     });
 
     return markdown.render(content);
+  });
+
+  // https://www.11ty.dev/docs/dates/#dates-off-by-one-day
+  config.addLiquidFilter("utcDate", function(date) {
+    return new UTCDate(date);
   });
 
   /*

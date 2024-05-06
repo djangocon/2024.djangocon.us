@@ -14,9 +14,8 @@ presenter_slugs:
 room: Junior Ballroom
 sitemap: true
 slug: keynote-finding-purpose-in-open-source-through-community-building
-talk_slot: full
+track: all
 title: 'Keynote: Finding Purpose in Open Source Through Community Building.'
-track: t1
 video_url: https://youtu.be/CDT2NqHdRUo
 ---
 

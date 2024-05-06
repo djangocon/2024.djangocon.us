@@ -15,9 +15,8 @@ room: Junior Ballroom
 
 sitemap: true
 slug: orientation-and-welcome
-talk_slot: full
+track: all
 title: Orientation and Welcome
-track: t0
 video_url: https://youtu.be/O3ZN5qts2fc
 ---
 

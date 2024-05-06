@@ -1,0 +1,86 @@
+- datetime: 2023-10-16T12:00:00.000Z
+  end_datetime: 2023-10-16T13:00:00.000Z
+  group: lunch
+  link: /catering-menus/#monday-breakfast
+  permalink: null
+  room: Grand Ballroom I-II
+  track: all
+  title: Breakfast
+  abstract: Grand Ballroom I-II
+
+- datetime: 2023-10-16T12:00:00.000Z
+  end_datetime: 2023-10-16T21:30:00.000Z
+  group: break
+  link: /news/childcare-lactation/
+  permalink: null
+  room: Meeting Room 1
+  track: all
+  title: Lactation Room
+  abstract: Meeting Room 1
+
+- datetime: 2023-10-16T12:00:00.000Z
+  end_datetime: 2023-10-16T22:00:00.000Z
+  group: break
+  link: null
+  permalink: null
+  room: Meeting Room 4
+  track: all
+  title: Quiet Room
+  abstract: Meeting Room 4
+
+- datetime: 2023-10-16T12:00:00.000Z
+  end_datetime: 2023-10-16T22:00:00.000Z
+  group: break
+  link: null
+  permalink: null
+  room: In front of Junior Ballroom
+  track: all
+  title: Registration
+  abstract: In front of Junior Ballroom
+
+- datetime: 2023-10-16T12:00:00.000Z
+  end_datetime: 2023-10-16T21:30:00.000Z
+  group: break
+  link: null
+  permalink: null
+  room: Meeting Room 3
+  track: all
+  title: Speaker Green Room
+  abstract: Meeting Room 3
+
+- datetime: 2023-10-16T14:40:00.000Z
+  end_datetime: 2023-10-16T15:10:00.000Z
+  group: break
+  link: /catering-menus/#monday-morning-break
+  permalink: null
+  room: Grand Ballroom I-II
+  track: all
+  title: Break
+  abstract: Grand Ballroom I-II
+
+- accepted: true
+  category: lunch
+  datetime: 2023-10-16T16:30:00.000Z
+  end_datetime: 2023-10-16T17:20:00.000Z
+  group: lunch
+  link: /catering-menus/#monday-lunch
+  room: Grand Ballroom I-II
+  title: Early Lunch
+  track: t1
+
+- datetime: 2023-10-16T17:20:00.000Z
+  end_datetime: 2023-10-16T18:05:00.000Z
+  group: talks
+  link: /catering-menus/#monday-lunch
+  room: Grand Ballroom I-II
+  track: all
+  title: Lunch
+
+- datetime: 2023-10-16T19:25:00.000Z
+  end_datetime: 2023-10-16T19:55:00.000Z
+  group: break
+  link: /catering-menus/#monday-afternoon-break
+  permalink: null
+  room: Grand Ballroom I-II
+  track: all
+  title: Break

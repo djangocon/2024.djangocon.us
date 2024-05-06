@@ -14,9 +14,8 @@ presenter_slugs:
 room: Junior Ballroom
 sitemap: true
 slug: keynote-django-the-dinosaur
-talk_slot: full
+track: all
 title: 'Keynote: Django the Dinosaur: A Story About A Web Framework.'
-track: t1
 video_url: https://youtu.be/IO-BFgDRsL4
 ---
 
