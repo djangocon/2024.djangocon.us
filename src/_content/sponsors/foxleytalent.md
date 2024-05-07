@@ -1,8 +1,8 @@
 ---
-hidden: true
+hidden: false
 level: Gold
 name: Foxley Talent
-date: 2023-06-29
+date: 2024-05-07
 logo:
     filename: foxley-talent.jpg
     orientation: landscape
