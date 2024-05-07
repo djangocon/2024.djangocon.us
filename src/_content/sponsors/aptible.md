@@ -1,5 +1,5 @@
 ---
-hidden: false
+hidden: true
 level: Platinum
 name: Aptible
 date: 2023-08-15
