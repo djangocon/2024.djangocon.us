@@ -22,7 +22,7 @@ summary: ''
 tags:
 - accessibility
 title: Django’s accessibility track record
-track: t0
+track: all
 video_url: https://youtu.be/IXxwzFusFlM
 ---
 

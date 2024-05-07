@@ -15,6 +15,18 @@ description: >
 <div class="pt-0 block-container">
   <div class="wrapper">
 
+    <nav>
+      <h2>Jump to day</h2>
+      <ul class="flex flex-wrap gap-4">
+        {% for day in collections.sessionsByDateAndTime %}
+        <li>
+          <a href="#Day-{{ forloop.index }}" class="link">{{ day[0] | utcDate | date: "%A, %B %-d" }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+
     <div class="space-y-20">
       {% for day in collections.sessionsByDateAndTime %}
         <div class="relative">
