@@ -3,6 +3,16 @@ title: Schedule
 layout: default
 description: >
   The schedule for DjangoCon US 2024.
+
+days:
+  - heading: Tutorials (Online)
+    text: >
+      Tutorials are a separate registration and are $199 per session. All tutorials are online this year due to venue availability in Durham.
+  - heading: "Talks: Day 1"
+  - heading: "Talks: Day 2"
+  - heading: "Talks: Day 3 Deep Dives"
+  - heading: "Sprints: Day 1"
+  - heading: "Sprints: Day 2"
 ---
 
 
@@ -15,8 +25,8 @@ description: >
 <div class="pt-0 block-container">
   <div class="wrapper">
 
-    <nav>
-      <h2>Jump to day</h2>
+    <nav class="mb-12">
+      <h2 class="text-lg font-bold uppercase">Jump to day</h2>
       <ul class="flex flex-wrap gap-4">
         {% for day in collections.sessionsByDateAndTime %}
         <li>
@@ -31,13 +41,18 @@ description: >
       {% for day in collections.sessionsByDateAndTime %}
         <div class="relative">
           <h2
-            class="sticky z-10 w-full py-2 text-xl font-bold bg-white top-20 lg:text-2xl lg:top-0 lg:bg-white"
-            id="Day-{{ forloop.index }}"><a href="#Day-{{ forloop.index }}">{{ day[0] | utcDate | date: "%A, %B %-d" }}</a></h2>
-          <div class="space-y-8">
+            class="sticky z-10 w-full py-2 text-xl bg-white top-20 lg:text-3xl lg:top-0 lg:bg-white"
+            id="Day-{{ forloop.index }}">
+              <a href="#Day-{{ forloop.index }}">
+                <b>{{ days[forloop.index0].heading }}</b> /
+                {{ day[0] | utcDate | date: "%A, %B %-d" }}
+              </a>
+          </h2>
+          <div class="mt-8 space-y-8">
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-[20ch] sticky top-[120px] lg:static">
-                  <h3 class="w-full pb-3 text-lg font-semibold bg-white lg:sticky lg:top-12">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
+                  <h3 class="w-full pb-3 text-lg font-medium bg-white lg:sticky lg:top-12 opacity-70">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
                 </div>
                 <ul class="grid flex-1 grid-cols-1 gap-4 lg:grid-cols-3">
                   {% for session in slot.sessions %}
