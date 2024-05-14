@@ -22,3 +22,7 @@ This opens a local server at `http://localhost:8080/` and watches for changes to
 # To Dos
 
 1. Replace autoprefixer and cssnano with lightningcss
+
+# Guidelines for Development
+
+1. While 11ty allows for shortcodes and other customizations, sticking with Liquid fundamentals is preferred for interoperability.

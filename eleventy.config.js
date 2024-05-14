@@ -4,14 +4,14 @@ const Image = require('@11ty/eleventy-img');
 const markdownIt = require("markdown-it");
 
 const setupCollections = require('./lib/collections');
-const setupTalks = require('./lib/sessions');
+const setupSessions = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 
 const { UTCDate } = require('@date-fns/utc');
 
 module.exports = (config) => {
   setupCollections(config);
-  setupTalks(config);
+  setupSessions(config);
   setupFeed(config);
 
   /*
@@ -47,7 +47,7 @@ module.exports = (config) => {
     sizes,
     classes = "") {
       let metadata = await Image(src, {
-        widths: [300, 600],
+        widths: [180, 300, 600],
         formats: ["webp"],
         outputDir,
         urlPath,
@@ -84,8 +84,12 @@ module.exports = (config) => {
   });
 
   // https://www.11ty.dev/docs/dates/#dates-off-by-one-day
-  config.addLiquidFilter("utcDate", function(date) {
+  config.addFilter("utcDate", function(date) {
     return new UTCDate(date);
+  });
+
+  config.addFilter("find", function find(collection = [], slug = "") {
+    return collection.find(item => item.fileSlug === slug);
   });
 
   /*

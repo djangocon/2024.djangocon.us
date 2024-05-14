@@ -2,7 +2,6 @@
 hidden: false
 name: Abigail Mesrenyame Dogbe
 permalink: /presenters/abigail-dogbe/
-photo: /assets/img/blog/Dogbe_Abigail-DSC07499-1.jpg
 slug: abigail-dogbe
 social:
     linkedin: abigail-mesrenyame-dogbe

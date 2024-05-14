@@ -3,7 +3,6 @@ company: Postgres.ai
 hidden: false
 name: Nikolay Samokhvalov
 permalink: /presenters/nikolay-samokhvalov/
-photo: ""
 slug: nikolay-samokhvalov
 social:
     twitter: samokhvalov

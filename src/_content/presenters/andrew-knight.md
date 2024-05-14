@@ -2,7 +2,6 @@
 company: ""
 name: Andrew Knight
 permalink: /presenters/andrew-knight/
-photo: /assets/img/blog/andy_django_profile_zoom_small.jpg
 slug: andrew-knight
 social:
     twitter: AutomationPanda

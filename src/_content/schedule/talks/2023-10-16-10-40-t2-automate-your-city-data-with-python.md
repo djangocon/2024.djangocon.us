@@ -24,7 +24,9 @@ summary: ''
 tags:
 - how I used Django
 title: Automate Your City Data with Python
-track: t2
+
+track: all
+
 video_url: https://youtu.be/fHsMZ3cuMhU
 ---
 

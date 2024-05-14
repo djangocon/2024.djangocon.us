@@ -22,7 +22,7 @@ tags:
 - wagtail/butter/other CMS
 - how I used Django
 title: The evolution of a Django Website into a radio automation back-end
-track: t2
+track: all
 video_url: https://youtu.be/B4lVhbQzn0s
 ---
 

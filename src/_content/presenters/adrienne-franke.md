@@ -1,7 +1,7 @@
 ---
 name: Adrienne Franke
 permalink: /presenters/adrienne-franke/
-photo: /static/img/organizers/adrienne.jpg
+photo: adrienne.jpg
 slug: adrienne-franke
 social:
     twitter: adriennefranke

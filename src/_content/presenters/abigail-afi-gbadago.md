@@ -3,7 +3,7 @@ company: Django Girls Ghana
 hidden: false
 name: Abigail Afi Gbadago
 permalink: /presenters/abigail-afi-gbadago/
-photo: abigail-gbadago.jpeg
+photo: abigail-gbadago.jpg
 slug: abigail-afi-gbadago
 social:
     twitter: afi_maame

@@ -1,8 +1,6 @@
 ---
 name: Peter Grandstaff
 override_schedule_title: Opening and Closing Remarks
-permalink: /presenters/peter-grandstaff/
-photo: /static/img/organizers/peter-grandstaff.jpg
 slug: peter-grandstaff
 social:
     twitter: pgrandstaff
