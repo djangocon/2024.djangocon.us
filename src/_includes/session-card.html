@@ -5,21 +5,23 @@
 
 <li class="flex flex-col">
   <section class="flex-1 bg-white rounded p-6 flex flex-col border border-gray-300 border-t-8 {{ classes }}">
-    <header class="flex flex-col gap-[4px] mb-4">
-      {% if session.room %}
-        <p class="order-1 text-sm">{{ session.room }}</p>
-      {% endif %}
+    <header class="mb-6 space-y-4">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        {% if session.room %}
+          <p class="text-sm">{{ session.room }}</p>
+        {% endif %}
+
+        {% if session.difficulty %}
+          <span class="px-2 py-[.125rem] text-sm font-bold text-white bg-black rounded">
+            <span class="sr-only">Audience level: </span>
+            {{ session.difficulty }}
+          </span>
+        {% endif %}
+      </div>
 
       <h4 class="order-2 text-xl font-semibold leading-tight">
         <a href="{{ session.permalink }}">{{ session.title }}</a>
       </h4>
-
-      {% if session.difficulty %}
-        <span class="badge badge-blue">
-          <span class="sr-only">Audience level: </span>
-          {{ session.difficulty }}
-        </span>
-      {% endif %}
     </header>
 
     {% if session.presenter_slugs %}

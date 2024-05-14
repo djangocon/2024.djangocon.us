@@ -38,7 +38,7 @@ days:
       {% for day in collections.sessionsByDateAndTime %}
         <div class="relative">
           <h2
-            class="sticky z-10 w-full pt-6 pb-3 text-xl bg-white top-20 lg:text-3xl lg:top-0 lg:bg-white md:ml-[220px] md:pl-8"
+            class="sticky z-10 w-full pt-6 pb-3 mb-4 text-xl bg-white top-20 lg:text-4xl lg:top-0 lg:bg-white md:pl-64"
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
                 <b>{{ days[forloop.index0].heading }}</b> /
@@ -48,7 +48,7 @@ days:
           <div>
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
-                <div class="w-full md:w-[20ch] sticky top-[120px] lg:static py-6">
+                <div class="w-full md:w-48 sticky top-[120px] lg:static py-6">
                   <h3 class="w-full py-6 text-lg font-medium bg-white lg:sticky lg:top-12 opacity-70">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
                 </div>
                 <ul class="grid flex-1 grid-cols-1 gap-4 p-6 bg-gray-100 lg:grid-cols-3">
