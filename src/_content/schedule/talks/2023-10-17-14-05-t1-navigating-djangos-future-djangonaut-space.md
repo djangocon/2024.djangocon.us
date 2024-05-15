@@ -29,9 +29,6 @@ room: Grand Ballroom III
 sitemap: true
 slug: navigating-djangos-future-djangonaut-space
 summary: ''
-tags:
-- testing
-- deployment
 title: 'Navigating Django''s Future: Djangonaut Space'
 track: t1
 video_url: https://youtu.be/UTKcPBKCQEc

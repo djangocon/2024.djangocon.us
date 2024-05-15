@@ -4,8 +4,8 @@
 {% endif %}
 
 <li class="flex flex-col">
-  <section class="flex-1 bg-white rounded p-6 flex flex-col border border-gray-300 border-t-8 {{ classes }}">
-    <header class="mb-6 space-y-4">
+  <section class="flex-1 bg-white rounded p-6 flex flex-col border-2 border-gray-300 border-t-8 {{ color_class }} {{ classes }}">
+    <header class="space-y-4">
       <div class="flex flex-wrap items-center justify-between order-1 gap-4">
         {% if session.room %}
           <p class="text-sm">{{ session.room }}</p>
@@ -25,7 +25,7 @@
     </header>
 
     {% if session.presenter_slugs %}
-      <div class="mt-auto">
+      <div class="pt-6 mt-auto">
         <h5 class="sr-only">Presented by</h5>
         <ul class="space-y-4">
           {% for presenter_slug in session.presenter_slugs %}

@@ -18,18 +18,26 @@ days:
 
 <div class="pb-2 hero">
   <div class="wrapper">
-    <h1 class="pageheading">{{ title }}</h1>
+    <h1 class="text-center pageheading">{{ title }}</h1>
   </div>
 </div>
 
-<div class="pt-0 block-container">
+<div class="pt-6 block-container">
   <div class="wrapper">
-    <nav class="mb-12">
-      <h2 class="mb-1 font-bold uppercase">Jump to day</h2>
-      <ul class="flex flex-wrap justify-between gap-4">
+    <nav class="max-w-5xl mx-auto mb-12">
+      <h2 class="mb-1 font-bold uppercase sr-only">Jump to day</h2>
+      <ul class="flex flex-wrap justify-center gap-6">
         {% for day in collections.sessionsByDateAndTime %}
         <li>
-          <a href="#Day-{{ forloop.index }}" class="text-lg link">{{ day[0] | utcDate | date: "%A, %B %-d" }}</a>
+          <a
+            href="#Day-{{ forloop.index }}">
+
+              <time class="flex flex-col">
+                <span class="px-3 min-w-[8ch] py-1 text-lg font-semibold text-center text-white bg-brick-red rounded-t-md">{{ day[0] | utcDate | date: "%a" }}</span>
+                <span class="px-3 py-2 text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md">{{ day[0] | utcDate | date: "%b %-d" }}</span>
+              </time>
+
+          </a>
         </li>
         {% endfor %}
       </ul>
@@ -41,7 +49,7 @@ days:
             class="sticky z-10 w-full pt-6 pb-3 mb-4 text-xl bg-white top-20 lg:text-4xl lg:top-0 lg:bg-white md:pl-64"
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
-                <b>{{ days[forloop.index0].heading }}</b> /
+                <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
                 {{ day[0] | utcDate | date: "%A, %B %-d" }}
               </a>
           </h2>
@@ -51,9 +59,16 @@ days:
                 <div class="w-full md:w-48 sticky top-[120px] lg:static py-6">
                   <h3 class="w-full py-6 text-lg font-medium bg-white lg:sticky lg:top-12 opacity-70">{{ slot.start | date: "%l:%M %P" }} - {{ slot.end | date: "%l:%M %P" }}</h3>
                 </div>
-                <ul class="grid flex-1 grid-cols-1 gap-4 p-6 bg-gray-100 lg:grid-cols-3">
+                <ul
+                  class="grid flex-1 grid-cols-1 gap-4 p-6 bg-gray-100 rounded-md lg:grid-cols-3">
                   {% for session in slot.sessions %}
-                    {% include "session-card.html" %}
+                    {% assign color_class = "border-t-mosaic-blue" %}
+                    {% if forloop.index == 1 %}
+                      {% assign color_class = "border-t-central-park-green" %}
+                    {% elsif forloop.index == 2 %}
+                      {% assign color_class = "border-t-ice-cream-purple" %}
+                    {% endif %}
+                    {% include "session-card.html" with color=color_class %}
                   {% endfor %}
                 </ul>
               </div>

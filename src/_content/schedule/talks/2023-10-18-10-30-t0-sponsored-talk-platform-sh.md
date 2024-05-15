@@ -20,6 +20,7 @@ layout: session-details
 permalink: /talks/sponsored-talk-platform-sh/
 presenter_slugs:
 - guillaume-moigneu
+
 published: true
 room: Junior Ballroom
 
