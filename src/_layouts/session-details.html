@@ -7,21 +7,21 @@ layout: default
     <h1 class="mb-6 text-2xl font-bold leading-tight lg:text-4xl">{{ title }}</h1>
 
     <p class="flex items-center gap-4">
-      <time class="text-2xl">{{ datetime | utcDate | date: "%A, %B %-d @ %l:%M %P"}}</time>
+      <time class="text-2xl">{{ datetime | date: "%A, %B %-d @ %l:%M %P"}}</time>
       to
-      <time class="text-2xl">{{ end_datetime | utcDate | date: "%l:%M %P"}}</time>
+      <time class="text-2xl">{{ end_datetime | date: "%l:%M %P"}}</time>
 
       <a
-        href="https://time.is/compare/{{ datetime | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
+        href="https://time.is/compare/{{ datetime | utcDate | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
         class="button"
-        aria-label="View time on time.is">🗓️ View time on time.is</a>
+        aria-label="View on time.is">🗓️ View on time.is</a>
     </p>
   </div>
 </div>
 
 <div class="pt-0 block-container">
   <div class="wrapper max-w-[60rem]">
-    <div class="prose lg:prose-lg">
+    <div class="prose lg:prose-lg max-w-none">
       {{ content | markdown }}
     </div>
   </div>
