@@ -50,7 +50,7 @@ days:
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
                 <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
-                {{ day[0] | utcDate | date: "%A, %B %-d" }}
+                {{ day[0] | utcDate | date: "%A, %b %-d" }}
               </a>
           </h2>
           <div>
