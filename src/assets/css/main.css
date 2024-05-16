@@ -22,6 +22,10 @@
     h-screen and flex-col on the body allow the footer
     to be fixed to the bottom of the viewport.
   */
+  html {
+    @apply scroll-smooth;
+  }
+
   html,
   body {
     @apply h-screen;
@@ -178,10 +182,6 @@
 }
 
 @layer utilities {
-  *:has(> .cover) {
-    @apply relative;
-  }
-
   .cover::before {
     @apply absolute left-0 top-0;
     @apply h-full w-full;
