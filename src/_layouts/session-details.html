@@ -4,24 +4,28 @@ layout: default
 
 <div class="hero">
   <div class="wrapper max-w-[60rem]">
-    <h1 class="mb-6 text-2xl font-bold leading-tight lg:text-4xl">{{ title }}</h1>
+    <h1 class="mb-4 text-3xl font-bold leading-tight lg:text-4xl">{{ title }}</h1>
 
-    <p class="flex items-center gap-4">
-      <time class="text-2xl">{{ datetime | date: "%A, %B %-d @ %l:%M %P"}}</time>
-      to
-      <time class="text-2xl">{{ end_datetime | date: "%l:%M %P"}}</time>
+    <p class="flex flex-wrap items-center gap-4">
+      <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
+        <time>{{ datetime | date: "%A, %B %-d @ %l:%M %P"}}</time>
+        <span class="text-base">to</span>
+        <time>{{ end_datetime | date: "%l:%M %P"}}</time>
+      </span>
 
       <a
         href="https://time.is/compare/{{ datetime | utcDate | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
         class="button"
-        aria-label="View on time.is">🗓️ View on time.is</a>
+        aria-label="View on time.is">View on time.is</a>
     </p>
   </div>
 </div>
 
 <div class="pt-0 block-container">
-  <div class="wrapper max-w-[60rem]">
+  <div class="wrapper">
     <div class="prose lg:prose-lg max-w-none">
+      <h2>About this session</h2>
+
       {{ content | markdown }}
     </div>
   </div>
@@ -29,36 +33,101 @@ layout: default
 
 {% if presenter_slugs %}
 <div class="pt-0 block-container">
-  <div class="wrapper max-w-[60rem]">
+  <div class="wrapper">
     <div class="pt-6 mt-auto">
       <h2 class="sr-only">Presented by</h2>
       <ul class="space-y-8">
         {% for presenter_slug in presenter_slugs %}
           {% assign presenter = collections.presenters | find:presenter_slug %}
-          {% assign presenter = presenter.data %}
-
-          <li class="flex flex-wrap items-center gap-3">
-            {% if presenter.photo != null and presenter.photo != "" %}
-              {% assign photo = 'src/_content/presenters/' | append: presenter.photo %}
-              {% image photo, './dist/presenters/', '/presenters/', presenter.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-32 h-32' %}
-            {% endif %}
-
-            <div>
-              <span class="flex flex-col gap-[6px]">
-                <h3 class="text-xl leading-4">{{ presenter.name }}</h3>
-                {% if presenter.pronouns %}
-                  <span class="text-sm">
-                    ({{ presenter.pronouns }})
-                  </span>
-                {% endif %}
-              </span>
-
-              {% if presenter.content %}
-                <div class="prose">
-                  {{ presenter.content | markdown }}
-                </div>
+          {% assign presenter = presenter %}
+          <li>
+            <section class="flex flex-wrap items-center gap-6 mb-6">
+              {% if presenter.data.photo != null and presenter.data.photo != "" %}
+                {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
+                {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
               {% endif %}
-            </div>
+
+              <div>
+                <span class="flex flex-col gap-2 mb-4">
+                  <h3 class="text-xl leading-4 lg:text-2xl">{{ presenter.data.name }}</h3>
+                  {% if presenter.data.pronouns %}
+                    <span class="text-sm">
+                      ({{ presenter.data.pronouns }})
+                    </span>
+                  {% endif %}
+                </span>
+
+                {% if presenter.data.social %}
+                  <ul class="flex flex-wrap gap-4 mt-auto">
+                    {% if presenter.data.social.github not null %}
+                      <li>
+                        <a
+                          href="https://github.com/{{ presenter.data.social.github }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:text-social-github"
+                          aria-label="GitHub">
+                          <svg class="icon">
+                            <title>GitHub</title>
+                            <use xlink:href="#github-icon"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                    {% if presenter.data.social.mastodon not null %}
+                      <li>
+                        <a
+                          href="{{ presenter.data.social.mastodon }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:text-social-mastodon"
+                          aria-label="Mastodon">
+                          <svg class="icon">
+                            <title>Mastodon</title>
+                            <use xlink:href="#mastodon-icon"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                    {% if presenter.data.social.twitter not null %}
+                      <li>
+                        <a
+                          href="https://twitter.com/{{ presenter.data.social.twitter }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:text-social-twitter"
+                          aria-label="X.com">
+                          <svg class="icon">
+                            <title>X (Formerly Twitter)</title>
+                            <use xlink:href="#twitter-icon"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                    {% if presenter.data.social.website not null %}
+                      <li>
+                        <a
+                          href="{{ presenter.data.social.website }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="hover:text-central-park-green"
+                          aria-label="Website">
+                          <svg class="icon">
+                            <use xlink:href="#web-icon"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    {% endif %}
+                  </ul>
+                {% endif %}
+              </div>
+            </section>
+
+            {% if presenter.content %}
+              <div class="prose lg:prose-lg">
+                {{ presenter.content | markdown }}
+              </div>
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
