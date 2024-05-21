@@ -10,13 +10,13 @@ module.exports = {
         sans: ['Poppins', 'sans-serif'],
       },
       colors: {
-        'brick-red': '#DB433B',
-        'lucky-orange': '#F39745',
+        'red': '#DB433B',
+        'orange': '#F39745',
         'bull-blue': '#3D9CFB',
         'mosaic-blue': '#5FBFFA',
-        'ice-cream-purple': '#B989C9',
-        'central-park-green': '#64A03D',
-        'carolina-yellow': '#E7BB43',
+        'purple': '#B989C9',
+        'green': '#64A03D',
+        'yellow': '#E7BB43',
 
         'social-facebook': '#0866ff',
         'social-linkedin': '#2d64bc',
