@@ -19,6 +19,24 @@ layout: default
         class="button"
         aria-label="View on time.is">View on time.is</a>
     </p>
+
+    {% if room %}
+      <p class="mt-4">
+        <b>{{ room }}</b>
+        &nbsp;
+        |
+        &nbsp;
+        {% if difficulty %}
+          Audience level:
+          <span class="px-2 py-[.125rem] text-sm font-bold text-white bg-black rounded">
+            <span class="sr-only">Audience level: </span>
+            {{ difficulty }}
+          </span>
+        {% endif %}
+      </p>
+    {% endif %}
+
+
   </div>
 </div>
 
@@ -32,7 +50,7 @@ layout: default
 </div>
 
 {% if presenter_slugs %}
-<div class="pt-8 lg:py-10 block-container bg-mosaic-blue">
+<div class="pt-8 pb-16 lg:pt-10 block-container bg-mosaic-blue">
   <div class="wrapper narrow">
     <div class="max-w-screen-md pt-6 mt-auto">
       <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
