@@ -6,7 +6,6 @@ const setupCollections = require('./lib/collections');
 const setupSessions = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 const markdown = require('./lib/markdown');
-const outdent = require('outdent');
 
 const { UTCDate } = require('@date-fns/utc');
 
