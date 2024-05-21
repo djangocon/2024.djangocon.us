@@ -40,7 +40,7 @@ layout: default
         {% for presenter_slug in presenter_slugs %}
           {% assign presenter = collections.presenters | find:presenter_slug %}
           {% assign presenter = presenter %}
-          <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1 card-effect-2">
+          <li class="relative p-6 bg-white bg-lines lg:pt-10 {% cycle 'card-effect-1', 'card-effect-2' %}">
             <section class="flex flex-wrap gap-6">
               {% if presenter.data.photo != null and presenter.data.photo != "" %}
                 {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
