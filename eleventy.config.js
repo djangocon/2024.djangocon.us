@@ -11,7 +11,7 @@ const { UTCDate } = require('@date-fns/utc');
 
 module.exports = (config) => {
   setupCollections(config);
-  setupSessions(config);
+  //setupSessions(config);
   setupFeed(config);
 
   /*
