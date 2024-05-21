@@ -1,10 +1,11 @@
 const path = require('path');
 
 const Image = require('@11ty/eleventy-img');
-const markdownIt = require("markdown-it");
 
 const setupCollections = require('./lib/collections');
 const setupFeed = require('./lib/feed');
+const markdown = require('./lib/markdown');
+const outdent = require('outdent');
 
 module.exports = (config) => {
   setupCollections(config);
@@ -66,16 +67,14 @@ module.exports = (config) => {
     return Image.generateHTML(metadata, imageAttributes);
   });
 
+  config.addPairedShortcode("markdown", function(content = "") {
+    return markdown.render(content);
+  });
+
   /*
     Filters
   */
   config.addFilter("markdown", function(content = "") {
-    let markdown = markdownIt({
-      html: true,
-      breaks: true,
-      linkify: true
-    });
-
     return markdown.render(content);
   });
 
@@ -87,6 +86,8 @@ module.exports = (config) => {
     excerpt_separator: "<!-- excerpt -->"
   });
 
+  config.setLibrary("md", markdown);
+
   return {
     dir: {
       input: "src",
@@ -96,7 +97,6 @@ module.exports = (config) => {
 
     // Use Liquid for templating
     // https://www.11ty.dev/docs/languages/liquid/
-    htmlTemplateEngine: "liquid",
-    markdownTemplateEngine: "liquid"
+    htmlTemplateEngine: "liquid"
   }
 };
