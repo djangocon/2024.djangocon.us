@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for page in collections.all %}
-    {% if page.url == false or page.url contains "/presenters/" %}
+    {% if page.url == false or page.url contains "/presenters/" or page.data.sitemap == false %}
     {% else %}
       <url>
         <loc>{{ site.domain }}{{ page.url }}</loc>
