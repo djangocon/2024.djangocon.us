@@ -6,6 +6,10 @@
   @apply container px-4 mx-auto;
 }
 
+.wrapper.narrow {
+  @apply max-w-screen-lg;
+}
+
 .hero {
   @apply pt-8 pb-12;
 }

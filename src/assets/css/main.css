@@ -115,6 +115,27 @@
     @apply rounded;
   }
 
+  :has(.card-effect-1, .card-effect-2) {
+    @apply relative;
+  }
+
+  .card-effect-1::before,
+  .card-effect-2::after {
+    @apply absolute z-10;
+    @apply bg-no-repeat bg-contain;
+    content: "";
+  }
+
+  .card-effect-1::before {
+    @apply block w-32 h-16 top-0 -left-8 -rotate-[35deg];
+    background-image: url(/assets/img/theme/tape.svg);
+  }
+
+  .card-effect-2::after {
+    @apply block w-32 h-16 bottom-0 -right-16 -rotate-[70deg];
+    background-image: url(/assets/img/theme/tape-short.svg);
+  }
+
 
   #loader {
     width: 2rem;

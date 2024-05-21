@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="hero">
-  <div class="wrapper max-w-[60rem]">
-    <h1 class="mb-4 text-3xl font-bold leading-tight lg:text-4xl">{{ title }}</h1>
+<div class="pb-8 lg:pb-10 hero">
+  <div class="wrapper narrow">
+    <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
+    <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">{{ title }}</h1>
 
     <p class="flex flex-wrap items-center gap-4">
       <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -21,35 +22,34 @@ layout: default
   </div>
 </div>
 
-<div class="pt-0 block-container">
-  <div class="wrapper">
-    <div class="prose lg:prose-lg max-w-none">
-      <h2>About this session</h2>
-
+<div class="py-8 bg-gray-50 lg:py-10 block-container">
+  <div class="wrapper narrow">
+    <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
+    <div class="prose lg:prose-lg">
       {{ content | markdown }}
     </div>
   </div>
 </div>
 
 {% if presenter_slugs %}
-<div class="pt-0 block-container">
-  <div class="wrapper">
-    <div class="pt-6 mt-auto">
-      <h2 class="sr-only">Presented by</h2>
-      <ul class="space-y-8">
+<div class="pt-8 lg:py-10 block-container bg-mosaic-blue">
+  <div class="wrapper narrow">
+    <div class="max-w-screen-md pt-6 mt-auto">
+      <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
+      <ul class="space-y-16">
         {% for presenter_slug in presenter_slugs %}
           {% assign presenter = collections.presenters | find:presenter_slug %}
           {% assign presenter = presenter %}
-          <li>
-            <section class="flex flex-wrap items-center gap-6 mb-6">
+          <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1 card-effect-2">
+            <section class="flex flex-wrap gap-6">
               {% if presenter.data.photo != null and presenter.data.photo != "" %}
                 {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
                 {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
               {% endif %}
 
-              <div>
+              <div class="md:flex-1">
                 <span class="flex flex-col gap-2 mb-4">
-                  <h3 class="text-xl leading-4 lg:text-2xl">{{ presenter.data.name }}</h3>
+                  <h3 class="text-xl font-semibold leading-4 lg:text-3xl">{{ presenter.data.name }}</h3>
                   {% if presenter.data.pronouns %}
                     <span class="text-sm">
                       ({{ presenter.data.pronouns }})
@@ -120,14 +120,14 @@ layout: default
                     {% endif %}
                   </ul>
                 {% endif %}
+
+                {% if presenter.content %}
+                  <div class="mt-4 prose">
+                    {{ presenter.content | markdown }}
+                  </div>
+                {% endif %}
               </div>
             </section>
-
-            {% if presenter.content %}
-              <div class="prose lg:prose-lg">
-                {{ presenter.content | markdown }}
-              </div>
-            {% endif %}
           </li>
         {% endfor %}
       </ul>

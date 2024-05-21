@@ -4,7 +4,7 @@
 {% endif %}
 
 <li class="flex flex-col">
-  <section class="relative flex-1 bg-white rounded p-4 flex flex-col border-2 border-gray-300 border-t-8 lg:p-6 {{ color_class }} {{ classes }}">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-8 lg:p-6 {{ color_class }} {{ classes }}">
     <header class="space-y-4">
       <div class="flex flex-wrap items-center justify-between order-1 gap-4">
         {% if session.room %}
@@ -20,7 +20,11 @@
       </div>
 
       <h4 class="order-2 font-semibold leading-tight lg:text-lg">
-        <a href="{{ session.permalink }}" class="cover">{{ session.title }}</a>
+        {% if session.permalink %}
+          <a href="{{ session.permalink }}" class="cover group-hover:underline">{{ session.title }}</a>
+        {% else %}
+          {{ session.title }}
+        {% endif %}
       </h4>
     </header>
 
