@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,md,liquid}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'lines': "url('/assets/img/theme/hero-bg.svg')",
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },

@@ -38,9 +38,10 @@ other_lodging:
         </div>
 
         <img
-          class="w-full mt-6"
-          src="/assets/img/venue/welcome.png"
-          alt="Exterior photo of Durham Marriott City Center"
+          class="w-full mt-8"
+          src="/assets/img/theme/welcome-durham.svg"
+          alt="The word Durham surrounded by colorful characters and stickers"
+          aria-hidden="true"
         />
       </section>
 
@@ -188,7 +189,7 @@ other_lodging:
       <section>
         <ul class="grid-1-2">
           {% for place in collections.places %}
-            {% include 'components/place.html' %}
+            {% include "place.html" %}
           {% endfor %}
         </ul>
       </section>

@@ -8,15 +8,21 @@ description: >
 permalink: /visas/
 ---
 
-<div class="hero">
+<div class="block-container">
   <div class="wrapper">
-    <header>
-      <h1 class="pageheading">{{ title }}</h1>
+    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
+      <img
+        src="/assets/img/theme/graphics/visa.svg"
+        alt="A passport with a visa stamp in it"
+        class="hidden w-full max-w-80 md:block" />
+      <div class="flex-1 max-w-screen-lg">
+        <h1 class="pageheading">{{ title }}</h1>
+      </div>
     </header>
   </div>
 </div>
 
-<div class="pt-0 block-container">
+<div class="bg-gray-100 block-container">
   <div class="wrapper">
     <div class="prose lg:prose-lg">
       <h2 id="do-i-need-a-visa-to-enter-the-usa">Do I need a visa to enter the USA?</h2>

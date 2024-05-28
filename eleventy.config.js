@@ -1,13 +1,17 @@
 const path = require('path');
 
 const Image = require('@11ty/eleventy-img');
-const markdownIt = require("markdown-it");
 
 const setupCollections = require('./lib/collections');
+const setupSessions = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
+const markdown = require('./lib/markdown');
+
+const { UTCDate } = require('@date-fns/utc');
 
 module.exports = (config) => {
   setupCollections(config);
+  //setupSessions(config);
   setupFeed(config);
 
   /*
@@ -43,7 +47,7 @@ module.exports = (config) => {
     sizes,
     classes = "") {
       let metadata = await Image(src, {
-        widths: [300, 600],
+        widths: [180, 300, 600],
         formats: ["webp"],
         outputDir,
         urlPath,
@@ -66,17 +70,24 @@ module.exports = (config) => {
     return Image.generateHTML(metadata, imageAttributes);
   });
 
+  config.addPairedShortcode("markdown", function(content = "") {
+    return markdown.render(content);
+  });
+
   /*
     Filters
   */
   config.addFilter("markdown", function(content = "") {
-    let markdown = markdownIt({
-      html: true,
-      breaks: true,
-      linkify: true
-    });
-
     return markdown.render(content);
+  });
+
+  // https://www.11ty.dev/docs/dates/#dates-off-by-one-day
+  config.addFilter("utcDate", function(date) {
+    return new UTCDate(date);
+  });
+
+  config.addFilter("find", function find(collection = [], slug = "") {
+    return collection.find(item => item.fileSlug === slug);
   });
 
   /*
@@ -87,6 +98,8 @@ module.exports = (config) => {
     excerpt_separator: "<!-- excerpt -->"
   });
 
+  config.setLibrary("md", markdown);
+
   return {
     dir: {
       input: "src",
@@ -96,7 +109,6 @@ module.exports = (config) => {
 
     // Use Liquid for templating
     // https://www.11ty.dev/docs/languages/liquid/
-    htmlTemplateEngine: "liquid",
-    markdownTemplateEngine: "liquid"
+    htmlTemplateEngine: "liquid"
   }
 };

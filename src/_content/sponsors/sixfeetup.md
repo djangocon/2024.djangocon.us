@@ -1,8 +1,7 @@
 ---
-hidden: true
 level: Diamond
 name: Six Feet Up
-date: 2022-07-20
+date: 2024-05-12
 logo:
     filename: SixFeetUp_Logo.png
     orientation: landscape
@@ -10,11 +9,7 @@ url:
     target: 'https://www.sixfeetup.com/?utm_source=djangocon2023'
     label: sixfeetup.com
 ---
-Six Feet Up is dedicated to accelerating your impact as a tech leader, making the world a better place. As a consulting company specializing in Python and AI for good, we empower you to make informed decisions, access accurate data faster and scale up your operations. Our expert engineers are here to help you with application development, AI, and big data.
-
-We value human life and our shared Earth. If you're passionate about climate action, clean energy, or initiatives that benefit humankind, you're in the right place. In fact, our goal is to complete 10 IMPACTFUL Projects — defined as impressive, purposeful, and transformative — by 2025 with clients like you.
-
-Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned and gender balanced software company. We're a top 10 US Custom Software Development Company according to Clutch.co. Organizations like Capital One, NASA, Purdue University, and UNEP have leveraged our reliable software solutions since 1999. We’re eager to help you achieve your goals.
+Six Feet Up accelerates [IMPACTFUL Projects™](https://sixfeetup.com/impact) by crafting superior and lasting software solutions. As a consultancy with a core focus on Python and AI for the greater good, we bring unparalleled expertise in application development, AI and big data to launch game-changing ideas faster. Driven by the EOS Process™ and home to an AWS Hero, Six Feet Up is a woman-owned software company that values a blend of emotional and intellectual intelligence. Our dedication to excellence is showcased by our 5-star referral rating on [Clutch.co](https://clutch.co/). Trusted by leading organizations such as Capital One, NASA, Purdue University, and UNEP since 1999, we are eager to help our clients make an impact. More info is at [sixfeetup.com](https://sixfeetup.com).
 
 
 

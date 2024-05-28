@@ -7,18 +7,18 @@
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <meta name="author" content="DjangoCon US" />
-  <meta name="description" content="{{ meta.description }}" />
+  <meta name="description" content="{{ description }}" />
 
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:description" content="{{ meta.description }}" />
+  <meta property="og:description" content="{{ description }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="DjangoCon US" />
   <meta property="og:image" content="{{ site.domain }}/assets/img/social/og-share.jpg" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="{{ site.domain }}/assets/img/social/share.jpg" />
+  <meta property="twitter:image" content="{{ site.domain }}/assets/img/social/share.png" />
   <meta property="twitter:title" content="Organizers" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
@@ -43,7 +43,7 @@
 </head>
 
 <body{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-  <header id="SiteHeader" class="fixed top-0 w-full py-4 bg-white lg:py-6 lg:relative">
+  <header id="SiteHeader" class="fixed top-0 z-50 w-full py-4 bg-white lg:py-6 lg:relative">
     <div class="wrapper">
       <nav class="flex flex-wrap">
         <div class="flex items-center justify-between w-full lg:max-w-max">
@@ -60,7 +60,7 @@
           </button>
         </div>
 
-        {% include 'nav.html' %}
+        {% include "nav.html" %}
       </nav>
     </div>
   </header>

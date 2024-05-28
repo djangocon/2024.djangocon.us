@@ -1,0 +1,92 @@
+---
+title: Full Conference Schedule
+layout: default
+description: >
+  The schedule for DjangoCon US 2024.
+
+sitemap: false
+
+days:
+  - heading: Tutorials (Online)
+    text: >
+      Tutorials are a separate registration and are $199 per session. All tutorials are online this year due to venue availability in Durham.
+  - heading: "Talks: Day 1"
+  - heading: "Talks: Day 2"
+  - heading: "Talks: Deep Dives"
+  - heading: "Sprints: Day 1"
+  - heading: "Sprints: Day 2"
+---
+
+
+<div class="pb-2 hero">
+  <div class="wrapper">
+    <h1 class="text-center pageheading">{{ title }}</h1>
+  </div>
+</div>
+
+<div class="pt-6 block-container">
+  <div class="wrapper">
+    <nav class="max-w-5xl mx-auto mb-12">
+      <h2 class="mb-1 font-bold uppercase sr-only">Jump to day</h2>
+      <ul class="flex flex-wrap justify-center gap-6">
+        {% comment %}
+          Build the jump navigation
+        {% endcomment %}
+        {% for day in collections.sessionsByDateAndTime %}
+        <li>
+          <a href="#Day-{{ forloop.index }}" class="group">
+            <time class="flex flex-col">
+              <span class="px-3 min-w-[8ch] text-lg font-semibold text-center text-white bg-brick-red rounded-t-md border-2 border-brick-red group-hover:border-black group-hover:border-b-brick-red">{{ day[0] | utcDate | date: "%a" }}</span>
+              <span class="px-3 py-1 text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | utcDate | date: "%b %-d" }}</span>
+            </time>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="space-y-20">
+      {% for day in collections.sessionsByDateAndTime %}
+        {% comment %}
+          Draw each Day, e.g. Talks: Day 1 / Monday, Oct 14
+        {% endcomment %}
+        <div class="relative">
+          <h2
+            class="sticky z-20 w-full pt-3 mb-2 text-lg bg-white lg:top-0 top-20 md:text-2xl lg:py-3 lg:text-3xl lg:bg-white md:pl-56 lg:pl-64 lg:mb-4"
+            id="Day-{{ forloop.index }}">
+              <a href="#Day-{{ forloop.index }}">
+                <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
+                {{ day[0] | utcDate | date: "%a, %b %-d" }}
+              </a>
+          </h2>
+          <div class="space-y-8">
+            {% comment %}
+              Draw each time slot, e.g. 9:00 AM to 10:00 AM followed
+            {% endcomment %}
+            {% for slot in day[1] %}
+              <div class="flex flex-wrap gap-4 lg:gap-8">
+                <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
+                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | date: "%l:%M %P" }} to {{ slot.end | date: "%l:%M %P" }}</h3>
+                </div>
+                <ul
+                  class="grid flex-1 grid-cols-1 gap-4 rounded-md lg:p-6 lg:bg-gray-100 lg:grid-cols-3">
+                  {% comment %}
+                    Ideally up to 3 tracks, with some sessions spanning every track
+                  {% endcomment %}
+                  {% for session in slot.sessions %}
+                    {% assign color_class = "border-t-mosaic-blue" %}
+                    {% if forloop.index == 1 %}
+                      {% assign color_class = "border-t-central-park-green" %}
+                    {% elsif forloop.index == 2 %}
+                      {% assign color_class = "border-t-ice-cream-purple" %}
+                    {% endif %}
+                    {% include "session-card.html" with color=color_class %}
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
