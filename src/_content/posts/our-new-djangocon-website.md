@@ -7,7 +7,7 @@ cover:
     url: /assets/img/blog/durham-doodles.jpg
     alt: "End of our Opportunity Grants is coming up!"
 
-title: "Our New DjangoCon 2024 Brand and Website"
+title: "Our New DjangoCon US 2024 Brand and Website"
 ---
 
 
@@ -30,7 +30,7 @@ Alongside the tech stuff, we worked closely with Joni Trythall of [YupGup](https
 
 > Each year we've collaborated with the DjangoCon US team, we kick things off with a group conversation followed by some moodboards. These moodboards are great for getting a high-level feel for a direction without investing too much time into drawing out anything overly detailed or specific. I start with some general directions in mind after our call and set out to explore the internet for screenshots to build cohesive pitches. Once a possible direction is selected, a style tile is produced for review with elements that are much more specific to the project. This enables everyone to confidently select a theme to run with.
 
-![Mood Board](/assets/img/blog/durham-mood-board.png)
+![Mood Board](/assets/img/blog/durham-mood-board.jpg)
 
 > While the community is consistently friendly, welcoming, unique, and fun, some new adjectives introduced this year were unexpected, gritty, and artsy. The Cartoon Town theme direction perfectly captures and helps define the spirit of this year's upcoming event, while celebrating the heart of the community itself but also Durham. You’ll find lots of easter eggs from both throughout the design, from a seemingly misplaced crab down to the color names.
 
