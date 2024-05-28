@@ -11,7 +11,7 @@ title: "Our New DjangoCon 2024 Brand and Website"
 ---
 
 
-Fully re-built from the ground up, we are pleased to announce our brand new website and branding for DjangoCon 2024. Every year we refresh our banding to align with our host city, but this year we decided to go a step further and re-boot our website, optimizing for contributor experience.
+Fully re-built from the ground up, we are pleased to announce our brand new website and branding for DjangoCon US 2024. Every year we refresh our banding to align with our host city, but this year we decided to go a step further and re-boot our website, optimizing for contributor experience.
 
 Why now? As noted in our [CFP](https://www.defna.org/announcements/2024/01/12/call-for-proposals-for-djangocon-2024-website/), we had been using and re-skinning the same Jekyll build since 2017, and it had become increasingly cumbersome for contributors to make edits and layout changes. We hired [YupGup](https://yupgup.com/) to help us select a new framework, rebuild the front-end markup and CSS, and do a branding refresh. We addressed the following:
 
