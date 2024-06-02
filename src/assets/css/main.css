@@ -108,7 +108,7 @@
     content: '';
 
     opacity: 0.4;
-    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.lucky-orange') 69.95%, theme('colors.brick-red') 90.34%);
+    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.orange') 69.95%, theme('colors.red') 90.34%);
   }
 
   .photo-effect img {
@@ -190,7 +190,7 @@
 
   [data-menu-trigger]::after {
     @apply block w-5 h-5;
-    @apply bg-ice-cream-purple;
+    @apply bg-purple;
 
     mask: url('/assets/img/theme/icons/Triangle.svg');
     mask-size: cover;
