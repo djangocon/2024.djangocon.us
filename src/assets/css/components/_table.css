@@ -6,7 +6,15 @@ table {
 th {
   @apply font-semibold text-left text-lg;
   @apply p-4;
-  @apply bg-gray-200;
+  @apply bg-black text-white;
+}
+
+th:first-child {
+  @apply rounded-tl;
+}
+
+th:last-child {
+  @apply rounded-tr;
 }
 
 td {
