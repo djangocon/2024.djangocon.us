@@ -108,7 +108,7 @@
     content: '';
 
     opacity: 0.4;
-    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.orange') 69.95%, theme('colors.red') 90.34%);
+    background: linear-gradient(126deg, theme('colors.light-blue.DEFAULT') 11.2%, theme('colors.orange.DEFAULT') 69.95%, theme('colors.red.DEFAULT') 90.34%);
   }
 
   .photo-effect img {
