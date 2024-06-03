@@ -49,7 +49,7 @@
     @apply px-3 py-2;
     @apply border border-gray-400 rounded;
     @apply shadow-sm;
-    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-bull-blue;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue;
   }
 
   label {
@@ -108,7 +108,7 @@
     content: '';
 
     opacity: 0.4;
-    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.lucky-orange') 69.95%, theme('colors.brick-red') 90.34%);
+    background: linear-gradient(126deg, theme('colors.mosaic-blue') 11.2%, theme('colors.orange') 69.95%, theme('colors.red') 90.34%);
   }
 
   .photo-effect img {
@@ -141,7 +141,7 @@
     width: 2rem;
     height: 2rem;
     border: 5px solid #f3f3f3;
-    border-top: 6px solid theme('colors.bull-blue');
+    border-top: 6px solid theme('colors.blue');
     border-radius: 100%;
     margin: auto;
     animation: spin 1s infinite linear;
@@ -190,7 +190,7 @@
 
   [data-menu-trigger]::after {
     @apply block w-5 h-5;
-    @apply bg-ice-cream-purple;
+    @apply bg-purple;
 
     mask: url('/assets/img/theme/icons/Triangle.svg');
     mask-size: cover;

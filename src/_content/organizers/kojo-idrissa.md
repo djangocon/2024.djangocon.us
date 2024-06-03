@@ -2,8 +2,9 @@
 hidden: false
 name: Kojo Idrissa
 photo: kojo-idrissa.jpg
-role: Orientation, Lightning Talks & Sprints Chair
+role: Orientation Chair
 social:
+    mastodon: https://fosstodon.org/@kojoidrissa
     twitter: KojoIdrissa
     website: https://kojoidrissa.com/
     github: kojoidrissa
