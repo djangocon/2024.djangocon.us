@@ -3,10 +3,17 @@ title: Latest News
 layout: default
 ---
 
-<div class="pb-0 hero">
+<div class="hero bg-lines">
   <div class="max-w-[45rem] px-4 mx-auto flex flex-wrap gap-8 items-center">
-    <h1 class="pageheading">{{ title }}</h1>
-    <a href="/feed.xml" class="text-sm link">RSS Feed</a>
+    <hgroup>
+      <h1 class="mb-4 pageheading">{{ title }}</h1>
+      <a href="/feed.xml" class="text-sm link">RSS Feed</a>
+    </hgroup>
+
+    <img
+        src="/assets/img/theme/graphics/blog.svg"
+        alt="A red bird"
+        class="flex-1 hidden md:block" />
   </div>
 </div>
 
