@@ -15,7 +15,7 @@ layout: default
       </span>
 
       <a
-        href="https://time.is/compare/{{ datetime | utcDate | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
+        href="https://time.is/compare/{{ datetime | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
         class="button"
         aria-label="View on time.is">View on time.is</a>
     </p>
@@ -51,7 +51,7 @@ layout: default
 </div>
 
 {% if presenter_slugs %}
-<div class="pt-8 pb-16 block-container bg-mosaic-blue">
+<div class="pt-8 pb-16 block-container bg-light-blue">
   <div class="wrapper narrow">
     <div class="max-w-screen-md pt-6 mt-auto">
       <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
@@ -59,7 +59,7 @@ layout: default
         {% for presenter_slug in presenter_slugs %}
           {% assign presenter = collections.presenters | find:presenter_slug %}
           {% assign presenter = presenter %}
-          <li class="relative p-6 bg-white bg-lines lg:pt-10 {% cycle 'card-effect-1', 'card-effect-2' %}">
+          <li class="relative p-6 bg-white bg-lines lg:pt-10 {% cycle 'card-effect-1', 'card-effect-2', 'card-effect-3' %}">
             <section class="flex flex-wrap gap-6">
               {% if presenter.data.photo != null and presenter.data.photo != "" %}
                 {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}

@@ -8,5 +8,5 @@
 
 /* THEME-X: Color configuration */
 .badge-blue {
-  @apply text-blue bg-blue-50;
+  @apply text-blue-900 bg-blue-50;
 }

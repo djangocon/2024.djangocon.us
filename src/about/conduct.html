@@ -36,7 +36,7 @@ redirect_from: /coc/
         <p>Thank you for helping make this a welcoming, friendly event for all.</p>
       </section>
 
-      <section class="self-start p-8 prose bg-white border-4 rounded border-green lg:prose-lg">
+      <section class="relative self-start p-6 prose bg-white lg:prose-lg bg-lines lg:pt-10 card-effect-3">
         <h2 class="mb-8 text-lg font-bold font-heading lg:text-2xl">Need help?</h2>
         <div class="space-y-6 lead">
           <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the conference Code of Conduct committee at <a href="mailto:{{ site.conduct_email }}" class="link">{{ site.conduct_email }}</a>{% comment %} or <a href="tel:201-899-4189" class="link">201-899-4189</a>{% endcomment %}.</p>
@@ -52,11 +52,13 @@ redirect_from: /coc/
   <div class="wrapper">
     <div class="grid-1-2">
       <section class="prose lg:prose-lg">
-        <h2>Important Numbers</h2>
+{% markdown %}
+## Important Numbers
 
-        <p>Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
-        <p>If your physical safety or the physical safety of others is at risk, please dial 911. If you are outside of Durham, or on a cell phone, and need to access Durham's 911 services, dial <a href="tel:+1-969-560-4600">(919) 560-4600</a>. For other needs, contact the relevant authorities below.</p>
+If your physical safety or the physical safety of others is at risk, please dial 911. If you are outside of Durham, or on a cell phone, and need to access Durham's 911 services, dial [(919) 560-4600](tel:+1-969-560-4600). For other needs, contact the relevant authorities below.
+{% endmarkdown %}
       </section>
       <section>
         <section class="prose lg:prose-lg">
@@ -101,107 +103,107 @@ redirect_from: /coc/
 <div class="block-container">
   <div class="wrapper">
     <div class="prose lg:prose-lg">
+{% markdown %}
+## Procedures for Reporting Incidents
 
-        <h2 id="procedures-for-reporting-incidents">Procedures for Reporting Incidents</h2>
+If you believe someone has violated the Code of Conduct, we encourage you to report it. If you are unsure whether the incident is a violation, or whether the space where it happened is covered by the Code of Conduct, we encourage you to still report it. We are fine with receiving reports where we decide to take no action for the sake of creating a safer space.
 
-        <p>If you believe someone has violated the Code of Conduct, we encourage you to report it. If you are unsure whether the incident is a violation, or whether the space where it happened is covered by the Code of Conduct, we encourage you to still report it. We are fine with receiving reports where we decide to take no action for the sake of creating a safer space.</p>
+### General Reporting Procedure
 
-        <h3>General Reporting Procedure</h3>
+The best way to contact the DjangoCon Code of Conduct committee is by emailing [{{site.conduct_email}}](mailto:{{site.conduct_email}})
 
-        <p>The best way to contact the DjangoCon Code of Conduct committee is by emailing <a href="mailto:{{site.conduct_email}}">{{site.conduct_email}}</a></p>
+### Report Data
 
-        <h3>Report Data</h3>
+When you make a report via email or phone, please include:
 
-        <p>When you make a report via email or phone, please include:</p>
+-   Your contact info (so we can get in touch with you if we need to follow up)
+-   Date and time of the incident
+-   Location of incident
+-   Whether the incident is ongoing
+-   Description of the incident
+-   Identifying information of the reported person: name, physical appearance, height, clothing, voice accent, identifying badge information such as company name, ribbons, or badge number
+-   Additional circumstances surrounding the incident
+-   Other people involved in or witnesses to the incident and their contact information or description
 
-        <ul>
-          <li>Your contact info (so we can get in touch with you if we need to follow up)</li>
-          <li>Date and time of the incident</li>
-          <li>Location of incident</li>
-          <li>Whether the incident is ongoing</li>
-          <li>Description of the incident</li>
-          <li>Identifying information of the reported person: name, physical appearance, height, clothing, voice accent, identifying badge information such as company name, ribbons, or badge number</li>
-          <li>Additional circumstances surrounding the incident</li>
-          <li>Other people involved in or witnesses to the incident and their contact information or description</li>
-        </ul>
-        <p>Please provide as much information as possible.</p>
+Please provide as much information as possible.
 
-        <h3>Confidentiality</h3>
+### Confidentiality
 
-        <p>All reports will be kept confidential. When we discuss incidents with people who are reported, we will anonymize details as much as we can to protect reporter privacy.</p>
+All reports will be kept confidential. When we discuss incidents with people who are reported, we will anonymize details as much as we can to protect reporter privacy.
 
-        <p>However, some incidents happen in one-on-one interactions, and even if the details are anonymized, the reported person may be able to guess who made the report. If you have concerns about retaliation or your personal safety, please note those in your report. We still encourage you to report, so that we can support you while keeping our conference attendees safe. In some cases, we can compile several anonymized reports into a pattern of behavior, and take action on that pattern.</p>
+However, some incidents happen in one-on-one interactions, and even if the details are anonymized, the reported person may be able to guess who made the report. If you have concerns about retaliation or your personal safety, please note those in your report. We still encourage you to report, so that we can support you while keeping our conference attendees safe. In some cases, we can compile several anonymized reports into a pattern of behavior, and take action on that pattern.
 
-        <h2>Full Code of Conduct</h2>
+## Full Code of Conduct
 
-        <p><em>To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any DjangoCon US event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event.</em></p>
+_To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at any DjangoCon US event are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event._
 
-        <h3>What the conference is</h3>
+### What the conference is
 
-        <p>DjangoCon US is a community conference intended for networking and collaboration in the developer community.</p>
+DjangoCon US is a community conference intended for networking and collaboration in the developer community.
 
-        <p>We value the participation of each member of the Django community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference, at all conference events, and in all conference online spaces (such as Slack), whether officially sponsored by DjangoCon US or not.</p>
+We value the participation of each member of the Django community and want all attendees to have an enjoyable and fulfilling experience. Accordingly, all attendees are expected to show respect and courtesy to other attendees throughout the conference, at all conference events, and in all conference online spaces (such as Slack), whether officially sponsored by DjangoCon US or not.
 
-        <h3>Be Kind To Others</h3>
+### Be Kind To Others
 
-        <p>Do not insult or put down other attendees. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.</p>
+Do not insult or put down other attendees. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
 
-        <h3>Be Respectful</h3>
+### Be Respectful
 
-        <p>Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We do not tolerate harassment of conference participants in any form.</p>
+Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We do not tolerate harassment of conference participants in any form.
 
-        <p>Harassment includes: offensive verbal comments related to gender, gender identity, sexual orientation, disability, physical appearance, body size, race, religion; sexual images in public spaces; deliberate intimidation, stalking, or following; harassing photography or recording; sustained disruption of talks or other events; repeated or inappropriate direct messaging on conference or social media platforms; inappropriate physical contact; and unwelcome sexual attention.</p>
+Harassment includes: offensive verbal comments related to gender, gender identity, sexual orientation, disability, physical appearance, body size, race, religion; sexual images in public spaces; deliberate intimidation, stalking, or following; harassing photography or recording; sustained disruption of talks or other events; repeated or inappropriate direct messaging on conference or social media platforms; inappropriate physical contact; and unwelcome sexual attention.
 
-        <h2>Choose Your Words</h2>
+## Choose Your Words
 
-        <p>Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Excessive swearing and offensive jokes are not appropriate for DjangoCon US. We are all adults, capable of having adult conversations. Preface your presentation with appropriate Trigger/Content Warnings, if necessary.</p>
+Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Excessive swearing and offensive jokes are not appropriate for DjangoCon US. We are all adults, capable of having adult conversations. Preface your presentation with appropriate Trigger/Content Warnings, if necessary.
 
-        <p>All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate for any conference venue, including talks.</p>
+All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate for any conference venue, including talks.
 
-        <p>Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+Participants asked to stop any harassing behavior are expected to comply immediately.
 
-        <p>Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-        <h2>Examples of Inappropriate Behavior</h2>
+## Examples of Inappropriate Behavior
 
-        <p>Examples of unacceptable behavior by participants include:</p>
-        <ul>
-          <li>Harassment of any participants in any form</li>
-          <li>Deliberate intimidation, stalking, or following</li>
-          <li>Logging or taking screenshots of online activity for harassment purposes</li>
-          <li>Publishing others’ private information, such as a physical or electronic address, without explicit permission</li>
-          <li>Violent threats or language directed against another person</li>
-          <li>Incitement of violence or harassment towards any individual, including encouraging a person to commit suicide or to engage in self-harm</li>
-          <li>Creating additional online accounts in order to harass another person or circumvent a ban</li>
-          <li>Sexual language and imagery in online communities or in any conference venue, including talks</li>
-          <li>Insults, put downs, or jokes that are based upon stereotypes, that are exclusionary, or that hold others up for ridicule</li>
-          <li>Excessive swearing</li>
-          <li>Unwelcome sexual attention or advances</li>
-          <li>Unwelcome physical contact, including simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop</li>
-          <li>Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others</li>
-          <li>Sustained disruption of online community discussions, in-person presentations, or other in-person events</li>
-          <li>Continued one-on-one communication after requests to cease</li>
-          <li>Other conduct that is inappropriate for a professional audience including people of many different backgrounds</li>
-        </ul>
+Examples of unacceptable behavior by participants include:
 
-        <p>This list is not an exhaustive list of all inappropriate behavior that is unacceptable at DjangoCon US.</p>
-        <p>Community members asked to stop any inappropriate behavior are expected to comply immediately.</p>
+-   Harassment of any participants in any form
+-   Deliberate intimidation, stalking, or following
+-   Logging or taking screenshots of online activity for harassment purposes
+-   Publishing others’ private information, such as a physical or electronic address, without explicit permission
+-   Violent threats or language directed against another person
+-   Incitement of violence or harassment towards any individual, including encouraging a person to commit suicide or to engage in self-harm
+-   Creating additional online accounts in order to harass another person or circumvent a ban
+-   Sexual language and imagery in online communities or in any conference venue, including talks
+-   Insults, put downs, or jokes that are based upon stereotypes, that are exclusionary, or that hold others up for ridicule
+-   Excessive swearing
+-   Unwelcome sexual attention or advances
+-   Unwelcome physical contact, including simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop
+-   Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
+-   Sustained disruption of online community discussions, in-person presentations, or other in-person events
+-   Continued one-on-one communication after requests to cease
+-   Other conduct that is inappropriate for a professional audience including people of many different backgrounds
 
-        <h2>Photography</h2>
+This list is not an exhaustive list of all inappropriate behavior that is unacceptable at DjangoCon US.
 
-        <p>In order to make DjangoCon US {{ site.conf_year }} a great experience for everyone, do not photograph, video, or audio record anyone at DjangoCon without their express permission, sought in advance. If someone does not want to be photographed, video or audio recorded, please respect their wishes.</p>
+Community members asked to stop any inappropriate behavior are expected to comply immediately.
 
-        <p>Crowd shots are permitted, but when only the faces of a few people are visible, permission should be sought from all of those individuals.</p>
+## Photography
 
-        <p><em>If a participant engages in behavior that violates this code of conduct, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</em></p>
+In order to make DjangoCon US {{ site.conf_year }} a great experience for everyone, do not photograph, video, or audio record anyone at DjangoCon without their express permission, sought in advance. If someone does not want to be photographed, video or audio recorded, please respect their wishes.
 
-        <h2>License</h2>
+Crowd shots are permitted, but when only the faces of a few people are visible, permission should be sought from all of those individuals.
 
-        <p>This Code of Conduct was forked from the example policy from the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">Geek Feminism wiki</a>, created by the Ada Initiative and other volunteers. which is under a Creative Commons Zero license.</p>
+_If a participant engages in behavior that violates this code of conduct, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund._
 
-        <p>This Code of Conduct also incorporates portions from PyCon's Code of Conduct, which is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+## License
 
-        <p>DjangoCon US <a href="/conduct/">Conference Code of Conduct</a> is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
+This Code of Conduct was forked from the example policy from the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), created by the Ada Initiative and other volunteers. which is under a Creative Commons Zero license.
+
+This Code of Conduct also incorporates portions from PyCon's Code of Conduct, which is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+
+DjangoCon US [Conference Code of Conduct](/conduct/) is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+{% endmarkdown %}
     </div>
   </div>
 </div>

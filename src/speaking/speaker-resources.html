@@ -6,37 +6,44 @@ description: >
   Resources to support DjangoCon US 2024 speakers
 ---
 
-<div class="hero">
+<div class="block-container">
   <div class="wrapper">
-    <header>
-      <h1 class="pageheading">{{ title }}</h1>
+    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
+      <img
+        src="/assets/img/theme/graphics/speaker-resources.svg"
+        alt="A computer, microphone, and other assorted items related to public speaking."
+        class="hidden w-full max-w-80 md:block" />
+      <div class="flex-1 max-w-screen-lg">
+        <h1 class="mb-8 pageheading">{{ title }}</h1>
+      </div>
     </header>
   </div>
 </div>
 
+
 <div class="pt-0 block-container">
   <div class="wrapper">
     <div class="prose lg:prose-lg">
-        {% markdown %}
+{% markdown %}
 ## Information for Speakers
 
-*   The Speaker Green Room will be in **Meeting Room 2** on Monday-Wednesday.
-*   Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
-*   A Quiet Room will be available for attendees and speakers on all conference days.
-*   We reserve the right to ask for a draft of your slides/notes not more than 3 weeks in advance of the presentation for review. This draft will not be shared with anyone outside the program and code of conduct teams.
+- The Speaker Green Room will be in **Meeting Room 2** on Monday-Wednesday.
+- Please be in your presentation room at least 15 minutes before your talk to meet your session chair.
+- A Quiet Room will be available for attendees and speakers on all conference days.
+- We reserve the right to ask for a draft of your slides/notes not more than 3 weeks in advance of the presentation for review. This draft will not be shared with anyone outside the program and code of conduct teams.
 
 ## Need some help with your presentation?
 
 Presenters, regardless of experience, sometimes want a little help. If you’d like any help in preparing or presenting your talk, some awesome members of our community have volunteered to be speaker mentors. A mentor is an experienced presenter who has volunteered to help other presenters. For first-time presenters, non-native English speakers, under-confident or uncertain speakers, or anyone who would just appreciate another set of eyes, our mentors will be here to help. You’ll get the best results by forming a relationship with one mentor, rather than contacting several.
 
-*   [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Anna works as a Senior Community Program Manager at Github and actively volunteer across many different open source communities related to the Python Programming Language. This includes her former role on the Board of the Directors for the Python Software Foundation and as a current organizer for PyLadies in London. She’s a strong advocate for mental health and mentorship as well as supporting effective open source communities. Her newest hobby is writing and performing stand up comedy.
-*   [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
+- [Anna Ossowski](mailto:annabell.ossowski@gmail.com), Anna works as a Senior Community Program Manager at Github and actively volunteer across many different open source communities related to the Python Programming Language. This includes her former role on the Board of the Directors for the Python Software Foundation and as a current organizer for PyLadies in London. She’s a strong advocate for mental health and mentorship as well as supporting effective open source communities. Her newest hobby is writing and performing stand up comedy.
+- [Frank Wiles](mailto:frank@revsys.com), Former President of the Board, Django Software Foundation, Founder, REVSYS.
 
 ## Talk Guidelines
 
 ### Accessibility
 
-*   You can submit a draft copy of your slides with notes indicating what you plan to say a minimum of three weeks before your talk to give the captioners time to train on your data and therefore improve caption accuracy. This is extremely helpful to our attendees who read the live captions if you're using jargon beyond "Django" and "the ORM".
+- You can submit a draft copy of your slides with notes indicating what you plan to say a minimum of three weeks before your talk to give the captioners time to train on your data and therefore improve caption accuracy. This is extremely helpful to our attendees who read the live captions if you're using jargon beyond "Django" and "the ORM".
 *   These slides will not be shared outside of the organizing team and the captioners. Send the slides to hello AT djangocon DOT us when you are ready. It's perfectly fine if your slides and notes change between the draft and final version.
 *   When describing media in your talk (images, screenshots, graphs, videos, etc.), please give a verbal description of what you're showing so that blind or vision-impaired attendees can understand what you're describing.
 *   Example: instead of "here's a graph showing performance improvements with our new async code," say "here's a line graph showing our average response time that decreased from 450 milliseconds to 150 milliseconds after adding our new async code."
