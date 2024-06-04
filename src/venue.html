@@ -12,11 +12,11 @@ other_lodging:
   - name: Unscripted Durham
     price_night: $226
     website: https://www.unscriptedhotels.com/
-    feature: Most inexpensive and walkable option
+    feature: Most inexpensive and walkable
   - name: Holiday Inn Express Durham
     price_night: $151
     website: https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail
-    feature: Inexpensive, close, but not walkable
+    feature: Inexpensive, close, not walkable
   - name: Hilton Garden Inn Durham/University Medical Center
     price_night: $191
     website: https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/
@@ -141,7 +141,7 @@ other_lodging:
                 </span>
               </div>
 
-              <span class="w-full px-4 py-2 text-sm text-blue-900 block-container bg-blue-50 order-0">{{ lodge.feature }}</span>
+              <span class="w-full px-4 py-2 text-sm font-medium text-blue-900 block-container bg-blue-50 order-0">{{ lodge.feature }}</span>
             </li>
           {% endfor %}
         </ul>
@@ -199,7 +199,7 @@ other_lodging:
 </div>
 
 
-<div class="block-container">
+<div class="bg-gray-100 block-container">
   <div class="wrapper">
     <header class="mb-12">
       <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">An Accessible Experience</h2>
