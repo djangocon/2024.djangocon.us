@@ -3,7 +3,6 @@
   group: lunch
   permalink: /catering-menus/#monday-breakfast
   room: Grand Ballroom I-II
-  track: all
   title: Breakfast
   abstract: Grand Ballroom I-II
 
@@ -12,7 +11,6 @@
   group: break
   permalink: /news/childcare-lactation/
   room: Meeting Room 1
-  track: all
   title: Lactation Room
   abstract: Meeting Room 1
 
@@ -21,7 +19,6 @@
   group: break
   permalink: null
   room: Meeting Room 4
-  track: all
   title: Quiet Room
   abstract: Meeting Room 4
 
@@ -30,7 +27,6 @@
   group: break
   permalink: null
   room: In front of Junior Ballroom
-  track: all
   title: Registration
   abstract: In front of Junior Ballroom
 
@@ -39,7 +35,6 @@
   group: break
   permalink: null
   room: Meeting Room 3
-  track: all
   title: Speaker Green Room
   abstract: Meeting Room 3
 
@@ -48,7 +43,6 @@
   group: break
   permalink: /catering-menus/#monday-morning-break
   room: Grand Ballroom I-II
-  track: all
   title: Break
   abstract: Grand Ballroom I-II
 
@@ -67,7 +61,6 @@
   group: talks
   permalink: /catering-menus/#monday-lunch
   room: Grand Ballroom I-II
-  track: all
   title: Lunch
 
 - datetime: 2023-10-16T19:25:00.000Z
@@ -75,5 +68,4 @@
   group: break
   permalink: /catering-menus/#monday-afternoon-break
   room: Grand Ballroom I-II
-  track: all
   title: Break

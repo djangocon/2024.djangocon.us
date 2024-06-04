@@ -68,7 +68,7 @@ days:
                   <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | date: "%l:%M %P" }} to {{ slot.end | date: "%l:%M %P" }}</h3>
                 </div>
                 <ul
-                  class="grid flex-1 grid-cols-1 gap-4 rounded-md lg:p-6 lg:bg-gray-100 lg:grid-cols-3">
+                  class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-6 lg:bg-gray-100">
                   {% comment %}
                     Ideally up to 3 tracks, with some sessions spanning every track
                   {% endcomment %}
