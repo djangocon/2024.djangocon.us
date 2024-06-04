@@ -108,18 +108,25 @@
   </header>
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
-<div class="hero">
+<div class="block-container">
   <div class="wrapper">
-    <header>
-      <h1 class="pageheading">Speaker Resources</h1>
+    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
+      <img
+        src="/assets/img/theme/graphics/speaker-resources.svg"
+        alt="A computer, microphone, and other assorted items related to public speaking."
+        class="hidden w-full max-w-80 md:block" />
+      <div class="flex-1 max-w-screen-lg">
+        <h1 class="mb-8 pageheading">Speaker Resources</h1>
+      </div>
     </header>
   </div>
 </div>
 
+
 <div class="pt-0 block-container">
   <div class="wrapper">
     <div class="prose lg:prose-lg">
-        <h2 id="information-for-speakers" tabindex="-1">Information for Speakers</h2>
+<h2 id="information-for-speakers" tabindex="-1">Information for Speakers</h2>
 <ul>
 <li>The Speaker Green Room will be in <strong>Meeting Room 2</strong> on Monday-Wednesday.</li>
 <li>Please be in your presentation room at least 15 minutes before your talk to meet your session chair.</li>
@@ -136,6 +143,8 @@
 <h3 id="accessibility" tabindex="-1">Accessibility</h3>
 <ul>
 <li>You can submit a draft copy of your slides with notes indicating what you plan to say a minimum of three weeks before your talk to give the captioners time to train on your data and therefore improve caption accuracy. This is extremely helpful to our attendees who read the live captions if you're using jargon beyond &quot;Django&quot; and &quot;the ORM&quot;.</li>
+</ul>
+<ul>
 <li>These slides will not be shared outside of the organizing team and the captioners. Send the slides to hello AT djangocon DOT us when you are ready. It's perfectly fine if your slides and notes change between the draft and final version.</li>
 <li>When describing media in your talk (images, screenshots, graphs, videos, etc.), please give a verbal description of what you're showing so that blind or vision-impaired attendees can understand what you're describing.</li>
 <li>Example: instead of &quot;here's a graph showing performance improvements with our new async code,&quot; say &quot;here's a line graph showing our average response time that decreased from 450 milliseconds to 150 milliseconds after adding our new async code.&quot;</li>
@@ -173,7 +182,7 @@
 </div>
 </main>
 
-  <img src="/assets/img/theme/city.svg" alt="The city skyline of Durham" aria-hidden="true" class="mt-8 -mb-[4vw]"/>
+  <img src="/assets/img/theme/city.svg" alt="The city skyline of Durham" aria-hidden="true" class="mt-16 -mb-[4vw]"/>
   <footer id="SiteFooter" class="py-20 bg-white border-t-4 border-black">
     <div class="container mx-auto ">
       <div class="grid gap-8 px-4 place-items-center">
