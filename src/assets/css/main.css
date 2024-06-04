@@ -7,6 +7,8 @@
 
 @import "components/_containers.css";
 
+@import "views/_social-view.css"
+
 @import "tailwindcss/utilities";
 
 @layer base {

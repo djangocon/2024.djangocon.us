@@ -1,0 +1,6 @@
+.speaker-template {
+  @apply relative;
+  width: 1200px;
+  height: 675px;
+}
+
