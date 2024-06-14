@@ -1,7 +1,7 @@
 ---
 name: Doreen Peace Nangira Wanyama
 photo: Doreen.jpeg
-role: Hackathon lead, Django Girls'organizer, Sprints, Code of Conduct
+role: Hackathon lead, Django Girls Organizer, Sprints, Code of Conduct
 social:
     twitter: DoreenNangira
     Linkedin: https://www.linkedin.com/in/doreennangira/
