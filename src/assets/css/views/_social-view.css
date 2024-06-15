@@ -26,3 +26,10 @@
   background-size: auto 100%;
   content: "";
 }
+
+.speaker-template-talks {
+  @apply block absolute z-20;
+  top: 200px;
+  left: 60px;
+  font-size: 24px;
+}

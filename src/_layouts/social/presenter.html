@@ -29,7 +29,11 @@
 
       <h1 class="speaker-template-name">{{ name }}</h1>
 
-      {% assign talks = collections.talks | talksByPresenter: slug %}
+      {% assign talks = collections.talks | talksByPresenter:page.fileSlug %}
+
+      {% for talk in talks %}
+        <p class="speaker-template-talks">{{ talk.data.title }}</p>
+      {% endfor %}
   </div>
 </body>
 </html>
