@@ -4,3 +4,25 @@
   height: 675px;
 }
 
+.speaker-template-photo {
+  @apply absolute z-0;
+  top: 68px;
+  right: 44px;
+  width: 350px;
+}
+
+.speaker-template-name {
+  @apply absolute z-20 font-bold;
+  top: 80px;
+  left: 60px;
+  font-size: 64px;
+}
+
+.speaker-template-name::after {
+  @apply block absolute z-20 bg-no-repeat w-full;
+  left: -60px;
+  height: 120px;
+  background-image: url('/assets/img/theme/social-cards/pencil.svg');
+  background-size: auto 100%;
+  content: "";
+}

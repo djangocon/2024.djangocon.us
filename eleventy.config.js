@@ -90,6 +90,10 @@ module.exports = (config) => {
     return collection.find(item => item.fileSlug === slug);
   });
 
+  config.addFilter("talksByPresenter", function talksByPresenter(collection = [], slug = "") {
+    return collection.filter(item => item.data.presenter_slugs.includes(slug));
+  });
+
   /*
     Misc configuration
   */
