@@ -5,7 +5,7 @@
 }
 
 .session-social-template-photo {
-  @apply absolute z-0;
+  @apply absolute z-0 rounded-md;
   top: 68px;
   right: 44px;
   width: 350px;
@@ -15,15 +15,35 @@
   @apply absolute z-0;
   top: 24px;
   right: 186px;
-  width: 230px;
 }
 
 .session-social-presenter-count-2 .session-social-template-photo:nth-of-type(3) {
   @apply absolute z-0;
   top: 270px;
   right: 2px;
-  width: 230px;
 }
+
+.session-social-presenter-count-3 .session-social-template-photo {
+  @apply absolute z-0;
+  top: 26px;
+  right: 124px;
+  width: 194px;
+}
+
+.session-social-presenter-count-3 .session-social-template-photo:nth-of-type(3) {
+  @apply absolute z-0;
+  top: 250px;
+  right: 222px;
+}
+
+.session-social-presenter-count-3 .session-social-template-photo:nth-of-type(4) {
+  @apply absolute z-0;
+  top: 283px;
+  right: 2px;
+}
+
+
+
 
 .session-social-template-content {
   @apply relative z-10;
@@ -32,13 +52,13 @@
   width: 700px;
   height: 100%;
 
-  padding-top: 80px;
+  padding-top: 60px;
   padding-left: 60px;
 }
 
 .session-social-template-name {
-  @apply font-bold;
-  font-size: 64px;
+  @apply font-bold leading-tight;
+  font-size: 58px;
 }
 
 .session-social-template-name::after {
@@ -52,5 +72,5 @@
 
 .session-social-template-talks {
   @apply font-medium leading-tight;
-  font-size: 54px;
+  font-size: 50px;
 }

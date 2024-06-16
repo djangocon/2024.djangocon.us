@@ -28,7 +28,7 @@ layout: social/default_social.html
     <h1 class="session-social-template-name">
       {% for presenter_slug in talk.data.presenter_slugs %}
         {% assign presenter = collections.presenters | find:presenter_slug %}
-        {{ presenter.data.name }} {% if not forloop.last %}&amp;{% endif %}
+        {{ presenter.data.name }} {% if not forloop.last %}<span class="text-blue">&amp;</span>{% endif %}
       {% endfor %}
     </h1>
 

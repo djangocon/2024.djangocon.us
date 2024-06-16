@@ -23,6 +23,7 @@ permalink: /talks/using-database-triggers-to-reliably-track-model-history/
 presenter_slugs:
 - wes-kendall
 - maxwell-muoto
+- michael-trythall
 published: true
 room: Grand Ballroom III
 sitemap: true
