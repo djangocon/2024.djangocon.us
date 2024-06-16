@@ -43,7 +43,7 @@ module.exports = (config) => {
     src,
     outputDir,
     urlPath,
-    alt,
+    alt = "",
     sizes,
     classes = "") {
       let metadata = await Image(src, {

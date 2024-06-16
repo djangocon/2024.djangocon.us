@@ -3,6 +3,7 @@ company: Decisio Health
 name: Kojo Idrissa
 override_schedule_title: Welcome and Orientation
 permalink: /presenters/kojo-idrissa/
+photo: kojo-idrissa.jpg
 slug: kojo-idrissa
 social:
     twitter: kojoidrissa

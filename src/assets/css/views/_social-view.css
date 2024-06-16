@@ -37,6 +37,6 @@
 }
 
 .session-social-template-talks {
-  font-size: 55px;
-  font-weight: 600;
+  @apply font-medium leading-tight;
+  font-size: 54px;
 }

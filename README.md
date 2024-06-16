@@ -19,10 +19,7 @@ Build and watch for local changes by running:
 
 This opens a local server at `http://localhost:8080/` and watches for changes to the source files.
 
-# To Dos
+# Social Media Images
 
-1. Replace autoprefixer and cssnano with lightningcss
-
-# Guidelines for Development
-
-1. While 11ty allows for shortcodes and other customizations, sticking with Liquid fundamentals is preferred for interoperability.
+1. Presenter images are created at `/presenters/{{ slug }}/`
+2. Session images are created at `/{{ talks,tutorials }}/{{ slug }}/social/`
