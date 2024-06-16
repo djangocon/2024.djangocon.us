@@ -1,35 +1,42 @@
-.speaker-template {
+.session-social-template {
   @apply relative;
   width: 1200px;
   height: 675px;
 }
 
-.speaker-template-photo {
+.session-social-template-photo {
   @apply absolute z-0;
   top: 68px;
   right: 44px;
   width: 350px;
 }
 
-.speaker-template-name {
-  @apply absolute z-20 font-bold;
-  top: 80px;
-  left: 60px;
+.session-social-template-content {
+  @apply relative z-10;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: 100%;
+
+  padding-top: 80px;
+  padding-left: 60px;
+}
+
+.session-social-template-name {
+  @apply font-bold;
   font-size: 64px;
 }
 
-.speaker-template-name::after {
-  @apply block absolute z-20 bg-no-repeat w-full;
-  left: -60px;
+.session-social-template-name::after {
+  @apply block relative z-0 bg-no-repeat w-full;
+  left: -80px;
   height: 120px;
   background-image: url('/assets/img/theme/social-cards/pencil.svg');
   background-size: auto 100%;
   content: "";
 }
 
-.speaker-template-talks {
-  @apply block absolute z-20;
-  top: 200px;
-  left: 60px;
-  font-size: 24px;
+.session-social-template-talks {
+  font-size: 55px;
+  font-weight: 600;
 }
