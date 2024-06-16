@@ -4,8 +4,8 @@
 @import "components/_badge.css";
 @import "components/_buttons.css";
 @import "components/_table.css";
-
 @import "components/_containers.css";
+@import "components/_site-nav.css";
 
 @import "tailwindcss/utilities";
 
@@ -187,25 +187,6 @@
 
   .prose a {
     @apply link;
-  }
-
-
-  /* Nav styles */
-  [data-menu-trigger] {
-    @apply relative flex items-center gap-1;
-  }
-
-  [data-menu-trigger]::after {
-    @apply block w-5 h-5;
-    @apply bg-purple;
-
-    mask: url('/assets/img/theme/icons/Triangle.svg');
-    mask-size: cover;
-    mask-repeat: no-repeat;
-
-    @apply rotate-180;
-
-    content: '';
   }
 }
 

@@ -1,16 +1,15 @@
 const navToggler = document.getElementById('NavToggler');
-const navMenu = document.getElementById('NavMenu');
-const allMenus = navMenu.querySelectorAll('[data-menu-list]');
+const siteNav = document.querySelector('.site-nav');
+const allMenus = siteNav.querySelectorAll('[data-menu-list]');
 
-/* TODO: Not accessible */
 navToggler.addEventListener('click', () => {
   const siteMain = document.getElementById('SiteMain');
   const siteFooter = document.getElementById('SiteFooter');
 
-  if (navMenu.classList.contains('flex')) {
-    navMenu.classList.replace('flex', 'hidden');
+  if (siteNav.classList.contains('hidden')) {
+    siteNav.classList.replace('hidden', 'flex');
   } else {
-    navMenu.classList.replace('hidden', 'flex');
+    siteNav.classList.replace('flex', 'hidden');
   }
 
   /*
@@ -28,6 +27,10 @@ navMenuTriggers.forEach(trigger => {
     evt.preventDefault();
     const target = trigger.nextElementSibling;
 
+    navMenuTriggers.forEach((trigger) => {
+      trigger.setAttribute('aria-expanded', 'false');
+    });
+
     allMenus.forEach((menu) => {
       if (menu !== target) {
         menu.classList.replace('flex', 'hidden');
@@ -36,18 +39,24 @@ navMenuTriggers.forEach(trigger => {
 
     if (target.classList.contains('hidden')) {
       target.classList.replace('hidden', 'flex');
+      trigger.setAttribute('aria-expanded', 'true');
     } else {
       target.classList.replace('flex', 'hidden');
+      trigger.setAttribute('aria-expanded', 'false');
     }
   });
 });
 
 // Close all menus when the user clicks outside
 document.addEventListener('click', function (evt) {
-  if (!navMenu.contains(evt.target) && navToggler !== evt.target) {
+  if (!siteNav.contains(evt.target) && navToggler !== evt.target) {
     // Close all menus if you click outside of menu
     allMenus.forEach((menu) => {
       menu.classList.replace('flex', 'hidden');
+    });
+
+    navMenuTriggers.forEach((trigger) => {
+      trigger.setAttribute('aria-expanded', 'false');
     });
   }
 });
