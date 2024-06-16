@@ -11,6 +11,20 @@
   width: 350px;
 }
 
+.session-social-presenter-count-2 .session-social-template-photo {
+  @apply absolute z-0;
+  top: 24px;
+  right: 186px;
+  width: 230px;
+}
+
+.session-social-presenter-count-2 .session-social-template-photo:nth-of-type(3) {
+  @apply absolute z-0;
+  top: 270px;
+  right: 2px;
+  width: 230px;
+}
+
 .session-social-template-content {
   @apply relative z-10;
   top: 0;
