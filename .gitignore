@@ -131,3 +131,7 @@ dist
 
 # System fiels
 .DS_Store
+
+#vscode settings
+settings.json
+package-lock.json
