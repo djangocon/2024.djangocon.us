@@ -32,12 +32,17 @@ class Social(BaseModel):
     bluesky: str | None = None
     instagram: str | None = None
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if self.mastodon and self.mastodon.startswith("@"):
+            self.mastodon = migrate_mastodon_handle(handle=self.mastodon)
+            print(f"🚜 converting {self.mastodon=}")
 
 class Organizer(FrontmatterModel):
     hidden: bool = False
     layout: str = "base"
     name: str
-    photo_url: str | None = None
+    photo: str | None = None
     slug: str | None = None
     title: str | None = None
     social: Social | None = None
@@ -86,10 +91,6 @@ class Presenter(FrontmatterModel):
         # if permalink is blank, let's build a new one
         if not self.permalink:
             self.permalink = f"/presenters/{self.slug}/"
-
-        if self.mastodon and self.mastodon.startswith("@"):
-            self.mastodon = migrate_mastodon_handle(handle=self.mastodon)
-            print(f"🚜 converting {self.mastodon=}")
 
 
 class Schedule(FrontmatterModel):
