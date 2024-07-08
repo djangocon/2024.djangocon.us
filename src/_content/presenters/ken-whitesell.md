@@ -3,7 +3,7 @@ company: WSP
 hidden: false
 name: Ken Whitesell
 permalink: /presenters/ken-whitesell/
-photo: ken-whitesell.jpg
+photo: ken-whitesell.jpeg
 slug: ken-whitesell
 social:
     bluesky: null

@@ -1,4 +1,0 @@
-{
-  "permalink": "/presenters/{{ page.fileSlug }}",
-  "layout": "social/presenter"
-}

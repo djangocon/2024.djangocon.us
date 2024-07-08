@@ -3,7 +3,7 @@ company: Python Italia
 hidden: false
 name: Paolo Melchiorre
 permalink: /presenters/paolo-melchiorre/
-photo: paolo-melchiorre.jpg
+photo: paolo-melchiorre.jpeg
 slug: paolo-melchiorre
 social:
     bluesky: null

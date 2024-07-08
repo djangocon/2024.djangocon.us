@@ -3,7 +3,7 @@ company: O'Reilly
 hidden: false
 name: Melanie Arbor
 permalink: /presenters/melanie-arbor/
-photo: melanie-arbor.jpeg
+photo: ''
 slug: melanie-arbor
 social:
     bluesky: null

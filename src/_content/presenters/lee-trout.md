@@ -3,7 +3,7 @@ company: Engine Ignite
 hidden: false
 name: Lee Trout
 permalink: /presenters/lee-trout/
-photo: lee-trout.jpeg
+photo: lee-trout.png
 slug: lee-trout
 social:
     bluesky: null

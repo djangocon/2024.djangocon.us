@@ -3,7 +3,7 @@ company: Zagaran, Inc.
 hidden: false
 name: Benjamin "Zags" Zagorsky
 permalink: /presenters/benjamin-zags-zagorsky/
-photo: benjamin-zags-zagorsky.jpg
+photo: benjamin-zags-zagorsky.png
 slug: benjamin-zags-zagorsky
 social:
     bluesky: null

@@ -3,7 +3,7 @@ company: "Things Django \U0001F984"
 hidden: false
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
-photo: carlton-gibson.jpg
+photo: carlton-gibson.jpeg
 slug: carlton-gibson
 social:
     bluesky: null

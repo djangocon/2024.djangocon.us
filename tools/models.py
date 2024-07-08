@@ -18,7 +18,7 @@ class FrontmatterModel(BaseModel):
     redirect_from: list[str] | None = None
     redirect_to: str | None = None  # via the jekyll-redirect-from plugin
     sitemap: bool | None = None
-    title: str
+    title: str = ""
 
     class Config:
         extra = "allow"

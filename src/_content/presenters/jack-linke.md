@@ -3,7 +3,7 @@ company: Watervize & USMC
 hidden: false
 name: Jack Linke
 permalink: /presenters/jack-linke/
-photo: jack-linke.jpg
+photo: jack-linke.jpeg
 slug: jack-linke
 social:
     bluesky: null
