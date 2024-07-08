@@ -700,12 +700,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     # Friday!
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_1,
+            constants.SPRINTS_DAY_2,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
-            constants.SPRINTS_DAY_1,
+            constants.SPRINTS_DAY_2,
             pydatetime.time(17),
             tzinfo=constants.CONFERENCE_TZ,
         ),
