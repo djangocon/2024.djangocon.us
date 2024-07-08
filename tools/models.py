@@ -163,3 +163,553 @@ def migrate_mastodon_handle(*, handle: str) -> str:
 
     username, domain = handle[1:].split("@")
     return f"https://{domain}/@{username}"
+
+
+MANUAL_SCHEDULE_ENTRIES = [
+    # Sunday breakfast
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(9),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#sunday-breakfast",
+        room=constants.LUNCH_ROOM,
+        title="Continental Breakfast",
+    ),
+    # TODO decide whether we'll have quiet/lactation rooms on tutorial day
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(18),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=f"In front of {constants.LARGE_TALK_ROOM}",
+        title="Registration",
+    ),
+    # sunday lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(12, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TUTORIAL_DAY,
+            pydatetime.time(13, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#sunday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Lunch",
+    ),
+    # Monday!
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(7, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(8, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#monday-breakfast",
+        room=constants.LUNCH_ROOM,
+        title="Continental Breakfast",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(7, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=f"In front of {constants.LARGE_TALK_ROOM}",
+        title="Registration",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/news/childcare-lactation/",
+        room=constants.LACTATION_ROOM,
+        title="Lactation Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.QUIET_ROOM,
+        title="Quiet Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.GREEN_ROOM,
+        title="Speaker Green Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(10, 10),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(10, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#monday-morning-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # monday early lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(12, 0),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#monday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Early Lunch",
+    ),
+    # monday main lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(13, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#monday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Lunch",
+    ),
+    # monday PM break
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(14, 55),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(15, 20),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#monday-morning-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # board game night
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_1,
+            pydatetime.time(19),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_1,
+            pydatetime.time(22),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,  # TODO add social link here
+        room=constants.LARGE_TALK_ROOM,
+        title="Board Game Night",
+    ),
+    # Tuesday!
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(9),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#tuesday-breakfast",
+        room=constants.LUNCH_ROOM,
+        title="Continental Breakfast",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=f"In front of {constants.LARGE_TALK_ROOM}",
+        title="Registration",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/news/childcare-lactation/",
+        room=constants.LACTATION_ROOM,
+        title="Lactation Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.QUIET_ROOM,
+        title="Quiet Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.GREEN_ROOM,
+        title="Speaker Green Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(10, 10),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(10, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#tuesday-morning-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # tuesday early lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(12, 0),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#tuesday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Early Lunch",
+    ),
+    # tuesday main lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(13, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#monday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Lunch",
+    ),
+    # tuesday PM break
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_2,
+            pydatetime.time(14, 55),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_2,
+            pydatetime.time(15, 20),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#tuesday-afternoon-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # Wednesday!
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(9),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#wednesday-breakfast",
+        room=constants.LUNCH_ROOM,
+        title="Continental Breakfast",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=f"In front of {constants.LARGE_TALK_ROOM}",
+        title="Registration",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/news/childcare-lactation/",
+        room=constants.LACTATION_ROOM,
+        title="Lactation Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.QUIET_ROOM,
+        title="Quiet Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(8),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(17, 30),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink=None,
+        room=constants.GREEN_ROOM,
+        title="Speaker Green Room",
+    ),
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(10, 10),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(10, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#wednesday-morning-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # wed early lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(12, 0),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#wednesday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Early Lunch",
+    ),
+    # wed main lunch
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(12, 40),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(13, 35),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="lunch",
+        permalink="/catering-menus/#wednesday-lunch",
+        room=constants.LUNCH_ROOM,
+        title="Lunch",
+    ),
+    # wed PM break
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.TALK_DAY_3,
+            pydatetime.time(14, 55),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.TALK_DAY_3,
+            pydatetime.time(15, 20),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="break",
+        permalink="/catering-menus/#wednesday-afternoon-break",
+        room=constants.LUNCH_ROOM,
+        title="Break",
+    ),
+    # Thursday!
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.SPRINTS_DAY_1,
+            pydatetime.time(9),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.SPRINTS_DAY_1,
+            pydatetime.time(17),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="talks",
+        permalink=None,
+        room="Caktus Group",
+        title="Contribution Sprints",
+    ),
+    # Friday!
+    ManualScheduleEntry(
+        datetime=pydatetime.datetime.combine(
+            constants.SPRINTS_DAY_1,
+            pydatetime.time(9),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        end_datetime=pydatetime.datetime(
+            constants.SPRINTS_DAY_1,
+            pydatetime.time(17),
+            tzinfo=constants.CONFERENCE_TZ,
+        ),
+        group="talks",
+        permalink=None,
+        room="Caktus Group",
+        title="Contribution Sprints",
+    ),
+]
