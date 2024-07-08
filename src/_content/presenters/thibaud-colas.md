@@ -1,14 +1,17 @@
 ---
-company: Torchbox
+company: Django Software Foundation
 hidden: false
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
-photo: ""
+photo: thibaud-colas.jpeg
 slug: thibaud-colas
 social:
+    bluesky: null
+    github: null
+    instagram: null
+    mastodon: https://fosstodon.org/@thibaudcolas
     twitter: thibaud_colas
-    website: null
-    mastodon: null
+    website: https://thib.me/
 ---
 
-Thibaud is a developer interested in all things accessibility and sustainability. I’m a core contributor to the Wagtail open source CMS, and part of Django’s accessibility team.
+Thibaud is a developer interested in all things accessibility and sustainability. I’m a board member for Django, core contributor to the Wagtail open source CMS, and part of Django’s accessibility team.

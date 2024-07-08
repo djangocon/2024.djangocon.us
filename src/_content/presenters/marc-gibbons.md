@@ -1,19 +1,25 @@
 ---
-company: Marc Gibbons
+company: Lincoln Loop
 hidden: false
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
 photo: marc-gibbons.jpeg
-pronouns: he/him
 slug: marc-gibbons
 social:
-    twitter: null
-    website: null
+    bluesky: null
+    github: null
+    instagram: null
     mastodon: https://mastodon.social/@marcgibbons
+    twitter: null
+    website: https://marcgibbons.com
 ---
 
-Marc is a full stack developer and consultant based in the Greater Toronto Area. He has been working with Django since version 1.4 was released over a decade ago. He specializes in API development and is passionate about developer quality of life.
+Marc caught the programming bug as a child when the internet was still text-based and accessed by a 9600 baud modem.
 
-Marc is a recovered musician who played the oboe professionally with symphony orchestras across Ontario and Québec. He authored Django REST Swagger, a once popular but now deprecated library used to generate documentation for APIs written with Django REST Framework.
+His career path is unique; he initially studied music and played the oboe professionally with Canadian symphony orchestras before returning to his coding roots as a full-stack engineer.
 
-In his spare time, Marc enjoys gravel biking, a hobby he picked up following his first successful battle with cancer in 2020. He founded Port Perry Pedals, an annual cycling event which has raised over CA$ 113,000 for charity since 2021.
+Passionate about enhancing the developer’s quality of life, Marc excels in testing, tooling, and automation. Beyond the technical realm, he explores ways to promote happiness, health, and connection in a remote work setting.
+
+As a two-time cancer survivor, Marc is on a mission to help and inspire others facing adversity. He founded Port Perry Pedals, an annual cycling fundraiser in the Greater Toronto Area, raising close to $120,000 since 2021 for healthcare in his community.
+
+Marc first appeared on the DjangoConUS stage in 2023 and has since jointed the team at Lincoln Loop.

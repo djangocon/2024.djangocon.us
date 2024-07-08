@@ -1,14 +1,15 @@
 ---
 company: Desert Oasis Healthcare
 hidden: false
-name: Ryan Cheley (he/him)
+name: Ryan Cheley
 permalink: /presenters/ryan-cheley/
 photo: ryan-cheley.jpeg
 slug: ryan-cheley
 social:
-    twitter: null
-    website: https://www.ryancheley.com
+    bluesky: null
+    github: null
+    instagram: null
     mastodon: https://mastodon.social/@ryancheley
+    twitter: null
+    website: https://www.ryancheley.com/
 ---
-
-Ryan Cheley is a Health IT Leader with nearly 15 years of experience implementing Enterprise EHRs, Web, and Data solutions. He works to build solutions that scale with technology and people.
