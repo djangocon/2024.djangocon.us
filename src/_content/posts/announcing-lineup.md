@@ -16,7 +16,7 @@ Congratulations to the presenters of the tutorials and talks below!
 
 ## Tutorials (Sunday, September 22)
 
-_Tutorials will only be available online due to venue availabilty limitations._
+_Tutorials will be in person this year._
 
 -   Speaker Name ([mastodon](https://mastodon.online/ID_HERE)) - Tutorial title
 
