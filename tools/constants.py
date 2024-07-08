@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 import zoneinfo
 
-SITE_JSON_FILE = Path(__file__).parent.parent / "src" / "_data" / "site.json"
+REPO_ROOT = Path(__file__).parent.parent
+SITE_JSON_FILE = REPO_ROOT / "src" / "_data" / "site.json"
 SITE_JSON = json.loads(SITE_JSON_FILE.read_text())
 CONFERENCE_TZ = zoneinfo.ZoneInfo(SITE_JSON["timezone"])
 CONFERENCE_YEAR = SITE_JSON["conf_year"]

@@ -1,13 +1,10 @@
 import datetime as pydatetime  # rename is needed because of yaml conflict
-import json
-from pathlib import Path
 from typing import Literal
-import zoneinfo
 
 from pydantic import BaseModel
 from slugify import slugify
 
-from . import constants
+import constants
 
 
 class FrontmatterModel(BaseModel):
@@ -151,10 +148,15 @@ class ManualScheduleEntry(BaseModel):
         "talks",
         "tutorials",
     ]
-    permalink: str
+    permalink: str | None
     room: str
     title: str
-    abstract: str
+    abstract: str = ""
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if not self.abstract:
+            self.abstract = self.room
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:
@@ -173,7 +175,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TUTORIAL_DAY,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
@@ -190,7 +192,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TUTORIAL_DAY,
             pydatetime.time(18),
             tzinfo=constants.CONFERENCE_TZ,
@@ -207,7 +209,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 30),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TUTORIAL_DAY,
             pydatetime.time(13, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -224,7 +226,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(7, 30),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(8, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -240,7 +242,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(7, 30),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -256,7 +258,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -272,7 +274,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -288,7 +290,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -304,7 +306,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(10, 10),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(10, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -321,7 +323,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
@@ -338,7 +340,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(13, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -355,7 +357,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(14, 55),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(15, 20),
             tzinfo=constants.CONFERENCE_TZ,
@@ -372,7 +374,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(19),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             pydatetime.time(22),
             tzinfo=constants.CONFERENCE_TZ,
@@ -389,7 +391,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
@@ -405,7 +407,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -421,7 +423,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -437,7 +439,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -453,7 +455,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -469,7 +471,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(10, 10),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(10, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -486,7 +488,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
@@ -503,7 +505,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(13, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -520,7 +522,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(14, 55),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             pydatetime.time(15, 20),
             tzinfo=constants.CONFERENCE_TZ,
@@ -537,7 +539,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
@@ -553,7 +555,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -569,7 +571,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -585,7 +587,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -601,7 +603,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(8),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(17, 30),
             tzinfo=constants.CONFERENCE_TZ,
@@ -617,7 +619,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(10, 10),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(10, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -634,7 +636,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
@@ -651,7 +653,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(12, 40),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(13, 35),
             tzinfo=constants.CONFERENCE_TZ,
@@ -668,7 +670,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(14, 55),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             pydatetime.time(15, 20),
             tzinfo=constants.CONFERENCE_TZ,
@@ -685,7 +687,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.SPRINTS_DAY_1,
             pydatetime.time(17),
             tzinfo=constants.CONFERENCE_TZ,
@@ -702,7 +704,7 @@ MANUAL_SCHEDULE_ENTRIES = [
             pydatetime.time(9),
             tzinfo=constants.CONFERENCE_TZ,
         ),
-        end_datetime=pydatetime.datetime(
+        end_datetime=pydatetime.datetime.combine(
             constants.SPRINTS_DAY_1,
             pydatetime.time(17),
             tzinfo=constants.CONFERENCE_TZ,
