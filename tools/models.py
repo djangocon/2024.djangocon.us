@@ -38,6 +38,7 @@ class Social(BaseModel):
             self.mastodon = migrate_mastodon_handle(handle=self.mastodon)
             print(f"🚜 converting {self.mastodon=}")
 
+
 class Organizer(FrontmatterModel):
     hidden: bool = False
     layout: str = "base"

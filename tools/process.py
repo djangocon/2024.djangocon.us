@@ -23,6 +23,5 @@ def generate_manual_schedule_data(
     output_file.write_text(data)
 
 
-
 if __name__ == "__main__":
     app()
