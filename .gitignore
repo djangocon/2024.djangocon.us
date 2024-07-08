@@ -134,3 +134,4 @@ dist
 
 # python virtualenv
 .venv/
+__pycache__/
