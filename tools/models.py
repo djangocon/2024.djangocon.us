@@ -1,8 +1,13 @@
-import datetime
-from typing import Optional, List, Literal
+import datetime as pydatetime  # rename is needed because of yaml conflict
+import json
+from pathlib import Path
+from typing import Literal
+import zoneinfo
 
 from pydantic import BaseModel
 from slugify import slugify
+
+from . import constants
 
 
 class FrontmatterModel(BaseModel):
@@ -10,8 +15,7 @@ class FrontmatterModel(BaseModel):
     Our base class for our default "Frontmatter" fields.
     """
 
-    date: datetime.datetime | None = None
-    layout: str
+    layout: str | None = None
     permalink: str | None = None
     published: bool = True
     redirect_from: list[str] | None = None
@@ -23,26 +27,23 @@ class FrontmatterModel(BaseModel):
         extra = "allow"
 
 
-class Job(FrontmatterModel):
-    hidden: bool = False
-    layout: str = "base"
-    name: str
-    title: str | None = None
-    website: str
-    website_text: str = "Apply here"
+class Social(BaseModel):
+    github: str | None = None
+    website: str | None = None
+    mastodon: str | None = None
+    twitter: str | None = None
+    bluesky: str | None = None
+    instagram: str | None = None
 
 
 class Organizer(FrontmatterModel):
-    github: str | None = None
     hidden: bool = False
     layout: str = "base"
     name: str
     photo_url: str | None = None
     slug: str | None = None
     title: str | None = None
-    twitter: str | None = None
-    website: str | None = None
-    mastodon: str | None = None
+    social: Social | None = None
 
 
 class Page(FrontmatterModel):
@@ -60,7 +61,7 @@ class Post(FrontmatterModel):
     author: str | None = None
     category: str | None = "General"  # TODO: build a list of these
     categories: list[str] | None = None
-    date: datetime  # YYYY-MM-DD HH:MM:SS +/-TTTT
+    date: pydatetime.datetime  # YYYY-MM-DD HH:MM:SS +/-TTTT
     image: str | None = None
     layout: str | None = "post"
     slug: str | None = None
@@ -69,20 +70,14 @@ class Post(FrontmatterModel):
 
 class Presenter(FrontmatterModel):
     company: str | None = None
-    github: str | None = None
     hidden: bool = False
-    layout: str = "speaker-template"
     name: str
     override_schedule_title: str | None = None
     pronouns: str | None = None
-    photo_url: str | None = None
+    photo: str | None = None
     role: str | None = None
     slug: str | None = None
-    title: str | None = None
-    twitter: str | None = None
-    website: str | None = None
-    website_text: str = "Apply here"
-    mastodon: str | None = None
+    social: Social | None = None
 
     def __init__(self, **data):
         super().__init__(**data)
@@ -101,7 +96,6 @@ class Presenter(FrontmatterModel):
 
 
 class Schedule(FrontmatterModel):
-    abstract: str | None = None
     accepted: bool = False
     category: Literal[
         "break",
@@ -113,7 +107,7 @@ class Schedule(FrontmatterModel):
         "tutorials",
     ]
     difficulty: str | None = "All"
-    end_date: datetime.datetime | None = None
+    end_datetime: pydatetime.datetime | None = None
     group: None | (
         Literal[
             "break",
@@ -127,29 +121,40 @@ class Schedule(FrontmatterModel):
     ) = None
 
     image: str | None = None
-    layout: str | None = "session-details"  # TODO: validate against _layouts/*.html
+    layout: str | None = "session-details"
     presenter_slugs: list[str] | None = None
-    presenters: list[dict] | None = None  # TODO: break this into a sub-type
-    published: bool = False
     room: str | None = None
-    schedule: str | None = None
-    schedule_layout: str | None = None  # TODO: Validate for breaks, lunch, etc
     show_video_urls: bool | None = None
     slides_url: str | None = None
-    summary: str | None = None
+    start_datetime: pydatetime.datetime | None
     tags: list[str] | None = None
-    talk_slot: str | None = "full"
     track: str | None = None
     video_url: str | None = None
 
     def __init__(self, **data):
         super().__init__(**data)
 
-        # keep group in sync with category to work around a Jekyll
-        # Collection bug that set category equal to the collection's
-        # subfolder...
+        # TODO check with Michael if we still need both group and category
         if self.group != self.category:
             self.group = self.category
+
+
+class ManualScheduleEntry(BaseModel):
+    datetime: pydatetime.datetime
+    end_datetime: pydatetime.datetime
+    group: Literal[
+        "break",
+        "lunch",
+        "rooms",
+        "social-event",
+        "sprints",
+        "talks",
+        "tutorials",
+    ]
+    permalink: str
+    room: str
+    title: str
+    abstract: str
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:
