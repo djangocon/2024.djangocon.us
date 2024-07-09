@@ -19,3 +19,14 @@
 3. `pip-compile tools/requirements.in`
 4. `git add requirements.txt`
 5. Commit and push your changes
+
+## Import the schedule from Pretalx
+
+1. Create your schedule in pretalx. This requires marking accepted talks as confirmed
+2. Release the schedule in pretalx.
+3. Export both the speakers (only with confirmed talks is fine) and sessions (only confirmed ones) as JSON, using all available fields.
+4. Clone the [pretalx-api-export](https://github.com/djangocon/pretalx-api-import) repo and move over to that directory
+5. Using Python 3.12 or newer, create a virtual environment and `pip install -r requirements.in`
+6. Import the speakers: `python main.py presenters /path/to/speakers.json --output-folder /path/to/year.djangocon.us/`
+7. Import the schedule: `python main.py main /path/to/sessions.json --output-folder /path/to/year.djangocon.us/`
+8. Add and commit the result in `src/_content/`
