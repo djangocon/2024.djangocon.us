@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-07-10 06:00:00
+date: 2024-07-09 06:00:00
 cover:
     url: /assets/img/blog/speaker-dcus2023.jpg
     alt: "Cheuk Ting Ho speaking at DjangoCon US 2023"
