@@ -30,3 +30,13 @@
 6. Import the speakers: `python main.py presenters /path/to/speakers.json --output-folder /path/to/year.djangocon.us/`
 7. Import the schedule: `python main.py main /path/to/sessions.json --output-folder /path/to/year.djangocon.us/`
 8. Add and commit the result in `src/_content/`
+
+## Generate the list of talks blog post
+
+Before you start, edit `tools/generate_speaker_blog_post.py` and adjust
+the template bits to get the year and conference info right.
+
+1. After importing the schedule, `cd /path/to/year.djangocon.us/tools/`
+2. `python generate_speaker_blog_post.py`
+3. Copy the output into `src/_content/posts/announcing-lineup.md`
+4. Add and commit it
