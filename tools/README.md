@@ -40,3 +40,39 @@ the template bits to get the year and conference info right.
 2. `python generate_speaker_blog_post.py`
 3. Copy the output into `src/_content/posts/announcing-lineup.md`
 4. Add and commit it
+
+## Generate a CSV for Sendy to use with the "confirm your talk time" email
+
+1. Open a Python shell, ideally in the directory where you saved the speaker/session files
+2. Run some Python code:
+```python
+import csv
+import zoneinfo
+import datetime
+from pathlib import Path
+
+session_file = Path('/path/to/sessions.json')
+speaker_file = Path('/path/to/speakers.json')
+session_data = json.loads(session_file.read_text())
+speaker_data = json.loads(speaker_file.read_text())
+
+speakers = {speaker['ID']: speaker for speaker in speaker_data}
+
+output = []
+
+tz = zoneinfo.ZoneInfo('America/New_York')  # adjust for future years as needed
+
+for talk in session_data:
+    for speaker_id in talk['Speaker IDs']:
+        speaker = speakers[speaker_id]
+        time = datetime.datetime.fromisoformat(talk['Start']).astimezone(tz).strftime('%A, %B %d at %I:%M %p %Z')
+        output.append({'Name': speaker['Name'], 'Email': speaker['Email'], 'Title': talk['Proposal title'], 'Start time': time})
+
+with open('schedule_mail_merge.csv', 'w') as outfile:
+    field_names = list(output[0].keys())
+    writer = csv.DictWriter(outfile, fieldnames=field_names)
+    writer.writeheader()
+    writer.writerows(output)
+```
+3. Look over that CSV to make sure nobody has quotes in their talk titles or names because that will cause Sendy to throw a 500.
+4. Upload that list to Sendy (ask the automation team for help if needed)
