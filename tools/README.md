@@ -31,6 +31,11 @@
 7. Import the schedule: `python main.py main /path/to/sessions.json --output-folder /path/to/year.djangocon.us/`
 8. Add and commit the result in `src/_content/`
 
+## Update the manual schedule bits (lunch, break, registration)
+1. Edit the `ManualScheduleEntry` records in models.py
+2. `cd /path/to/year.djangocon.us`
+3. `python tools/process.py`
+
 ## Generate the list of talks blog post
 
 Before you start, edit `tools/generate_speaker_blog_post.py` and adjust
