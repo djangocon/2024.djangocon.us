@@ -86,9 +86,11 @@ def parse_talks(talks: list[dict], presenters: dict[str, Presenter]) -> list[str
         f'- {format_talk(talk, presenters=(presenter for slug, presenter in presenters.items() if slug in talk.get("presenter_slugs", {})))}'
         for talk in sorted(
             talks,
-            key=lambda t: presenters[t["presenter_slugs"][0]].name
-            if "presenter_slugs" in t and t["presenter_slugs"]
-            else "none",
+            key=lambda t: (
+                presenters[t["presenter_slugs"][0]].name
+                if "presenter_slugs" in t and t["presenter_slugs"]
+                else "none"
+            ),
         )
         if "Lightning Talks" not in talk["title"]
         and talk["category"] in {"talks", "tutorials"}
@@ -105,7 +107,7 @@ def load_presenters() -> dict[str, Presenter]:
 
     output = {p.slug: p for p in result}
     print(output)
-    return  output
+    return output
 
 
 def generate_template(talk_lines: list[str], tutorial_lines: list[str]) -> str:
