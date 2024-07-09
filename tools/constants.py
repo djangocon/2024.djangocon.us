@@ -32,3 +32,37 @@ TUTORIAL_TRACK_C_ROOM = "Tutorial Track C (TBD)"
 # TODO once the childcare post is live: update this with the relative
 # link to that post
 LACTATION_BLOG_POST_LINK = None
+
+# TODO once catering menus are live: update this with the blog post
+CATERING_MENU_LINK = None
+
+if CATERING_MENU_LINK:
+    SUNDAY_BREAKFAST_LINK = f"{CATERING_MENU_LINK}/#sunday-breakfast"
+    MONDAY_BREAKFAST_LINK = f"{CATERING_MENU_LINK}/#monday-breakfast"
+    TUESDAY_BREAKFAST_LINK = f"{CATERING_MENU_LINK}/#tuesday-breakfast"
+    WEDNESDAY_BREAKFAST_LINK = f"{CATERING_MENU_LINK}/#wednesday-breakfast"
+    MONDAY_MORNING_BREAK_LINK = f"{CATERING_MENU_LINK}/#monday-morning-break"
+    TUESDAY_MORNING_BREAK_LINK = f"{CATERING_MENU_LINK}/#tuesday-morning-break"
+    WEDNESDAY_MORNING_BREAK_LINK = f"{CATERING_MENU_LINK}/#wednesday-morning-break"
+    SUNDAY_LUNCH_LINK = f"{CATERING_MENU_LINK}/#sunday-lunch"
+    MONDAY_LUNCH_LINK = f"{CATERING_MENU_LINK}/#monday-lunch"
+    TUESDAY_LUNCH_LINK = f"{CATERING_MENU_LINK}/#tuesday-lunch"
+    WEDNESDAY_LUNCH_LINK = f"{CATERING_MENU_LINK}/#wednesday-lunch"
+    MONDAY_AFTERNOON_BREAK_LINK = f"{CATERING_MENU_LINK}/#monday-afternoon-break"
+    TUESDAY_AFTERNOON_BREAK_LINK = f"{CATERING_MENU_LINK}/#tuesday-afternoon-break"
+    WEDNESDAY_AFTERNOON_BREAK_LINK = f"{CATERING_MENU_LINK}/#wednesday-afternoon-break"
+else:
+    SUNDAY_BREAKFAST_LINK = None
+    MONDAY_BREAKFAST_LINK = None
+    TUESDAY_BREAKFAST_LINK = None
+    WEDNESDAY_BREAKFAST_LINK = None
+    MONDAY_MORNING_BREAK_LINK = None
+    TUESDAY_MORNING_BREAK_LINK = None
+    WEDNESDAY_MORNING_BREAK_LINK = None
+    SUNDAY_LUNCH_LINK = None
+    MONDAY_LUNCH_LINK = None
+    TUESDAY_LUNCH_LINK = None
+    WEDNESDAY_LUNCH_LINK = None
+    MONDAY_AFTERNOON_BREAK_LINK = None
+    TUESDAY_AFTERNOON_BREAK_LINK = None
+    WEDNESDAY_AFTERNOON_BREAK_LINK = None

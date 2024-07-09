@@ -2,7 +2,7 @@
   datetime: 2024-09-22 08:00:00-04:00
   end_datetime: 2024-09-22 09:00:00-04:00
   group: lunch
-  permalink: /catering-menus/#sunday-breakfast
+  permalink: null
   room: Grand Ballroom I/II
   title: Continental Breakfast
   track: t0
@@ -18,7 +18,7 @@
   datetime: 2024-09-22 12:30:00-04:00
   end_datetime: 2024-09-22 13:30:00-04:00
   group: lunch
-  permalink: /catering-menus/#sunday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
@@ -26,7 +26,7 @@
   datetime: 2024-09-23 07:30:00-04:00
   end_datetime: 2024-09-23 08:30:00-04:00
   group: lunch
-  permalink: /catering-menus/#monday-breakfast
+  permalink: null
   room: Grand Ballroom I/II
   title: Continental Breakfast
   track: t0
@@ -66,7 +66,7 @@
   datetime: 2024-09-23 10:10:00-04:00
   end_datetime: 2024-09-23 10:35:00-04:00
   group: break
-  permalink: /catering-menus/#monday-morning-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
@@ -74,7 +74,7 @@
   datetime: 2024-09-23 12:00:00-04:00
   end_datetime: 2024-09-23 12:40:00-04:00
   group: lunch
-  permalink: /catering-menus/#monday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
@@ -82,7 +82,7 @@
   datetime: 2024-09-23 12:40:00-04:00
   end_datetime: 2024-09-23 13:25:00-04:00
   group: lunch
-  permalink: /catering-menus/#monday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
@@ -90,7 +90,7 @@
   datetime: 2024-09-23 14:55:00-04:00
   end_datetime: 2024-09-23 15:20:00-04:00
   group: break
-  permalink: /catering-menus/#monday-morning-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
@@ -106,7 +106,7 @@
   datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 09:00:00-04:00
   group: lunch
-  permalink: /catering-menus/#tuesday-breakfast
+  permalink: null
   room: Grand Ballroom I/II
   title: Continental Breakfast
   track: t0
@@ -146,7 +146,7 @@
   datetime: 2024-09-24 10:10:00-04:00
   end_datetime: 2024-09-24 10:35:00-04:00
   group: break
-  permalink: /catering-menus/#tuesday-morning-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
@@ -154,7 +154,7 @@
   datetime: 2024-09-24 12:00:00-04:00
   end_datetime: 2024-09-24 12:40:00-04:00
   group: lunch
-  permalink: /catering-menus/#tuesday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
@@ -162,7 +162,7 @@
   datetime: 2024-09-24 12:40:00-04:00
   end_datetime: 2024-09-24 13:25:00-04:00
   group: lunch
-  permalink: /catering-menus/#monday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
@@ -170,7 +170,7 @@
   datetime: 2024-09-24 14:55:00-04:00
   end_datetime: 2024-09-24 15:20:00-04:00
   group: break
-  permalink: /catering-menus/#tuesday-afternoon-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
@@ -178,7 +178,7 @@
   datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 09:00:00-04:00
   group: lunch
-  permalink: /catering-menus/#wednesday-breakfast
+  permalink: null
   room: Grand Ballroom I/II
   title: Continental Breakfast
   track: t0
@@ -218,7 +218,7 @@
   datetime: 2024-09-25 10:10:00-04:00
   end_datetime: 2024-09-25 10:35:00-04:00
   group: break
-  permalink: /catering-menus/#wednesday-morning-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
@@ -226,7 +226,7 @@
   datetime: 2024-09-25 12:00:00-04:00
   end_datetime: 2024-09-25 12:40:00-04:00
   group: lunch
-  permalink: /catering-menus/#wednesday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
@@ -234,7 +234,7 @@
   datetime: 2024-09-25 12:40:00-04:00
   end_datetime: 2024-09-25 13:25:00-04:00
   group: lunch
-  permalink: /catering-menus/#wednesday-lunch
+  permalink: null
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
@@ -242,7 +242,7 @@
   datetime: 2024-09-25 14:55:00-04:00
   end_datetime: 2024-09-25 15:20:00-04:00
   group: break
-  permalink: /catering-menus/#wednesday-afternoon-break
+  permalink: null
   room: Grand Ballroom I/II
   title: Break
   track: t0
