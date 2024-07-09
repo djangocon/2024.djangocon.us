@@ -62,6 +62,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Ron Maravanyika ([twitter](https://twitter.com/ronn_zw), [website](https://ronnzw.github.io/)) - Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency
 - Ryan Cheley ([mastodon](https://mastodon.social/@ryancheley), [website](https://www.ryancheley.com/)) - Error Culture
 - Ryan Hiebert ([twitter](https://twitter.com/ryanhiebert), [mastodon](https://fosstodon.org/@ryanhiebert), [website](http://ryanhiebert.com)) - Passkeys: Your password-free future
+- Sage Abdullah ([twitter](https://twitter.com/laymonage), [mastodon](https://fosstodon.org/@laymonage), [website](https://laymonage.com)) - Django: the web framework that changed my life
 - Samweli Mwakisambwe ([twitter](https://twitter.com/SamweliTwesa), [website](https://samweli.github.io/)) - Open-source Python tools to visualize and analyse geospatial data.
 - Sarah Boyce ([mastodon](https://mastodon.social/@sarahboyce)) - Hidden gems of Django 5.x
 - Simon Willison ([twitter](https://twitter.com/simonw), [mastodon](https://simonwillison.net/@simon), [website](https://simonwillison.net/)) - How to design and implement extensible software with plugins
