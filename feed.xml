@@ -6,13 +6,85 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-05-16T06:00:00Z</updated
+    >2024-07-09T06:00:00Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    
+    <entry>
+      <title>Announcing our DjangoCon US 2024 Talks!</title>
+      <link href="https://2024.djangocon.us/news/announcing-lineup/" />
+      <updated>2024-07-09T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-lineup/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are thrilled to present our tutorial and talk lineup!&lt;/p&gt;
+&lt;p&gt;The final talk and tutorial schedule will be announced soon. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations to the presenters of the tutorials and talks below!&lt;/p&gt;
+&lt;h2 id=&#34;tutorials-(sunday%2C-september-22)&#34; tabindex=&#34;-1&#34;&gt;Tutorials (Sunday, September 22)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Tutorials will be in person this year.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniele Procida (&lt;a href=&#34;https://mastodon.online/@EvilDMP&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://vurt.org&#34;&gt;website&lt;/a&gt;) - Getting documentation done, now&lt;/li&gt;
+&lt;li&gt;Felipe de Morais (&lt;a href=&#34;https://twitter.com/felipedemorais_&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://felipedemorais.com.br/&#34;&gt;website&lt;/a&gt;) - 🌐 Building Your First API with Django and Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Kuldeep Pisda (&lt;a href=&#34;https://twitter.com/kdpisda&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://kdpisda.in/&#34;&gt;website&lt;/a&gt;) - Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis&lt;/li&gt;
+&lt;li&gt;Lee Trout (&lt;a href=&#34;https://twitter.com/thecodewritesme&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://hachyderm.io/@leet&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;http://leetrout.com&#34;&gt;website&lt;/a&gt;) - Django DevOps&lt;/li&gt;
+&lt;li&gt;Meagen Voss (&lt;a href=&#34;https://twitter.com/meagenvoss&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@vossisboss&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.meagenvoss.com/&#34;&gt;website&lt;/a&gt;) - How To Build More Accessible Websites with Wagtail&lt;/li&gt;
+&lt;li&gt;Melanie Arbor  - pytest or Bust: Converting Your Django Tests to pytest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;talks-(monday%2C-september-23-through-wednesday%2C-september-25)&#34; tabindex=&#34;-1&#34;&gt;Talks (Monday, September 23 through Wednesday, September 25)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;All talks will be available live for those with online-only tickets. They will be posted to YouTube after the conference for free.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adarsh Divakaran (&lt;a href=&#34;https://twitter.com/adarshd905&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://blog.adarshd.dev&#34;&gt;website&lt;/a&gt;) - Pygoat - Learn django security the hard way&lt;/li&gt;
+&lt;li&gt;Amanda Savluchinske (&lt;a href=&#34;https://twitter.com/afsavluchinske&#34;&gt;twitter&lt;/a&gt;) - Product 101 for Techies and Tech Teams&lt;/li&gt;
+&lt;li&gt;Avindra Fernando (&lt;a href=&#34;https://twitter.com/avindrafernando&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://taprobaneconsulting.tech/&#34;&gt;website&lt;/a&gt;) - Lessons from E2E Testing Django Web Applications&lt;/li&gt;
+&lt;li&gt;Benjamin &amp;quot;Zags&amp;quot; Zagorsky (&lt;a href=&#34;https://zagaran.com/&#34;&gt;website&lt;/a&gt;) - Fighting Homelessness with Django&lt;/li&gt;
+&lt;li&gt;Carlton Gibson (&lt;a href=&#34;https://fosstodon.org/@carlton&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://noumenal.es&#34;&gt;website&lt;/a&gt;) - API Maybe: Bootstrapping a Web Application circa 2024&lt;/li&gt;
+&lt;li&gt;Chris May (&lt;a href=&#34;https://twitter.com/_chrismay&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@_chrismay&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://everydaysuperpowers.dev&#34;&gt;website&lt;/a&gt;) - Choosing Wisely: SPA vs. HTMX for Your Next Web Project&lt;/li&gt;
+&lt;li&gt;Christopher Adams (&lt;a href=&#34;https://twitter.com/adamsc64&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://christopheradams.info&#34;&gt;website&lt;/a&gt;) - A Related Matter: Optimizing your webapp by using django-debug-toolbar, select_related(), and prefetch_related()&lt;/li&gt;
+&lt;li&gt;Daniel Ramas (&lt;a href=&#34;http://www.github.com/Daniel-Ramas&#34;&gt;website&lt;/a&gt;) - Seamless Transition: How I Converted an Existing MySQL Database to be Fully Managed by Django Migrations Framework&lt;/li&gt;
+&lt;li&gt;Elizabeth Garrett Christensen (&lt;a href=&#34;https://twitter.com/sqlliz&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@sqlliz&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.crunchydata.com/blog/author/elizabeth-christensen&#34;&gt;website&lt;/a&gt;) - A Guided Tour Through Postgres Internals&lt;/li&gt;
+&lt;li&gt;Eva Nanyonga (&lt;a href=&#34;https://twitter.com/evananyonga&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/eva-nanyonga-143b6b33/&#34;&gt;website&lt;/a&gt;) - Only reliable Data: Protecting Database Integrity&lt;/li&gt;
+&lt;li&gt;Frank Wiles (&lt;a href=&#34;https://twitter.com/fwiles&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://frankwiles.social/@frank&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.revsys.com&#34;&gt;website&lt;/a&gt;) - A Brief History of Django&lt;/li&gt;
+&lt;li&gt;Harmony Elendu (&lt;a href=&#34;https://medium.com/harmonyelendu/&#34;&gt;website&lt;/a&gt;) - Project Management in Open Source&lt;/li&gt;
+&lt;li&gt;Hernan Lozano (&lt;a href=&#34;https://fosstodon.org/@hernantz&#34;&gt;mastodon&lt;/a&gt;) - Reusable Django Template Components for Perfectionists with Deadlines&lt;/li&gt;
+&lt;li&gt;Hugo Bessa (&lt;a href=&#34;https://twitter.com/hugoabessa&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://bessa.me&#34;&gt;website&lt;/a&gt;) - Django &amp;amp; Celery: A love story of async proportions&lt;/li&gt;
+&lt;li&gt;Ilerioluwakiiye Abolade - The Magic of Dependencies Installing Themselves&lt;/li&gt;
+&lt;li&gt;Jack Linke (&lt;a href=&#34;https://social.jacklinke.com/@jack&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://jacklinke.com/&#34;&gt;website&lt;/a&gt;) - Troubleshooting is a Lifestyle 🕶️&lt;/li&gt;
+&lt;li&gt;Jacob Kaplan-Moss (&lt;a href=&#34;https://jacobian.org/@jacob&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://jacobian.org/&#34;&gt;website&lt;/a&gt;) - If We Had $1,000,000: What Could The DSF Do With 4x Its Budget?&lt;/li&gt;
+&lt;li&gt;Jessica Garson (&lt;a href=&#34;https://twitter.com/jessicagarson&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://macaw.social/@jessicagarson&#34;&gt;mastodon&lt;/a&gt;) - Introduction to OpenTelemetry with Django&lt;/li&gt;
+&lt;li&gt;Johanan Oppong Amoateng (&lt;a href=&#34;https://twitter.com/johanan2001&#34;&gt;twitter&lt;/a&gt;) - Empowering Tertiary Students: Introducing PyClubs for Enhanced Python Skills and Community Engagement&lt;/li&gt;
+&lt;li&gt;Josh Thomas (&lt;a href=&#34;https://joshthomas.dev/@josh&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://joshthomas.dev&#34;&gt;website&lt;/a&gt;) - An Opinionated Guide to Modern Django Forms&lt;/li&gt;
+&lt;li&gt;Karen Tracey (&lt;a href=&#34;https://twitter.com/km_tracey&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@kmtracey&#34;&gt;mastodon&lt;/a&gt;) - Django + Alpine.js + htmx Ups &amp;amp; Downs&lt;/li&gt;
+&lt;li&gt;Kasey Kelly (&lt;a href=&#34;https://twitter.com/kaseykelly&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://lincolnloop.com/&#34;&gt;website&lt;/a&gt;) - Optimizing remote work: Pull Requests, Stand-ups, and emojis&lt;/li&gt;
+&lt;li&gt;Ken Whitesell (&lt;a href=&#34;https://twitter.com/KenWhitesell&#34;&gt;twitter&lt;/a&gt;) - WebRTC with Django, Channels, HTMX, and coturn&lt;/li&gt;
+&lt;li&gt;Lisa Ciaccio (&lt;a href=&#34;https://twitter.com/LisaChacho&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.lisachacho.com&#34;&gt;website&lt;/a&gt;) - Django from a Rails Perspective&lt;/li&gt;
+&lt;li&gt;Marc Gibbons (&lt;a href=&#34;https://mastodon.social/@marcgibbons&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://marcgibbons.com&#34;&gt;website&lt;/a&gt;) - Finding 2.0&lt;/li&gt;
+&lt;li&gt;Michael Riley (&lt;a href=&#34;https://twitter.com/ErriteRikez&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://michaelriley.dev&#34;&gt;website&lt;/a&gt;) - Upgrading EOL Django: A Journey from V1 to V5&lt;/li&gt;
+&lt;li&gt;Miguel Sanda (&lt;a href=&#34;https://twitter.com/elarroba&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.miguelsanda.com&#34;&gt;website&lt;/a&gt;) - Django Ledger | Uniting Developers and Accountants for Innovation.&lt;/li&gt;
+&lt;li&gt;Mohammad Ahtasham ul Hassan (&lt;a href=&#34;https://twitter.com/Iht_Malik&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://aht007.github.io/personal-portfolio/&#34;&gt;website&lt;/a&gt;) and Shafqat Farhan Ahmed  - Level Up Your Django Performance: Identifying and Taming N+1 Queries&lt;/li&gt;
+&lt;li&gt;Paolo Melchiorre (&lt;a href=&#34;https://twitter.com/pauloxnet&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@paulox&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.paulox.net/&#34;&gt;website&lt;/a&gt;) - Maps with Django&lt;/li&gt;
+&lt;li&gt;Richard Ackon (&lt;a href=&#34;https://twitter.com/esquire_gh&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/richardackon/&#34;&gt;website&lt;/a&gt;) - Understanding Database Connection Management in Django&lt;/li&gt;
+&lt;li&gt;Ron Maravanyika (&lt;a href=&#34;https://twitter.com/ronn_zw&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://ronnzw.github.io/&#34;&gt;website&lt;/a&gt;) - Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency&lt;/li&gt;
+&lt;li&gt;Ryan Cheley (&lt;a href=&#34;https://mastodon.social/@ryancheley&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.ryancheley.com/&#34;&gt;website&lt;/a&gt;) - Error Culture&lt;/li&gt;
+&lt;li&gt;Ryan Hiebert (&lt;a href=&#34;https://twitter.com/ryanhiebert&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@ryanhiebert&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;http://ryanhiebert.com&#34;&gt;website&lt;/a&gt;) - Passkeys: Your password-free future&lt;/li&gt;
+&lt;li&gt;Samweli Mwakisambwe (&lt;a href=&#34;https://twitter.com/SamweliTwesa&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://samweli.github.io/&#34;&gt;website&lt;/a&gt;) - Open-source Python tools to visualize and analyse geospatial data.&lt;/li&gt;
+&lt;li&gt;Sarah Boyce (&lt;a href=&#34;https://mastodon.social/@sarahboyce&#34;&gt;mastodon&lt;/a&gt;) - Hidden gems of Django 5.x&lt;/li&gt;
+&lt;li&gt;Simon Willison (&lt;a href=&#34;https://twitter.com/simonw&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://simonwillison.net/@simon&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://simonwillison.net/&#34;&gt;website&lt;/a&gt;) - How to design and implement extensible software with plugins&lt;/li&gt;
+&lt;li&gt;Thibaud Colas (&lt;a href=&#34;https://twitter.com/thibaud_colas&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@thibaudcolas&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://thib.me/&#34;&gt;website&lt;/a&gt;) - Faster, leaner, greener: 10x lower website carbon emissions&lt;/li&gt;
+&lt;li&gt;Tim Bell (&lt;a href=&#34;https://twitter.com/timb07&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://chaos.social/@timb07&#34;&gt;mastodon&lt;/a&gt;) - Deploying Django migrations at Kraken scale&lt;/li&gt;
+&lt;li&gt;Tim Schilling (&lt;a href=&#34;https://twitter.com/CodenameTim&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://fosstodon.org/@CodenameTim&#34;&gt;mastodon&lt;/a&gt;, &lt;a href=&#34;https://www.better-simple.com/&#34;&gt;website&lt;/a&gt;) - You got that nice tech salary, now what?&lt;/li&gt;
+&lt;li&gt;Vaarun Sinha (&lt;a href=&#34;https://www.linkedin.com/in/vaarun-sinha-674114230/&#34;&gt;website&lt;/a&gt;) - Streaming Video in Django | Demystified&lt;/li&gt;
+&lt;li&gt;Will Vincent (&lt;a href=&#34;https://learndjango.com&#34;&gt;website&lt;/a&gt;) - Django User Model: Past, Present, and Future&lt;/li&gt;
+&lt;li&gt;Willem Van Onsem (&lt;a href=&#34;https://www.django-antipatterns.com/&#34;&gt;website&lt;/a&gt;) - path(&#39;/user/&amp;lt;user.username:user&amp;gt;/&#39;, view_profile)&lt;/li&gt;
+&lt;li&gt;Álvaro Justen (&lt;a href=&#34;https://twitter.com/turicas&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://brasil.io/&#34;&gt;website&lt;/a&gt;) - PostgreSQL Beyond Django: Strategies to Get Max Performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Congratulations to all our speakers!&lt;/p&gt;
+&lt;p&gt;If you’d like to check out these talks and more, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;tickets are still on sale&lt;/a&gt;. Tutorials (sold separately from conference registration) are $199 each, and we will have the schedule for those up soon. We hope to see you in Durham!&lt;/p&gt;
+</content
+      >
+    </entry>
     
     <entry>
       <title>Our New DjangoCon US 2024 Brand and Website</title>
