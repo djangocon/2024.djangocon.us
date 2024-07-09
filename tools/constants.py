@@ -28,3 +28,7 @@ GREEN_ROOM = "Meeting Room 2"
 TUTORIAL_TRACK_A_ROOM = "Tutorial Track A (TBD)"
 TUTORIAL_TRACK_B_ROOM = "Tutorial Track B (TBD)"
 TUTORIAL_TRACK_C_ROOM = "Tutorial Track C (TBD)"
+
+# TODO once the childcare post is live: update this with the relative
+# link to that post
+LACTATION_BLOG_POST_LINK = None
