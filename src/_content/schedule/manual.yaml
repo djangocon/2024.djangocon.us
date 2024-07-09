@@ -80,7 +80,7 @@
   track: t0
 - abstract: Grand Ballroom I/II
   datetime: 2024-09-23 12:40:00-04:00
-  end_datetime: 2024-09-23 13:35:00-04:00
+  end_datetime: 2024-09-23 13:25:00-04:00
   group: lunch
   permalink: /catering-menus/#monday-lunch
   room: Grand Ballroom I/II
@@ -160,7 +160,7 @@
   track: t0
 - abstract: Grand Ballroom I/II
   datetime: 2024-09-24 12:40:00-04:00
-  end_datetime: 2024-09-24 13:35:00-04:00
+  end_datetime: 2024-09-24 13:25:00-04:00
   group: lunch
   permalink: /catering-menus/#monday-lunch
   room: Grand Ballroom I/II
@@ -232,7 +232,7 @@
   track: t0
 - abstract: Grand Ballroom I/II
   datetime: 2024-09-25 12:40:00-04:00
-  end_datetime: 2024-09-25 13:35:00-04:00
+  end_datetime: 2024-09-25 13:25:00-04:00
   group: lunch
   permalink: /catering-menus/#wednesday-lunch
   room: Grand Ballroom I/II

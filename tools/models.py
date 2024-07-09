@@ -153,6 +153,7 @@ class ManualScheduleEntry(BaseModel):
     permalink: str | None
     room: str
     title: str
+    track: str = "t0"
     abstract: str = ""
 
     def __init__(self, *args, **kwargs):
@@ -186,6 +187,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#sunday-breakfast",
         room=constants.LUNCH_ROOM,
         title="Continental Breakfast",
+        track="t0",
     ),
     # TODO decide whether we'll have quiet/lactation rooms on tutorial day
     ManualScheduleEntry(
@@ -203,6 +205,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=f"In front of {constants.LARGE_TALK_ROOM}",
         title="Registration",
+        track="t0",
     ),
     # sunday lunch
     ManualScheduleEntry(
@@ -220,6 +223,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#sunday-lunch",
         room=constants.LUNCH_ROOM,
         title="Lunch",
+        track="t0",
     ),
     # Monday!
     ManualScheduleEntry(
@@ -237,6 +241,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#monday-breakfast",
         room=constants.LUNCH_ROOM,
         title="Continental Breakfast",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -253,6 +258,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=f"In front of {constants.LARGE_TALK_ROOM}",
         title="Registration",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -269,6 +275,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/news/childcare-lactation/",
         room=constants.LACTATION_ROOM,
         title="Lactation Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -285,6 +292,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.QUIET_ROOM,
         title="Quiet Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -301,6 +309,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.GREEN_ROOM,
         title="Speaker Green Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -317,6 +326,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#monday-morning-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # monday early lunch
     ManualScheduleEntry(
@@ -334,6 +344,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#monday-lunch",
         room=constants.LUNCH_ROOM,
         title="Early Lunch",
+        track="t0",
     ),
     # monday main lunch
     ManualScheduleEntry(
@@ -344,13 +355,15 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(13, 35),
+            # NOTE this must match the length of the online talk
+            pydatetime.time(13, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
         permalink="/catering-menus/#monday-lunch",
         room=constants.LUNCH_ROOM,
         title="Lunch",
+        track="t0",
     ),
     # monday PM break
     ManualScheduleEntry(
@@ -368,6 +381,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#monday-morning-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # board game night
     ManualScheduleEntry(
@@ -385,6 +399,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,  # TODO add social link here
         room=constants.LARGE_TALK_ROOM,
         title="Board Game Night",
+        track="t0",
     ),
     # Tuesday!
     ManualScheduleEntry(
@@ -402,6 +417,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#tuesday-breakfast",
         room=constants.LUNCH_ROOM,
         title="Continental Breakfast",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -418,6 +434,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=f"In front of {constants.LARGE_TALK_ROOM}",
         title="Registration",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -434,6 +451,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/news/childcare-lactation/",
         room=constants.LACTATION_ROOM,
         title="Lactation Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -450,6 +468,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.QUIET_ROOM,
         title="Quiet Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -466,6 +485,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.GREEN_ROOM,
         title="Speaker Green Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -482,6 +502,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#tuesday-morning-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # tuesday early lunch
     ManualScheduleEntry(
@@ -499,6 +520,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#tuesday-lunch",
         room=constants.LUNCH_ROOM,
         title="Early Lunch",
+        track="t0",
     ),
     # tuesday main lunch
     ManualScheduleEntry(
@@ -509,13 +531,15 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(13, 35),
+            # NOTE this must match the length of the online talk
+            pydatetime.time(13, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
         permalink="/catering-menus/#monday-lunch",
         room=constants.LUNCH_ROOM,
         title="Lunch",
+        track="t0",
     ),
     # tuesday PM break
     ManualScheduleEntry(
@@ -533,6 +557,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#tuesday-afternoon-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # Wednesday!
     ManualScheduleEntry(
@@ -550,6 +575,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#wednesday-breakfast",
         room=constants.LUNCH_ROOM,
         title="Continental Breakfast",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -566,6 +592,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=f"In front of {constants.LARGE_TALK_ROOM}",
         title="Registration",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -582,6 +609,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/news/childcare-lactation/",
         room=constants.LACTATION_ROOM,
         title="Lactation Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -598,6 +626,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.QUIET_ROOM,
         title="Quiet Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -614,6 +643,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room=constants.GREEN_ROOM,
         title="Speaker Green Room",
+        track="t0",
     ),
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
@@ -630,6 +660,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#wednesday-morning-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # wed early lunch
     ManualScheduleEntry(
@@ -647,6 +678,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#wednesday-lunch",
         room=constants.LUNCH_ROOM,
         title="Early Lunch",
+        track="t0",
     ),
     # wed main lunch
     ManualScheduleEntry(
@@ -657,13 +689,15 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(13, 35),
+            # NOTE this must match the length of the online talk
+            pydatetime.time(13, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
         permalink="/catering-menus/#wednesday-lunch",
         room=constants.LUNCH_ROOM,
         title="Lunch",
+        track="t0",
     ),
     # wed PM break
     ManualScheduleEntry(
@@ -681,6 +715,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink="/catering-menus/#wednesday-afternoon-break",
         room=constants.LUNCH_ROOM,
         title="Break",
+        track="t0",
     ),
     # Thursday!
     ManualScheduleEntry(
@@ -698,6 +733,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room="Caktus Group",
         title="Contribution Sprints",
+        track="t0",
     ),
     # Friday!
     ManualScheduleEntry(
@@ -715,5 +751,6 @@ MANUAL_SCHEDULE_ENTRIES = [
         permalink=None,
         room="Caktus Group",
         title="Contribution Sprints",
+        track="t0",
     ),
 ]
