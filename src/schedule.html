@@ -36,8 +36,8 @@ days:
         <li>
           <a href="#Day-{{ forloop.index }}" class="group">
             <time class="flex flex-col">
-              <span class="px-3 min-w-[8ch] text-lg font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | utcDate | date: "%a" }}</span>
-              <span class="px-3 py-1 text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | utcDate | date: "%b %-d" }}</span>
+              <span class="px-3 min-w-[8ch] text-lg font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "EEEE" }}</span>
+              <span class="px-3 py-1 text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
           </a>
         </li>
@@ -55,7 +55,7 @@ days:
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
                 <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
-                {{ day[0] | utcDate | date: "%a, %b %-d" }}
+                {{ day[0] | formatDateTime: "EEEE, LLL d" }}
               </a>
           </h2>
           <div class="space-y-8">
@@ -65,20 +65,23 @@ days:
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | date: "%l:%M %P" }} to {{ slot.end | date: "%l:%M %P" }}</h3>
+                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | formatDateTime: "h:mm aaa" }} to {{ slot.end | formatDateTime: "h:mm aaa" }}</h3>
                 </div>
                 <ul
                   class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-6 lg:bg-gray-100">
                   {% comment %}
-                    Ideally up to 3 tracks, with some sessions spanning every track
+                    Ideally up to 4 tracks, with some sessions spanning every track
                   {% endcomment %}
                   {% for session in slot.sessions %}
-                    {% assign color_class = "border-t-light-blue" %}
-                    {% if forloop.index == 1 %}
-                      {% assign color_class = "border-t-green" %}
-                    {% elsif forloop.index == 2 %}
+                    {% assign color_class = "border-t-green" %}
+                    {% if forloop.index == 2 %}
+                      {% assign color_class = "border-t-light-blue" %}
+                    {% elsif forloop.index == 3 %}
                       {% assign color_class = "border-t-purple" %}
+                    {% elsif forloop.index == 4 %}
+                      {% assign color_class = "border-t-orange" %}
                     {% endif %}
+
                     {% include "session-card.html" with color=color_class %}
                   {% endfor %}
                 </ul>
