@@ -9,13 +9,13 @@ layout: default
 
     <p class="flex flex-wrap items-center gap-4">
       <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
-        <time>{{ datetime | date: "%A, %B %-d @ %l:%M %P"}}</time>
+        <time>{{ datetime | formatDateTime: "EEEE, MMMM d '@' h:mm a"}}</time>
         <span class="text-base">to</span>
-        <time>{{ end_datetime | date: "%l:%M %P"}}</time>
+        <time>{{ end_datetime | formatDateTime: "h:mm a"}}</time>
       </span>
 
       <a
-        href="https://time.is/compare/{{ datetime | date: "%I%M%p_%d_%B_%Y" }}_in_Durham"
+        href="https://time.is/compare/{{ datetime | formatDateTime: "hhmma_dd_MMMM_yyyy" }}_in_Durham"
         class="button"
         aria-label="View on time.is">View on time.is</a>
     </p>
