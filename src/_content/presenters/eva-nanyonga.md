@@ -4,7 +4,6 @@ hidden: false
 name: Eva Nanyonga
 permalink: /presenters/eva-nanyonga/
 photo: eva-nanyonga.jpeg
-slug: eva-nanyonga
 social:
     bluesky: null
     github: null

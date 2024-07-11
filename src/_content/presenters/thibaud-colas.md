@@ -4,7 +4,6 @@ hidden: false
 name: Thibaud Colas
 permalink: /presenters/thibaud-colas/
 photo: thibaud-colas.jpeg
-slug: thibaud-colas
 social:
     bluesky: null
     github: null

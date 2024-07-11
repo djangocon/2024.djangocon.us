@@ -4,7 +4,6 @@ hidden: false
 name: Ron Maravanyika
 permalink: /presenters/ron-maravanyika/
 photo: ron-maravanyika.png
-slug: ron-maravanyika
 social:
     bluesky: null
     github: null

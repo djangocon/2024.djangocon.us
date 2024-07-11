@@ -4,7 +4,6 @@ hidden: false
 name: Jacob Kaplan-Moss
 permalink: /presenters/jacob-kaplan-moss/
 photo: jacob-kaplan-moss.jpeg
-slug: jacob-kaplan-moss
 social:
     bluesky: null
     github: null

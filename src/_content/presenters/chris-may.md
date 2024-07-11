@@ -4,7 +4,6 @@ hidden: false
 name: Chris May
 permalink: /presenters/chris-may/
 photo: chris-may.jpeg
-slug: chris-may
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Felipe de Morais
 permalink: /presenters/felipe-de-morais/
 photo: felipe-de-morais.jpeg
-slug: felipe-de-morais
 social:
     bluesky: null
     github: null

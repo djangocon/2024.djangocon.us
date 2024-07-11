@@ -4,7 +4,6 @@ hidden: false
 name: Tim Bell
 permalink: /presenters/tim-bell/
 photo: tim-bell.jpeg
-slug: tim-bell
 social:
     bluesky: null
     github: null

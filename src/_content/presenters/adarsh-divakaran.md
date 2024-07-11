@@ -4,7 +4,6 @@ hidden: false
 name: Adarsh Divakaran
 permalink: /presenters/adarsh-divakaran/
 photo: adarsh-divakaran.jpeg
-slug: adarsh-divakaran
 social:
     bluesky: null
     github: null

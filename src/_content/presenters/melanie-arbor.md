@@ -4,7 +4,6 @@ hidden: false
 name: Melanie Arbor
 permalink: /presenters/melanie-arbor/
 photo: ''
-slug: melanie-arbor
 social:
     bluesky: null
     github: null

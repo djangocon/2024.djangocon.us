@@ -4,7 +4,6 @@ hidden: false
 name: Ryan Cheley
 permalink: /presenters/ryan-cheley/
 photo: ryan-cheley.jpeg
-slug: ryan-cheley
 social:
     bluesky: null
     github: null

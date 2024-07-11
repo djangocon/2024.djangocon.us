@@ -4,7 +4,6 @@ hidden: false
 name: Kasey Kelly
 permalink: /presenters/kasey-kelly/
 photo: kasey-kelly.jpeg
-slug: kasey-kelly
 social:
     bluesky: null
     github: null

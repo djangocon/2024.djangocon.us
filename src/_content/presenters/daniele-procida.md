@@ -4,7 +4,6 @@ hidden: false
 name: Daniele Procida
 permalink: /presenters/daniele-procida/
 photo: daniele-procida.jpeg
-slug: daniele-procida
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Carlton Gibson
 permalink: /presenters/carlton-gibson/
 photo: carlton-gibson.jpeg
-slug: carlton-gibson
 social:
     bluesky: null
     github: null

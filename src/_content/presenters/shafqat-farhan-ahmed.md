@@ -4,7 +4,6 @@ hidden: false
 name: Shafqat Farhan Ahmed
 permalink: /presenters/shafqat-farhan-ahmed/
 photo: shafqat-farhan-ahmed.png
-slug: shafqat-farhan-ahmed
 social:
     bluesky: null
     github: null

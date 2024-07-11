@@ -4,7 +4,6 @@ hidden: false
 name: Hernan Lozano
 permalink: /presenters/hernan-lozano/
 photo: hernan-lozano.png
-slug: hernan-lozano
 social:
     bluesky: null
     github: null

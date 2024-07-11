@@ -4,7 +4,6 @@ hidden: false
 name: Mohammad Ahtasham ul Hassan
 permalink: /presenters/mohammad-ahtasham-ul-hassan/
 photo: mohammad-ahtasham-ul-hassan.jpeg
-slug: mohammad-ahtasham-ul-hassan
 social:
     bluesky: null
     github: null

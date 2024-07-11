@@ -4,7 +4,6 @@ hidden: false
 name: Michael Riley
 permalink: /presenters/michael-riley/
 photo: michael-riley.jpeg
-slug: michael-riley
 social:
     bluesky: null
     github: null

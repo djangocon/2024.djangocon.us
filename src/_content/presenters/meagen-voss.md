@@ -4,7 +4,6 @@ hidden: false
 name: Meagen Voss
 permalink: /presenters/meagen-voss/
 photo: meagen-voss.jpeg
-slug: meagen-voss
 social:
     bluesky: null
     github: null

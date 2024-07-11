@@ -4,7 +4,6 @@ hidden: false
 name: Lisa Ciaccio
 permalink: /presenters/lisa-ciaccio/
 photo: ''
-slug: lisa-ciaccio
 social:
     bluesky: null
     github: null

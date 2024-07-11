@@ -4,7 +4,6 @@ hidden: false
 name: Kuldeep Pisda
 permalink: /presenters/kuldeep-pisda/
 photo: kuldeep-pisda.jpeg
-slug: kuldeep-pisda
 social:
     bluesky: null
     github: null

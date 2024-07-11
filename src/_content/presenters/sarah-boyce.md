@@ -4,7 +4,6 @@ hidden: false
 name: Sarah Boyce
 permalink: /presenters/sarah-boyce/
 photo: sarah-boyce.jpeg
-slug: sarah-boyce
 social:
     bluesky: null
     github: null

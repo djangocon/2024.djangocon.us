@@ -4,7 +4,6 @@ hidden: false
 name: Avindra Fernando
 permalink: /presenters/avindra-fernando/
 photo: avindra-fernando.jpeg
-slug: avindra-fernando
 social:
     bluesky: null
     github: null

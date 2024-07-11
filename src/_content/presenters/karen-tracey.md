@@ -4,7 +4,6 @@ hidden: false
 name: Karen Tracey
 permalink: /presenters/karen-tracey/
 photo: karen-tracey.jpeg
-slug: karen-tracey
 social:
     bluesky: null
     github: null

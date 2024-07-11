@@ -4,7 +4,6 @@ hidden: false
 name: Ryan Hiebert
 permalink: /presenters/ryan-hiebert/
 photo: ryan-hiebert.jpeg
-slug: ryan-hiebert
 social:
     bluesky: null
     github: null

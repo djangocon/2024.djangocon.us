@@ -4,7 +4,6 @@ hidden: false
 name: Álvaro Justen
 permalink: /presenters/alvaro-justen/
 photo: alvaro-justen.jpeg
-slug: alvaro-justen
 social:
     bluesky: null
     github: null

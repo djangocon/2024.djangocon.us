@@ -4,7 +4,6 @@ hidden: false
 name: Johanan Oppong Amoateng
 permalink: /presenters/johanan-oppong-amoateng/
 photo: johanan-oppong-amoateng.jpeg
-slug: johanan-oppong-amoateng
 social:
     bluesky: null
     github: null

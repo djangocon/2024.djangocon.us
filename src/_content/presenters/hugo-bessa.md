@@ -4,7 +4,6 @@ hidden: false
 name: Hugo Bessa
 permalink: /presenters/hugo-bessa/
 photo: hugo-bessa.jpeg
-slug: hugo-bessa
 social:
     bluesky: null
     github: null

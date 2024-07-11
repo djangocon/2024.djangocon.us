@@ -4,7 +4,6 @@ hidden: false
 name: Sage Abdullah
 permalink: /presenters/sage-abdullah/
 photo: sage-abdullah.jpeg
-slug: sage-abdullah
 social:
     bluesky: null
     github: null

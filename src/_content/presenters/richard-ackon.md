@@ -4,7 +4,6 @@ hidden: false
 name: Richard Ackon
 permalink: /presenters/richard-ackon/
 photo: richard-ackon.jpeg
-slug: richard-ackon
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Simon Willison
 permalink: /presenters/simon-willison/
 photo: simon-willison.jpeg
-slug: simon-willison
 social:
     bluesky: null
     github: null

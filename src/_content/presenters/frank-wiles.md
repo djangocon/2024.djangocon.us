@@ -4,7 +4,6 @@ hidden: false
 name: Frank Wiles
 permalink: /presenters/frank-wiles/
 photo: frank-wiles.jpeg
-slug: frank-wiles
 social:
     bluesky: null
     github: null

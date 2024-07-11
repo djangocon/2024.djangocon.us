@@ -4,7 +4,6 @@ hidden: false
 name: Vince Salvino
 permalink: /presenters/vince-salvino/
 photo: vince-salvino.jpeg
-slug: vince-salvino
 social:
     bluesky: null
     github: null

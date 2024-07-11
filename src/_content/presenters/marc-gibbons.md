@@ -4,7 +4,6 @@ hidden: false
 name: Marc Gibbons
 permalink: /presenters/marc-gibbons/
 photo: marc-gibbons.jpeg
-slug: marc-gibbons
 social:
     bluesky: null
     github: null

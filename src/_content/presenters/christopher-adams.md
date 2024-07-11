@@ -4,7 +4,6 @@ hidden: false
 name: Christopher Adams
 permalink: /presenters/christopher-adams/
 photo: ''
-slug: christopher-adams
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Josh Thomas
 permalink: /presenters/josh-thomas/
 photo: josh-thomas.png
-slug: josh-thomas
 social:
     bluesky: null
     github: null

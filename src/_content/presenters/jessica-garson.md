@@ -4,7 +4,6 @@ hidden: false
 name: Jessica Garson
 permalink: /presenters/jessica-garson/
 photo: jessica-garson.jpeg
-slug: jessica-garson
 social:
     bluesky: null
     github: null

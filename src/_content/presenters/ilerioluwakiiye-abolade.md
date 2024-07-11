@@ -4,7 +4,6 @@ hidden: false
 name: Ilerioluwakiiye Abolade
 permalink: /presenters/ilerioluwakiiye-abolade/
 photo: ilerioluwakiiye-abolade.jpeg
-slug: ilerioluwakiiye-abolade
 social:
     bluesky: null
     github: null

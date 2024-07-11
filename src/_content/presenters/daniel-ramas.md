@@ -4,7 +4,6 @@ hidden: false
 name: Daniel Ramas
 permalink: /presenters/daniel-ramas/
 photo: ''
-slug: daniel-ramas
 social:
     bluesky: null
     github: null

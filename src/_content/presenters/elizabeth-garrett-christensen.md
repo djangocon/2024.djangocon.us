@@ -4,7 +4,6 @@ hidden: false
 name: Elizabeth Garrett Christensen
 permalink: /presenters/elizabeth-garrett-christensen/
 photo: elizabeth-garrett-christensen.png
-slug: elizabeth-garrett-christensen
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Harmony Elendu
 permalink: /presenters/harmony-elendu/
 photo: harmony-elendu.jpeg
-slug: harmony-elendu
 social:
     bluesky: null
     github: null

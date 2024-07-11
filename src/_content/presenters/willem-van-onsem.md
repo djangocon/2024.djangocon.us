@@ -4,7 +4,6 @@ hidden: false
 name: Willem Van Onsem
 permalink: /presenters/willem-van-onsem/
 photo: willem-van-onsem.jpeg
-slug: willem-van-onsem
 social:
     bluesky: null
     github: null

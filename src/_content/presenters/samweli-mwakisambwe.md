@@ -4,7 +4,6 @@ hidden: false
 name: Samweli Mwakisambwe
 permalink: /presenters/samweli-mwakisambwe/
 photo: samweli-mwakisambwe.jpeg
-slug: samweli-mwakisambwe
 social:
     bluesky: null
     github: null

@@ -4,7 +4,6 @@ hidden: false
 name: Will Vincent
 permalink: /presenters/will-vincent/
 photo: will-vincent.png
-slug: will-vincent
 social:
     bluesky: null
     github: null

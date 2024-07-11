@@ -4,7 +4,6 @@ hidden: false
 name: Tim Schilling
 permalink: /presenters/tim-schilling/
 photo: tim-schilling.jpeg
-slug: tim-schilling
 social:
     bluesky: null
     github: null

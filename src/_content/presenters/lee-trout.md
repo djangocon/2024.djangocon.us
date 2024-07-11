@@ -4,7 +4,6 @@ hidden: false
 name: Lee Trout
 permalink: /presenters/lee-trout/
 photo: lee-trout.png
-slug: lee-trout
 social:
     bluesky: null
     github: null

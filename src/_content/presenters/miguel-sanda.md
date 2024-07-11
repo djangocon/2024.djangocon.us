@@ -4,7 +4,6 @@ hidden: false
 name: Miguel Sanda
 permalink: /presenters/miguel-sanda/
 photo: miguel-sanda.jpeg
-slug: miguel-sanda
 social:
     bluesky: null
     github: null

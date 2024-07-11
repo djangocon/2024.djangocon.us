@@ -4,7 +4,6 @@ hidden: false
 name: Amanda Savluchinske
 permalink: /presenters/amanda-savluchinske/
 photo: amanda-savluchinske.jpeg
-slug: amanda-savluchinske
 social:
     bluesky: null
     github: null

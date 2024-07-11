@@ -4,7 +4,6 @@ hidden: false
 name: Vaarun Sinha
 permalink: /presenters/vaarun-sinha/
 photo: vaarun-sinha.jpeg
-slug: vaarun-sinha
 social:
     bluesky: null
     github: null
