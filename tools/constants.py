@@ -33,6 +33,52 @@ TUTORIAL_TRACK_C_ROOM = "Tutorial Track C (TBD)"
 # link to that post
 LACTATION_BLOG_POST_LINK = None
 
+DAY_1_OPENING_REMARKS_ORGANIZER_SLUG = "peter-grandstaff"
+# TODO get Keanya's organizer page set up
+DAY_2_OPENING_REMARKS_ORGANIZER_SLUG = None  # "keanya-phelps"
+DAY_3_OPENING_REMARKS_ORGANIZER_SLUG = DAY_1_OPENING_REMARKS_ORGANIZER_SLUG
+CLOSING_REMARKS_ORGANIZER_SLUG = DAY_1_OPENING_REMARKS_ORGANIZER_SLUG
+PANEL_ORGANIZER_SLUG = "rachell-calhoun"
+
+LIGHTNING_TALKS_ORGANIZER_SLUG = "andrew-mshar"
+LIGHTNING_TALK_START_TIME = datetime.time(12)
+LIGHTNING_TALK_END_TIME = datetime.time(12, 40)
+
+ORIENTATION_ORGANIZER_SLUG = "kojo-idrissa"
+ORIENTATION_START = datetime.datetime.combine(
+    TALK_DAY_1, datetime.time(8, 30), tzinfo=CONFERENCE_TZ
+)
+ORIENTATION_END = ORIENTATION_START + datetime.timedelta(minutes=30)
+
+DAY_1_OPENING_REMARKS_START = ORIENTATION_END
+DAY_1_OPENING_REMARKS_END = DAY_1_OPENING_REMARKS_START + datetime.timedelta(minutes=15)
+DAY_1_KEYNOTE_START = DAY_1_OPENING_REMARKS_END
+DAY_1_KEYNOTE_END = DAY_1_KEYNOTE_START + datetime.timedelta(minutes=45)
+
+DAY_2_OPENING_REMARKS_START = datetime.datetime.combine(
+    TALK_DAY_2, datetime.time(9), tzinfo=CONFERENCE_TZ
+)
+DAY_2_OPENING_REMARKS_END = DAY_2_OPENING_REMARKS_START + datetime.timedelta(minutes=15)
+DAY_2_KEYNOTE_START = DAY_2_OPENING_REMARKS_END
+DAY_2_KEYNOTE_END = DAY_2_KEYNOTE_START + datetime.timedelta(minutes=45)
+
+DAY_3_OPENING_REMARKS_START = datetime.datetime.combine(
+    TALK_DAY_3, datetime.time(9), tzinfo=CONFERENCE_TZ
+)
+DAY_3_OPENING_REMARKS_END = DAY_3_OPENING_REMARKS_START + datetime.timedelta(minutes=15)
+DAY_3_KEYNOTE_START = DAY_3_OPENING_REMARKS_END
+DAY_3_KEYNOTE_END = DAY_3_KEYNOTE_START + datetime.timedelta(minutes=45)
+
+CLOSING_REMARKS_START = datetime.datetime.combine(
+    TALK_DAY_3, datetime.time(17, 15), tzinfo=CONFERENCE_TZ
+)
+CLOSING_REMARKS_END = CLOSING_REMARKS_START + datetime.timedelta(minutes=15)
+
+PANEL_START = datetime.datetime.combine(
+    TALK_DAY_3, datetime.time(16, 20), tzinfo=CONFERENCE_TZ
+)
+PANEL_END = PANEL_START + datetime.timedelta(minutes=45)
+
 # TODO once catering menus are live: update this with the blog post
 CATERING_MENU_LINK = None
 

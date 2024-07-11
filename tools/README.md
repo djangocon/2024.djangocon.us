@@ -34,7 +34,7 @@
 ## Update the manual schedule bits (lunch, break, registration)
 1. Edit the `ManualScheduleEntry` records in models.py
 2. `cd /path/to/year.djangocon.us`
-3. `python tools/process.py`
+3. `python tools/process.py generate-manual-schedule-data`
 
 ## Generate the list of talks blog post
 
@@ -45,6 +45,14 @@ the template bits to get the year and conference info right.
 2. `python generate_speaker_blog_post.py`
 3. Copy the output into `src/_content/posts/announcing-lineup.md`
 4. Add and commit it
+
+## Create placeholders for keynotes, orientation, etc.
+**WARNING**: If you have an organizer who is also presenting a talk, this will overwrite
+their presenter bio.
+
+1. Edit the start/stop times and organizer slugs in `tools/constants.py`
+2. `python tools/process.py generate-placeholders`
+3. Add and commit the changes made to `src/_content`
 
 ## Generate a CSV for Sendy to use with the "confirm your talk time" email
 

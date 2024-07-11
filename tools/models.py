@@ -115,7 +115,6 @@ class ManualScheduleEntry(BaseModel):
     title: str
 
 
-
 def migrate_mastodon_handle(*, handle: str) -> str:
     if not handle.startswith("@"):
         return handle
