@@ -11,7 +11,7 @@ tags:
 - thirdparty
 - gis
 title: Open-source Python tools to visualize and analyse geospatial data.
-track: t0
+track: t1
 ---
 
 The talk will provide an overview of the available Python related geospatial tools that can be used to analyze location data highlighting the possibilities and the potential of this attendees will be able to grasp what tools they can use to access particular location data.

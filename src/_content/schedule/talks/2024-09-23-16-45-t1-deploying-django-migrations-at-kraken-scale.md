@@ -9,7 +9,7 @@ room: Grand Ballroom III
 tags:
 - orm
 title: Deploying Django migrations at Kraken scale
-track: t0
+track: t1
 ---
 
 Kraken is an energy retail system built on Django. It is currently in use by over 20 clients around the world, including the largest energy retailer in the UK, Octopus Energy, which developed Kraken.

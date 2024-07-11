@@ -10,7 +10,7 @@ tags:
 - cms
 - thirdparty
 title: Django from a Rails Perspective
-track: t0
+track: t1
 ---
 
 As a Rails fanatic, inheriting a mammoth Django application [along with a fresh list of features and upgrades] felt intimidating to the point of impossible. I want to share how I learned Django, what I learned about learning, and light the path for devs to follow my footsteps. For those questioning the value of switching their Rails experts into entirely new frameworks: fluency is valuable, but so is perspective. 

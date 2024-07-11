@@ -12,7 +12,7 @@ tags:
 - thirdparty
 - gis
 title: Maps with Django
-track: t0
+track: t1
 ---
 
 A *map* in a website is the best way to make geographic data easily accessible to users because it represents, in a simple way, the information relating to a specific geographical area and is used by many online services.

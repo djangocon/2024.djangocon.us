@@ -9,7 +9,7 @@ room: Grand Ballroom III
 tags:
 - internals
 title: path('/user/&lt;user.username:user&gt;/', view_profile)
-track: t0
+track: t1
 ---
 
 Since Django-2.0, most people use path converters instead of regexes to describe the different URL patterns, and how these will trigger views. One can use the already builtin path converters, but also define new ones to parse dates, booleans, etc. more effectively. One can not only define a pattern, but also provide methods to convert between Python objects and URL fragments.

@@ -10,7 +10,7 @@ tags:
 - internals
 - frontend
 title: An Opinionated Guide to Modern Django Forms
-track: t0
+track: t1
 ---
 
 Django forms have experienced a significant renaissance within the Django community, after years of being what felt like an afterthought. Recent releases to Django have brought major improvements to built-in form templating and rendering. Instead of writing APIs to support forms rendered by the JS framework of the week, you can now use Django forms to render dynamic, interactive, responsive forms using only the batteries provided by Django, various third-party Django packages, and a handful of small, focused JavaScript utility libraries. And if you're willing to do a little bit of the leg work yourself, you can even get by without those third-party Django packages.

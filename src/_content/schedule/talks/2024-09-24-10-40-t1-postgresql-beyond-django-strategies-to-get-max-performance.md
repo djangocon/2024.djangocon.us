@@ -10,7 +10,7 @@ tags:
 - postgres
 - performance
 title: 'PostgreSQL Beyond Django: Strategies to Get Max Performance'
-track: t0
+track: t1
 ---
 
 PostgreSQL has been evolving in functionality and performance for decades, yet we often fail to extract full potential of the most advanced FL/OSS RDBMS. In this talk, I'll cover techniques for optimizing database performance and reducing space usage, beyond the basics of modeling and indexing and exploring powerful features such as triggers and bulk data import/export (not the Django one).

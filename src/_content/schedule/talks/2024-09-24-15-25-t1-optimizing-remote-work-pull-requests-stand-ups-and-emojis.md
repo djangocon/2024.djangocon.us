@@ -9,7 +9,7 @@ room: Grand Ballroom III
 tags:
 - career
 title: 'Optimizing remote work: Pull Requests, Stand-ups, and emojis'
-track: t0
+track: t1
 ---
 
 Positive asynchronous working relationships have always been a core feature of what makes Django successful. Many of us have spent our careers working asynchronously across International borders and timezones, but it's new to many of our clients, employers, and project stakeholders. 
