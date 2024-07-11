@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 10:40:00-04:00
 end_datetime: 2024-09-24 11:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/django-alpine-js-htmx-ups-downs/
 presenter_slugs:
 - karen-tracey
 room: Junior Ballroom
-sitemap: true
-slug: django-alpine-js-htmx-ups-downs
 tags:
 - frontend
 title: Django + Alpine.js + htmx Ups & Downs

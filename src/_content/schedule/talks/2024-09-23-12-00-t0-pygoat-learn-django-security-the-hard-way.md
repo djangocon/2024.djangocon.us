@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 12:00:00-04:00
 end_datetime: 2024-09-23 12:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/pygoat-learn-django-security-the-hard-way/
 presenter_slugs:
 - adarsh-divakaran
 room: Grand Ballroom III
-sitemap: true
-slug: pygoat-learn-django-security-the-hard-way
 tags:
 - security
 - thirdparty

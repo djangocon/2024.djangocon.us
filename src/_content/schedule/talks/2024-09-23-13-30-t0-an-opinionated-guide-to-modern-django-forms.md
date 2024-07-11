@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 13:30:00-04:00
 end_datetime: 2024-09-23 14:15:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/an-opinionated-guide-to-modern-django-forms/
 presenter_slugs:
 - josh-thomas
 room: Grand Ballroom III
-sitemap: true
-slug: an-opinionated-guide-to-modern-django-forms
 tags:
 - internals
 - frontend

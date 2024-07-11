@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 12:40:00-04:00
 end_datetime: 2024-09-25 13:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/django-celery-a-love-story-of-async-proportions/
 presenter_slugs:
 - hugo-bessa
 room: Online talks
-sitemap: true
-slug: django-celery-a-love-story-of-async-proportions
 tags:
 - celery
 title: 'Django & Celery: A love story of async proportions'

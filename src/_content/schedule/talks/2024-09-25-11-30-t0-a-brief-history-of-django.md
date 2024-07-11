@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 11:30:00-04:00
 end_datetime: 2024-09-25 11:55:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/a-brief-history-of-django/
 presenter_slugs:
 - frank-wiles
 room: Junior Ballroom
-sitemap: true
-slug: a-brief-history-of-django
 tags:
 - internals
 - community

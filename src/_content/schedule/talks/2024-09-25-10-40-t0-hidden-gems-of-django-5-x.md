@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 10:40:00-04:00
 end_datetime: 2024-09-25 11:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/hidden-gems-of-django-5-x/
 presenter_slugs:
 - sarah-boyce
 room: Junior Ballroom
-sitemap: true
-slug: hidden-gems-of-django-5-x
 tags:
 - internals
 title: Hidden gems of Django 5.x

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 10:40:00-04:00
 end_datetime: 2024-09-23 11:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/choosing-wisely-spa-vs-htmx-for-your-next-web-project/
 presenter_slugs:
 - chris-may
 room: Junior Ballroom
-sitemap: true
-slug: choosing-wisely-spa-vs-htmx-for-your-next-web-project
 tags:
 - frontend
 title: 'Choosing Wisely: SPA vs. HTMX for Your Next Web Project'

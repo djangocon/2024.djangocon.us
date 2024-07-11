@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 10:10:00-04:00
 end_datetime: 2024-09-24 10:35:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/seamless-transition-how-i-converted-an-existing-mysql-database-to-be-fully-managed-by-django-migrations-framework/
 presenter_slugs:
 - daniel-ramas
 room: Online talks
-sitemap: true
-slug: seamless-transition-how-i-converted-an-existing-mysql-database-to-be-fully-managed-by-django-migrations-framework
 tags:
 - orm
 title: 'Seamless Transition: How I Converted an Existing MySQL Database to be Fully

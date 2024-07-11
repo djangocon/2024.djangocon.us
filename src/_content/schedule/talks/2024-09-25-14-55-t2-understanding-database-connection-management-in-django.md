@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 14:55:00-04:00
 end_datetime: 2024-09-25 15:20:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/understanding-database-connection-management-in-django/
 presenter_slugs:
 - richard-ackon
 room: Online talks
-sitemap: true
-slug: understanding-database-connection-management-in-django
 tags:
 - orm
 title: Understanding Database Connection Management in Django

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 15:30:00-04:00
 end_datetime: 2024-09-25 15:55:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/django-user-model-past-present-and-future/
 presenter_slugs:
 - will-vincent
 room: Junior Ballroom
-sitemap: true
-slug: django-user-model-past-present-and-future
 tags: null
 title: 'Django User Model: Past, Present, and Future'
 track: t0

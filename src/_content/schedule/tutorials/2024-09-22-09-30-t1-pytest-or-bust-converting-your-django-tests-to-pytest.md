@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: tutorials
 datetime: 2024-09-22 09:30:00-04:00
 end_datetime: 2024-09-22 13:00:00-04:00
-group: tutorials
-layout: session-details
 permalink: /tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/
 presenter_slugs:
 - melanie-arbor
 room: Tutorial Track B
-sitemap: true
-slug: pytest-or-bust-converting-your-django-tests-to-pytest
 tags:
 - testing
 title: 'pytest or Bust: Converting Your Django Tests to pytest'

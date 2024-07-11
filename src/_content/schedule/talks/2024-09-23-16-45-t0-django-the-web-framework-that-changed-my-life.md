@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 16:45:00-04:00
 end_datetime: 2024-09-23 17:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/django-the-web-framework-that-changed-my-life/
 presenter_slugs:
 - sage-abdullah
 room: Junior Ballroom
-sitemap: true
-slug: django-the-web-framework-that-changed-my-life
 tags:
 - career
 - usecase

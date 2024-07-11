@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 13:35:00-04:00
 end_datetime: 2024-09-25 14:20:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/webrtc-with-django-channels-htmx-and-coturn/
 presenter_slugs:
 - ken-whitesell
 room: Junior Ballroom
-sitemap: true
-slug: webrtc-with-django-channels-htmx-and-coturn
 tags:
 - async
 - usecase

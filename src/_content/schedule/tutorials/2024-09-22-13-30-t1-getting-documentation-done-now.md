@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: tutorials
 datetime: 2024-09-22 13:30:00-04:00
 end_datetime: 2024-09-22 17:00:00-04:00
-group: tutorials
-layout: session-details
 permalink: /tutorials/getting-documentation-done-now/
 presenter_slugs:
 - daniele-procida
 room: Tutorial Track B
-sitemap: true
-slug: getting-documentation-done-now
 tags:
 - documentation
 title: Getting documentation done, now

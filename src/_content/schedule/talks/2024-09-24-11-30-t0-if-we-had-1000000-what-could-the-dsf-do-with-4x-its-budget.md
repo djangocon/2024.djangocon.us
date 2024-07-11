@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 11:30:00-04:00
 end_datetime: 2024-09-24 11:55:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/
 presenter_slugs:
 - jacob-kaplan-moss
 room: Junior Ballroom
-sitemap: true
-slug: if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget
 tags:
 - community
 title: 'If We Had $1,000,000: What Could The DSF Do With 4x Its Budget?'

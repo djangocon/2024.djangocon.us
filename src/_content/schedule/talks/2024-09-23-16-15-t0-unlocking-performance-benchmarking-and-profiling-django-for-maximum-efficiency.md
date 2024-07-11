@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 16:15:00-04:00
 end_datetime: 2024-09-23 16:40:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/unlocking-performance-benchmarking-and-profiling-django-for-maximum-efficiency/
 presenter_slugs:
 - ron-maravanyika
 room: Junior Ballroom
-sitemap: true
-slug: unlocking-performance-benchmarking-and-profiling-django-for-maximum-efficiency
 tags:
 - performance
 title: 'Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency'

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 16:45:00-04:00
 end_datetime: 2024-09-23 17:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/deploying-django-migrations-at-kraken-scale/
 presenter_slugs:
 - tim-bell
 room: Grand Ballroom III
-sitemap: true
-slug: deploying-django-migrations-at-kraken-scale
 tags:
 - orm
 title: Deploying Django migrations at Kraken scale

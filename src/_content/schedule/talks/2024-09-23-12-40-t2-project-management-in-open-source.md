@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 12:40:00-04:00
 end_datetime: 2024-09-23 13:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/project-management-in-open-source/
 presenter_slugs:
 - harmony-elendu
 room: Online talks
-sitemap: true
-slug: project-management-in-open-source
 tags:
 - community
 title: Project Management in Open Source

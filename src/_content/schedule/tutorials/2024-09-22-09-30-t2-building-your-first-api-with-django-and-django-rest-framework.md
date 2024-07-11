@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: tutorials
 datetime: 2024-09-22 09:30:00-04:00
 end_datetime: 2024-09-22 13:00:00-04:00
-group: tutorials
-layout: session-details
 permalink: /tutorials/building-your-first-api-with-django-and-django-rest-framework/
 presenter_slugs:
 - felipe-de-morais
 room: Tutorial Track C
-sitemap: true
-slug: building-your-first-api-with-django-and-django-rest-framework
 tags:
 - api
 title: "\U0001F310 Building Your First API with Django and Django Rest Framework"

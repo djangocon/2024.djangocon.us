@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 10:10:00-04:00
 end_datetime: 2024-09-25 10:35:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/introduction-to-opentelemetry-with-django/
 presenter_slugs:
 - jessica-garson
 room: Online talks
-sitemap: true
-slug: introduction-to-opentelemetry-with-django
 tags:
 - thirdparty
 title: Introduction to OpenTelemetry with Django

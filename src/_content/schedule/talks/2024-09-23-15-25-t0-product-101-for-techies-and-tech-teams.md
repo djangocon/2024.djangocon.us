@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 15:25:00-04:00
 end_datetime: 2024-09-23 16:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/product-101-for-techies-and-tech-teams/
 presenter_slugs:
 - amanda-savluchinske
 room: Junior Ballroom
-sitemap: true
-slug: product-101-for-techies-and-tech-teams
 tags:
 - career
 title: Product 101 for Techies and Tech Teams

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 15:25:00-04:00
 end_datetime: 2024-09-24 16:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/optimizing-remote-work-pull-requests-stand-ups-and-emojis/
 presenter_slugs:
 - kasey-kelly
 room: Grand Ballroom III
-sitemap: true
-slug: optimizing-remote-work-pull-requests-stand-ups-and-emojis
 tags:
 - career
 title: 'Optimizing remote work: Pull Requests, Stand-ups, and emojis'

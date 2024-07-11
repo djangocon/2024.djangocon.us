@@ -1,17 +1,12 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 14:55:00-04:00
 end_datetime: 2024-09-24 15:20:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/level-up-your-django-performance-identifying-and-taming-n-1-queries/
 presenter_slugs:
 - mohammad-ahtasham-ul-hassan
 - shafqat-farhan-ahmed
 room: Online talks
-sitemap: true
-slug: level-up-your-django-performance-identifying-and-taming-n-1-queries
 tags:
 - performance
 title: 'Level Up Your Django Performance: Identifying and Taming N+1 Queries'

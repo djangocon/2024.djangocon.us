@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 10:40:00-04:00
 end_datetime: 2024-09-24 11:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/postgresql-beyond-django-strategies-to-get-max-performance/
 presenter_slugs:
 - alvaro-justen
 room: Grand Ballroom III
-sitemap: true
-slug: postgresql-beyond-django-strategies-to-get-max-performance
 tags:
 - postgres
 - performance

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: tutorials
 datetime: 2024-09-22 13:30:00-04:00
 end_datetime: 2024-09-22 17:00:00-04:00
-group: tutorials
-layout: session-details
 permalink: /tutorials/how-to-build-more-accessible-websites-with-wagtail/
 presenter_slugs:
 - meagen-voss
 room: Tutorial Track C
-sitemap: true
-slug: how-to-build-more-accessible-websites-with-wagtail
 tags:
 - cms
 - accessibility

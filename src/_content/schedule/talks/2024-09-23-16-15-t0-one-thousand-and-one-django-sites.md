@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 16:15:00-04:00
 end_datetime: 2024-09-23 16:40:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/one-thousand-and-one-django-sites/
 presenter_slugs:
 - vince-salvino
 room: Grand Ballroom III
-sitemap: true
-slug: one-thousand-and-one-django-sites
 tags:
 - performance
 - deployment

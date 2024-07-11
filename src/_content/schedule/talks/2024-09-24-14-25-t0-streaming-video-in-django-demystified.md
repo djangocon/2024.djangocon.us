@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 14:25:00-04:00
 end_datetime: 2024-09-24 14:50:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/streaming-video-in-django-demystified/
 presenter_slugs:
 - vaarun-sinha
 room: Grand Ballroom III
-sitemap: true
-slug: streaming-video-in-django-demystified
 tags:
 - async
 - thirdparty

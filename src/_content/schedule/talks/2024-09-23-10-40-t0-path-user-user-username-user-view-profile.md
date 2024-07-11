@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 10:40:00-04:00
 end_datetime: 2024-09-23 11:25:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/path-user-user-username-user-view-profile/
 presenter_slugs:
 - willem-van-onsem
 room: Grand Ballroom III
-sitemap: true
-slug: path-user-user-username-user-view-profile
 tags:
 - internals
 title: path('/user/&lt;user.username:user&gt;/', view_profile)

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 15:25:00-04:00
 end_datetime: 2024-09-23 16:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/passkeys-your-password-free-future/
 presenter_slugs:
 - ryan-hiebert
 room: Grand Ballroom III
-sitemap: true
-slug: passkeys-your-password-free-future
 tags:
 - security
 title: 'Passkeys: Your password-free future'

@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 14:25:00-04:00
 end_datetime: 2024-09-23 14:50:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/open-source-python-tools-to-visualize-and-analyse-geospatial-data/
 presenter_slugs:
 - samweli-mwakisambwe
 room: Grand Ballroom III
-sitemap: true
-slug: open-source-python-tools-to-visualize-and-analyse-geospatial-data
 tags:
 - python
 - thirdparty

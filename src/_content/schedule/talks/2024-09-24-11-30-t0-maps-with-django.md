@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 11:30:00-04:00
 end_datetime: 2024-09-24 11:55:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/maps-with-django/
 presenter_slugs:
 - paolo-melchiorre
 room: Grand Ballroom III
-sitemap: true
-slug: maps-with-django
 tags:
 - postgres
 - usecase

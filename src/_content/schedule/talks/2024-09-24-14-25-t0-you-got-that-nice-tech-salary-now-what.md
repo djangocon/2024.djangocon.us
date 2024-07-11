@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 14:25:00-04:00
 end_datetime: 2024-09-24 14:50:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/you-got-that-nice-tech-salary-now-what/
 presenter_slugs:
 - tim-schilling
 room: Junior Ballroom
-sitemap: true
-slug: you-got-that-nice-tech-salary-now-what
 tags:
 - career
 title: You got that nice tech salary, now what?

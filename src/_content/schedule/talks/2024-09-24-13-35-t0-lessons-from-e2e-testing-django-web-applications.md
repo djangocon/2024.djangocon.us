@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 13:35:00-04:00
 end_datetime: 2024-09-24 14:20:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/lessons-from-e2e-testing-django-web-applications/
 presenter_slugs:
 - avindra-fernando
 room: Grand Ballroom III
-sitemap: true
-slug: lessons-from-e2e-testing-django-web-applications
 tags:
 - testing
 title: Lessons from E2E Testing Django Web Applications

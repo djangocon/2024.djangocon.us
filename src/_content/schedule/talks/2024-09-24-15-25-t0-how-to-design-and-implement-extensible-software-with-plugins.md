@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 15:25:00-04:00
 end_datetime: 2024-09-24 16:10:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/how-to-design-and-implement-extensible-software-with-plugins/
 presenter_slugs:
 - simon-willison
 room: Junior Ballroom
-sitemap: true
-slug: how-to-design-and-implement-extensible-software-with-plugins
 tags:
 - infrastructure
 title: How to design and implement extensible software with plugins

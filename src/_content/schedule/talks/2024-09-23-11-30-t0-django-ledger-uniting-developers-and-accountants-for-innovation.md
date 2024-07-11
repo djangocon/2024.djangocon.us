@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 11:30:00-04:00
 end_datetime: 2024-09-23 11:55:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/django-ledger-uniting-developers-and-accountants-for-innovation/
 presenter_slugs:
 - miguel-sanda
 room: Grand Ballroom III
-sitemap: true
-slug: django-ledger-uniting-developers-and-accountants-for-innovation
 tags:
 - usecase
 - thirdparty

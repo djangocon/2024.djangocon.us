@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-24 16:15:00-04:00
 end_datetime: 2024-09-24 16:40:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/faster-leaner-greener-10x-lower-website-carbon-emissions/
 presenter_slugs:
 - thibaud-colas
 room: Junior Ballroom
-sitemap: true
-slug: faster-leaner-greener-10x-lower-website-carbon-emissions
 tags: null
 title: 'Faster, leaner, greener: 10x lower website carbon emissions'
 track: t0

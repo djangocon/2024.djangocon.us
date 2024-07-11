@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-25 14:25:00-04:00
 end_datetime: 2024-09-25 14:50:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/a-guided-tour-through-postgres-internals/
 presenter_slugs:
 - elizabeth-garrett-christensen
 room: Junior Ballroom
-sitemap: true
-slug: a-guided-tour-through-postgres-internals
 tags:
 - postgres
 title: A Guided Tour Through Postgres Internals

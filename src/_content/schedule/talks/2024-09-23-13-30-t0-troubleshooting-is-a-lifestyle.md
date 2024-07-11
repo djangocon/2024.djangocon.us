@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 13:30:00-04:00
 end_datetime: 2024-09-23 14:15:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/troubleshooting-is-a-lifestyle/
 presenter_slugs:
 - jack-linke
 room: Junior Ballroom
-sitemap: true
-slug: troubleshooting-is-a-lifestyle
 tags:
 - career
 title: "Troubleshooting is a Lifestyle \U0001F60E"

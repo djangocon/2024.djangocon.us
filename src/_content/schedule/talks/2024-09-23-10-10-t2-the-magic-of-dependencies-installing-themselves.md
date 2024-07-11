@@ -1,16 +1,11 @@
 ---
-accepted: true
 category: talks
 datetime: 2024-09-23 10:10:00-04:00
 end_datetime: 2024-09-23 10:35:00-04:00
-group: talks
-layout: session-details
 permalink: /talks/the-magic-of-dependencies-installing-themselves/
 presenter_slugs:
 - ilerioluwakiiye-abolade
 room: Online talks
-sitemap: true
-slug: the-magic-of-dependencies-installing-themselves
 tags:
 - python
 - thirdparty
