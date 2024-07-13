@@ -4,7 +4,7 @@ name: WISPHUB
 date: 2024-06-27
 logo:
     filename: wisphub.png
-    orientation: portrait
+    orientation: landscape
 
 url:
     target: 'https://wisphub.net/'
