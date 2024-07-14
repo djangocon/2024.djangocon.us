@@ -159,14 +159,16 @@ title: Welcome to DjangoCon US
 
 <div class="block-container">
   <div class="wrapper">
-    <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
+    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
 
-    <div class="flex flex-col gap-20">
+    <div class="flex flex-col gap-24">
       {% for level in collections.sponsorsByLevel %}
-        <section class="flex flex-col items-center gap-8">
-          <h3 class="inline-block px-8 py-2 mx-auto font-bold text-blue-700 bg-gray-100 font-heading">{{ level[0] }}</h3>
+        <section class="flex flex-col gap-8">
+          <h3 class="flex items-center bg-sep">
+            <span class="px-8 py-2 mx-auto font-bold text-blue-700 bg-gray-100 font-heading">{{ level[0] }}</span>
+          </h3>
 
-          <ul class="flex flex-wrap items-center justify-center gap-16">
+          <ul class="flex flex-wrap items-center justify-center max-w-3xl gap-16 mx-auto">
             {% for sponsor in level[1] %}
               <li>
                 {% if sponsor.data.logo %}
