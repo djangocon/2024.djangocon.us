@@ -8,7 +8,7 @@ presenter_slugs:
 room: Grand Ballroom III
 tags:
 - testing
-title: Lessons from E2E Testing Django Web Applications
+title: Lessons from E2E Testing Web Applications
 track: t1
 ---
 
