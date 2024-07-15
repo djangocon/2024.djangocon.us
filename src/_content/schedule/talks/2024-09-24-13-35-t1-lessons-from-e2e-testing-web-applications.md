@@ -12,7 +12,7 @@ title: Lessons from E2E Testing Web Applications
 track: t1
 ---
 
-Lots of companies are investing in end to end testing to release high quality software and remain competitive in today’s market. Now with libraries like Cypress and Playwright, end to end testing Django applications have become very intuitive and a whole lot of fun.  
+Lots of companies are investing in end to end testing to release high quality software and remain competitive in today’s market. Now with libraries like Cypress and Playwright, end to end testing web applications have become very intuitive and a whole lot of fun.  
 
 Over the years, after working with these tools, there are many lessons that I have learned the hard way. These valuable lessons taught me how to write robust and reliable tests that vastly improved the quality of my applications.
 
