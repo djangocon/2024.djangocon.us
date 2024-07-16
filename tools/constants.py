@@ -42,7 +42,8 @@ PANEL_ORGANIZER_SLUG = "rachell-calhoun"
 
 LIGHTNING_TALKS_ORGANIZER_SLUG = "andrew-mshar"
 LIGHTNING_TALK_START_TIME = datetime.time(12)
-LIGHTNING_TALK_END_TIME = datetime.time(12, 40)
+LIGHTNING_TALK_END_TIME = datetime.time(12, 50)
+LUNCH_END_TIME = datetime.time(13, 35)
 
 ORIENTATION_ORGANIZER_SLUG = "kojo-idrissa"
 ORIENTATION_START = datetime.datetime.combine(
