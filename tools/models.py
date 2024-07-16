@@ -504,7 +504,7 @@ MANUAL_SCHEDULE_ENTRIES = [
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 30),
+            pydatetime.time(15, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -657,12 +657,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(14, 55),
+            pydatetime.time(15, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(15, 20),
+            pydatetime.time(15, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",

@@ -125,7 +125,7 @@
   title: Lunch
   track: t0
 - datetime: 2024-09-24 15:00:00-04:00
-  end_datetime: 2024-09-24 15:30:00-04:00
+  end_datetime: 2024-09-24 15:25:00-04:00
   permalink: null
   room: Grand Ballroom I/II
   title: Break
@@ -178,8 +178,8 @@
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
-- datetime: 2024-09-25 14:55:00-04:00
-  end_datetime: 2024-09-25 15:20:00-04:00
+- datetime: 2024-09-25 15:00:00-04:00
+  end_datetime: 2024-09-25 15:25:00-04:00
   permalink: null
   room: Grand Ballroom I/II
   title: Break
