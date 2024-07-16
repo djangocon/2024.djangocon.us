@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-24 16:15:00-04:00
-end_datetime: 2024-09-24 16:40:00-04:00
+datetime: 2024-09-24 16:20:00-04:00
+end_datetime: 2024-09-24 16:45:00-04:00
 permalink: /talks/faster-leaner-greener-10x-lower-website-carbon-emissions/
 presenter_slugs:
 - thibaud-colas

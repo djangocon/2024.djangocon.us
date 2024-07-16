@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-24 12:40:00-04:00
-end_datetime: 2024-09-24 13:25:00-04:00
+datetime: 2024-09-24 12:50:00-04:00
+end_datetime: 2024-09-24 13:35:00-04:00
 permalink: /talks/upgrading-eol-django-a-journey-from-v1-to-v5/
 presenter_slugs:
 - michael-riley

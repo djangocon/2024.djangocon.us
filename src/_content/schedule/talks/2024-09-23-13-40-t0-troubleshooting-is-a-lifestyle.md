@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 13:30:00-04:00
-end_datetime: 2024-09-23 14:15:00-04:00
+datetime: 2024-09-23 13:40:00-04:00
+end_datetime: 2024-09-23 14:25:00-04:00
 permalink: /talks/troubleshooting-is-a-lifestyle/
 presenter_slugs:
 - jack-linke

@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 15:55:00-04:00
-end_datetime: 2024-09-23 16:40:00-04:00
+datetime: 2024-09-23 16:00:00-04:00
+end_datetime: 2024-09-23 16:45:00-04:00
 permalink: /talks/passkeys-your-password-free-future/
 presenter_slugs:
 - ryan-hiebert

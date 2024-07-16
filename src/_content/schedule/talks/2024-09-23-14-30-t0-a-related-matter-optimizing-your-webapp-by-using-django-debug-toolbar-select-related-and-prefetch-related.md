@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 14:25:00-04:00
-end_datetime: 2024-09-23 14:50:00-04:00
+datetime: 2024-09-23 14:30:00-04:00
+end_datetime: 2024-09-23 14:55:00-04:00
 permalink: /talks/a-related-matter-optimizing-your-webapp-by-using-django-debug-toolbar-select-related-and-prefetch-related/
 presenter_slugs:
 - christopher-adams

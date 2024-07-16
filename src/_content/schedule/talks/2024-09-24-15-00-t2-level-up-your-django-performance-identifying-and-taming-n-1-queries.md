@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-24 14:55:00-04:00
-end_datetime: 2024-09-24 15:20:00-04:00
+datetime: 2024-09-24 15:00:00-04:00
+end_datetime: 2024-09-24 15:25:00-04:00
 permalink: /talks/level-up-your-django-performance-identifying-and-taming-n-1-queries/
 presenter_slugs:
 - mohammad-ahtasham-ul-hassan

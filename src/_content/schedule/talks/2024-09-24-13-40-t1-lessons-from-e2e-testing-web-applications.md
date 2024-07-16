@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-24 13:35:00-04:00
-end_datetime: 2024-09-24 14:20:00-04:00
+datetime: 2024-09-24 13:40:00-04:00
+end_datetime: 2024-09-24 14:25:00-04:00
 permalink: /talks/lessons-from-e2e-testing-web-applications/
 presenter_slugs:
 - avindra-fernando
@@ -12,7 +12,7 @@ title: Lessons from E2E Testing Web Applications
 track: t1
 ---
 
-Lots of companies are investing in end to end testing to release high quality software and remain competitive in today’s market. Now with libraries like Cypress and Playwright, end to end testing web applications have become very intuitive and a whole lot of fun.  
+Lots of companies are investing in end to end testing to release high quality software and remain competitive in today’s market. Now with libraries like Cypress and Playwright, end to end testing Django applications have become very intuitive and a whole lot of fun.  
 
 Over the years, after working with these tools, there are many lessons that I have learned the hard way. These valuable lessons taught me how to write robust and reliable tests that vastly improved the quality of my applications.
 
