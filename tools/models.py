@@ -113,6 +113,7 @@ class ManualScheduleEntry(BaseModel):
     permalink: str | None
     room: str
     title: str
+    track: str
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:
