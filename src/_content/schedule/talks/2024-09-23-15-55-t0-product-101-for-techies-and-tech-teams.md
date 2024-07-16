@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 15:25:00-04:00
-end_datetime: 2024-09-23 16:10:00-04:00
+datetime: 2024-09-23 15:55:00-04:00
+end_datetime: 2024-09-23 16:40:00-04:00
 permalink: /talks/product-101-for-techies-and-tech-teams/
 presenter_slugs:
 - amanda-savluchinske

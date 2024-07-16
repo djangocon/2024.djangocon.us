@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 17:15:00-04:00
-end_datetime: 2024-09-23 17:40:00-04:00
+datetime: 2024-09-24 17:15:00-04:00
+end_datetime: 2024-09-24 17:40:00-04:00
 permalink: /talks/reusable-django-template-components-for-perfectionists-with-deadlines/
 presenter_slugs:
 - hernan-lozano

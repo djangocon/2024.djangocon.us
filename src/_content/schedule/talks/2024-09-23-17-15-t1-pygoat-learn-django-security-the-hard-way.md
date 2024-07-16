@@ -1,7 +1,7 @@
 ---
 category: talks
-datetime: 2024-09-23 12:00:00-04:00
-end_datetime: 2024-09-23 12:25:00-04:00
+datetime: 2024-09-23 17:15:00-04:00
+end_datetime: 2024-09-23 17:40:00-04:00
 permalink: /talks/pygoat-learn-django-security-the-hard-way/
 presenter_slugs:
 - adarsh-divakaran
