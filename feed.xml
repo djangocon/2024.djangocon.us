@@ -6,13 +6,31 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-07-09T06:00:00Z</updated
+    >2024-07-16T06:00:00Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    
+    <entry>
+      <title>Announcing our DjangoCon US 2024 Talks!</title>
+      <link href="https://2024.djangocon.us/news/announcing-schedule-dcus/" />
+      <updated>2024-07-16T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/announcing-schedule-dcus/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We are beyond thrilled to unveil the 2024 DjangoCon US &lt;a href=&#34;/schedule/&#34;&gt;talk and tutorial lineup&lt;/a&gt;. We&#39;ll have six tutorials on Sunday, September 22, three days of talks on September 23-25, and two days of sprints on September 26-27.&lt;/p&gt;
+&lt;p&gt;We will have three keynote speakers which will be announced over the next several weeks. Stay tuned to our &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon&lt;/a&gt; and &lt;a href=&#34;/news/&#34;&gt;news feed&lt;/a&gt; for the announcements.&lt;/p&gt;
+&lt;p&gt;We have lots of great talks lined up, from talks about &lt;a href=&#34;/talks/error-culture/&#34;&gt;Error Culture&lt;/a&gt;, &lt;a href=&#34;/talks/troubleshooting-is-a-lifestyle/&#34;&gt;Troubleshooting&lt;/a&gt;, &lt;a href=&#34;/talks/django-the-web-framework-that-changed-my-life/&#34;&gt;Django: the web frameework that changed my life&lt;/a&gt;, &lt;a href=&#34;/talks/django-alpine-js-htmx-ups-downs/&#34;&gt;Django + Alpine.js + htmx Ups &amp;amp; Downs&lt;/a&gt;, &lt;a href=&#34;/talks/maps-with-django/&#34;&gt;Maps with Django&lt;/a&gt;, &lt;a href=&#34;/talks/how-to-design-and-implement-extensible-software-with-plugins/&#34;&gt;How to design and implement extensible software with plugins&lt;/a&gt; &lt;a href=&#34;/talks/fighting-homelessness-with-django/&#34;&gt;Fighting Homelessness with Django&lt;/a&gt;, and so much more!&lt;/p&gt;
+&lt;p&gt;Don&#39;t forget our awesome deep dive day, where we dig into things like &lt;a href=&#34;/talks/hidden-gems-of-django-5-x/&#34;&gt;Hidden gems of Django 5.x&lt;/a&gt; from new Django Fellow Sarah Boyce, &lt;a href=&#34;/talks/a-brief-history-of-django/&#34;&gt;A Brief History of Django&lt;/a&gt;, and learning more about &lt;a href=&#34;/talks/django-user-model-past-present-and-future/&#34;&gt;Django User Model: Past, Present, and Future&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;ll also have lightning talks on all three days; you will sign up for those in Durham. Details will be announced later.&lt;/p&gt;
+&lt;p&gt;If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;you can get them here!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a reminder, the in person conference runs from September 22-27 at the &lt;a href=&#34;/venue/&#34;&gt;Durham Convention Center&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
     
     <entry>
       <title>Announcing our DjangoCon US 2024 Talks!</title>
