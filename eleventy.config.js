@@ -7,11 +7,16 @@ const setupSessions = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 const markdown = require('./lib/markdown');
 
-const { UTCDate } = require('@date-fns/utc');
+const { formatInTimeZone } = require('date-fns-tz');
+
+// Read timezone from site.json
+const siteConfig = require('./src/_data/site.json');
+const timezone = siteConfig.timezone || 'UTC'; // Default to 'UTC' if not specified
+
 
 module.exports = (config) => {
   setupCollections(config);
-  //setupSessions(config);
+  setupSessions(config);
   setupFeed(config);
 
   /*
@@ -43,7 +48,7 @@ module.exports = (config) => {
     src,
     outputDir,
     urlPath,
-    alt,
+    alt = "",
     sizes,
     classes = "") {
       let metadata = await Image(src, {
@@ -81,13 +86,16 @@ module.exports = (config) => {
     return markdown.render(content);
   });
 
-  // https://www.11ty.dev/docs/dates/#dates-off-by-one-day
-  config.addFilter("utcDate", function(date) {
-    return new UTCDate(date);
+  config.addFilter("formatDateTime", function(date, format) {
+    return formatInTimeZone(date, timezone, format);
   });
 
   config.addFilter("find", function find(collection = [], slug = "") {
     return collection.find(item => item.fileSlug === slug);
+  });
+
+  config.addFilter("talksByPresenter", function talksByPresenter(collection = [], slug = "") {
+    return collection.filter(item => item.data.presenter_slugs.includes(slug));
   });
 
   /*
