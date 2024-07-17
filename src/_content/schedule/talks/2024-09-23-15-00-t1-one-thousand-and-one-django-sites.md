@@ -13,11 +13,4 @@ title: One Thousand and One Django Sites
 track: t1
 ---
 
-The abstract says it all, however here is a more detailed breakdown of topics:
-* Brief background about our hosting business and the types of sites we are hosting.
-* Technical architectures (virtual machine vs docker vs cloud etc.)
-* Problems of scale (how the heck do you actually keep track of 1,000 websites?!)
-* Using Django to host Django (yes, the snake really does eat itself!)
-* Financial challenges we have encountered (customers wanting refunds, dealing with cloud provider billing nightmares, how we cut costs, etc.)
-* Customer support (the most time-consuming part of the business, and how to reduce the need for support).
-* Security nightmares (our own customers attacked us, the rise of A.I. spam bots, dealing with relentless attacks)
+This talk will touch on strategies and challenges we have encountered along our journey of hosting over 1,000 Django/Wagtail sites. Told in the storybook style of "One Thousand and One Nights" (a.k.a. "Arabian Nights") this talk will feature real-world anecdotes about: technical architecture, business challenges, financial challenges, customer support, and security challenges such as dealing with onslaughts of spammers and attack vectors.
