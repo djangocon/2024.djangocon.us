@@ -5,7 +5,7 @@ templateClass: view-post
 
 <article>
   <header class="mx-auto max-w-[60rem] pt-16 pb-6 text-center flex flex-col justify-center">
-    <time datetime="{{ date }}" class="mb-2 tracking-wide text-gray-600 uppercase">{{ date | date: "%B %-d, %Y" }}</time>
+    <time datetime="{{ date }}" class="mb-2 tracking-wide text-gray-600 uppercase">{{ date | formatDateTime: "MMMM d, yyyy" }}</time>
     <h1 class="text-3xl font-bold font-heading lg:text-5xl text-balance">{{ title }}</h1>
   </header>
 
