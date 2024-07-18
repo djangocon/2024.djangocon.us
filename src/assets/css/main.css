@@ -198,4 +198,8 @@
     @apply h-full w-full;
     content: '';
   }
+
+  .bg-sep {
+    background-image: linear-gradient(180deg, transparent 47%, theme(colors.gray.100) 50%, transparent 53%);
+  }
 }
