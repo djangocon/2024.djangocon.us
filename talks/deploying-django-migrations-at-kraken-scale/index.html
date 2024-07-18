@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -14,11 +15,16 @@
   <meta property="og:description" content="" />
   <meta property="og:url" content="/talks/deploying-django-migrations-at-kraken-scale/" />
   <meta property="og:site_name" content="DjangoCon US" />
-  <meta property="og:image" content="https://2024.djangocon.us/assets/img/social/og-share.jpg" />
-  <meta property="og:type" content="website" />
 
+
+  <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="https://2024.djangocon.us/assets/img/social/share.png" />
+
+  
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdeploying-django-migrations-at-kraken-scale%2Fsocial/opengraph" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdeploying-django-migrations-at-kraken-scale%2Fsocial/opengraph" />
+
+
   <meta property="twitter:title" content="Deploying Django migrations at Kraken scale" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
@@ -114,122 +120,122 @@
   </header>
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
-<div class="pb-8 lg:pb-10 hero">
-  <div class="wrapper narrow">
-    <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-    <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">Deploying Django migrations at Kraken scale</h1>
+  <div class="pb-8 lg:pb-10 hero">
+    <div class="wrapper narrow">
+      <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
+      <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">Deploying Django migrations at Kraken scale</h1>
 
-    <p class="flex flex-wrap items-center gap-4">
-      <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
-        <time>Monday, September 23 @ 4:50 PM</time>
-        <span class="text-base">to</span>
-        <time>5:15 PM</time>
-      </span>
+      <p class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
+          <time>Monday, September 23 @ 4:50 PM</time>
+          <span class="text-base">to</span>
+          <time>5:15 PM</time>
+        </span>
 
-      <a
-        href="https://time.is/compare/0450PM_23_September_2024_in_Durham"
-        class="button"
-        aria-label="View on time.is">View on time.is</a>
-    </p>
-
-    
-      <p class="mt-4">
-        <b>Grand Ballroom III</b>
-
-        
+        <a
+          href="https://time.is/compare/0450PM_23_September_2024_in_Durham"
+          class="button"
+          aria-label="View on time.is">View on time.is</a>
       </p>
-    
+
+      
+        <p class="mt-4">
+          <b>Grand Ballroom III</b>
+
+          
+        </p>
+      
 
 
+    </div>
   </div>
-</div>
 
-<div class="py-8 bg-gray-50 lg:py-10 block-container">
-  <div class="wrapper narrow">
-    <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
-    <div class="prose lg:prose-lg">
-      <p>Kraken is an energy retail system built on Django. It is currently in use by over 20 clients around the world, including the largest energy retailer in the UK, Octopus Energy, which developed Kraken.</p>
+  <div class="py-8 bg-gray-50 lg:py-10 block-container">
+    <div class="wrapper narrow">
+      <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
+      <div class="prose lg:prose-lg">
+        <p>Kraken is an energy retail system built on Django. It is currently in use by over 20 clients around the world, including the largest energy retailer in the UK, Octopus Energy, which developed Kraken.</p>
 <p>When Kraken started out over 8 years ago supporting a single small client, applying Django migrations to make database schema changes was easy. Any migration that might be slightly dangerous was deployed outside business hours when the system was relatively quiet and there was no risk of disrupting the work of customer service staff. Kraken has now grown: the code has around 350 Django apps, with over 9000 migration files between them, and some database tables have billions of rows. With Kraken operating in 8 time zones around the globe, there is now no such thing as &quot;outside business hours&quot;. We have needed to find other ways of deploying migrations that might be risky.</p>
 <p>There are two main risk factors with applying migrations: taking exclusive database locks, and needing a long time to apply. Exclusive locks can interrupt normal system operations, while slow migrations can hold up the deployment process, potentially preventing later deployments for a long period.</p>
 <p>This talk describes how we write migrations so that they avoid risks where possible, and how we deploy them in a scalable way, avoiding the need for manual intervention as much as possible. We describe techniques that use standard features in the Django migration system, as well as a system we have developed to complement standard Django migrations. The techniques described should be generally applicable to most large Django installations.</p>
 
+      </div>
     </div>
   </div>
-</div>
 
-
-<div class="pt-8 pb-16 block-container bg-light-blue">
-  <div class="wrapper narrow">
-    <div class="max-w-screen-md pt-6 mt-auto">
-      <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
-      <ul class="space-y-16">
-        
+  
+  <div class="pt-8 pb-16 block-container bg-light-blue">
+    <div class="wrapper narrow">
+      <div class="max-w-screen-md pt-6 mt-auto">
+        <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
+        <ul class="space-y-16">
           
-          <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1">
-            <section class="flex flex-wrap gap-6">
-              
+            
+            <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1">
+              <section class="flex flex-wrap gap-6">
                 
-                <img class="inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48" alt="Tim Bell" loading="lazy" decoding="async" src="/presenters/tim-bell-180.webp" width="600" height="600" srcset="/presenters/tim-bell-180.webp 180w, /presenters/tim-bell-300.webp 300w, /presenters/tim-bell-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
-              
-
-              <div class="md:flex-1">
-                <span class="flex flex-col gap-2 mb-4">
-                  <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Tim Bell</h3>
                   
-                </span>
-
-                
-                  <ul class="flex flex-wrap gap-4 mt-auto">
-                    
-                    
-                      <li>
-                        <a
-                          href="https://chaos.social/@timb07"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-mastodon"
-                          aria-label="Mastodon">
-                          <svg class="icon">
-                            <title>Mastodon</title>
-                            <use xlink:href="#mastodon-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    
-                    
-                      <li>
-                        <a
-                          href="https://twitter.com/timb07"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-twitter"
-                          aria-label="X.com">
-                          <svg class="icon">
-                            <title>X (Formerly Twitter)</title>
-                            <use xlink:href="#twitter-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    
-                    
-                  </ul>
+                  <img class="inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48" alt="Tim Bell" loading="lazy" decoding="async" src="/presenters/tim-bell-180.webp" width="600" height="600" srcset="/presenters/tim-bell-180.webp 180w, /presenters/tim-bell-300.webp 300w, /presenters/tim-bell-600.webp 600w" sizes="(max-width: 1024px) 180px, 180px">
                 
 
-                
-                  <div class="mt-4 prose">
-                    <p>Tim has been a system administrator and, for the past 9 years, a Python/Django developer. He works for Kraken Technologies Australia, part of the Octopus Energy group.</p>
+                <div class="md:flex-1">
+                  <span class="flex flex-col gap-2 mb-4">
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Tim Bell</h3>
+                    
+                  </span>
 
-                  </div>
-                
-              </div>
-            </section>
-          </li>
-        
-      </ul>
+                  
+                    <ul class="flex flex-wrap gap-4 mt-auto">
+                      
+                      
+                        <li>
+                          <a
+                            href="https://chaos.social/@timb07"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-mastodon"
+                            aria-label="Mastodon">
+                            <svg class="icon">
+                              <title>Mastodon</title>
+                              <use xlink:href="#mastodon-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                      
+                        <li>
+                          <a
+                            href="https://twitter.com/timb07"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-twitter"
+                            aria-label="X.com">
+                            <svg class="icon">
+                              <title>X (Formerly Twitter)</title>
+                              <use xlink:href="#twitter-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                      
+                    </ul>
+                  
+
+                  
+                    <div class="mt-4 prose">
+                      <p>Tim has been a system administrator and, for the past 9 years, a Python/Django developer. He works for Kraken Technologies Australia, part of the Octopus Energy group.</p>
+
+                    </div>
+                  
+                </div>
+              </section>
+            </li>
+          
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-
+  
 </main>
 
   <img src="/assets/img/theme/city.svg" alt="The city skyline of Durham" aria-hidden="true" class="mt-16 -mb-[4vw]"/>

@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -14,11 +15,16 @@
   <meta property="og:description" content="" />
   <meta property="og:url" content="/talks/path-user-user-username-user-view-profile/" />
   <meta property="og:site_name" content="DjangoCon US" />
-  <meta property="og:image" content="https://2024.djangocon.us/assets/img/social/og-share.jpg" />
-  <meta property="og:type" content="website" />
 
+
+  <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="https://2024.djangocon.us/assets/img/social/share.png" />
+
+  
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fpath-user-user-username-user-view-profile%2Fsocial/opengraph" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fpath-user-user-username-user-view-profile%2Fsocial/opengraph" />
+
+
   <meta property="twitter:title" content="path('/user/&lt;user.username:user&gt;/', view_profile)" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
@@ -114,106 +120,106 @@
   </header>
 
   <main id="SiteMain" class="flex-1 pt-[80px] lg:pt-0 lg:block">
-<div class="pb-8 lg:pb-10 hero">
-  <div class="wrapper narrow">
-    <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-    <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">path('/user/&lt;user.username:user&gt;/', view_profile)</h1>
+  <div class="pb-8 lg:pb-10 hero">
+    <div class="wrapper narrow">
+      <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
+      <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">path('/user/&lt;user.username:user&gt;/', view_profile)</h1>
 
-    <p class="flex flex-wrap items-center gap-4">
-      <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
-        <time>Monday, September 23 @ 10:40 AM</time>
-        <span class="text-base">to</span>
-        <time>11:25 AM</time>
-      </span>
+      <p class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
+          <time>Monday, September 23 @ 10:40 AM</time>
+          <span class="text-base">to</span>
+          <time>11:25 AM</time>
+        </span>
 
-      <a
-        href="https://time.is/compare/1040AM_23_September_2024_in_Durham"
-        class="button"
-        aria-label="View on time.is">View on time.is</a>
-    </p>
-
-    
-      <p class="mt-4">
-        <b>Grand Ballroom III</b>
-
-        
+        <a
+          href="https://time.is/compare/1040AM_23_September_2024_in_Durham"
+          class="button"
+          aria-label="View on time.is">View on time.is</a>
       </p>
-    
+
+      
+        <p class="mt-4">
+          <b>Grand Ballroom III</b>
+
+          
+        </p>
+      
 
 
+    </div>
   </div>
-</div>
 
-<div class="py-8 bg-gray-50 lg:py-10 block-container">
-  <div class="wrapper narrow">
-    <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
-    <div class="prose lg:prose-lg">
-      <p>Since Django-2.0, most people use path converters instead of regexes to describe the different URL patterns, and how these will trigger views. One can use the already builtin path converters, but also define new ones to parse dates, booleans, etc. more effectively. One can not only define a pattern, but also provide methods to convert between Python objects and URL fragments.</p>
+  <div class="py-8 bg-gray-50 lg:py-10 block-container">
+    <div class="wrapper narrow">
+      <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
+      <div class="prose lg:prose-lg">
+        <p>Since Django-2.0, most people use path converters instead of regexes to describe the different URL patterns, and how these will trigger views. One can use the already builtin path converters, but also define new ones to parse dates, booleans, etc. more effectively. One can not only define a pattern, but also provide methods to convert between Python objects and URL fragments.</p>
 <p>That last feature can be used to automatically fetch model objects if the path contains the value for the primary key of the model object, or another unique field. We thus avoid writing queries to fetch the objects, but can also turn these into lazy objects where we postpone the roundtrip to the database, until the view needs that object, and thus save a roundtrip if the view has a codepath that does not require the object. Some databases also allow to combine multiple queries in one roundtrip, so we can combine all the objects that go to the same database, limiting the roundtrips further.</p>
 <p>A problem with path patterns in general is that often they overlap: the same path can trigger multiple patterns. In that case the first one is picked. This issue has already lead to countless hours of debugging since people expect a different view to be triggered. Since path patterns eventually compile to regexes, and one can determine if two regexes (fully) overlap, we can automatically detect if there are paths for which two or more URL patterns are triggered, and in case a pattern is fully covered by patterns above, advise to rearrange the patterns. Probably not very suprisingly we found that Django's admin pages suffer from this issue as well: if we make a model with a <code>CharField</code> as primary key, then adding items with &quot;remove&quot; or &quot;history&quot; as value for the primary key, means certain views can not be used for these objects. We show some ways to mitigate this.</p>
 
+      </div>
     </div>
   </div>
-</div>
 
-
-<div class="pt-8 pb-16 block-container bg-light-blue">
-  <div class="wrapper narrow">
-    <div class="max-w-screen-md pt-6 mt-auto">
-      <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
-      <ul class="space-y-16">
-        
+  
+  <div class="pt-8 pb-16 block-container bg-light-blue">
+    <div class="wrapper narrow">
+      <div class="max-w-screen-md pt-6 mt-auto">
+        <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
+        <ul class="space-y-16">
           
-          <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1">
-            <section class="flex flex-wrap gap-6">
-              
+            
+            <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1">
+              <section class="flex flex-wrap gap-6">
                 
-                <img class="inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48" alt="Willem Van Onsem" loading="lazy" decoding="async" src="/presenters/willem-van-onsem-180.webp" width="512" height="512" srcset="/presenters/willem-van-onsem-180.webp 180w, /presenters/willem-van-onsem-300.webp 300w, /presenters/willem-van-onsem-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
-              
-
-              <div class="md:flex-1">
-                <span class="flex flex-col gap-2 mb-4">
-                  <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Willem Van Onsem</h3>
                   
-                </span>
-
-                
-                  <ul class="flex flex-wrap gap-4 mt-auto">
-                    
-                    
-                    
-                    
-                      <li>
-                        <a
-                          href="https://www.django-antipatterns.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-green"
-                          aria-label="Website">
-                          <svg class="icon">
-                            <use xlink:href="#web-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    
-                  </ul>
+                  <img class="inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48" alt="Willem Van Onsem" loading="lazy" decoding="async" src="/presenters/willem-van-onsem-180.webp" width="512" height="512" srcset="/presenters/willem-van-onsem-180.webp 180w, /presenters/willem-van-onsem-300.webp 300w, /presenters/willem-van-onsem-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
                 
 
-                
-                  <div class="mt-4 prose">
-                    <p>Willem Van Onsem is a Django developer located in Belgium.</p>
+                <div class="md:flex-1">
+                  <span class="flex flex-col gap-2 mb-4">
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Willem Van Onsem</h3>
+                    
+                  </span>
 
-                  </div>
-                
-              </div>
-            </section>
-          </li>
-        
-      </ul>
+                  
+                    <ul class="flex flex-wrap gap-4 mt-auto">
+                      
+                      
+                      
+                      
+                        <li>
+                          <a
+                            href="https://www.django-antipatterns.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-green"
+                            aria-label="Website">
+                            <svg class="icon">
+                              <use xlink:href="#web-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      
+                    </ul>
+                  
+
+                  
+                    <div class="mt-4 prose">
+                      <p>Willem Van Onsem is a Django developer located in Belgium.</p>
+
+                    </div>
+                  
+                </div>
+              </section>
+            </li>
+          
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-
+  
 </main>
 
   <img src="/assets/img/theme/city.svg" alt="The city skyline of Durham" aria-hidden="true" class="mt-16 -mb-[4vw]"/>
