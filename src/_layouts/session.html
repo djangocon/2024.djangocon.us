@@ -3,11 +3,6 @@
 
 {% layout "_layouts/default.html" %}
 
-{% block social_images %}
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/{{ site.domain | url_encode }}{{ page.url | url_encode }}social/opengraph" />
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/{{ site.domain | url_encode }}{{ page.url | url_encode }}social/opengraph" />
-{% endblock %}
-
 {% block content %}
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
