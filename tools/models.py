@@ -113,6 +113,7 @@ class ManualScheduleEntry(BaseModel):
     permalink: str | None
     room: str
     title: str
+    track: str
 
 
 def migrate_mastodon_handle(*, handle: str) -> str:
@@ -285,12 +286,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(12, 0),
+            constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -303,13 +304,13 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
             # NOTE this must match the length of the online talk
-            pydatetime.time(13, 25),
+            constants.LUNCH_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -322,12 +323,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(14, 55),
+            pydatetime.time(15, 30),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_1,
-            pydatetime.time(15, 20),
+            pydatetime.time(15, 55),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -461,12 +462,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(12, 0),
+            constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -479,13 +480,13 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
             # NOTE this must match the length of the online talk
-            pydatetime.time(13, 25),
+            constants.LUNCH_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -498,12 +499,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(14, 55),
+            pydatetime.time(15, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_2,
-            pydatetime.time(15, 20),
+            pydatetime.time(15, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",
@@ -619,12 +620,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(12, 0),
+            constants.LIGHTNING_TALK_START_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -637,13 +638,13 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(12, 40),
+            constants.LIGHTNING_TALK_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
             # NOTE this must match the length of the online talk
-            pydatetime.time(13, 25),
+            constants.LUNCH_END_TIME,
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="lunch",
@@ -656,12 +657,12 @@ MANUAL_SCHEDULE_ENTRIES = [
     ManualScheduleEntry(
         datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(14, 55),
+            pydatetime.time(15, 0),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         end_datetime=pydatetime.datetime.combine(
             constants.TALK_DAY_3,
-            pydatetime.time(15, 20),
+            pydatetime.time(15, 25),
             tzinfo=constants.CONFERENCE_TZ,
         ),
         group="break",

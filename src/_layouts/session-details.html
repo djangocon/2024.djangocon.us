@@ -1,185 +1,193 @@
 ---
-layout: default
 ---
 
-<div class="pb-8 lg:pb-10 hero">
-  <div class="wrapper narrow">
-    <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-    <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">{{ title }}</h1>
+{% layout "_layouts/default.html" %}
 
-    <p class="flex flex-wrap items-center gap-4">
-      <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
-        <time>{{ datetime | formatDateTime: "EEEE, MMMM d '@' h:mm a"}}</time>
-        <span class="text-base">to</span>
-        <time>{{ end_datetime | formatDateTime: "h:mm a"}}</time>
-      </span>
+{% block social_images %}
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/{{ site.domain | url_encode }}{{ page.url | url_encode }}social/opengraph" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/{{ site.domain | url_encode }}{{ page.url | url_encode }}social/opengraph" />
+{% endblock %}
 
-      <a
-        href="https://time.is/compare/{{ datetime | formatDateTime: "hhmma_dd_MMMM_yyyy" }}_in_Durham"
-        class="button"
-        aria-label="View on time.is">View on time.is</a>
-    </p>
+{% block content %}
+  <div class="pb-8 lg:pb-10 hero">
+    <div class="wrapper narrow">
+      <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
+      <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">{{ title }}</h1>
 
-    {% if room %}
-      <p class="mt-4">
-        <b>{{ room }}</b>
+      <p class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
+          <time>{{ datetime | formatDateTime: "EEEE, MMMM d '@' h:mm a"}}</time>
+          <span class="text-base">to</span>
+          <time>{{ end_datetime | formatDateTime: "h:mm a"}}</time>
+        </span>
 
-        {% if difficulty %}
-          &nbsp;
-          |
-          &nbsp;
-          Audience level:
-          <span class="px-2 py-[.125rem] text-sm font-bold text-white bg-black rounded">
-            <span class="sr-only">Audience level: </span>
-            {{ difficulty }}
-          </span>
-        {% endif %}
+        <a
+          href="https://time.is/compare/{{ datetime | formatDateTime: "hhmma_dd_MMMM_yyyy" }}_in_Durham"
+          class="button"
+          aria-label="View on time.is">View on time.is</a>
       </p>
-    {% endif %}
+
+      {% if room %}
+        <p class="mt-4">
+          <b>{{ room }}</b>
+
+          {% if difficulty %}
+            &nbsp;
+            |
+            &nbsp;
+            Audience level:
+            <span class="px-2 py-[.125rem] text-sm font-bold text-white bg-black rounded">
+              <span class="sr-only">Audience level: </span>
+              {{ difficulty }}
+            </span>
+          {% endif %}
+        </p>
+      {% endif %}
 
 
-  </div>
-</div>
-
-<div class="py-8 bg-gray-50 lg:py-10 block-container">
-  <div class="wrapper narrow">
-    <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
-    <div class="prose lg:prose-lg">
-      {{ content | markdown }}
     </div>
   </div>
-</div>
 
-{% if presenter_slugs %}
-<div class="pt-8 pb-16 block-container bg-light-blue">
-  <div class="wrapper narrow">
-    <div class="max-w-screen-md pt-6 mt-auto">
-      <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
-      <ul class="space-y-16">
-        {% for presenter_slug in presenter_slugs %}
-          {% assign presenter = collections.presenters | find:presenter_slug %}
-          <li class="relative p-6 bg-white bg-lines lg:pt-10 {% cycle 'card-effect-1', 'card-effect-2', 'card-effect-3' %}">
-            <section class="flex flex-wrap gap-6">
-              {% if presenter.data.photo != null and presenter.data.photo != "" %}
-                {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
-                {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
-              {% endif %}
+  <div class="py-8 bg-gray-50 lg:py-10 block-container">
+    <div class="wrapper narrow">
+      <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
+      <div class="prose lg:prose-lg">
+        {{ content | markdown }}
+      </div>
+    </div>
+  </div>
 
-              <div class="md:flex-1">
-                <span class="flex flex-col gap-2 mb-4">
-                  <h3 class="text-xl font-semibold leading-4 lg:text-3xl">{{ presenter.data.name }}</h3>
-                  {% if presenter.data.pronouns %}
-                    <span class="text-sm">
-                      ({{ presenter.data.pronouns }})
-                    </span>
+  {% if presenter_slugs %}
+  <div class="pt-8 pb-16 block-container bg-light-blue">
+    <div class="wrapper narrow">
+      <div class="max-w-screen-md pt-6 mt-auto">
+        <h2 class="mb-8 text-xl font-bold leading-tight lg:text-3xl">Presented by</h2>
+        <ul class="space-y-16">
+          {% for presenter_slug in presenter_slugs %}
+            {% assign presenter = collections.presenters | find:presenter_slug %}
+            <li class="relative p-6 bg-white bg-lines lg:pt-10 {% cycle 'card-effect-1', 'card-effect-2', 'card-effect-3' %}">
+              <section class="flex flex-wrap gap-6">
+                {% if presenter.data.photo != null and presenter.data.photo != "" %}
+                  {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
+                  {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
+                {% endif %}
+
+                <div class="md:flex-1">
+                  <span class="flex flex-col gap-2 mb-4">
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">{{ presenter.data.name }}</h3>
+                    {% if presenter.data.pronouns %}
+                      <span class="text-sm">
+                        ({{ presenter.data.pronouns }})
+                      </span>
+                    {% endif %}
+                  </span>
+
+                  {% if presenter.data.social %}
+                    <ul class="flex flex-wrap gap-4 mt-auto">
+                      {% if presenter.data.social.bluesky not null %}
+                        <li>
+                          <a
+                            href="https://bsky.app/profile/{{ presenter.data.social.bluesky }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-bluesky"
+                            aria-label="GitHub">
+                            <svg class="icon">
+                              <title>Bluesky</title>
+                              <use xlink:href="#bluesky-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                      {% if presenter.data.social.github not null %}
+                        <li>
+                          <a
+                            href="https://github.com/{{ presenter.data.social.github }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-github"
+                            aria-label="GitHub">
+                            <svg class="icon">
+                              <title>GitHub</title>
+                              <use xlink:href="#github-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                      {% if presenter.data.social.instagram not null %}
+                        <li>
+                          <a
+                            href="https://instagram.com/{{ presenter.data.social.instagram }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-instagram"
+                            aria-label="Instagram">
+                            <svg class="icon">
+                              <title>Instagram</title>
+                              <use xlink:href="#instagram-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                      {% if presenter.data.social.mastodon not null %}
+                        <li>
+                          <a
+                            href="{{ presenter.data.social.mastodon }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-mastodon"
+                            aria-label="Mastodon">
+                            <svg class="icon">
+                              <title>Mastodon</title>
+                              <use xlink:href="#mastodon-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                      {% if presenter.data.social.twitter not null %}
+                        <li>
+                          <a
+                            href="https://twitter.com/{{ presenter.data.social.twitter }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-social-twitter"
+                            aria-label="X.com">
+                            <svg class="icon">
+                              <title>X (Formerly Twitter)</title>
+                              <use xlink:href="#twitter-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                      {% if presenter.data.social.website not null %}
+                        <li>
+                          <a
+                            href="{{ presenter.data.social.website }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="hover:text-green"
+                            aria-label="Website">
+                            <svg class="icon">
+                              <use xlink:href="#web-icon"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      {% endif %}
+                    </ul>
                   {% endif %}
-                </span>
 
-                {% if presenter.data.social %}
-                  <ul class="flex flex-wrap gap-4 mt-auto">
-                    {% if presenter.data.social.bluesky not null %}
-                      <li>
-                        <a
-                          href="https://bsky.app/profile/{{ presenter.data.social.bluesky }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-bluesky"
-                          aria-label="GitHub">
-                          <svg class="icon">
-                            <title>Bluesky</title>
-                            <use xlink:href="#bluesky-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                    {% if presenter.data.social.github not null %}
-                      <li>
-                        <a
-                          href="https://github.com/{{ presenter.data.social.github }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-github"
-                          aria-label="GitHub">
-                          <svg class="icon">
-                            <title>GitHub</title>
-                            <use xlink:href="#github-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                    {% if presenter.data.social.instagram not null %}
-                      <li>
-                        <a
-                          href="https://instagram.com/{{ presenter.data.social.instagram }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-instagram"
-                          aria-label="Instagram">
-                          <svg class="icon">
-                            <title>Instagram</title>
-                            <use xlink:href="#instagram-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                    {% if presenter.data.social.mastodon not null %}
-                      <li>
-                        <a
-                          href="{{ presenter.data.social.mastodon }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-mastodon"
-                          aria-label="Mastodon">
-                          <svg class="icon">
-                            <title>Mastodon</title>
-                            <use xlink:href="#mastodon-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                    {% if presenter.data.social.twitter not null %}
-                      <li>
-                        <a
-                          href="https://twitter.com/{{ presenter.data.social.twitter }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-social-twitter"
-                          aria-label="X.com">
-                          <svg class="icon">
-                            <title>X (Formerly Twitter)</title>
-                            <use xlink:href="#twitter-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                    {% if presenter.data.social.website not null %}
-                      <li>
-                        <a
-                          href="{{ presenter.data.social.website }}"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          class="hover:text-green"
-                          aria-label="Website">
-                          <svg class="icon">
-                            <use xlink:href="#web-icon"></use>
-                          </svg>
-                        </a>
-                      </li>
-                    {% endif %}
-                  </ul>
-                {% endif %}
-
-                {% if presenter.content %}
-                  <div class="mt-4 prose">
-                    {{ presenter.content | markdown }}
-                  </div>
-                {% endif %}
-              </div>
-            </section>
-          </li>
-        {% endfor %}
-      </ul>
+                  {% if presenter.content %}
+                    <div class="mt-4 prose">
+                      {{ presenter.content | markdown }}
+                    </div>
+                  {% endif %}
+                </div>
+              </section>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-{% endif %}
+  {% endif %}
+{% endblock %}

@@ -70,6 +70,7 @@ _All talks will be available live for those with online-only tickets. They will 
 - Tim Bell ([twitter](https://twitter.com/timb07), [mastodon](https://chaos.social/@timb07)) - Deploying Django migrations at Kraken scale
 - Tim Schilling ([twitter](https://twitter.com/CodenameTim), [mastodon](https://fosstodon.org/@CodenameTim), [website](https://www.better-simple.com/)) - You got that nice tech salary, now what?
 - Vaarun Sinha ([website](https://www.linkedin.com/in/vaarun-sinha-674114230/)) - Streaming Video in Django | Demystified
+- Vince Salvino ([website](https://www.codered.cloud/)) - One Thousand and One Django Sites
 - Will Vincent ([website](https://learndjango.com)) - Django User Model: Past, Present, and Future
 - Willem Van Onsem ([website](https://www.django-antipatterns.com/)) - path('/user/&lt;user.username:user&gt;/', view_profile)
 - Álvaro Justen ([twitter](https://twitter.com/turicas), [website](https://brasil.io/)) - PostgreSQL Beyond Django: Strategies to Get Max Performance

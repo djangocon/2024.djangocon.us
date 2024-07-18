@@ -9,7 +9,7 @@ social:
     github: null
     instagram: null
     mastodon: null
-    twitter: null
+    twitter: llerioluwakiiye
     website: null
 ---
 

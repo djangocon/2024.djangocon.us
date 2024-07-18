@@ -14,12 +14,17 @@
   <meta property="og:description" content="{{ description }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="DjangoCon US" />
-  <meta property="og:image" content="{{ site.domain }}/assets/img/social/og-share.jpg" />
-  <meta property="og:type" content="website" />
 
+
+  <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="{{ site.domain }}/assets/img/social/share.png" />
-  <meta property="twitter:title" content="Organizers" />
+
+  {% block social_images %}
+    <meta property="og:image" content="{{ site.domain }}{{ page.url }}assets/img/social/og-share.jpg" />
+    <meta property="twitter:image" content="{{ site.domain }}{{ page.url }}assets/img/social/share.png" />
+  {% endblock %}
+
+  <meta property="twitter:title" content="{{ title }}" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
 

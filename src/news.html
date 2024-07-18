@@ -31,7 +31,7 @@ layout: default
             <article class="py-6">
               <time
                 class="mb-2 tracking-wide text-gray-600 uppercase block-container"
-                datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                datetime="{{ post.date }}">{{ post.date | formatDateTime: "MMMM d, yyyy" }}</time>
               <h2 class="text-2xl font-heading font-semibold {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
 
               {%- if post.data.page.excerpt -%}

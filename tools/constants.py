@@ -42,7 +42,8 @@ PANEL_ORGANIZER_SLUG = "rachell-calhoun"
 
 LIGHTNING_TALKS_ORGANIZER_SLUG = "andrew-mshar"
 LIGHTNING_TALK_START_TIME = datetime.time(12)
-LIGHTNING_TALK_END_TIME = datetime.time(12, 40)
+LIGHTNING_TALK_END_TIME = datetime.time(12, 50)
+LUNCH_END_TIME = datetime.time(13, 35)
 
 ORIENTATION_ORGANIZER_SLUG = "kojo-idrissa"
 ORIENTATION_START = datetime.datetime.combine(
@@ -70,12 +71,12 @@ DAY_3_KEYNOTE_START = DAY_3_OPENING_REMARKS_END
 DAY_3_KEYNOTE_END = DAY_3_KEYNOTE_START + datetime.timedelta(minutes=45)
 
 CLOSING_REMARKS_START = datetime.datetime.combine(
-    TALK_DAY_3, datetime.time(17, 15), tzinfo=CONFERENCE_TZ
+    TALK_DAY_3, datetime.time(17, 20), tzinfo=CONFERENCE_TZ
 )
-CLOSING_REMARKS_END = CLOSING_REMARKS_START + datetime.timedelta(minutes=15)
+CLOSING_REMARKS_END = CLOSING_REMARKS_START + datetime.timedelta(minutes=20)
 
 PANEL_START = datetime.datetime.combine(
-    TALK_DAY_3, datetime.time(16, 20), tzinfo=CONFERENCE_TZ
+    TALK_DAY_3, datetime.time(16, 30), tzinfo=CONFERENCE_TZ
 )
 PANEL_END = PANEL_START + datetime.timedelta(minutes=45)
 
