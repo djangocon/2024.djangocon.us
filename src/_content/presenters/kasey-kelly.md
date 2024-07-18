@@ -5,10 +5,10 @@ name: Kasey Kelly
 permalink: /presenters/kasey-kelly/
 photo: kasey-kelly.jpeg
 social:
-    bluesky: kaseykelly
-    github: kaseykelly
-    instagram: kaseykelly
-    mastodon: kaseykelly
+    bluesky: null
+    github: null
+    instagram: null
+    mastodon: null
     twitter: kaseykelly
     website: https://lincolnloop.com/
 ---
