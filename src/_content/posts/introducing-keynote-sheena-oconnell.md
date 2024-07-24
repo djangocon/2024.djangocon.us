@@ -3,8 +3,8 @@ author: DjangoCon US Communications Team
 category: General
 date: 2024-07-23 06:00:00
 cover:
-    url: /assets/img/blog/sheena-oconnel.jpg
-    alt: "Sheena O'Connel"
+    url: /assets/img/blog/sheena-oconnell.jpg
+    alt: "Sheena O'Connell"
 layout: post
 title: "Announcing Our Keynotes: Sheena O'Connell"
 ---
