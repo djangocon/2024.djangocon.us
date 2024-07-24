@@ -1,10 +1,12 @@
 ---
 author: DjangoCon US Communications Team
-category: Program
+category: General
 date: 2024-07-23 06:00:00
-image: /static/img/blog/
+cover:
+    url: /assets/img/blog/sheena-oconnel.jpg
+    alt: "Sheena O'Connel"
 layout: post
-title: 'Announcing Our Keynotes: Sheena O'Connell'
+title: "Announcing Our Keynotes: Sheena O'Connell"
 ---
 
 ### We're honored to announce our first keynote speaker for DjangoCon US 2024: Sheena O'Connell!
