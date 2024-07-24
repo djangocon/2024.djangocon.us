@@ -31,11 +31,11 @@ We had the opportunity to sit down with Sheena and ask her a few questions about
 
 >I like being introduced to things I can use and don't yet know about. For example, I've found previous talks on HTMX and Playwright really useful. I use those tools now. I really like anything that is actionable. And I enjoy good stories and new ways of looking at things. If I can leave curious and inspired, then I'm happy.
 
-## Your Involvement with Conferences
+## Have You Presented at Other Conferences?
 
 >I've presented at many places since my first conference, including DjangoCon Africa, DjangoCon Europe, and local conferences like PyCon Namibia and PyCon South Africa. Recently, my work has shifted more towards teaching teachers rather than directly working on hard tech. This involves dealing with stakeholders and non-developers, which requires a lot of learning and adaptation.
 
-## Building Communities and Future Plans
+## What Are You Passionate About?
 
 >I'm heavily involved in building communities through new conferences and other initiatives. It's rewarding to see the impact, especially in smaller communities like PyCon Namibia. These efforts are life-changing for small communities. I have been thinking and planning ways to support tech education. I will be launching this soon, so please keep an eye out for it.
 
