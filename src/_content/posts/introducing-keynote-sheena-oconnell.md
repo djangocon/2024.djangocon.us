@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-07-23 06:00:00
+date: 2024-07-24 06:00:00
 cover:
     url: /assets/img/blog/sheena-oconnell.jpg
     alt: "Sheena O'Connell"
