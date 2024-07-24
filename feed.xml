@@ -6,13 +6,60 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-07-16T06:00:00Z</updated
+    >2024-07-24T06:00:00Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    
+    <entry>
+      <title>Announcing Our Keynotes: Sheena O'Connell</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/" />
+      <updated>2024-07-24T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-first-keynote-speaker-for-djangocon-us-2024%3A-sheena-o&#39;connell!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our first keynote speaker for DjangoCon US 2024: Sheena O&#39;Connell!&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Sheena and ask her a few questions about her work, her upcoming talk, and what she&#39;s looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-you-use-django%3F&#34; tabindex=&#34;-1&#34;&gt;How Do You Use Django?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Currently, I use it at work. We have a learner management system built in Django. I spoke about it at DjangoCon US 2022. That project is still running, but it&#39;s changed a bit. We have moved away from a React-based frontend to something built with HTMX, and it&#39;s way nicer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-your-upcoming-talk%3F&#34; tabindex=&#34;-1&#34;&gt;Can You Give Us a Teaser About Your Upcoming Talk?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software developers are often put in positions where they need to teach - this can be a part of their job (eg: onboarding the new human, explaining your stuff to non-technical humans, taking part in mentorship, actually being paid to teach) or through community events and volunteering. These teachers often are not trained in how to teach. And even those that don&#39;t teach others need to teach themselves. This is a learning career.&lt;br&gt;
+My talk is about how to teach foundational code. So it&#39;s also about the science of learning. There are evidence-based methods that work, and common anti-patterns that set people back. Teaching well is an art and a science. My goal here is to set everyone in the audience up to be better teachers, it&#39;s a big goal for a talk, but I&#39;m sure I can light a few fires.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What Are You Most Looking Forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The people! I enjoy the talks, and I&#39;ve benefited a lot from them, but the community is the thing that keeps making me want to come back.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What Are Your Favorite Topics at Conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I like being introduced to things I can use and don&#39;t yet know about. For example, I&#39;ve found previous talks on HTMX and Playwright really useful. I use those tools now. I really like anything that is actionable. And I enjoy good stories and new ways of looking at things. If I can leave curious and inspired, then I&#39;m happy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;have-you-presented-at-other-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;Have You Presented at Other Conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;ve presented at many places since my first conference, including DjangoCon Africa, DjangoCon Europe, and local conferences like PyCon Namibia and PyCon South Africa. Recently, my work has shifted more towards teaching teachers rather than directly working on hard tech. This involves dealing with stakeholders and non-developers, which requires a lot of learning and adaptation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-passionate-about%3F&#34; tabindex=&#34;-1&#34;&gt;What Are You Passionate About?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m heavily involved in building communities through new conferences and other initiatives. It&#39;s rewarding to see the impact, especially in smaller communities like PyCon Namibia. These efforts are life-changing for small communities. I have been thinking and planning ways to support tech education. I will be launching this soon, so please keep an eye out for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-workday%3F&#34; tabindex=&#34;-1&#34;&gt;What Do You Like to Do Outside of Your Normal Workday?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Way too many things. I enjoy climbing quite a lot. I also have a &lt;a href=&#34;http://sheenaoc.com/&#34;&gt;blog&lt;/a&gt; where I mostly talk about tech education. I have been teaching myself to play guitar, but it&#39;s not always something I have time for.   I also love hiking, I do one or two multi-day hikes per year, I enjoy getting very far from civilization from time to time. Lastly, I always have some kind of side quest going on.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-open-to-people-reaching-out-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are You Open to People Reaching Out Later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes, definitely!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://www.linkedin.com/in/sheena-o-connell-0bb72527/&#34;&gt;Sheena&lt;/a&gt; on LinkedIn and check out her &lt;a href=&#34;http://sheenaoc.com/&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Sheena&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
     
     <entry>
       <title>Announcing our DjangoCon US 2024 Talks!</title>
