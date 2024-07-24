@@ -2,7 +2,7 @@
 level: Diamond
 name: Six Feet Up
 date: 2024-05-12
-hidden: true
+hidden: false
 logo:
     filename: SixFeetUp_Logo.png
     orientation: landscape
