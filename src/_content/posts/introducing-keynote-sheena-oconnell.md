@@ -15,7 +15,7 @@ We had the opportunity to sit down with Sheena and ask her a few questions about
 
 ## How Do You Use Django?
 
->Currently, I use it at work. We have a learner management system built in Django. I spoke about it at DjangoCon 2022. That project is still running, but it's changed a bit. We have moved away from a React-based frontend to something built with HTMX, and it's way nicer.
+>Currently, I use it at work. We have a learner management system built in Django. I spoke about it at DjangoCon US 2022. That project is still running, but it's changed a bit. We have moved away from a React-based frontend to something built with HTMX, and it's way nicer.
 
 ## Can You Give Us a Teaser About Your Upcoming Talk?
 
