@@ -7,7 +7,7 @@ permalink: /talks/keynote-monday/
 presenter_slugs: 
 - sheena-oconnell
 room: Junior Ballroom
-title: Keynote - Sheena O'Connell (Monday)
+title: Keynote - Power to the People who Teach the People
 track: t0
 ---
 
