@@ -35,10 +35,22 @@ layout: default
                 {% if sponsor.data.logo.orientation == "portrait" %}
                   {% assign orientation_class = "h-auto w-auto max-h-32 lg:max-h-80 lg:max-w-40" %}
                 {% endif %}
-                <img
-                  src="/sponsors/{{ sponsor.data.logo.filename }}"
-                  alt="{{ sponsor.data.name }} logo"
-                  class="{{ orientation_class }}">
+                {% if sponsor.data.url.target %}
+                <a href="{{ sponsor.data.url.target }}" target="_blank" class="block w-full h-full">
+                  <span class="sr-only">{{ sponsor.data.name }}</span>
+                  <img
+                    src="/sponsors/{{ sponsor.data.logo.filename }}"
+                    alt="{{ sponsor.data.name }}"
+                    class="{{ orientation_class }}"
+                    aria-hidden="true">
+                </a>
+                {% else %}
+                  <img
+                    src="/sponsors/{{ sponsor.data.logo.filename }}"
+                    alt="{{ sponsor.data.name }} logo"
+                    class="{{ orientation_class }}">
+                {% endif %}
+
               {% endif %}
             </div>
 
