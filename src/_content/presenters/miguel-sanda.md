@@ -6,7 +6,7 @@ permalink: /presenters/miguel-sanda/
 photo: miguel-sanda.jpeg
 social:
     bluesky: null
-    github: null
+    github: elarroba
     instagram: null
     mastodon: null
     twitter: elarroba
@@ -21,4 +21,4 @@ An Entrepreneur, Crypto, and Real Estate Investor with a solid and rounded educa
 
 Passionate about driving innovation through data science and expanding skill sets through self-learning, with 15+ years of hands-on Python experience.
 
-l am originally from Venezuela and outside of work, I enjoy spending time with family, hiking, and cooking, and is the father of three.
+I am originally from Venezuela and outside of work, I enjoy spending time with family, hiking, and cooking, and is the father of three.
