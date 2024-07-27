@@ -36,8 +36,8 @@ days:
         <li>
           <a href="#Day-{{ forloop.index }}" class="group">
             <time class="flex flex-col">
-              <span class="px-3 min-w-[8ch] text-lg font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
-              <span class="px-3 py-1 text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
+              <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
+              <span class="px-3 py-1 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
           </a>
         </li>
