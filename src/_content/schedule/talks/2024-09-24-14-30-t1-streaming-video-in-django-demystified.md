@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 14:30:00-04:00
+start_datetime: 2024-09-24 14:30:00-04:00
 end_datetime: 2024-09-24 14:55:00-04:00
 permalink: /talks/streaming-video-in-django-demystified/
 presenter_slugs:

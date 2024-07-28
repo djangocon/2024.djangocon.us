@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 11:30:00-04:00
+start_datetime: 2024-09-24 11:30:00-04:00
 end_datetime: 2024-09-24 11:55:00-04:00
 permalink: /talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/
 presenter_slugs:

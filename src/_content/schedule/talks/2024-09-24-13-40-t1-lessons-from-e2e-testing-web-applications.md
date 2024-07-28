@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 13:40:00-04:00
+start_datetime: 2024-09-24 13:40:00-04:00
 end_datetime: 2024-09-24 14:25:00-04:00
 permalink: /talks/lessons-from-e2e-testing-web-applications/
 presenter_slugs:

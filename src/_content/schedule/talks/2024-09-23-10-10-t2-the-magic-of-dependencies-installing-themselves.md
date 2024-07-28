@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 10:10:00-04:00
+start_datetime: 2024-09-23 10:10:00-04:00
 end_datetime: 2024-09-23 10:35:00-04:00
 permalink: /talks/the-magic-of-dependencies-installing-themselves/
 presenter_slugs:

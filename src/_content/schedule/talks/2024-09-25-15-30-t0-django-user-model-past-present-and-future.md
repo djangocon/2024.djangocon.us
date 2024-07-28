@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-25 15:30:00-04:00
+start_datetime: 2024-09-25 15:30:00-04:00
 end_datetime: 2024-09-25 15:55:00-04:00
 permalink: /talks/django-user-model-past-present-and-future/
 presenter_slugs:

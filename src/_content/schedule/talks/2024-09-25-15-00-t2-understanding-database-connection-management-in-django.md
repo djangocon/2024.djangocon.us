@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-25 15:00:00-04:00
+start_datetime: 2024-09-25 15:00:00-04:00
 end_datetime: 2024-09-25 15:25:00-04:00
 permalink: /talks/understanding-database-connection-management-in-django/
 presenter_slugs:

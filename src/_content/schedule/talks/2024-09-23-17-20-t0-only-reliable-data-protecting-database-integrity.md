@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 17:20:00-04:00
+start_datetime: 2024-09-23 17:20:00-04:00
 end_datetime: 2024-09-23 17:45:00-04:00
 permalink: /talks/only-reliable-data-protecting-database-integrity/
 presenter_slugs:

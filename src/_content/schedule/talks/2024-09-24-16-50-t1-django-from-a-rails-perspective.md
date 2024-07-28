@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 16:50:00-04:00
+start_datetime: 2024-09-24 16:50:00-04:00
 end_datetime: 2024-09-24 17:15:00-04:00
 permalink: /talks/django-from-a-rails-perspective/
 presenter_slugs:

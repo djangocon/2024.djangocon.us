@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-25 10:10:00-04:00
+start_datetime: 2024-09-25 10:10:00-04:00
 end_datetime: 2024-09-25 10:35:00-04:00
 permalink: /talks/introduction-to-opentelemetry-with-django/
 presenter_slugs:

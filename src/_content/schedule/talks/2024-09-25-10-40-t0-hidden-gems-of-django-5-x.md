@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-25 10:40:00-04:00
+start_datetime: 2024-09-25 10:40:00-04:00
 end_datetime: 2024-09-25 11:25:00-04:00
 permalink: /talks/hidden-gems-of-django-5-x/
 presenter_slugs:

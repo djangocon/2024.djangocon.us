@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 10:40:00-04:00
+start_datetime: 2024-09-23 10:40:00-04:00
 end_datetime: 2024-09-23 11:25:00-04:00
 permalink: /talks/path-user-user-username-user-view-profile/
 presenter_slugs:

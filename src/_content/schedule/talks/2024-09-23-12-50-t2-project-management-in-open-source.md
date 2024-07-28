@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 12:50:00-04:00
+start_datetime: 2024-09-23 12:50:00-04:00
 end_datetime: 2024-09-23 13:35:00-04:00
 permalink: /talks/project-management-in-open-source/
 presenter_slugs:

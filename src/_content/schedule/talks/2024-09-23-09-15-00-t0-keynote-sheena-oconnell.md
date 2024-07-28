@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 09:15:00-04:00
+start_datetime: 2024-09-23 09:15:00-04:00
 difficulty: All
 end_datetime: 2024-09-23 10:00:00-04:00
 permalink: /talks/keynote-monday/

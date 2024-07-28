@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 10:40:00-04:00
+start_datetime: 2024-09-24 10:40:00-04:00
 end_datetime: 2024-09-24 11:25:00-04:00
 permalink: /talks/postgresql-beyond-django-strategies-to-get-max-performance/
 presenter_slugs:

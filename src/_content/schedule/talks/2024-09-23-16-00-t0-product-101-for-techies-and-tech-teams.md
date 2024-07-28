@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 16:00:00-04:00
+start_datetime: 2024-09-23 16:00:00-04:00
 end_datetime: 2024-09-23 16:45:00-04:00
 permalink: /talks/product-101-for-techies-and-tech-teams/
 presenter_slugs:

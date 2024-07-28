@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-24 15:30:00-04:00
+start_datetime: 2024-09-24 15:30:00-04:00
 end_datetime: 2024-09-24 16:15:00-04:00
 permalink: /talks/optimizing-remote-work-pull-requests-stand-ups-and-emojis/
 presenter_slugs:

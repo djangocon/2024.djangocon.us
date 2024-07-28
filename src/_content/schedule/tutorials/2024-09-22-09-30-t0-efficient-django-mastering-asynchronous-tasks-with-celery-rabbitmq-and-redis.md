@@ -1,6 +1,6 @@
 ---
 category: tutorials
-datetime: 2024-09-22 09:30:00-04:00
+start_datetime: 2024-09-22 09:30:00-04:00
 end_datetime: 2024-09-22 13:00:00-04:00
 permalink: /tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/
 presenter_slugs:

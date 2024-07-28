@@ -1,6 +1,6 @@
 ---
 category: talks
-datetime: 2024-09-23 16:50:00-04:00
+start_datetime: 2024-09-23 16:50:00-04:00
 end_datetime: 2024-09-23 17:15:00-04:00
 permalink: /talks/django-the-web-framework-that-changed-my-life/
 presenter_slugs:
