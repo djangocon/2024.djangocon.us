@@ -5,7 +5,7 @@ date: 2024-07-16 06:00:00
 cover:
     url: /assets/img/blog/DjangoConUS_2023_BPawlik.jpg
     alt: "BPawlik at DjangoCon US 2023"
-title: "Announcing our DjangoCon US 2024 Talks!"
+title: "The DjangoCon US 2024 schedule has been released!"
 ---
 
 We are beyond thrilled to unveil the 2024 DjangoCon US [talk and tutorial lineup](/schedule/). We'll have six tutorials on Sunday, September 22, three days of talks on September 23-25, and two days of sprints on September 26-27.
