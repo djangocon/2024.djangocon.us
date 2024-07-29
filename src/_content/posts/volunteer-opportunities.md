@@ -5,6 +5,10 @@ layout: post
 author: Monica Oyugi
 category: General
 date: 2024-07-27 05:00:00
+cover:
+    url: /assets/img/blog/registration-desk.jpg
+    alt: "Volunteers and attendees at registration desk"
+
 ---
 
 DjangoCon US is a premier event for the Django community, and it wouldn't be possible without the invaluable contributions of our volunteers. As a co-chair of the Volunteer program, I can attest to the immense impact that our volunteers have on the success of this conference.
