@@ -51,8 +51,6 @@ Hi folks, thanks for agreeing to this. Let’s start with having you tell us a l
 
 > I've been a DCUS organizer since 2016, and I've spoken a few times (2015, 2017, and a panel one of the San Diego years).
 
----
-
 **Interviewer Tim**:
 
 Fantastic! Can you please tell us what you’re looking forward to at DjangoCon US 2024?
@@ -101,8 +99,6 @@ What country are you traveling from?
 **Kojo**:
 
 > USA
-
----
 
 **Interviewer Tim**:
 
@@ -190,8 +186,6 @@ Does anyone have their own tips or tricks for attending a conference?
 **Kojo**:
 
 > If there's a talk on a topic or given by someone where you'd want to ask them a question, Prioritize Attending That Talk. It's a rare opportunity to ask your direct question. Otherwise, prioritize in-person interaction. Those conversations and meetings are ALSO rare.
-
----
 
 **Interviewer Tim**:
 
