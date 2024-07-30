@@ -6,13 +6,213 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-07-24T06:00:00Z</updated
+    >2024-07-30T12:00:00Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    
+    <entry>
+      <title>Getting to know folks: A pre-conference interview</title>
+      <link href="https://2024.djangocon.us/news/getting-to-know-folks/" />
+      <updated>2024-07-30T12:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/getting-to-know-folks/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hello Djangonauts!&lt;/p&gt;
+&lt;p&gt;DjangoCon US 🐂 is coming up, and our excitement is building. There isn&#39;t any news to share today, but we have something just as great!&lt;/p&gt;
+&lt;p&gt;We’re spending a little time getting to know people who will be attending DjangoCon US this September. We asked various people who have different connections and experiences with the Django community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/amandasavluchinske/&#34;&gt;Amanda Savluchinske&lt;/a&gt; is a first-time speaker and attendee at DjangoCon US&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.programmingmylife.com/&#34;&gt;Andrew Mshar&lt;/a&gt; is a first-time organizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/carolganz/&#34;&gt;Carol Ganz&lt;/a&gt; is a board member of DEFNA and DjangoCon US organizer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/chrisachinga&#34;&gt;Chris Achinga&lt;/a&gt; is a first-time attendee&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kojoidrissa.com/&#34;&gt;Kojo Idrissa&lt;/a&gt; is a long-time attendee, speaker and organizer of DjangoCon US&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So let’s get to meeting them!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note, the remainder of the post switches to first person from the perspective of Tim,&lt;/em&gt; &lt;a href=&#34;https://www.defna.org/&#34;&gt;&lt;em&gt;DEFNA&lt;/em&gt;&lt;/a&gt; &lt;em&gt;secretary and DjangoCon US 2024 communications co-chair.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Hi folks, thanks for agreeing to this. Let’s start with having you tell us a little about yourself and your connection to the Django community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’m a PM, and I love what I do. I also still enjoy coding. I knew I wanted some kind of hybrid career even before getting into university, when I decided to major in Business Administration. Nowadays, I’m specializing in Software Engineering, mostly to formalize the knowledge I’ve acquired during my years as a software engineer, as well as cover some gaps.&lt;/p&gt;
+&lt;p&gt;I started out my journey in Django in 2017, when I attended a &lt;a href=&#34;https://djangogirls.org&#34;&gt;Django Girls&lt;/a&gt; workshop in my hometown. In 2018, I organized one myself. It was through that first workshop that I got my internship as a software engineer, and I quickly learned to love Python, and especially Django. Throughout this six-seven year span, I also got the opportunity to speak at some Python/Django conferences, starting out at local ones, then regional, national (&lt;a href=&#34;https://pythonbrasil.org.br&#34;&gt;Python Brasil&lt;/a&gt;) and international (&lt;a href=&#34;https://djangocon.eu&#34;&gt;DjangoCon Europe&lt;/a&gt;). Even though speaking is an experience that is always a little scary to me, the community has always been welcoming and warm, and that keeps me going.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m a software developer who uses Django professionally, both at my day job and for a side project. I blog (not regularly) about technologies that I use, which includes Django. I&#39;ve attended (and very much enjoyed) the last two DjangoCon US events.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am an Account Manager at Six Feet Up, and we use Django for a lot of projects. As an organization, we believe in giving back to the open-source community. So, after meeting DEFNA co-founder Jeff Triplett at our event, the &lt;a href=&#34;https://pythonwebconf.com&#34;&gt;Python Web Conference&lt;/a&gt;, and talking about the best way to contribute to the Django community. Based on his input, I ran for the DEFNA board and was elected. Since then, I have helped organize 4 DjangoCon US conferences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My first Django event was the &lt;a href=&#34;https://2023.djangocon.africa/&#34;&gt;DjangoCon Africa&lt;/a&gt;, and I was exposed to the global Django community that I didn&#39;t know existed even here in Kenya. Since then, I have been actively participating in activities related to Django and the community, and also applying to speak and attend a few Django/Python conferences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;ve been a DCUS organizer since 2016, and I&#39;ve spoken a few times (2015, 2017, and a panel one of the San Diego years).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Fantastic! Can you please tell us what you’re looking forward to at DjangoCon US 2024?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s going to be my first in-person international conference. When I &lt;a href=&#34;https://2021.djangocon.eu/cfp/talk/ECY3JD/index.html&#34;&gt;spoke at DjangoCon Europe&lt;/a&gt;, that was online, so I didn’t get to experience a lot of the fun and connection in-person conferences offer. I’m really looking forward to the talks as well, there are incredible topics there from what I’ve seen.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Catching up with other members of the community in person!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Meeting new people and learning about new ways the community is growing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really learned a lot from last year&#39;s event, although I did not attend. By following live updates on X and also the &lt;a href=&#34;https://www.youtube.com/c/DjangoConUS&#34;&gt;uploaded sessions on YouTube&lt;/a&gt;, my development skills have been better, and I am more open to giving and sharing my ideas in various communities&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Seeing folks I don&#39;t get to see often and being able to engage more with people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;What country are you traveling from?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Portugal, but I’m from Brazil.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;USA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;United States&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kenya (Not attending, but would love to participate online)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;USA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;What made you decide to attend/speak/organize this year?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Through work, I ended up presenting an online talk at Women Who Code NYC. It was a great experience, and the attendees seemed to enjoy and engage with the content. When DjangoCon US announced their CFP, I was like well, I have a talk that could also be interesting to the Django community, so why not? I didn’t have high expectations of it getting approved, so it was a great surprise. I had only submitted to DCUS’ CFP once before, but speaking at the conference has always been an interest of mine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am attending because attending the last two years has been great. I&#39;m organizing because I enjoyed the conference so much that I wanted to help out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I really enjoy working with this team of organizers. Everyone is so helpful, and it makes it so much easier to have an amazing conference when you have so many diverse contributors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To learn more, I also want to start looking for new opportunities in the Django ecosystem&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I enjoy helping welcome people to our community.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Is it possible to resonate with all of those answers? Because I do. Now, here’s my most controversial question. Are you a sticker or pin person?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pins!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stickers!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Thank you, Amanda, for justifying that question, I knew there were more of us out there!&lt;/p&gt;
+&lt;p&gt;I’m a relatively new conference-goer myself. So one thing I’m curious about are other people’s tips and tricks for attending conferences. But first, does anyone have a tip/trick they’d like to know more about?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’d love a tip on how to get to know people during breaks!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you needed to get support from your organization/company to attend DCUS, did you need to convince them? If so, how&#39;d you do it? What arguments did you lay out? This is in contrast to a situation where you have an Education/Training budget of $X and no one really cares WHAT you use it on, so long as you don&#39;t exceed it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;I can definitely relate to wanting to have an idea of how to meet people at the conference. And getting support from your job to attend a conference can be a real game-changer when the conference isn’t local. If folks have suggestions for either of these, please share them on social media with the #DjangoConUS hashtag or tag us in the message.&lt;/p&gt;
+&lt;p&gt;Does anyone have their own tips or tricks for attending a conference?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Getting the most out of your time at the conference doesn&#39;t mean doing all of the things all of the time. Pace yourself. That might mean a nap, or just some quiet time at some point during the day to keep your energy up. Leave some slack in your schedule so you can be flexible and enjoy your time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Sit with people you do not already know. You can hang out with people you already know any time.&lt;/li&gt;
+&lt;li&gt;Welcome others into your conversations. I tend to be an introvert, so it is nice to be able to just sit and listen to others when you are welcome at the table.&lt;/li&gt;
+&lt;li&gt;Volunteer to work at the welcome desk to get to meet lots of new people. That’s how I met Tim.&lt;/li&gt;
+&lt;li&gt;Talk slowly and clearly. English is not everyone&#39;s first language.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Be a good audience. A lot of time and thought was put into selecting speakers. Speakers have spent valuable time researching on the topics to deliver amazing content, the best reward for the speakers and organizers is to be a great audience.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If there&#39;s a talk on a topic or given by someone where you&#39;d want to ask them a question, Prioritize Attending That Talk. It&#39;s a rare opportunity to ask your direct question. Otherwise, prioritize in-person interaction. Those conversations and meetings are ALSO rare.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Thank you everyone, these insights are incredibly valuable and will help everyone be a part of a fantastic event.&lt;/p&gt;
+&lt;p&gt;My last question is again a two part-er. I’d like to know what one word best describes DjangoCon US. Or if you haven’t attended, what word best describes your emotions leading up to it?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Amanda&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anticipation&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Andrew&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Community.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Carol&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Friendly&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Chris&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I haven&#39;t had the chance to attend DjangoCon US, but from the information I see everywhere on the internet:&lt;/p&gt;
+&lt;p&gt;Ajab! (Swahili word for Amazing)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kojo&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Describe DCUS: Enriching&lt;/p&gt;
+&lt;p&gt;Emotions leading up to DCUS: Conflicted (balancing responsibilities with anticipation)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Interviewer Tim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;I absolutely love these answers. I second each of them, but if someone had put palm-sweat-inducing down, that would be my winner.&lt;/p&gt;
+&lt;p&gt;Thank you all for spending your time and energy on this, the event, your talks and the Django community as a whole. I’m looking forward to seeing you all in September and you Chris, hopefully at a DjangoCon US in the future!&lt;/p&gt;
+&lt;p&gt;For everyone else, if this has excited you about DjangoCon US 🐂, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;buy your ticket today&lt;/a&gt;!&lt;/p&gt;
+</content
+      >
+    </entry>
     
     <entry>
       <title>Announcing Our Keynotes: Sheena O'Connell</title>
