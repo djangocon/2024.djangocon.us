@@ -13,8 +13,6 @@ cover:
 
 DjangoCon US is a premier event for the Django community, and it wouldn't be possible without the invaluable contributions of our volunteers. As a co-chair of the Volunteer program, I can attest to the immense impact that our volunteers have on the success of this conference.
 
-![Volunteers and attendees at registration desk](/assets/img/blog/registration-desk.jpg)
-
 ## Why Should You Volunteer?
 I know you're already busy, but hear me out – volunteering at DjangoCon US is an opportunity you don't want to miss. Here's why:
 
