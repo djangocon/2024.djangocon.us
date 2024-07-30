@@ -15,19 +15,19 @@ DjangoCon US is a premier event for the Django community, and it wouldn't be pos
 
 ![Volunteers and attendees at registration desk](/assets/img/blog/registration-desk.jpg)
 
-**Why Should You Volunteer?**
+## Why Should You Volunteer?
 I know you're already busy, but hear me out – volunteering at DjangoCon US is an opportunity you don't want to miss. Here's why:
 
-- **Contribute:** When you volunteer you help the community to grow and give feedback to Django as a product and ecosystem. This is your opportunity to have a real impact and help the tech and the people you love.
+- **Contribute:** When you volunteer, you help the community to grow and give feedback to Django as a product and ecosystem. This is your opportunity to have a real impact and help the tech and the people you love.
 
 - **Level up:** Volunteering at a conference like this is a wonderful experience where you can gain a lot of knowledge and new skills. You will acquire a range of new skills: from organizing events, rallying the troops, and problem-solving. Nah, these are the types of skill sets that do you good in real life and even professionally.
 
 - **Get Networking:** Volunteers will be working alongside Django engineers from around the globe, including some of the most experienced and passionate Django contributors and consultants—such a valuable chance to network, collaborate on projects, and build lasting friendships within the community.
 
-**What Can You Expect as a Volunteer?**
-Flexible Schedules: We know you've got a lot going on, so we're committed to creating volunteer schedules that accommodate your availability. You can choose to volunteer for a few hours, a day, or the entire conference – whatever works best for you.
-
 ![Health and safey desk](/assets/img/blog/health-and-safety-desk.jpg)
+
+## What Can You Expect as a Volunteer?
+- **Flexible Schedules:** We know you've got a lot going on, so we're committed to creating volunteer schedules that accommodate your availability. You can choose to volunteer for a few hours, a day, or the entire conference – whatever works best for you.
 
 - **Varied Roles:** We have a wide range of volunteer positions available, from registration desk assistance to session monitoring, and health and safety check-in.
 
@@ -36,7 +36,7 @@ Flexible Schedules: We know you've got a lot going on, so we're committed to cre
 ![Volunteers at DjangoCon US](/assets/img/blog/volunteers-at-djangocon.jpg)
 
 
-**Online Volunteers**
+## Online Volunteers
 What if you can’t be there in person? Don’t worry, we have volunteer opportunities online as well! We need online moderators to encourage discussion in the public chat and answer questions about the online platform as they come up. 
 
 ![Catherine Holmes at registration desk](/assets/img/blog/catherine-registration-desk.jpg)
