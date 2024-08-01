@@ -6,13 +6,67 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-07-30T12:00:00Z</updated
+    >2024-08-01T10:00:00Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    
+    <entry>
+      <title>Announcing Our Keynotes: Mario Munoz</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-mario-munoz/" />
+      <updated>2024-08-01T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-mario-munoz/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-second-keynote-speaker-for-djangocon-us-2024%3A-mario-munoz!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our second keynote speaker for DjangoCon US 2024: Mario Munoz!&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Mario and ask him a few questions about his work, his upcoming talk, and what he&#39;s looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;can-you-tell-us-how-you-use-django%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us how you use Django?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When preparing my first talk on &lt;a href=&#34;https://2022.djangocon.us/talks/why-i-didn-t-start-with-django/&#34;&gt;&amp;quot;Why I Didn&#39;t Start With Django&amp;quot;&lt;/a&gt;, I thought I should at least build a Django app before getting into it... As a result, I built an app to hold my presentation slides (also using reveal.js), and ever since, I&#39;ve continued using it for the past two years.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-what-your-talk-is-about%3F&#34; tabindex=&#34;-1&#34;&gt;Can you give us a teaser about what your talk is about?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am very interested in the intersection of people and technology. What role does community have in our technological journey? How do we see ourselves within the context of a &amp;quot;technical&amp;quot; community?  At a recent conference (North Bay Python), &lt;a href=&#34;https://pretalx.northbaypython.org/nbpy-2024/talk/X7ZZPP/&#34;&gt;I spoke about building bridges between communities&lt;/a&gt;. My talk at DjangoCon US will be an extension of this. My current working title is &amp;quot;How to be a developer, and other lies we tell ourselves.&amp;quot; We&#39;ll be going through a journey that brings us in and out of different mindsets as developers, and what role community plays in all of this. As many of my talks, I often have many biographical/personal/meta examples...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am most excited about engaging with the community. I am currently involved in the Djangonaut Space program and look forward to seeing fellow Djangonauts there. I&#39;ve also seen that the talks have been posted, and some of them look fantastic. I&#39;m interested in all things hypermedia, so definitely will be catching those HTMX-related talks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What are your favorite topics at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As mentioned, I&#39;m excited about the hypermedia. But I always like hearing about broad topics, such as &lt;a href=&#34;/talks/django-user-model-past-present-and-future/&#34;&gt;the past, present, and future of Django&#39;s User Model talk by Will&lt;/a&gt;, or &lt;a href=&#34;/talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/&#34;&gt;Jacob&#39;s talk on what the DSF could accomplish with 4x the budget&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-do-you-view-the-connections-made-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;How do you view the connections made at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The connections we make are invaluable. As an introvert, like many of us, I seek meaningful and strong connections. The Django community, in particular, has been a welcoming space for these interactions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-tell-us-about-your-career-journey%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us about your career journey?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I started my career in payroll and then moved to an HR analyst role, providing IT-related support. It was through networking that I met people who helped me transition into engineering. I met some key contacts at PyCon US.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;how-did-you-approach-your-career-growth%3F&#34; tabindex=&#34;-1&#34;&gt;How did you approach your career growth?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I purposely leaned into areas where I wasn’t as strong, getting out there and trying to speak. It’s a long-term investment, and it takes time to get there. Purposefully plugging into the community and focusing on what you can do with code, whether you&#39;re a newcomer or experienced, is crucial. Learning not to gatekeep is also important.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;when-did-you-start-speaking-at-conferences%2C-and-what-has-your-experience-been-like%3F&#34; tabindex=&#34;-1&#34;&gt;When did you start speaking at conferences, and what has your experience been like?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I started speaking in 2022, giving talks at PyCon US and PyOhio. I&#39;ve done tutorials and talks, and it&#39;s been an incredible experience that has helped me grow both personally and professionally.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-work-day%3F&#34; tabindex=&#34;-1&#34;&gt;What do you like to do outside of your normal work day?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Beach days with the family are always fun, or adventuring in a new/unknown hiking area. And, well, I have a blog called &lt;a href=&#34;https://pythonbynight.com/&#34;&gt;Python By Night&lt;/a&gt;, so that kind of speaks for itself.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-ok-with-people-asking-you-more-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are you ok with people asking you more later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yes!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://www.linkedin.com/in/mario-a-munoz/&#34;&gt;Mario&lt;/a&gt; on LinkedIn!&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Mario&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
     
     <entry>
       <title>Getting to know folks: A pre-conference interview</title>
