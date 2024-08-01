@@ -1,7 +1,7 @@
 ---
 author: Nathan Zeager
 category: General
-date: 2024-07-31 06:00:00
+date: 2024-08-02 06:00:00-04:00
 title: "Childcare During DjangoCon US"
 
 cover:
