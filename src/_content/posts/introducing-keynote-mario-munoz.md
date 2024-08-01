@@ -19,7 +19,7 @@ We had the opportunity to sit down with Mario and ask him a few questions about 
 
 ## Can you give us a teaser about what your talk is about?
 
->I am very interested in the intersection of people and technology. What role does community have in our technological journey? How do we see ourselves within the context of a "technical" community?  At a recent conference (North Bay Python), I spoke about building bridges between communities. My talk at DjangoCon US will be an extension of this. My current working title is "How to be a developer, and other lies we tell ourselves." We'll be going through a journey that brings us in and out of different mindsets as developers, and what role community plays in all of this. As many of my talks, I often have many biographical/personal/meta examples...
+>I am very interested in the intersection of people and technology. What role does community have in our technological journey? How do we see ourselves within the context of a "technical" community?  At a recent conference (North Bay Python), [I spoke about building bridges between communities](https://pretalx.northbaypython.org/nbpy-2024/talk/X7ZZPP/). My talk at DjangoCon US will be an extension of this. My current working title is "How to be a developer, and other lies we tell ourselves." We'll be going through a journey that brings us in and out of different mindsets as developers, and what role community plays in all of this. As many of my talks, I often have many biographical/personal/meta examples...
 
 ## What are you most looking forward to at DjangoCon US 2024?
 
@@ -27,7 +27,7 @@ We had the opportunity to sit down with Mario and ask him a few questions about 
 
 ## What are your favorite topics at conferences?
 
->As mentioned, I'm excited about the hypermedia. But I always like hearing about broad topics, such as the past, present, and future of Django talk by Will, or Jacob's talk on what the DSF could accomplish with 4x the budget.
+>As mentioned, I'm excited about the hypermedia. But I always like hearing about broad topics, such as [the past, present, and future of Django's User Model talk by Will](/talks/django-user-model-past-present-and-future/), or [Jacob's talk on what the DSF could accomplish with 4x the budget](/talks/django-user-model-past-present-and-future/).
 
 ## How do you view the connections made at conferences?
 
