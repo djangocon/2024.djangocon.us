@@ -4,7 +4,7 @@ layout: post
 
 author: Monica Oyugi
 category: General
-date: 2024-07-27 05:00:00
+date: 2024-08-05 06:00:00-04:00
 cover:
     url: /assets/img/blog/registration-desk.jpg
     alt: "Volunteers and attendees at registration desk"
