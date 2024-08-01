@@ -27,7 +27,7 @@ We had the opportunity to sit down with Mario and ask him a few questions about 
 
 ## What are your favorite topics at conferences?
 
->As mentioned, I'm excited about the hypermedia. But I always like hearing about broad topics, such as [the past, present, and future of Django's User Model talk by Will](/talks/django-user-model-past-present-and-future/), or [Jacob's talk on what the DSF could accomplish with 4x the budget](/talks/django-user-model-past-present-and-future/).
+>As mentioned, I'm excited about the hypermedia. But I always like hearing about broad topics, such as [the past, present, and future of Django's User Model talk by Will](/talks/django-user-model-past-present-and-future/), or [Jacob's talk on what the DSF could accomplish with 4x the budget](/talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/).
 
 ## How do you view the connections made at conferences?
 
