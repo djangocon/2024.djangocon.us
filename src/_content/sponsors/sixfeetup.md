@@ -4,7 +4,7 @@ name: Six Feet Up
 date: 2024-05-12
 hidden: false
 logo:
-    filename: SixFeetUp_logo.png
+    filename: SixFeetUp.png
     orientation: landscape
 url:
     target: 'https://www.sixfeetup.com/?utm_source=djangocon2024'
