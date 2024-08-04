@@ -7,7 +7,7 @@ title: Welcome to DjangoCon US
 <div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2 bg-lines">
   <div class="wrapper">
     <div class="flex flex-col gap-8 lg:flex-row">
-      <section class="self-center w-full lg:flex-1">
+      <section class="self-center w-full pb-4 lg:flex-1">
         <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
           Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking
         </h1>
@@ -161,31 +161,6 @@ title: Welcome to DjangoCon US
   <div class="wrapper">
     <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
 
-    <div class="flex flex-col gap-24">
-      {% for level in collections.sponsorsByLevel %}
-        <section class="flex flex-col gap-8">
-          <h3 class="flex items-center bg-sep">
-            <span class="px-8 py-2 mx-auto font-bold text-blue-700 bg-gray-100 font-heading">{{ level[0] }}</span>
-          </h3>
-
-          <ul class="flex flex-wrap items-center justify-center max-w-3xl gap-16 mx-auto">
-            {% for sponsor in level[1] %}
-              <li>
-                {% if sponsor.data.logo %}
-                  {% assign orientation_class = "h-16 w-auto" %}
-                  {% if sponsor.data.logo.orientation == "portrait" %}
-                    {% assign orientation_class = "h-28 w-auto" %}
-                  {% endif %}
-                  <img
-                    src="/sponsors/{{ sponsor.data.logo.filename }}"
-                    alt="{{ sponsor.data.name }} logo"
-                    class="{{ orientation_class }}">
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endfor %}
-    </div>
+    {% include "sponsor-listing.html" %}
   </div>
 </div>
