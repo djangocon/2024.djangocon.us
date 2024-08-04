@@ -88,6 +88,10 @@
     @apply border-4 border-gray-100 rounded;
   }
 
+  .avatar {
+    @apply block w-full object-cover object-left-top aspect-square;
+  }
+
   .pageheading {
     @apply text-4xl font-bold leading-tight lg:text-5xl;
   }
