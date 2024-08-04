@@ -4,7 +4,7 @@ layout: post
 
 author: DjangoCon US Organizers
 category: General
-date: 2024-01-17 05:00:00
+published_datetime: 2024-01-17 05:00:00
 ---
 
 Hello everyone, we have our dates! September 22nd-27th.
