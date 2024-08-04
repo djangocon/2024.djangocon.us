@@ -1,18 +1,19 @@
 <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-16">
-  {%- for organizer in collections.organizers -%}
-    {% assign photo = 'src/_content/organizers/' | append: organizer.data.photo %}
+  {%- for presenter in collections.presenters -%}
     <li class="flex flex-col">
-      {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'block w-full object-cover object-left-top aspect-square media' %}
+      {% if presenter.data.photo != null and presenter.data.photo != "" %}
+        {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
+        {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48' %}
+      {% endif %}
       <div class="flex flex-col flex-1 px-2 mt-3">
-        <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ organizer.data.name }}</h2>
-        <p class="mb-4 text-sm text-gray-600">{{ organizer.data.role }}</p>
+        <h2 class="mb-2 text-xl font-heading lg:text-2xl">{{ presenter.data.name }}</h2>
 
-        {% if organizer.data.social %}
+        {% if presenter.data.social %}
           <ul class="flex flex-wrap gap-4 mt-auto">
-            {% if organizer.data.social.bluesky not null %}
+            {% if presenter.data.social.bluesky not null %}
               <li>
                 <a
-                  href="https://bsky.app/profile/{{ organizer.data.social.bluesky }}"
+                  href="https://bsky.app/profile/{{ presenter.data.social.bluesky }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-social-bluesky"
@@ -24,10 +25,10 @@
                 </a>
               </li>
             {% endif %}
-            {% if organizer.data.social.github not null %}
+            {% if presenter.data.social.github not null %}
               <li>
                 <a
-                  href="https://github.com/{{ organizer.data.social.github }}"
+                  href="https://github.com/{{ presenter.data.social.github }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-social-github"
@@ -39,10 +40,10 @@
                 </a>
               </li>
             {% endif %}
-            {% if organizer.data.social.instagram not null %}
+            {% if presenter.data.social.instagram not null %}
               <li>
                 <a
-                  href="https://instagram.com/{{ organizer.data.social.instagram }}"
+                  href="https://instagram.com/{{ presenter.data.social.instagram }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-social-instagram"
@@ -54,10 +55,10 @@
                 </a>
               </li>
             {% endif %}
-            {% if organizer.data.social.mastodon not null %}
+            {% if presenter.data.social.mastodon not null %}
               <li>
                 <a
-                  href="{{ organizer.data.social.mastodon }}"
+                  href="{{ presenter.data.social.mastodon }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-social-mastodon"
@@ -69,10 +70,10 @@
                 </a>
               </li>
             {% endif %}
-            {% if organizer.data.social.twitter not null %}
+            {% if presenter.data.social.twitter not null %}
               <li>
                 <a
-                  href="https://twitter.com/{{ organizer.data.social.twitter }}"
+                  href="https://twitter.com/{{ presenter.data.social.twitter }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-social-twitter"
@@ -84,10 +85,10 @@
                 </a>
               </li>
             {% endif %}
-            {% if organizer.data.social.website not null %}
+            {% if presenter.data.social.website not null %}
               <li>
                 <a
-                  href="{{ organizer.data.social.website }}"
+                  href="{{ presenter.data.social.website }}"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="hover:text-green"

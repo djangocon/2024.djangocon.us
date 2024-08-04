@@ -12,8 +12,6 @@ title: Fighting Homelessness with Django
 track: t0
 ---
 
-# Talk Outline
-
 In the outline below, each bullet point corresponds to roughly 1 minute of talk content
 
 ## Introduction

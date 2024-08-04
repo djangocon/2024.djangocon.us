@@ -61,7 +61,7 @@
               <section class="flex flex-wrap gap-6">
                 {% if presenter.data.photo != null and presenter.data.photo != "" %}
                   {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
-                  {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
+                  {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48' %}
                 {% endif %}
 
                 <div class="md:flex-1">

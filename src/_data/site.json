@@ -2,6 +2,7 @@
   "domain": "https://2024.djangocon.us",
   "timezone": "America/New_York",
   "conf_year": 2024,
+  "phase": "archived",
 
   "conduct_email": "conduct@djangocon.us",
   "contact_us_email": "hello@djangocon.us",

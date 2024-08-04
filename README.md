@@ -19,7 +19,22 @@ Build and watch for local changes by running:
 
 This opens a local server at `http://localhost:8080/` and watches for changes to the source files.
 
-# Social Media Images
+## Conference Phases
+
+The conference can be in 3 separate phases, controlled under `site.json`:
+
+* `landing`: The conference site consists of a landing page.
+* `active`: The conference site is live and registration may occur.
+* `archived`: The conference is over.
+
+This impacts the rendering of the homepage and display of content in various locations.
+
+Reference:
+
+* `src/index.html`
+* `src/_includes/home/`
+
+## Social Media Images
 
 1. Presenter images are created at `/presenters/{{ slug }}/`
 2. Session images are created at `/{{ talks,tutorials }}/{{ slug }}/social/`

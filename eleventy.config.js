@@ -41,8 +41,6 @@ module.exports = (config) => {
   /*
     Shortcodes
   */
-  config.addLiquidShortcode("year", () => `${new Date().getFullYear()}`);
-
   // TODO: Accept widths or support different widths
   config.addLiquidShortcode("image", async function(
     src,
