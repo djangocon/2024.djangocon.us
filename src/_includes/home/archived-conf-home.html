@@ -1,8 +1,47 @@
+<!-- Hero -->
+<div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2 bg-lines">
+  <div class="wrapper">
+    <div class="flex flex-col gap-8 lg:flex-row">
+      <section class="self-center w-full pb-4 lg:flex-1">
+        <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+          {{ site.conf_year }} DjangoCon US Recap
+        </h1>
+
+        <p class="mb-4 text-2xl lg:text-3xl">
+          <strong>September 22-27, 2024</strong>
+        </p>
+      </section>
+
+      <div class="self-end lg:max-w-2xl">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Secondary -->
+
 
 
 <!-- Talk highlights -->
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">Awesome Talks and Tutorials</h2>
+    <p>We featured over 50 talks & tutorials this year. Here are some crowd favorites!</p>
 
+    <a href="/schedule/" class="button">View the full schedule</a>
 
+    <ul class="grid gap-8 lg:grid-cols-3 lg:gap-16">
+      {% assign session0 = collections.talks | find:featured_session_slugs.0 %}
+      {% assign session1 = collections.talks | find:featured_session_slugs.1 %}
+      {% assign session2 = collections.talks | find:featured_session_slugs.2 %}
+
+      {% include "session-card.html", session:session0.data, color_class:"border-t-green" %}
+      {% include "session-card.html", session:session1.data, color_class:"border-t-light-blue" %}
+      {% include "session-card.html", session:session2.data, color_class:"border-t-purple" %}
+    </ul>
+  </div>
+</div>
 
 
 <!-- Presenters -->
@@ -14,54 +53,59 @@
 </div>
 
 <!-- Stats -->
-<div class="block-container">
+<div class="bg-purple block-container">
   <div class="wrapper">
-    <h2>{{ site.conf_year }} By the Numbers</h2>
-    <p class="lead">
-      2023 was an amazing year for attendance, sponsorship,
-      talks, food, really everything that goes into making a conference
-      great.
-    </p>
-
-    <div class="table-scroll">
-      <table class="unstriped stacked">
-        <thead>
-          <tr>
-            <th>What?</th>
-            <th>Tell me about it.</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>In-person Attendees</td>
-            <td>276</td>
-          </tr>
-          <tr>
-            <td>Online Attendees</td>
-            <td>167</td>
-          </tr>
-          <tr>
-            <td>Tutorial Attendees</td>
-            <td>42</td>
-          </tr>
-          <tr>
-            <td>Tutorials</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>Talks</td>
-            <td>51</td>
-          </tr>
-          <tr>
-            <td>Virtual Co-writing Sessions</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Trivia Questions</td>
-            <td>15</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="grid-1-2">
+      <section class="flex flex-col justify-center">
+        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">{{ site.conf_year }} By the Numbers</h2>
+        <p class="mb-6 text-xl lg:text-2xl">
+          {{ site.conf_year }} was an amazing year for attendance, sponsorship,
+          talks, food, really everything that goes into making a conference
+          great.
+        </p>
+      </section>
+      <div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>What?</th>
+                <th>Tell me about it.</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white">
+              <tr>
+                <td>In-person Attendees</td>
+                <td>276</td>
+              </tr>
+              <tr>
+                <td>Online Attendees</td>
+                <td>167</td>
+              </tr>
+              <tr>
+                <td>Tutorial Attendees</td>
+                <td>42</td>
+              </tr>
+              <tr>
+                <td>Tutorials</td>
+                <td>{{ collections.tutorials | size }}</td>
+              </tr>
+              <tr>
+                <td>Talks</td>
+                <td>{{ collections.talks | size }}</td>
+              </tr>
+              <tr>
+                <td>Virtual Co-writing Sessions</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Trivia Questions</td>
+                <td>15</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -83,7 +83,7 @@ days:
                       {% assign color_class = "border-t-orange" %}
                     {% endif %}
 
-                    {% include "session-card.html" with color=color_class %}
+                    {% include "session-card.html", color:color_class %}
                   {% endfor %}
                 </ul>
               </div>

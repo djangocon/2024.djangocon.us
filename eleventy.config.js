@@ -89,9 +89,16 @@ module.exports = (config) => {
   });
 
   config.addFilter("find", function find(collection = [], slug = "") {
-    return collection.find(item => item.fileSlug === slug);
+
+    return collection.find(item => {
+      if (collection.length == 57) {
+        console.log(item.fileSlug, slug);
+      }
+      return item.fileSlug === slug
+    });
   });
 
+  /* TODO: Make generic */
   config.addFilter("talksByPresenter", function talksByPresenter(collection = [], slug = "") {
     return collection.filter(item => item.data.presenter_slugs.includes(slug));
   });
