@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-08-01 06:00:00-04:00
+published_datetime: 2024-08-01 06:00:00-04:00
 cover:
     url: /assets/img/blog/mario_munoz.jpg
     alt: "Mario Munoz"

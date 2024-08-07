@@ -1,7 +1,7 @@
 ---
 author: Jason Judkins
 category: General
-date: 2024-03-09 06:00:00
+published_datetime: 2024-03-09 06:00:00
 cover:
     url: /assets/img/blog/speaker_cfp.jpg
     alt: "Abigail Mesrenyame Dogbe speaking at DjangoCon US 2023"

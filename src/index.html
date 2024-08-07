@@ -142,7 +142,7 @@ title: Welcome to DjangoCon US
                   <article class="py-6">
                     <time
                       class="mb-2 tracking-wide text-gray-600 uppercase block-container"
-                      datetime="{{ post.date }}">{{ post.date | formatDateTime: "MMMM d, yyyy" }}</time>
+                      datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
                     <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
                   </article>
                 </li>

@@ -1,7 +1,7 @@
 ---
 author: DEFNA
 category: General
-date: 2024-05-16 06:00:00
+published_datetime: 2024-05-16 06:00:00
 layout: post
 cover:
     url: /assets/img/blog/durham-doodles.jpg
