@@ -60,9 +60,9 @@ Every year, DjangoCon US works hard to make our program better and more accessib
 Thanks to our generous sponsors, who helped make these conference dreams a reality.
         {% endmarkdown %}
     </section>
-    <figure>
-
-    </figure>
+    <div>
+      Graphic here
+    </div>
   </div>
 </div>
 
@@ -152,6 +152,30 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
           </table>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid lg:grid-cols-3">
+      <section class="text-block photo-block">
+        <h2>Picture Perfect</h2>
+        <p>We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/">Bartek Pawlik</a> for being our
+          official conference photographer and saving these memories for
+          us.</p>
+        <a href="https://flickr.com/photos/djangocon/albums/72177720312367244" class="button">View all photos</a>
+      </section>
+
+      {% for photo in featured_photos %}
+        <figure class="lg:col-span-1">
+          {% comment %}
+            Ideal 600x400 image
+          {% endcomment %}
+          <img
+            src="{{ photo.src }}" alt="{{ photo.alt }}"/>
+        </figure>
+      {% endfor %}
     </div>
   </div>
 </div>
