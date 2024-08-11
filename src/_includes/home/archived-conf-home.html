@@ -43,17 +43,41 @@
   </div>
 </div>
 
+<!-- Follow up -->
+<div class="block-container">
+  <div class="wrapper">
+    <section class="prose prose-lg">
+        {% markdown %}
+From tutorials on Airflow and Postgres to talks about contributing to Django and diversity, equity and inclusion to hallway tracks and sprint contributions, 2023 was another fantastic year for DjangoCon US!
+
+Every year, DjangoCon US works hard to make our program better and more accessible, and this year we're super proud of the features we had:
+
+*   **Deep Dive Day**, a single-track conference day dedicated to talks that go into more detail on Django topics
+*   Accessibility wins: Once again we provided subsidized child care, a **dedicated lactation room** and **live captioning** for all talks
+*   **Travel stipends** for all speakers
+*   **Technology reimbursement** for online presenters
+
+Thanks to our generous sponsors, who helped make these conference dreams a reality.
+        {% endmarkdown %}
+    </section>
+    <figure>
+
+    </figure>
+  </div>
+</div>
+
 
 
 <!-- Talk highlights -->
 <div class="bg-gray-100 block-container">
   <div class="wrapper">
-    <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">Awesome Talks and Tutorials</h2>
-    <p>We featured over 50 talks & tutorials this year. Here are some crowd favorites!</p>
+    <section class="mb-8 text-center">
+      <h2 class="mb-4 text-2xl font-bold font-heading lg:text-5xl">Awesome Talks and Tutorials</h2>
+      <p class="mb-6 text-lg lg:text-xl">We featured over 50 talks & tutorials this year. Here are some crowd favorites!</p>
+      <a href="/schedule/" class="button">View the full schedule</a>
+    </section>
 
-    <a href="/schedule/" class="button">View the full schedule</a>
-
-    <ul class="grid gap-8 lg:grid-cols-3 lg:gap-16">
+    <ul class="grid gap-8 lg:grid-cols-3">
       {% assign session0 = collections.talks | find:featured_session_slugs.0 %}
       {% assign session1 = collections.talks | find:featured_session_slugs.1 %}
       {% assign session2 = collections.talks | find:featured_session_slugs.2 %}
