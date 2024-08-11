@@ -4,7 +4,7 @@ layout: post
 
 author: DjangoCon US Communication Team
 category: General
-date: 2024-04-18 06:00:00
+published_datetime: 2024-04-18 06:00:00
 
 cover:
     url: /assets/img/blog/speaker_cfp.jpg

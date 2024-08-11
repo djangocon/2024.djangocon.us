@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-07-30 12:00:00
+published_datetime: 2024-07-30 12:00:00
 layout: post
 cover:
     url: /assets/img/blog/speaker-org-dinner-dcus23.jpg
