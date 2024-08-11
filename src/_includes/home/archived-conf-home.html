@@ -1,7 +1,7 @@
 <!-- Hero -->
 <div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2 bg-lines">
   <div class="wrapper">
-    <div class="flex flex-col gap-8 lg:flex-row">
+    <div class="flex flex-col items-center gap-8 lg:flex-row">
       <section class="self-center w-full pb-4 lg:flex-1">
         <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
           {{ site.conf_year }} DjangoCon US Recap
@@ -13,13 +13,35 @@
       </section>
 
       <div class="self-end lg:max-w-2xl">
-
+        Graphic here
       </div>
     </div>
   </div>
 </div>
 
 <!-- Secondary -->
+
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid gap-8 lg:grid-cols-5 lg:gap-16">
+      <figure class="md:col-span-1 lg:col-span-3">
+        {% comment %}
+          Ideal 1200x630 image
+        {% endcomment %}
+        <img
+          src="https://placehold.co/1200x630" alt=""/>
+      </figure>
+      <section class="lg:col-span-2">
+        <h2 class="mb-8 subheading">DjangoCon US {{ site.conf_year }} was hosted in Durham, North Carolina for the first time and hosted 000 attendees from all over the world!</h2>
+
+        <h3 class="mb-6 text-lg font-heading lg:text-xl">
+          <b>Font memory from {{ site.conf_year }}?</b>
+          <br/>Share it with us:</h3>
+          {% include "conf-social-share.html" %}
+      </section>
+    </div>
+  </div>
+</div>
 
 
 
@@ -113,7 +135,7 @@
 <!-- Organizers -->
 <div class="block-container">
   <div class="wrapper">
-    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">DjangoCon US {{ site.conf_year }} was possible through lots of</h2>
+    <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">DjangoCon US {{ site.conf_year }} was possible through lots of ❤️</h2>
     <p class="mb-6 text-xl lg:text-2xl">
       Our organizers put hundreds of hours of heart and soul into this conference. We couldn't do it without each and every one of you!
     </p>

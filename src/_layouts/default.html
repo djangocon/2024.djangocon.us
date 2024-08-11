@@ -52,7 +52,7 @@
   <header id="SiteHeader" class="fixed top-0 z-40 w-full py-4 bg-white lg:py-6 lg:relative">
     <div class="wrapper">
       <nav class="flex flex-wrap" role="navigation">
-        <div class="flex items-center justify-between w-full lg:max-w-max">
+        <div class="flex items-center justify-between w-full lg:max-w-max lg:flex-1">
           <a
             href="/"
             aria-label="Go to homepage">
@@ -81,40 +81,7 @@
   <footer id="SiteFooter" class="py-20 bg-white border-t-4 border-black">
     <div class="container mx-auto ">
       <div class="grid gap-8 px-4 place-items-center">
-        <ul class="flex flex-wrap gap-8">
-          <li>
-            <a class="hover:text-social-mastodon" href="https://fosstodon.org/@djangocon">
-              <svg class="w-8 h-8 icon">
-                <title>Mastodon</title>
-                <use xlink:href="#mastodon-icon"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="hover:text-social-twitter" href="https://twitter.com/djangocon">
-              <svg class="w-8 h-8 icon">
-                <title>X (Formerly Twitter)</title>
-                <use xlink:href="#twitter-icon"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="hover:text-social-github" href="https://github.com/djangocon/">
-              <svg class="w-8 h-8 icon">
-                <title>Github</title>
-                <use xlink:href="#github-icon"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="hover:text-social-facebook" href="https://www.facebook.com/djangoconus/">
-              <svg class="w-8 h-8 icon">
-                <title>Facebook</title>
-                <use xlink:href="#facebook-icon"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        {% include "conf-social-share.html" %}
 
         <p class="text-center lg:text-xl">
           <strong>
@@ -136,7 +103,7 @@
   {%- comment -%}
     Social icons added as sprite
   {%- endcomment -%}
-  {%- include 'social-icons.html' -%}
+  {%- include 'svg-social-icons.html' -%}
 
   <script src="/assets/js/main.js"></script>
 </body>
