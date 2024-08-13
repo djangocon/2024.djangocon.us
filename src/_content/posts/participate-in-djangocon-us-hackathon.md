@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communication Team
 category: General
-published_datetime: 2024-08-15 06:00:00-04:00
+published_datetime: 2024-08-13 06:00:00-04:00
 layout: post
 cover:
     url: /assets/img/blog/hackathon-logo.png
