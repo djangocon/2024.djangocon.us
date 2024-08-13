@@ -22,7 +22,6 @@ I didn't have any financial literacy when I entered the tech industry. In fact, 
 
 At the end of this talk you will have a basic understanding of:
 - The importance of planning, budgeting and saving
+- Where to put your savings
 - Maximizing employer contributions
-- What to look for in life insurance
-- How to evaluate health insurance plans
 - How to evaluate an index fund
