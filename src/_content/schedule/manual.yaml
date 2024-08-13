@@ -184,6 +184,12 @@
   room: Grand Ballroom I/II
   title: Break
   track: t0
+- start_datetime: 2024-09-26 10:00:00-04:00
+  end_datetime: 2024-09-26 12:00:00-04:00
+  permalink: "/hackathon/"
+  room: Caktus Group
+  title: Hackathon Presentations
+  track: t0
 - start_datetime: 2024-09-26 09:00:00-04:00
   end_datetime: 2024-09-26 17:00:00-04:00
   permalink: null
