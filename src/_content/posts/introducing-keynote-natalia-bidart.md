@@ -15,21 +15,21 @@ We had the opportunity to sit down with Natalia and ask a few questions about he
 
 ## Can you tell us how you use Django is our go to question, but how has your time as a Django Fellow been so far?
 
->I joined April last year. So it's been a year and four months, that I've been a fellow, and it has been great, very challenging in that prior to to being a fellow, I wasn't that involved in contributing to Django, so there was an initial period when it was everything was new to me, and I mean everything like how to do things, Reading the docs, when it comes to contributing, building PRs, reviewing PRs, triage and tickets and getting used to formats and guidelines for the code, the commit messages, the bulk triage flows in different stages. So, it was definitely a non trivial period and non trivial adaptation to get used to. At times I felt a little bit inadequate for the position, so I tried to shift my focus to getting to know the community and the different ways of doing things, I tried to put my energy to where I thought it could provide the most value, which was around engaging with the community and trying to ease different interactions and attend to those prs. So, yes it has been a very challenging process, but I have also learned a lot and I am honored to be a Django fellow.
+>I joined April last year. So it's been a year and four months, that I've been a Fellow, and it has been great, very challenging in that prior to being a Fellow, I wasn't that involved in contributing to Django, so there was an initial period when EVERYTHING was new to me. Every process to do something was new, and reading the contributing docs for each thing was a task on its own: building PRs, reviewing PRs, triaging tickets, getting used to formats and guidelines for the code, the commit messages, etc. It was definitely a challenging period and required significant adaptation. At times, I felt a bit inadequate for the position, so I shifted my focus to getting to know the community and understanding the different ways of doing things. I directed my energy toward areas where I believed I could provide the most value, such as engaging with the community, facilitating interactions, and attending to PRs. Despite the challenges, I have learned a great deal and am honored to be a Django Fellow.
 
 ## Can you give us a teaser about what your talk is about?
 
->I'd like to talk about the Django Fellowship program, which I'm a part of. This program is crucial for maintaining Django’s current status as a secure, robust, and progressive framework. One of the key reasons to contribute to the Django Software Foundation (DSF) is that a significant portion of donations goes directly to funding this fellowship.
+>I'd like to talk about the Django Fellowship program, which I'm a part of. This program is crucial for maintaining Django’s current status as a secure, robust, and progressive framework. One of the key reasons to donate to the Django Software Foundation (DSF) is that a significant portion of donations goes directly to funding this Fellowship.
 
->The fellows play an essential role in managing and unifying the diverse contributions that come from the community. We ensure consistency, maintain high standards, and safeguard the overall quality of Django. You can think of our role as being the housekeepers of Django, putting up guardrails to maintain the framework's integrity.
+>The Fellows play an essential role in managing and unifying the diverse contributions that come from the community. We ensure consistency, maintain high standards, and safeguard the overall quality of Django. You can think of our role as being the housekeepers of Django, putting up guardrails to maintain the framework's integrity.
 
->It’s important to raise awareness about the fellowship, not just for fundraising, but also because many people, even those who use Django daily, aren’t fully aware of what the program entails. When I was appointed a fellow, I found myself explaining what the Django Fellowship is to my peers, some of whom teased, "Is it something like the Fellowship of the Ring?"
+>It’s important to raise awareness about the Fellowship, not just for fundraising, but also because many people, even those who use Django daily, aren’t fully aware of what the program entails. When I was appointed a Fellow, I found myself explaining what the Django Fellowship is to my peers, some of whom teased, "Is it something like the Fellowship of the Ring?"
 
 ## What are you most looking forward to at DjangoCon US 2024?
 
->This will be my third DjangoCon. Last year was my first, and I also attended DjangoCon Europe earlier this year. What's exciting about this DjangoCon US is that both Sarah Boyce and I, the current Django fellows, will be there together for the first time. Last year, my fellow, Marius, couldn't attend, and Sarah couldn't make it to DjangoCon Europe because she was getting married. So, having both of us there is something I'm really looking forward to.
+>This will be my third DjangoCon. Last year was my first, and I also attended DjangoCon Europe earlier this year. What's exciting about this DjangoCon US is that both Sarah Boyce and I, the current Django Fellows, will be there together for the first time. Last year Marius the other Fellow, couldn't attend, and Sarah couldn't make it to DjangoCon Europe because she had an important personal event. So, having both of us there is something I'm really looking forward to.
 
->This time around, I feel more prepared and less nervous. Last year, I was anxious and had a lot of questions about how things would work. Now that I have some answers and more experience, I hope to enjoy the conference even more. If I can get my talk ready on time, I think I’ll be able to relax and fully immerse myself in the event. Last year was more intense for me because it was my first DjangoCon as a fellow, and I wasn't sure what to expect or what people expected from me.
+>This time around, I feel more prepared and less nervous. Last year, I was anxious and had a lot of questions about how things would work. Now that I have some answers and more experience, I hope to enjoy the conference even more. If I can get my talk ready on time, I think I’ll be able to relax and fully immerse myself in the event. Last year was more intense for me because it was my first DjangoCon as a Fellow, and I wasn't sure what to expect or what people expected from me.
 
 ## What are your favorite topics at conferences?
 
@@ -40,7 +40,7 @@ We had the opportunity to sit down with Natalia and ask a few questions about he
 
 ## What do you like to do outside of your normal work day?
 
->As a parent most of my time goes into my child. I really love power tools, whatever it is, to grab a tool and to plug it in and do soemthing with that! I really like woodwork, yoga, and doing some gardening.
+>As a parent most of my time goes into my child. I really love power tools, whatever it is, to grab a tool and to plug it in and do something with that! I really like woodwork, yoga, and doing some gardening.
 
 
 ## Are you ok with people asking you more later?
