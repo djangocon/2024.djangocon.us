@@ -42,7 +42,7 @@ If you want to get a temporary US plan, you have numerous options. The big three
 - Tracfone
 - Mint Mobile
 
-Many of these are able to offer a "bring your own phone" plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US. You may also be able to find shops in the airport once you arrive in the US while you wait to board your final flight to RDU that offer SIM cards. Check the directory of your connecting airport for more information.
+Many of these are able to offer a "bring your own phone" plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US. You may also be able to find shops in the airport once you arrive in the US while you wait to board your final flight to RDU (Raleigh-Durham Airport) that offer SIM cards. Check the directory of your connecting airport for more information.
 
 Alternatively, you can get an eSIM that you activate upon arrival. If your phone supports both an eSIM and a physical SIM, you can keep your normal phone number for receiving calls and use the eSIM for mobile data in the US. A few common providers are:
 
