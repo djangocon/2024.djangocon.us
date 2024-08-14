@@ -27,6 +27,10 @@ Tipping (gratuities) in the United States is rampant. Here's a rough idea of how
 - Hotel room cleaning: ~$5/day (leave it on your pillow, weirdly)
 - Hotel valet parking: ~$3 per time they retrieve your car
 
+## Identification/Purchasing Alcohol
+
+To purchase alcohol or enter places that predominantly serve alcohol, there's a very good chance you'll be required to present identification. You _may_ be able to get away with a national ID card, but your safest option is your passport. It needs to be the original; photocopies are not accepted.
+
 ## Sales Tax
 
 Many countries have some form of value added tax or goods and services tax rolled into the retail price that you pay, so a bottle of water that's listed as costing $2 is exactly what you  pay. In the US, this is very much _not_ the case. Instead, each state charges its own sales tax, and in many states, counties and municipalities add their own tax on top of that. Some places charge different tax rates for different classes of goods, such as a discount for food.
