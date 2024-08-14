@@ -41,6 +41,8 @@ In Durham County, NC, the sales tax is a flat 7.5%. The city of Durham does not 
 
 Almost every venue nowadays takes Visa, MasterCard, American Express, and usually Discover. Make sure you notify your bank before you are traveling that you are going to the United States so you don't set off any fraud alerts. In the US, this requires calling the customer service number printed on the back of the card, but overseas banks may differ.
 
+However, credit card machine failures do happen, so it's a good idea to carry a small bit of cash just in case. You will typically get better exchange rates at ATMs over airport currency exchange shops.
+
 ## Mobile Phones
 
 The United States has 3 main wireless telecommunications providers: Verizon, AT&T, and T-Mobile. Now that Verizon has retired its 3G service, you should be able to bring nearly any phone that supports Voice over LTE (all 5G phones automatically do) and have it work in the US via roaming. However, that can be super expensive depending on your plan back home.
@@ -54,7 +56,17 @@ If you want to get a temporary US plan, you have numerous options. The big three
 - Tracfone
 - Mint Mobile
 
-Many of these are able to offer a "bring your own phone" plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US.
+Many of these are able to offer a "bring your own phone" plan where you would have to get a SIM card, likely having it shipped to your hotel and then doing the swap yourself after you land in the US. You may also be able to find shops in the airport once you arrive in the US while you wait to board your final flight to RDU that offer SIM cards. Check the directory of your connecting airport for more information.
+
+Alternatively, you can get an eSIM that you activate upon arrival. If your phone supports both an eSIM and a physical SIM, you can keep your normal phone number for receiving calls and use the eSIM for mobile data in the US. A few common providers are:
+
+- Airalo
+- Holafly
+- Nomad
+- aloSIM
+- Jetpac
+
+Doing some internet searches (or asking your friends) might yield some handy discount codes, too.
 
 ## Recycling
 
