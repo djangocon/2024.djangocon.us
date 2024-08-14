@@ -19,7 +19,7 @@ Here's a quick guide to navigating life in the United States as a newcomer:
 
 Almost every venue nowadays takes Visa, MasterCard, American Express, and usually Discover. Make sure you notify your bank before you are traveling that you are going to the United States so you don't set off any fraud alerts. In the US, this requires calling the customer service number printed on the back of the card, but overseas banks may differ.
 
-When making payments, some card machines will give you the option to pay in USD or your home country; generally your bank will give you a more favorable exchange rate (even after conversion fees) than the merchant, so you should probably pick USD.s
+When making payments, some card machines will give you the option to pay in USD or your home country; generally your bank will give you a more favorable exchange rate (even after conversion fees) than the merchant, so you should probably pick USD.
 
 ### Carrying Cash
 
