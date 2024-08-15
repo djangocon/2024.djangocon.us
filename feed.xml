@@ -6,7 +6,7 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-08-14T18:22:31Z</updated
+    >2024-08-15T19:20:37Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
@@ -15,9 +15,59 @@
   </author>
     
     <entry>
+      <title>Announcing Our Keynotes: Natalia Bidart</title>
+      <link href="https://2024.djangocon.us/news/introducing-keynote-natalia-bidart/" />
+      <updated>2024-08-15T19:20:37Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-keynote-natalia-bidart/</id>
+      <content xml:lang="en" type="html"
+        >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-third-keynote-speaker-for-djangocon-us-2024-and-django-fellow%3A-natalia-bidart&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our third keynote speaker for DjangoCon US 2024 and Django Fellow: Natalia Bidart&lt;/h3&gt;
+&lt;p&gt;We had the opportunity to sit down with Natalia and ask a few questions about her work, upcoming talk, and what she is looking forward to at DjangoCon US 2024.&lt;/p&gt;
+&lt;h2 id=&#34;can-you-tell-us-how-you-use-django-is-our-go-to-question%2C-but-how-has-your-time-as-a-django-fellow-been-so-far%3F&#34; tabindex=&#34;-1&#34;&gt;Can you tell us how you use Django is our go to question, but how has your time as a Django Fellow been so far?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I joined April last year. So it&#39;s been a year and four months, that I&#39;ve been a fellow, and it has been great, very challenging in that prior to to being a fellow, I wasn&#39;t that involved in contributing to Django, so there was an initial period when everything was new to me, and I mean everything, like how to do things, reading the docs, when it comes to contributing, building PRs, reviewing PRs, triage and tickets and getting used to formats and guidelines for the code, the commit messages, the bulk triage flows in different stages. So, it was definitely a non trivial period and non trivial adaptation to get used to. At times I felt a little bit inadequate for the position, so I tried to shift my focus to getting to know the community and the different ways of doing things. I tried to put my energy to where I thought it could provide the most value, which was around engaging with the community and trying to ease different interactions and attend to those PRs. So, yes it has been a very challenging process, but I have also learned a lot, and I am honored to be a Django fellow.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;can-you-give-us-a-teaser-about-what-your-talk-is-about%3F&#34; tabindex=&#34;-1&#34;&gt;Can you give us a teaser about what your talk is about?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;d like to talk about the Django Fellowship program, which I&#39;m a part of. This program is crucial for maintaining Django’s current status as a secure, robust, and progressive framework. One of the key reasons to donate to the Django Software Foundation (DSF) is that a significant portion of donations goes directly to funding this Fellowship.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Fellows play an essential role in managing and unifying the diverse contributions that come from the community. We ensure consistency, maintain high standards, and safeguard the overall quality of Django. You can think of our role as being the housekeepers of Django, putting up guardrails to maintain the framework&#39;s integrity.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s important to raise awareness about the Fellowship, not just for fundraising, but also because many people, even those who use Django daily, aren’t fully aware of what the program entails. When I was appointed a Fellow, I found myself explaining what the Django Fellowship is to my peers, some of whom teased, &amp;quot;Is it something like the Fellowship of the Ring?&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-you-most-looking-forward-to-at-djangocon-us-2024%3F&#34; tabindex=&#34;-1&#34;&gt;What are you most looking forward to at DjangoCon US 2024?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This will be my third DjangoCon. Last year at DjangoCon US 2023 was my first, and I also attended DjangoCon Europe earlier this year. What&#39;s exciting about this DjangoCon US is that both Sarah Boyce and I, the current Django Fellows, will be there together for the first time. Last year Marius the other Fellow, couldn&#39;t attend, and Sarah couldn&#39;t make it to DjangoCon Europe because she had an important personal event. So, having both of us there is something I&#39;m really looking forward to.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This time around, I feel more prepared and less nervous. Last year, I was anxious and had a lot of questions about how things would work. Now that I have some answers and more experience, I hope to enjoy the conference even more. If I can get my talk ready on time, I think I’ll be able to relax and fully immerse myself in the event. Last year was more intense for me because it was my first DjangoCon as a Fellow, and I wasn&#39;t sure what to expect or what people expected from me.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-are-your-favorite-topics-at-conferences%3F&#34; tabindex=&#34;-1&#34;&gt;What are your favorite topics at conferences?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I enjoy non-technical topics, and I find that technical topics can be tackled effectively through a computer. Since they are often algorithmic or complex, I can engage with them directly at the keyboard. However, when it comes to topics like inclusion, I believe they are much more nuanced and multifaceted. These discussions benefit greatly from a conference setting where the environment is more fluid, and you can pick up on non-verbal cues like gestures and tones of voice, which are crucial for understanding the full context.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think it&#39;s essential to acknowledge that Django’s progress depends on the strength and diversity of its community. You can&#39;t afford to be selective about who is welcome in the community based on arbitrary criteria. Of course, there are standards of conduct that everyone should adhere to, and that’s necessary for maintaining a healthy and inclusive environment. But beyond that, openness and inclusivity are vital for the community to thrive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-do-you-like-to-do-outside-of-your-normal-work-day%3F&#34; tabindex=&#34;-1&#34;&gt;What do you like to do outside of your normal work day?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a parent most of my time goes into my child. I really love power tools, whatever it is, to grab a tool and plug it in and do something with that! I really like woodwork, yoga, and doing some gardening.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;are-you-okay-with-people-asking-you-more-later%3F&#34; tabindex=&#34;-1&#34;&gt;Are you okay with people asking you more later?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&#39;m totally fine with questions, yes!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Be sure to follow &lt;a href=&#34;https://fosstodon.org/@nessita&#34;&gt;Natalia&lt;/a&gt; on Mastodon!&lt;/p&gt;
+&lt;p&gt;We can&#39;t wait to hear Natalia&#39;s keynote at DjangoCon US 2024! Stay tuned for more keynote announcements and the full schedule. If you haven’t purchased your ticket yet, &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;they’re still on sale&lt;/a&gt;. We hope to see you in Durham! 🐂&lt;/p&gt;
+</content
+      >
+    </entry>
+    
+    <entry>
       <title>Build something cool with Django at DjangoCon US!</title>
       <link href="https://2024.djangocon.us/news/participate-in-djangocon-us-hackathon/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/participate-in-djangocon-us-hackathon/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;This year DjangoCon US will feature a hackathon. It&#39;s open to developers of all experience levels. You&#39;re welcome to take part as an individual or within a group. There is limited availability and early registration is requested.&lt;/p&gt;
@@ -29,7 +79,7 @@
     <entry>
       <title>Volunteer at DjangoCon US: An Opportunity to Give Back and Grow</title>
       <link href="https://2024.djangocon.us/news/volunteer-opportunities/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/volunteer-opportunities/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;DjangoCon US is a premier event for the Django community, and it wouldn&#39;t be possible without the invaluable contributions of our volunteers. As a co-chair of the Volunteer program, I can attest to the immense impact that our volunteers have on the success of this conference.&lt;/p&gt;
@@ -71,7 +121,7 @@
     <entry>
       <title>Childcare During DjangoCon US</title>
       <link href="https://2024.djangocon.us/news/childcare-during-djangocon/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/childcare-during-djangocon/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Childcare at DjangoCon US and tech conferences more generally is an important factor that helps folks attend who otherwise may not be able to. We want to make sure that parents feel welcome bringing their children to DjangoCon US and that the availability of childcare is not a barrier to attending.&lt;/p&gt;
@@ -119,7 +169,7 @@
     <entry>
       <title>Announcing Our Keynotes: Mario Munoz</title>
       <link href="https://2024.djangocon.us/news/introducing-keynote-mario-munoz/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/introducing-keynote-mario-munoz/</id>
       <content xml:lang="en" type="html"
         >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-second-keynote-speaker-for-djangocon-us-2024%3A-mario-munoz!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our second keynote speaker for DjangoCon US 2024: Mario Munoz!&lt;/h3&gt;
@@ -173,7 +223,7 @@
     <entry>
       <title>Getting to know folks: A pre-conference interview</title>
       <link href="https://2024.djangocon.us/news/getting-to-know-folks/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/getting-to-know-folks/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Hello Djangonauts!&lt;/p&gt;
@@ -370,7 +420,7 @@
     <entry>
       <title>Announcing Our Keynotes: Sheena O'Connell</title>
       <link href="https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/introducing-keynote-sheena-oconnell/</id>
       <content xml:lang="en" type="html"
         >&lt;h3 id=&#34;we&#39;re-honored-to-announce-our-first-keynote-speaker-for-djangocon-us-2024%3A-sheena-o&#39;connell!&#34; tabindex=&#34;-1&#34;&gt;We&#39;re honored to announce our first keynote speaker for DjangoCon US 2024: Sheena O&#39;Connell!&lt;/h3&gt;
@@ -417,7 +467,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>The DjangoCon US 2024 schedule has been released!</title>
       <link href="https://2024.djangocon.us/news/announcing-schedule-dcus/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/announcing-schedule-dcus/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;We are beyond thrilled to unveil the 2024 DjangoCon US &lt;a href=&#34;/schedule/&#34;&gt;talk and tutorial lineup&lt;/a&gt;. We&#39;ll have six tutorials on Sunday, September 22, three days of talks on September 23-25, and two days of sprints on September 26-27.&lt;/p&gt;
@@ -435,7 +485,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Announcing our DjangoCon US 2024 Talks!</title>
       <link href="https://2024.djangocon.us/news/announcing-lineup/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/announcing-lineup/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;We are thrilled to present our tutorial and talk lineup!&lt;/p&gt;
@@ -509,7 +559,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Our New DjangoCon US 2024 Brand and Website</title>
       <link href="https://2024.djangocon.us/news/our-new-djangocon-website/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/our-new-djangocon-website/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Fully re-built from the ground up, we are pleased to announce our brand new website and branding for DjangoCon US 2024. Every year we refresh our banding to align with our host city, but this year we decided to go a step further and re-boot our website, optimizing for contributor experience.&lt;/p&gt;
@@ -582,7 +632,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Early-bird tickets now on sale!</title>
       <link href="https://2024.djangocon.us/news/early-bird-tickets-on-sale/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/early-bird-tickets-on-sale/</id>
       <content xml:lang="en" type="html"
         >&lt;h2 id=&#34;hey-django-fans!-%F0%9F%91%8B&#34; tabindex=&#34;-1&#34;&gt;Hey Django fans! 👋&lt;/h2&gt;
@@ -605,7 +655,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Heads Up! End of our Opportunity Grants is coming up!</title>
       <link href="https://2024.djangocon.us/news/opportunity-grant-last-call/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/opportunity-grant-last-call/</id>
       <content xml:lang="en" type="html"
         >&lt;h2 id=&#34;hey-django-lovers%2C&#34; tabindex=&#34;-1&#34;&gt;Hey Django lovers,&lt;/h2&gt;
@@ -627,7 +677,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Don't Miss Out: Last Call for DjangoCon US 2024 Talk Proposals!</title>
       <link href="https://2024.djangocon.us/news/cfp-last-call/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/cfp-last-call/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Hey Django enthusiasts!&lt;/p&gt;
@@ -652,7 +702,7 @@ My talk is about how to teach foundational code. So it&#39;s also about the scie
     <entry>
       <title>Announcing Call for Community Reviewers</title>
       <link href="https://2024.djangocon.us/news/call-for-community-reviewers/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/call-for-community-reviewers/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;The &lt;a href=&#34;/speaking/&#34;&gt;call for proposals for DjangoCon US 2024&lt;/a&gt;&lt;br&gt;
@@ -675,7 +725,7 @@ on a first-come, first-served basis.&lt;/p&gt;
     <entry>
       <title>Call for Volunteers: DjangoCon US 2024</title>
       <link href="https://2024.djangocon.us/news/call-for-2024-volunteers/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/call-for-2024-volunteers/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Organizing DjangoCon US 2024 has begun! We need organizers to help make DjangoCon US 2024 the best it can be.&lt;/p&gt;
@@ -936,7 +986,7 @@ on a first-come, first-served basis.&lt;/p&gt;
     <entry>
       <title>What are the Benefits of Speaking at DjangoCon US?</title>
       <link href="https://2024.djangocon.us/news/benefits-of-speaking-djangocon/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/benefits-of-speaking-djangocon/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;The DjangoCon US team would like to make sure you are aware of some of the benefits of giving a talk at DjangoCon US 2024.&lt;/p&gt;
@@ -979,7 +1029,7 @@ on a first-come, first-served basis.&lt;/p&gt;
     <entry>
       <title>The Call for Proposals for DjangoCon US 2024 Is Now Open!</title>
       <link href="https://2024.djangocon.us/news/announcing-call-for-proposals/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/announcing-call-for-proposals/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;We are excited that DjangoCon US 2024 is now open for talk submissions: &lt;a href=&#34;https://pretalx.com/djangocon-us-2024/cfp&#34;&gt;call for proposals&lt;/a&gt;! The deadline for submissions is April 24th, 2024 at &lt;a href=&#34;https://time.is/1200PM_24_April_2024_in_Durham,_United_States?DjangoCon_US_CFP_Closes&#34;&gt;Noon EDT&lt;/a&gt;.&lt;/p&gt;
@@ -997,7 +1047,7 @@ on a first-come, first-served basis.&lt;/p&gt;
     <entry>
       <title>Code, test, ship it! DjangoCon US 2024 has been announced!</title>
       <link href="https://2024.djangocon.us/news/announcing-djangocon-us-2024/" />
-      <updated>2024-08-14T18:22:31Z</updated>
+      <updated>2024-08-15T19:20:37Z</updated>
       <id>https://2024.djangocon.us/news/announcing-djangocon-us-2024/</id>
       <content xml:lang="en" type="html"
         >&lt;p&gt;Hello everyone, we have our dates! September 22nd-27th.&lt;/p&gt;
