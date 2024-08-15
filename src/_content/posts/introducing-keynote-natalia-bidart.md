@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2024-08-13 06:00:00-04:00
+published_datetime: 2024-08-15 06:00:00-04:00
 cover:
     url: /assets/img/blog/natalia_bidart.jpeg
     alt: "Natalia Bidart"
