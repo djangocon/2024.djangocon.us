@@ -13,6 +13,8 @@ cover:
 
 For many first-time attendees from abroad, DjangoCon US represents the first time for people entering the United States.
 
+Before you can get into the USA, though, you may need a visa. Check our [Visa Support](/visas/) page for details and organizer Benedict Kofi Amofah's excellent [blog post](https://iamdreamo.medium.com/a-first-timers-guide-to-attending-tech-conferences-in-the-usa-visa-prep-and-beyond-e2e121db15df) on the visa preparation process.
+
 Here's a quick guide to navigating life in the United States as a newcomer:
 
 ## Payments
