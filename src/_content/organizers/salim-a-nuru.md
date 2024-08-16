@@ -1,7 +1,7 @@
 ---
 name: Salim A Nuru
 photo: sal.jpg
-role: Website, Automation
+role: Website, Hackathon Organizer, Automation
 social:
     twitter: iamsalimabdella
     github: theShinigami
