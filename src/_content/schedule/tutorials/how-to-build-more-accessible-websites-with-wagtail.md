@@ -5,6 +5,7 @@ end_datetime: 2024-09-22 17:00:00-04:00
 permalink: /tutorials/how-to-build-more-accessible-websites-with-wagtail/
 presenter_slugs:
 - meagen-voss
+- scott-cranfill
 room: Tutorial Track C
 tags:
 - cms
@@ -15,7 +16,7 @@ track: t2
 
 In this tutorial, you'll learn:
 
-- The basics of web accessibility and common challenges 
+- The basics of web accessibility and common challenges
 - What the [Web Content Accessibility Guidelines]( https://www.w3.org/WAI/standards-guidelines/wcag/) are and how to choose which version to follow
 - How you can use Wagtail and Django to build accessibility best practices into your code
 - How to use Wagtail's built-in accessibility checker to encourage people to create more accessible content
