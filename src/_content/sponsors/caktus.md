@@ -1,8 +1,7 @@
 ---
-hidden: true
 level: Platinum
 name: Caktus Consulting Group LLC
-date: 2023-08-24
+date: 2024-08-10
 logo:
     filename: caktus-logo-square.png
     orientation: portrait
