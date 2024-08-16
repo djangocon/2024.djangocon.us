@@ -1,8 +1,8 @@
 ---
-hidden: true
-level: Gold
+hidden: false
+level: Bronze
 name: Scout APM
-date: 2023-09-10
+date: 2024-08-16
 logo:
     filename: ScoutAPM_logo_rounded_square.png
     orientation: portrait
