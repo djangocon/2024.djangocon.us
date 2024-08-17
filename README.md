@@ -46,3 +46,9 @@ Dates are formatted with [date-fns](https://date-fns.org/), due to some wonkines
 
 1. Presenter images are created at `/presenters/{{ slug }}/`
 2. Session images are created at `/{{ talks,tutorials }}/{{ slug }}/social/`
+
+## Considerations when updating content
+
+1. When adding images, if they are below the "fold", consider adding a `loading="lazy"` attribute to the image tag.
+2. When adding images, consider adding an `alt` attribute to the image tag.
+3. Keep copy short and to the point. The site is most likely scanned, not read.

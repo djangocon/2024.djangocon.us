@@ -18,5 +18,15 @@
   "opportunity_grant_application": "https://forms.gle/LamfHzoXULdv63h18",
   "slack_link": "",
   "sponsorship_prospectus": "",
-  "ticket_link": "https://ti.to/defna/djangocon-us-2024"
+  "ticket_link": "https://ti.to/defna/djangocon-us-2024",
+  "photos_link": "https://flickr.com/photos/djangocon/albums/72177720312367244/",
+
+  "social": {
+    "flickr": "https://flickr.com/photos/djangocon/albums/",
+    "github": "https://github.com/djangocon/",
+    "mastodon": "https://fosstodon.org/@djangocon",
+    "twitter": "https://twitter.com/djangocon",
+    "facebook": "https://www.facebook.com/djangoconus/",
+    "instagram": "https://www.instagram.com/djangocon/"
+  }
 }

@@ -12,8 +12,12 @@
         </p>
       </section>
 
-      <div class="self-end lg:max-w-2xl">
-        Graphic here
+      <div class="self-end py-8 lg:max-w-2xl">
+        <img
+          src="/assets/img/theme/welcome-durham.svg"
+          alt="The word Durham surrounded by colorful characters and stickers"
+          aria-hidden="true"
+        />
       </div>
     </div>
   </div>
@@ -24,13 +28,17 @@
 <div class="block-container">
   <div class="wrapper">
     <div class="grid gap-8 lg:grid-cols-5 lg:gap-16">
-      <figure class="md:col-span-1 lg:col-span-3">
+      <figure class="lg:col-span-3">
         {% comment %}
           Ideal 1200x630 image
         {% endcomment %}
         <img
-          src="https://placehold.co/1200x630" alt=""/>
+          src="https://placehold.co/1200x630"
+          alt=""
+          loading="lazy"
+          />
       </figure>
+
       <section class="lg:col-span-2">
         <h2 class="mb-8 subheading">DjangoCon US {{ site.conf_year }} was hosted in Durham, North Carolina for the first time and hosted 000 attendees from all over the world!</h2>
 
@@ -39,14 +47,8 @@
           <br/>Share it with us:</h3>
           {% include "conf-social-share.html" %}
       </section>
-    </div>
-  </div>
-</div>
 
-<!-- Follow up -->
-<div class="block-container">
-  <div class="wrapper">
-    <section class="prose prose-lg">
+      <section class="prose prose-lg lg:col-span-3">
         {% markdown %}
 From tutorials on Airflow and Postgres to talks about contributing to Django and diversity, equity and inclusion to hallway tracks and sprint contributions, 2023 was another fantastic year for DjangoCon US!
 
@@ -59,13 +61,13 @@ Every year, DjangoCon US works hard to make our program better and more accessib
 
 Thanks to our generous sponsors, who helped make these conference dreams a reality.
         {% endmarkdown %}
-    </section>
-    <div>
-      Graphic here
+      </section>
+      <div>
+Graphics here
+      </div>
     </div>
   </div>
 </div>
-
 
 
 <!-- Talk highlights -->
@@ -78,13 +80,11 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
     </section>
 
     <ul class="grid gap-8 lg:grid-cols-3">
-      {% assign session0 = collections.talks | find:featured_session_slugs.0 %}
-      {% assign session1 = collections.talks | find:featured_session_slugs.1 %}
-      {% assign session2 = collections.talks | find:featured_session_slugs.2 %}
-
-      {% include "session-card.html", session:session0.data, color_class:"border-t-green" %}
-      {% include "session-card.html", session:session1.data, color_class:"border-t-light-blue" %}
-      {% include "session-card.html", session:session2.data, color_class:"border-t-purple" %}
+      {% assign color_classes = "border-t-green,border-t-blue,border-t-red,border-t-yellow" | split: "," -%}
+      {%- for session_slug in featured_session_slugs %}
+        {%- assign session = collections.talks | find:session_slug %}
+        {%- include "session-card.html", session:session.data, color_class: color %}
+      {%- endfor %}
     </ul>
   </div>
 </div>
@@ -97,6 +97,7 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
     {% include "presenters-grid.html" %}
   </div>
 </div>
+
 
 <!-- Stats -->
 <div class="bg-purple block-container">
@@ -158,23 +159,24 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
 
 <div class="block-container">
   <div class="wrapper">
-    <div class="grid lg:grid-cols-3">
-      <section class="text-block photo-block">
-        <h2>Picture Perfect</h2>
-        <p>We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/">Bartek Pawlik</a> for being our
-          official conference photographer and saving these memories for
-          us.</p>
-        <a href="https://flickr.com/photos/djangocon/albums/72177720312367244" class="button">View all photos</a>
+    <div class="grid lg:grid-cols-3 auto-rows-fr">
+      <section class="p-6">
+        <h2 class="mb-4 text-2xl font-bold font-heading lg:text-3xl">Picture Perfect</h2>
+        <p class="mb-6 text-lg lg:text-xl">We captured so many Kodak moments over the week! Thanks to <a href="http://bartpawlik.com/" rel="noreferrer noopener" target="_blank" class="link">Bartek Pawlik</a> for being our official conference photographer and saving these memories for us.</p>
+        <a href="{{ site.photos_link }}" class="button">View all photos</a>
       </section>
 
       {% for photo in featured_photos %}
+        {% comment %}
+          Ideal 600x400 image
+        {% endcomment %}
         <figure class="lg:col-span-1">
-          {% comment %}
-            Ideal 600x400 image
-          {% endcomment %}
           <img
-            src="{{ photo.src }}" alt="{{ photo.alt }}"/>
-        </figure>
+            src="{{ photo.src }}"
+            alt="{{ photo.alt }}"
+            class="object-cover"
+            loading="lazy" />
+          </figure>
       {% endfor %}
     </div>
   </div>
