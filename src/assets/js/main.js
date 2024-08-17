@@ -63,7 +63,3 @@ document.addEventListener('click', function (evt) {
     });
   }
 });
-
-/*
-  Show sessions and schedule in local timezone
-*/
