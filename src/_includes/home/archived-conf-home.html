@@ -80,10 +80,11 @@ Graphics here
     </section>
 
     <ul class="grid gap-8 lg:grid-cols-3">
-      {% assign color_classes = "border-t-green,border-t-blue,border-t-red,border-t-yellow" | split: "," -%}
+      {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
       {%- for session_slug in featured_session_slugs %}
         {%- assign session = collections.talks | find:session_slug %}
-        {%- include "session-card.html", session:session.data, color_class: color %}
+        {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
+        {%- include "session-card.html", session:session.data, color_class: color_class  %}
       {%- endfor %}
     </ul>
   </div>
@@ -113,7 +114,7 @@ Graphics here
       </section>
       <div>
         <div class="overflow-x-auto">
-          <table>
+          <table class="text-lg">
             <thead>
               <tr>
                 <th>What?</th>
@@ -166,7 +167,7 @@ Graphics here
         <a href="{{ site.photos_link }}" class="button">View all photos</a>
       </section>
 
-      {% for photo in featured_photos %}
+      {%- for photo in featured_photos %}
         {% comment %}
           Ideal 600x400 image
         {% endcomment %}
@@ -177,7 +178,7 @@ Graphics here
             class="object-cover"
             loading="lazy" />
           </figure>
-      {% endfor %}
+      {%- endfor %}
     </div>
   </div>
 </div>
