@@ -27,7 +27,7 @@ other_lodging:
 <div class="block-container">
   <div class="wrapper">
     <div class="grid-1-2">
-      <section>
+      <section id="welcome">
         <h1 class="mb-4 pageheading">Welcome to Durham!</h1>
         <div class="space-y-6 text-xl lg:text-2xl">
           <p>
@@ -64,7 +64,8 @@ other_lodging:
 
             <span class="order-1 block leading-tight">
               <strong>Durham Convention Center</strong> <br>
-              <small>301 W Morgan St, Durham, NC 27701</small>
+              <small>301 W Morgan St, Durham, NC 27701</small> <br>
+              <small><a href="tel:+19197686000">+1 (919) 768-6000</a></small>
             </span>
         </div>
       </div>
@@ -72,7 +73,7 @@ other_lodging:
   </div>
 </div>
 
-<div class="block-container bg-gray-50" id="welcome">
+<div class="block-container bg-gray-50" id="hotel">
   <div class="wrapper">
     <div class="grid-1-2">
       <figure>
@@ -96,14 +97,17 @@ other_lodging:
           <li class="badge badge-blue">🏙️ In the middle of downtown</li>
         </ul>
 
-        {% comment %}
-        <!-- TODO: Alert -->
-          <p>
-            ATTENTION!: If you try to book and it says the capacity is full, please
-            call the hotel to try to book your room.
-          </p>
-        {% endcomment %}
-        <p>
+        <section class="p-4 bg-blue-100 rounded">
+          <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
+          <div class="prose prose-lg">
+            {% markdown %}
+              If you try to book and the website says the capacity is full, please call the hotel to try to book your room. You may need to mention that you're with the DjangoCon US group.
+
+              If you run into difficulties, please reach out to the organizers for help at [{{site.contact_us_email}}](mailto:{{site.contact_us_email}}).
+            {% endmarkdown %}
+          </div>
+        </section>
+
           <a
             href="{{ site.hotel_reservation_link }}"
             class="button">Book a Room</a>
@@ -164,7 +168,7 @@ other_lodging:
 <div class="block-container">
   <div class="wrapper">
     <header class="mb-12">
-      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">Around Durham</h2>
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl" id="places">Around Durham</h2>
       <p class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
         Public transportation is available via the
         <a href="https://gotriangle.org/maps-schedules/gotriangle" class="link">GoTriangle</a>
@@ -201,7 +205,7 @@ other_lodging:
 
 <div class="block-container">
   <div class="wrapper">
-    <header class="mb-12">
+    <header class="mb-12" id="accessibility">
       <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">An Accessible Experience</h2>
       <div class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
         <p>

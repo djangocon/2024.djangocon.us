@@ -1,8 +1,8 @@
 ---
-hidden: true
-level: Gold
+hidden: false
+level: Bronze
 name: Sentry
-date: 2023-08-17
+date: 2024-08-16
 logo:
     filename: sentry.svg
     orientation: landscape
