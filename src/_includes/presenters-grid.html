@@ -4,6 +4,14 @@
       {% if presenter.data.photo != null and presenter.data.photo != "" %}
         {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
         {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'avatar media' %}
+      {% else %}
+        <img
+          src="/assets/img/theme/empty-avatar.svg"
+          alt="An outline of a person"
+          width="400"
+          height="400"
+          class="avatar media"
+          aria-hidden="true">
       {% endif %}
 
       <div class="flex flex-col flex-1 px-2 mt-3">

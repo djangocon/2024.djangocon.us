@@ -28,14 +28,15 @@
 <div class="block-container">
   <div class="wrapper">
     <div class="grid gap-8 lg:grid-cols-5 lg:gap-16">
-      <figure class="lg:col-span-3">
+      <figure class="block h-full lg:col-span-3 photo-effect">
         {% comment %}
           Ideal 1200x630 image
         {% endcomment %}
         <img
-          src="https://placehold.co/1200x630"
+          src="https://picsum.photos/1200/630"
           alt=""
           loading="lazy"
+          class="object-cover w-full h-full"
           />
       </figure>
 
@@ -63,7 +64,7 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
         {% endmarkdown %}
       </section>
       <div>
-Graphics here
+        Graphics here
       </div>
     </div>
   </div>
@@ -84,7 +85,7 @@ Graphics here
       {%- for session_slug in featured_session_slugs %}
         {%- assign session = collections.talks | find:session_slug %}
         {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
-        {%- include "session-card.html", session:session.data, color_class: color_class  %}
+        {%- include "session-card.html", session:session.data, color_class: color_class %}
       {%- endfor %}
     </ul>
   </div>
@@ -171,11 +172,11 @@ Graphics here
         {% comment %}
           Ideal 600x400 image
         {% endcomment %}
-        <figure class="lg:col-span-1">
+        <figure class="relative lg:col-span-1">
           <img
             src="{{ photo.src }}"
             alt="{{ photo.alt }}"
-            class="object-cover"
+            class="object-cover w-full h-full"
             loading="lazy" />
           </figure>
       {%- endfor %}

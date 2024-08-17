@@ -85,8 +85,8 @@ days:
 
                   {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
                   {% for session in slot.sessions %}
-                    {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
-                    {% include "session-card.html", session:session, color_class:color_class %}
+                    {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
+                    {% include "session-card.html", session:session, color_class:color %}
                   {% endfor %}
                 </ul>
               </div>

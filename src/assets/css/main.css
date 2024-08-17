@@ -85,7 +85,7 @@
   }
 
   .media {
-    @apply border-4 border-gray-100 rounded;
+    @apply rounded;
   }
 
   .avatar {
