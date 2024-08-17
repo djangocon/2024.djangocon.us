@@ -35,7 +35,7 @@ days:
         {% for day in collections.sessionsByDateAndTime %}
         <li>
           <a href="#Day-{{ forloop.index }}" class="group">
-            <time class="flex flex-col">
+            <time class="flex flex-col" datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">
               <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
               <span class="px-3 py-1 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
@@ -60,7 +60,7 @@ days:
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
                 <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
-                {{ day[0] | formatDateTime: "EEEE, LLL d" }}
+                <time datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">{{ day[0] | formatDateTime: "EEEE, LLL d" }}</time>
               </a>
           </h2>
           <div class="md:pl-56 lg:pl-64">
@@ -76,7 +76,10 @@ days:
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | formatDateTime: "h:mm aaa" }} to {{ slot.end | formatDateTime: "h:mm aaa" }}</h3>
+                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">
+                    <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                    <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                  </h3>
                 </div>
                 <ul
                   class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-4 lg:bg-gray-100">
