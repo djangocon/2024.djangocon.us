@@ -7,8 +7,8 @@ logo:
     filename: jbslogo.png
     orientation: landscape
 url:
-    target: 'https://www.jbssolutions.com/'
-    label: www.jbssolutions.com
+    target: 'https://www.jbs.dev/'
+    label: www.jbs.dev
 hiring_url: 'https://www.jbs.dev/our-team/careers/'
 ---
 JBS is a highly experienced team of senior developers and technology trailblazers obsessed with accelerating business
