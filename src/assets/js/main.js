@@ -1,3 +1,6 @@
+/*
+  Mobile site navigation
+*/
 const navToggler = document.getElementById('NavToggler');
 const siteNav = document.querySelector('.site-nav');
 const allMenus = siteNav.querySelectorAll('[data-menu-list]');
@@ -60,3 +63,7 @@ document.addEventListener('click', function (evt) {
     });
   }
 });
+
+/*
+  Show sessions and schedule in local timezone
+*/
