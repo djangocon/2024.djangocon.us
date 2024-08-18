@@ -83,8 +83,8 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
       <a href="/schedule/" class="button">View the full schedule</a>
     </section>
 
-    <ul class="grid gap-8 lg:grid-cols-3">
-      {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
+    <ul class="grid gap-8 lg:grid-cols-3 auto-rows-fr">
+      {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange,border-t-blue,border-t-yellow" | split: "," %}
       {%- for session_slug in featured_session_slugs %}
         {%- assign session = collections.talks | find:session_slug %}
         {%- assign color_class = color_classes[forloop.index0 | modulo: color_classes.size] %}
