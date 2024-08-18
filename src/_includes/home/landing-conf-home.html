@@ -1,0 +1,126 @@
+
+<div class="pt-8 block-container">
+  <div class="wrapper narrow">
+    <div class="space-y-8 text-center">
+      <img
+        src="/assets/img/theme/logo.svg"
+        alt="DjangoCon US"
+        class="h-12 mx-auto lg:h-24">
+
+      <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+        Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking
+      </h1>
+
+      <p class="mb-4 text-2xl lg:text-3xl">
+        <strong>September 22-27, 2024</strong>
+      </p>
+
+      <p class="mb-6 text-2xl lg:text-3xl">
+        <a
+          href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+          target="_blank"
+          class="hover:text-blue link">Durham Convention Center<br/><strong>Durham, NC</strong></a>
+      </p>
+
+      <p class="flex flex-wrap justify-center gap-4">
+        <a
+          href="{{ site.ticket_link }}"
+          class="button bg-blue">Buy tickets</a>
+        <a
+          href="{{ site.mailing_list }}"
+          class="button">Join our mailing list</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+      <h2>Book your <a href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP">hotel room</a> at the <a href="https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/">Marriott Durham City Center</a> by September 16!</h2>
+      <p>The hotel connects directly to the convention center.</p>
+
+
+
+
+      <h2>Our <a href="/speaking/">Call for Proposals</a> and <a href="/opportunity-grants/">Opportunity Grant applications</a> are now open!</h2>
+
+
+<div class="block-container">
+  <div class="wrapper">
+    <section>
+      <h2 class="mb-8 text-2xl font-bold font-heading lg:text-4xl">Latest News</h2>
+
+      <ol class="divide-y" reversed>
+        {%- for post in collections.posts reversed -%}
+          {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+            {% if forloop.index0 < 3 %}
+              <li>
+                <article class="py-4">
+                  <time
+                    class="mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                    datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+                  <h3 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h3>
+                </article>
+              </li>
+            {% endif %}
+          {% endunless %}
+        {%- endfor -%}
+      </ol>
+
+      <a class="button" href="/news/">Read More News</a>
+    </section>
+  </div>
+</div>
+
+<div class="featuresBlock">
+  <section class="feature">
+    <img
+      src="{{ "/static/img/cap.svg"   }}"
+      alt=""
+      class="feature-icon">
+    <h3>Learn from Django's Brightest</h3>
+    <p>Every conference is packed with talks and workshops by Django veterans and enthusiastic first-time presenters.</p>
+    <a href="https://2022.djangocon.us/talks/" class="cta">See last year's schedule</a>
+  </section>
+  <section class="feature">
+    <img
+      src="{{ "/static/img/hands.svg"   }}"
+      alt=""
+      class="feature-icon"
+    />
+    <h3>Let's Grow Together&mdash;Organize DjangoCon US</h3>
+    <p><a href="https://2023.djangocon.us/news/call-for-2023-volunteers/">Help make the conference happen</a> by taking a leadership role on the organizing team, or volunteering to help out over the next several months.</p>
+    <a href="mailto:hello@djangocon.us?subject=Organizing DjangoCon US 2023" class="cta">Contact us to volunteer</a>
+  </section>
+  <section class="feature">
+    <img
+      src="{{ "/static/img/list.svg"   }}"
+      alt=""
+      class="feature-icon">
+    <h3>Code of Conduct</h3>
+    <p>Participants are expected to be respectful to each other. DjangoCon US is a welcoming environment.</p>
+
+    <a href="https://github.com/djangocon/2023.djangocon.us/blob/main/CODE_OF_CONDUCT.md" class="cta">See our code of conduct</a>
+  </section>
+</div>
+
+<section>
+  <h2>Sponsor DjangoCon US</h2>
+  <p>By giving to the community who builds and supports the software you use, you help ensure its happiness, health, and productivity. Sponsoring DjangoCon US also puts your brand in front of &gt;10,000 Python professionals and opportunities to speak directly to all of them.</p>
+
+  <p>
+    <a
+      href="mailto:hello@djangocon.us?subject=Sponsoring DjangoCon US 2023"
+      class="button">Ask About Sponsorship</a>
+    <!--
+      <a
+      href="https://drive.google.com/file/d/12nkZ93LjEqVMwk-PZ9Ka_uQa99_1ZOYu/view"
+      class="button">See Our Prospectus</a>
+    -->
+  </p>
+</section>
+
+
+{% include "conf-social-share.html" %}

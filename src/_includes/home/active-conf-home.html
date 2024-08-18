@@ -114,9 +114,6 @@
   <div class="wrapper">
     <div class="grid-1-2">
       <figure>
-        {% comment %}
-          TODO: Use Image component
-        {% endcomment %}
         <span class="block h-full photo-effect">
           <img
             src="/assets/img/noah.jpg"
@@ -128,14 +125,14 @@
       <section>
         <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Latest News</h2>
 
-        <ol class="space-y-4 divide-y" reversed>
+        <ol class="divide-y" reversed>
           {%- for post in collections.posts reversed -%}
             {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
               {% if forloop.index0 < 3 %}
                 <li>
                   <article class="py-6">
                     <time
-                      class="mb-2 tracking-wide text-gray-600 uppercase block-container"
+                      class="mb-2 tracking-wide text-gray-600 uppercase"
                       datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
                     <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
                   </article>
