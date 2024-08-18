@@ -27,8 +27,8 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets/js/");
   config.addPassthroughCopy("src/assets/favicons/");
   config.addPassthroughCopy({
-    "src/_content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
-    "src/_content/places/*.{png,jpg,jpeg,webp}": "venue/",
+    "src/_content/sponsors/*.{png,jpg,jpeg,webp,svg}": "sponsors/",
+    "src/_content/places/*.{png,jpg,jpeg,webp,svg}": "venue/",
   });
   config.addPassthroughCopy("CNAME");
 
