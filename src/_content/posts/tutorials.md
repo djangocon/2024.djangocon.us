@@ -1,4 +1,6 @@
-yout: post
+---
+title: "DjangoCon US 2024 Tutorials"
+layout: post
 
 author: Lidya K
 category: General
