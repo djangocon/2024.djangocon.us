@@ -1,6 +1,6 @@
 ---
 hidden: false
-level: Opportunity Grant
+level: Opportunity Grants
 name: Django Software Foundation
 date: 2021-10-04
 logo:
