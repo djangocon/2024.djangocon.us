@@ -4,7 +4,7 @@ level: Platinum
 name: Valkey Project
 date: 2024-08-19
 logo:
-    filename: valkey.png
+    filename: valkey.svg
     orientation: portrait
 url:
     target: 'https://valkey.io/'
