@@ -7,7 +7,7 @@ permalink: /talks/panel-discussion-details/
 presenter_slugs:
 - lacey-henschel
 room: Junior Ballroom
-title: Panel Discussion
+title: Open, friendly, and welcoming: on the history and future of mentoring in Django
 track: t0
 ---
 
