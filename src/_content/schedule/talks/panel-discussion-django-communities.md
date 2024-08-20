@@ -26,7 +26,7 @@ Our panelists include:
 - **Keanya Phelps**, Django Girls organizer and participant, mentor in Djangonaut Space
 - **Afi Maame Dufie**, involved in Django Girls, PyLadies, and Black Python Devs
 - **Sarah Boyce**, Django Fellow, co-founder and mentor in Djangonaut Space
-- **Carlton Gibson**, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django's efforts in Google Summer of Code and Django Girls coach and advisory board member.
+- **Carlton Gibson**, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django's efforts in Google Summer of Code, and Django Girls coach and advisory board member.
 - **Ron Maravanyika**, co-founder of ZimboPy, current chair for PyCon Zimbabwe, and Django Girls organizer
 
 Join us as we reflect, explore, and hopefully inspire even more excitement and support for our broader Django communities.
