@@ -45,7 +45,7 @@ The [East Coast Greenway](https://www.greenway.org/states/north-carolina) runs t
 
 The [Falls Lake State Recreation Area](https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area) has 15 miles of mountain biking and 25 miles of hiking.
 
-<img src="/static/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg" alt="Photo of bikers by Phillippe Oursel via Unsplash" title="Biking" style="width:30%; display:block; float:right;" />
+<img src="/assets/img/blog/philippe-oursel-hEzxeDOMXoo-unsplash-biking.jpg" alt="Photo of bikers by Phillippe Oursel via Unsplash" title="Biking" style="width:30%; display:block; float:right;" />
 
 Eno River park is a 20 minute drive from the hotel and has a lot of hiking trails. [Eno River Association](https://www.enoriver.org/explore/eno-river-state-park/) has a lot of information about the park and trails.
 
