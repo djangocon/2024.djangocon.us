@@ -12,44 +12,13 @@ title: Fighting Homelessness with Django
 track: t0
 ---
 
-# Talk Outline
+My company built CHAMP, the online application for state-aided subsidized housing for the state of Massachusetts.  We did it in Django.  This site is used to find housing for thousands of low-income and homeless applicants a year.  The site handles over 10,000 monthly users at all times of day.  We've supported it in production for over five years, and deployed major new features continuously throughout that time.
 
-In the outline below, each bullet point corresponds to roughly 1 minute of talk content
-
-## Introduction
-* Who am I
-* Motivation
-* Outline
-
-## Brief Overview of Housing in Massachusetts
-* Three programs
-* ~230 housing agencies, 100k+ applicants
-* Previously all paper, still needs to support paper
-
-## What We Built
-* Online application with dynamic questions
-* Ranking waitlists for a vacancy and housing applicants
-* Generation of screening letters
-* Document uploads and storage for verification documents
-* Recording determination of applicant claims
-* Reports and data pipeline
-* Migration of data from 230 organizations
-
-## How We Built It
-* Django model forms
-* Django + Datatables
-* Django + Vue integration
-* Permissions framework
-* Multi-organization support
-* Async tasks
-
-## Particular Challenges
-* Efficient computation across clusters of linked models
-* Duplicate application management
-* Security features
-* Accessibility features
-* Translations
+In this talk, we'll cover the best tricks of Django we used to build the site, as well as the biggest challenges we faced and how we solved them.  This includes:
+* Using Django with Vue
+* Keeping the site running fast despite high user load and large data volumes
+* Managing duplicate applications in the system
+* Regularly replicating gigabytes of data to a data warehouse
+* Migrating data from 230 organizations into the system
 * Zero-downtime deployments
-* Performance monitoring and optimizations
-* Reports and data pipeline memory use
-* Upgrading Python versions
+* And more!
