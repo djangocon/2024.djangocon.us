@@ -85,7 +85,11 @@
   }
 
   .media {
-    @apply border-4 border-gray-100 rounded;
+    @apply rounded;
+  }
+
+  .avatar {
+    @apply block w-full object-cover object-left-top aspect-square;
   }
 
   .pageheading {

@@ -35,7 +35,7 @@ days:
         {% for day in collections.sessionsByDateAndTime %}
         <li>
           <a href="#Day-{{ forloop.index }}" class="group">
-            <time class="flex flex-col">
+            <time class="flex flex-col" datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">
               <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
               <span class="px-3 py-1 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
@@ -44,6 +44,7 @@ days:
         {% endfor %}
       </ul>
     </nav>
+
     <div class="space-y-20">
       {% for day in collections.sessionsByDateAndTime %}
         {% comment %}
@@ -51,38 +52,41 @@ days:
         {% endcomment %}
         <div class="relative">
           <h2
-            class="sticky z-20 w-full pt-3 mb-2 text-lg bg-white lg:top-0 top-20 md:text-2xl lg:py-3 lg:text-3xl lg:bg-white md:pl-56 lg:pl-64 lg:mb-4"
+            class="sticky z-20 w-full pt-3 text-lg bg-white lg:top-0 top-20 md:text-2xl lg:py-1lg:bg-white md:pl-56 lg:pl-64"
             id="Day-{{ forloop.index }}">
               <a href="#Day-{{ forloop.index }}">
                 <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
-                {{ day[0] | formatDateTime: "EEEE, LLL d" }}
+                <time datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">{{ day[0] | formatDateTime: "EEEE, LLL d" }}</time>
               </a>
           </h2>
-          <div class="space-y-8">
+          <div class="md:pl-56 lg:pl-64">
+            {% if days[forloop.index0].text %}
+              {{ days[forloop.index0].text | markdown }}
+            {% endif %}
+          </div>
+
+          <div class="mt-4 space-y-8">
             {% comment %}
               Draw each time slot, e.g. 9:00 AM to 10:00 AM followed
             {% endcomment %}
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">{{ slot.start | formatDateTime: "h:mm aaa" }} to {{ slot.end | formatDateTime: "h:mm aaa" }}</h3>
+                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">
+                    <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                    <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                  </h3>
                 </div>
                 <ul
-                  class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-6 lg:bg-gray-100">
+                  class="flex flex-row flex-wrap flex-1 gap-4 rounded-md lg:p-4 lg:bg-gray-100">
                   {% comment %}
                     Ideally up to 4 tracks, with some sessions spanning every track
                   {% endcomment %}
-                  {% for session in slot.sessions %}
-                    {% assign color_class = "border-t-green" %}
-                    {% if forloop.index == 2 %}
-                      {% assign color_class = "border-t-light-blue" %}
-                    {% elsif forloop.index == 3 %}
-                      {% assign color_class = "border-t-purple" %}
-                    {% elsif forloop.index == 4 %}
-                      {% assign color_class = "border-t-orange" %}
-                    {% endif %}
 
-                    {% include "session-card.html" with color=color_class %}
+                  {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
+                  {% for session in slot.sessions %}
+                    {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
+                    {% include "session-card.html", session:session, color_class:color %}
                   {% endfor %}
                 </ul>
               </div>
