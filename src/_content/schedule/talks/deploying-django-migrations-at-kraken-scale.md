@@ -1,7 +1,7 @@
 ---
 category: talks
-start_datetime: 2024-09-23 16:50:00-04:00
-end_datetime: 2024-09-23 17:15:00-04:00
+start_datetime: 2024-09-24 16:20:00-04:00
+end_datetime: 2024-09-24 16:45:00-04:00
 permalink: /talks/deploying-django-migrations-at-kraken-scale/
 presenter_slugs:
 - tim-bell
