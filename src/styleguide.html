@@ -1,5 +1,114 @@
 ---
-title: Style & Pattern Library
+layout: default
+title: Style & Pattern Guide
 ---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+
+<div class="py-4 wrapper">
+  <div class="flex flex-wrap gap-4">
+    <nav class="px-4 py-6 border border-gray-100 rounded lg:w-60">
+      <ul class="space-y-4 text-sm">
+        <li><a href="#Introduction">Introduction</a></li>
+        <li><a href="#Branding">Branding</a></li>
+        <li><a href="#Typography">Typography</a></li>
+        <li><a href="#Colors">Colors</a></li>
+        <li><a href="#Blocks-Grids">Blocks &amp; Grids</a></li>
+        <li><a href="#Buttons">Buttons</a></li>
+        <li><a href="#Forms">Forms</a></li>
+        <li><a href="#Alerts">Alerts</a></li>
+        <li><a href="#Badge">Badges</a></li>
+        <li><a href="#Cards">Cards</a></li>
+        <li><a href="#People">People</a></li>
+        <li><a href="#Schedule">Schedule</a></li>
+        <li><a href="#Logo-List">Logo List</a></li>
+        <li><a href="#Social">Social Links</a></li>
+      </ul>
+    </nav>
+
+    <div class="flex-1 p-4 space-y-10 border border-gray-100 rounded lg:p-8">
+
+      <section>
+        <h2 id="Introduction" class="mb-6 text-3xl font-bold font-heading lg:text-5xl">DCUS Style &amp; Pattern Guide</h2>
+      </section>
+
+      <section>
+        <h2 id="Branding" class="mb-6 text-3xl font-heading lg:text-4xl">Branding</h2>
+      </section>
+
+      <section>
+        <h2 id="Typography" class="mb-6 text-3xl font-heading lg:text-4xl">Typography</h2>
+      </section>
+
+      <section>
+        <h2 id="Colors" class="mb-6 text-3xl font-heading lg:text-4xl">Colors</h2>
+      </section>
+
+      <section>
+        <h2 id="Blocks-Grids" class="mb-6 text-3xl font-heading lg:text-4xl">Blocks &amp; Grids</h2>
+      </section>
+
+      <section>
+        <h2 id="Buttons" class="mb-6 text-3xl font-heading lg:text-4xl">Buttons</h2>
+        <div class="prose">
+{% markdown %}
+Buttons are created by applying `.button` to an element. The button class is a utility class that applies padding, border, and background color.
+
+The button class can be combined with other utility classes to create different button styles. Changing button colors requires changing the background color, e.g. `bg-blue` to create a blue button.
+{% endmarkdown %}
+        </div>
+
+{%- capture code -%}
+<div class="flex flex-wrap gap-4">
+  <a href="#" class="button">Button Text</a>
+  <a href="#" class="button bg-blue">Button Text</a>
+  <a href="#" class="button bg-light-blue">Button Text</a>
+  <a href="#" class="button bg-green">Button Text</a>
+  <a href="#" class="button bg-purple">Button Text</a>
+  <a href="#" class="button bg-orange">Button Text</a>
+  <a href="#" class="bg-yellow-100 button">Button Text</a>
+</div>
+{%- endcapture -%}
+
+        {% include "code-snippet.html", code:code, lang:'html' %}
+      </section>
+
+      <section>
+        <h2 id="Forms" class="mb-6 text-3xl font-heading lg:text-4xl">Forms</h2>
+      </section>
+
+      <section>
+        <h2 id="Alerts" class="mb-6 text-3xl font-heading lg:text-4xl">Alerts</h2>
+      </section>
+
+      <section>
+        <h2 id="Badges" class="mb-6 text-3xl font-heading lg:text-4xl">Badges</h2>
+      </section>
+
+      <section>
+        <h2 id="Cards" class="mb-6 text-3xl font-heading lg:text-4xl">Cards</h2>
+      </section>
+
+      <section>
+        <h2 id="People" class="mb-6 text-3xl font-heading lg:text-4xl">People</h2>
+      </section>
+
+      <section>
+        <h2 id="Schedule" class="mb-6 text-3xl font-heading lg:text-4xl">Schedule</h2>
+      </section>
+
+      <section>
+        <h2 id="Logo-List" class="mb-6 text-3xl font-heading lg:text-4xl">Logo List</h2>
+      </section>
+
+      <section>
+        <h2 id="Social" class="mb-6 text-3xl font-heading lg:text-4xl">Social Links</h2>
+      </section>
+
+    </div>
+  </div>
+</div>
+
 
 <div class="border-t-green border-t-light-blue border-t-purple border-t-orange border-t-blue border-t-yellow"></div>
