@@ -113,6 +113,80 @@ The button class can be combined with other utility classes to create different 
 
       <section>
         <h2 id="Forms" class="mb-6 text-3xl font-heading lg:text-4xl">Forms</h2>
+{% capture code %}
+<form class="max-w-2xl p-4 mx-auto bg-white rounded lg:p-12" method="POST">
+  <ul class="space-y-8">
+    <li>
+      <label for="fullname">Full Name</label>
+      <input type="text" name="fullname" id="fullname" placeholder="Your name" required>
+    </li>
+    <li>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Your email" required>
+    </li>
+    <li>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Your password" required>
+    </li>
+    <li>
+      <fieldset>
+        <legend>T-shirt Size</legend>
+        <label for="size-small">
+          <input type="radio" name="gender" id="size-small" value="small" required>
+          Small
+        </label>
+        <label for="size-medium">
+          <input type="radio" name="gender" id="size-medium" value="medium" required>
+          Medium
+        </label>
+        <label for="size-large">
+          <input type="radio" name="gender" id="size-large" value="large" required>
+          Large
+        </label>
+      </fieldset>
+    </li>
+    <li>
+      <fieldset>
+        <legend>Interests</legend>
+        <label for="interest-django">
+          <input type="checkbox" name="interests" id="interest-django" value="django">
+          Django
+        </label>
+        <label for="interest-python">
+          <input type="checkbox" name="interests" id="interest-python" value="python">
+          Python
+        </label>
+        <label for="interest-ml">
+          <input type="checkbox" name="interests" id="interest-ml" value="ml">
+          Machine Learning
+        </label>
+      </fieldset>
+    </li>
+    <li>
+      <label for="country">Country</label>
+      <select name="country" id="country" required>
+        <option value="">Select your country</option>
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="au">Australia</option>
+      </select>
+    </li>
+    <li>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" placeholder="Your message" required></textarea>
+    </li>
+  </ul>
+
+  <div class="mt-8">
+    <button id="submit" type="submit" class="button bg-light-blue">Submit</button>
+  </div>
+</form>
+{% endcapture %}
+
+        <div class="mt-6">
+          {% include "code-snippet.html", code:code, lang:'html' %}
+        </div>
       </section>
 
       <section>
@@ -154,16 +228,12 @@ Badges are used to indicate status, denote a count, or to draw attention to an e
 
       <section>
         <h2 id="Cards" class="mb-6 text-3xl font-heading lg:text-4xl">Cards</h2>
-
-        <section class="relative flex flex-col gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-1">
-          <img src="/assets/img/theme/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
-          <h3 class="text-lg font-bold lg:text-2xl font-heading">Code of Conduct</h3>
-          <p class="lg:text-lg">Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
-        </section>
       </section>
 
       <section>
         <h2 id="People" class="mb-6 text-3xl font-heading lg:text-4xl">People</h2>
+
+
       </section>
 
       <section>

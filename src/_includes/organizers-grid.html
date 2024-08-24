@@ -4,6 +4,14 @@
       {% if organizer.data.photo != null and organizer.data.photo != "" %}
         {% assign photo = 'src/_content/organizers/' | append: organizer.data.photo %}
         {% image photo, './dist/organizers', '/organizers/', organizer.data.name, '(min-width: 1024px) 300px, 600px', 'avatar media' %}
+      {% else %}
+        <img
+          src="/assets/img/theme/empty-avatar.svg"
+          alt="An outline of a person"
+          width="400"
+          height="400"
+          class="avatar media"
+          aria-hidden="true">
       {% endif %}
 
       <div class="flex flex-col flex-1 px-2 mt-3">
