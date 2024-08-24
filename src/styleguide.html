@@ -7,28 +7,29 @@ title: Style & Pattern Guide
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
 
 <div class="py-4 wrapper">
-  <div class="flex flex-wrap gap-4">
-    <nav class="px-4 py-6 border border-gray-100 rounded lg:w-60">
-      <ul class="space-y-4 text-sm">
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#Branding">Branding</a></li>
-        <li><a href="#Typography">Typography</a></li>
-        <li><a href="#Colors">Colors</a></li>
-        <li><a href="#Blocks-Grids">Blocks &amp; Grids</a></li>
-        <li><a href="#Buttons">Buttons</a></li>
-        <li><a href="#Forms">Forms</a></li>
-        <li><a href="#Alerts">Alerts</a></li>
-        <li><a href="#Badge">Badges</a></li>
-        <li><a href="#Cards">Cards</a></li>
-        <li><a href="#People">People</a></li>
-        <li><a href="#Schedule">Schedule</a></li>
-        <li><a href="#Logo-List">Logo List</a></li>
-        <li><a href="#Social">Social Links</a></li>
+  <h1 class="sr-only">{{ title }}</h1>
+  <div class="grid gap-4 lg:grid-cols-11">
+    <nav class="px-4 py-6 border border-gray-100 rounded lg:col-span-2">
+      <h2 class="mb-2 text-sm font-bold uppercase">Jump to item</h2>
+      <ul class="space-y-3">
+        <li><a class="reverse-link" href="#Introduction">Introduction</a></li>
+        <li><a class="reverse-link" href="#Branding">Branding</a></li>
+        <li><a class="reverse-link" href="#Typography">Typography</a></li>
+        <li><a class="reverse-link" href="#Colors">Colors</a></li>
+        <li><a class="reverse-link" href="#Blocks-Grids">Blocks &amp; Grids</a></li>
+        <li><a class="reverse-link" href="#Buttons">Buttons</a></li>
+        <li><a class="reverse-link" href="#Forms">Forms</a></li>
+        <li><a class="reverse-link" href="#Alerts">Alerts</a></li>
+        <li><a class="reverse-link" href="#Badge">Badges</a></li>
+        <li><a class="reverse-link" href="#Cards">Cards</a></li>
+        <li><a class="reverse-link" href="#People">People</a></li>
+        <li><a class="reverse-link" href="#Schedule">Schedule</a></li>
+        <li><a class="reverse-link" href="#Logo-List">Logo List</a></li>
+        <li><a class="reverse-link" href="#Social">Social Links</a></li>
       </ul>
     </nav>
 
-    <div class="flex-1 p-4 space-y-10 border border-gray-100 rounded lg:p-8">
-
+    <div class="p-4 space-y-10 border border-gray-100 rounded lg:col-span-9 lg:p-8">
       <section>
         <h2 id="Introduction" class="mb-6 text-3xl font-bold font-heading lg:text-5xl">DCUS Style &amp; Pattern Guide</h2>
       </section>
@@ -53,17 +54,21 @@ title: Style & Pattern Guide
               <table>
                 <thead>
                   <tr>
-                    <th>Shade</th>
-                    <th>Color</th>
+                    <th class="w-[16ch]">Shade</th>
+                    <th class="w-[20ch]">Color</th>
                     <th>Class</th>
                   </tr>
                 </thead>
                 <tbody>
                   {% for shade in color.value %}
+                  {% assign classname = ".bg-" | append: name | append: "-" | append: shade.id %}
+                  {% if shade.id == 'DEFAULT' %}
+                    {% assign classname = '.bg-' | append: name %}
+                  {% endif %}
                     <tr>
                       <td>{{ shade.id }}</td>
                       <td style="background-color: {{ shade.color }}">{{ shade.color }}</td>
-                      <td><code>.bg-{{ name }}-{{ shade.id }}</code></td>
+                      <td><code>{{ classname }}</code></td>
                     </tr>
                   {% endfor %}
                 </tbody>
@@ -96,6 +101,8 @@ The button class can be combined with other utility classes to create different 
   <a href="#" class="button bg-purple">Button Text</a>
   <a href="#" class="button bg-orange">Button Text</a>
   <a href="#" class="bg-yellow-100 button">Button Text</a>
+  <button class="bg-green-300 button">Button Text</button>
+  <button class="text-white bg-blue-900 button">Button Text</button>
 </div>
 {%- endcapture -%}
 
@@ -110,14 +117,49 @@ The button class can be combined with other utility classes to create different 
 
       <section>
         <h2 id="Alerts" class="mb-6 text-3xl font-heading lg:text-4xl">Alerts</h2>
+{%- capture code -%}
+<section class="p-4 bg-orange-100 rounded">
+  <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
+  <div class="prose prose-lg">
+    <p>If you try to book and the website says the capacity is full, please call the hotel to try to book your room. You may need to mention that you're with the DjangoCon US group.</p>
+  </div>
+</section>
+{%- endcapture -%}
+
+        <div class="mt-6">
+          {% include "code-snippet.html", code:code, lang:'html' %}
+        </div>
       </section>
 
       <section>
         <h2 id="Badges" class="mb-6 text-3xl font-heading lg:text-4xl">Badges</h2>
+        <div class="prose">
+{% markdown %}
+Badges are used to indicate status, denote a count, or to draw attention to an element. Badges are created by applying `.badge` to an element. Colors may be changed by applying a background color utility class, e.g. `bg-blue` to create a blue badge.
+{% endmarkdown %}
+        </div>
+
+{%- capture code -%}
+<div class="flex flex-wrap gap-2">
+  <span class="badge">🛜 Free Wi-Fi</span>
+  <span class="badge">🧑‍💻 Room for hallway hacking</span>
+  <span class="badge">🏙️ In the middle of downtown</span>
+</div>
+{%- endcapture -%}
+
+        <div class="mt-6">
+          {% include "code-snippet.html", code:code, lang:'html' %}
+        </div>
       </section>
 
       <section>
         <h2 id="Cards" class="mb-6 text-3xl font-heading lg:text-4xl">Cards</h2>
+
+        <section class="relative flex flex-col gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-1">
+          <img src="/assets/img/theme/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
+          <h3 class="text-lg font-bold lg:text-2xl font-heading">Code of Conduct</h3>
+          <p class="lg:text-lg">Participants are expected to be respectful to each other. For details on our expectations, and who to contact if you need assistance, see our <strong><a href="/conduct/" class="link">Code of Conduct</a></strong>.</p>
+        </section>
       </section>
 
       <section>

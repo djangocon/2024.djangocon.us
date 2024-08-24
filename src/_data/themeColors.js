@@ -16,7 +16,5 @@ module.exports = () => {
     }))
     .filter(color => color.id !== 'social');
 
-  console.log(colorsArray);
-
   return colorsArray;
 };
