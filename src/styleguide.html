@@ -43,6 +43,34 @@ title: Style & Pattern Guide
 
       <section>
         <h2 id="Colors" class="mb-6 text-3xl font-heading lg:text-4xl">Colors</h2>
+
+        <div class="space-y-6">
+          {% for color in themeColors %}
+            <div>
+            {% assign name = color.id %}
+              <h3 class="mb-2 text-lg font-bold lg:text-xl font-heading">{{ color.id }}</h3>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th>Shade</th>
+                    <th>Color</th>
+                    <th>Class</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for shade in color.value %}
+                    <tr>
+                      <td>{{ shade.id }}</td>
+                      <td style="background-color: {{ shade.color }}">{{ shade.color }}</td>
+                      <td><code>.bg-{{ name }}-{{ shade.id }}</code></td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% endfor %}
+        </div>
       </section>
 
       <section>
@@ -71,7 +99,9 @@ The button class can be combined with other utility classes to create different 
 </div>
 {%- endcapture -%}
 
-        {% include "code-snippet.html", code:code, lang:'html' %}
+        <div class="mt-6">
+          {% include "code-snippet.html", code:code, lang:'html' %}
+        </div>
       </section>
 
       <section>
@@ -110,5 +140,3 @@ The button class can be combined with other utility classes to create different 
   </div>
 </div>
 
-
-<div class="border-t-green border-t-light-blue border-t-purple border-t-orange border-t-blue border-t-yellow"></div>

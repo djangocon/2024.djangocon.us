@@ -1,4 +1,10 @@
-<div class="p-4 mt-8 border border-gray-100">
+{%- comment -%}
+Embed a code example and corresponding snippet, primarily used for the styleguide. Expects prism.js for syntax highlighting.
+
+@param string code The code example to display
+@param string lang The language of the code example
+{%- endcomment -%}
+<div class="p-4 border border-gray-100">
 {{ code }}
 
 <figure class="mt-4">
