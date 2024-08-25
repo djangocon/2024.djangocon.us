@@ -30,6 +30,8 @@ module.exports = (config) => {
     "src/_content/places/*.{png,jpg,jpeg,webp,svg}": "venue/",
   });
   config.addPassthroughCopy("CNAME");
+  config.addPassthroughCopy("ROBOTS.txt");
+
 
   /*
     Setup watch targets
