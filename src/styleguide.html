@@ -1,253 +1,41 @@
 ---
 layout: default
-title: Style & Pattern Guide
+title: DCUS Style &amp; Pattern Guide
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
 
 <div class="py-4 wrapper">
-  <h1 class="sr-only">{{ title }}</h1>
   <div class="grid gap-4 lg:grid-cols-11">
-    <nav class="px-4 py-6 border border-gray-100 rounded lg:col-span-2">
-      <h2 class="mb-2 text-sm font-bold uppercase">Jump to item</h2>
-      <ul class="space-y-3">
-        <li><a class="reverse-link" href="#Introduction">Introduction</a></li>
-        <li><a class="reverse-link" href="#Branding">Branding</a></li>
-        <li><a class="reverse-link" href="#Typography">Typography</a></li>
-        <li><a class="reverse-link" href="#Colors">Colors</a></li>
-        <li><a class="reverse-link" href="#Blocks-Grids">Blocks &amp; Grids</a></li>
-        <li><a class="reverse-link" href="#Buttons">Buttons</a></li>
-        <li><a class="reverse-link" href="#Forms">Forms</a></li>
-        <li><a class="reverse-link" href="#Alerts">Alerts</a></li>
-        <li><a class="reverse-link" href="#Badge">Badges</a></li>
-        <li><a class="reverse-link" href="#Cards">Cards</a></li>
-        <li><a class="reverse-link" href="#People">People</a></li>
-        <li><a class="reverse-link" href="#Schedule">Schedule</a></li>
-        <li><a class="reverse-link" href="#Logo-List">Logo List</a></li>
-        <li><a class="reverse-link" href="#Social">Social Links</a></li>
-      </ul>
+    <nav class="relative px-4 border border-gray-100 rounded lg:col-span-2">
+      <div class="sticky top-0 left-0 py-6">
+        <h2 class="mb-2 text-sm font-bold uppercase">Jump to item</h2>
+        <ul class="space-y-3">
+          {% for guide in collections.guides %}
+            <li><a class="reverse-link" href="#{{ guide.fileSlug }}">{{ guide.data.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </nav>
 
     <div class="p-4 space-y-10 border border-gray-100 rounded lg:col-span-9 lg:p-8">
-      <section>
-        <h2 id="Introduction" class="mb-6 text-3xl font-bold font-heading lg:text-5xl">DCUS Style &amp; Pattern Guide</h2>
+      <section class="space-y-6">
+        <h1 class="text-3xl font-heading lg:text-5xl">{{ title }}</h1>
       </section>
+      {% for guide in collections.guides %}
+        <section class="space-y-6" id="{{ guide.fileSlug }}">
+          <h2 class="mb-6 text-3xl font-heading lg:text-4xl">{{ guide.data.title }}</h2>
 
-      <section>
-        <h2 id="Branding" class="mb-6 text-3xl font-heading lg:text-4xl">Branding</h2>
-      </section>
+          <div class="prose">
+            {% markdown %}{{ guide.data.description }}{% endmarkdown %}
+          </div>
 
-      <section>
-        <h2 id="Typography" class="mb-6 text-3xl font-heading lg:text-4xl">Typography</h2>
-      </section>
-
-      <section>
-        <h2 id="Colors" class="mb-6 text-3xl font-heading lg:text-4xl">Colors</h2>
-
-        <div class="space-y-6">
-          {% for color in themeColors %}
-            <div>
-            {% assign name = color.id %}
-              <h3 class="mb-2 text-lg font-bold lg:text-xl font-heading">{{ color.id }}</h3>
-
-              <table>
-                <thead>
-                  <tr>
-                    <th class="w-[16ch]">Shade</th>
-                    <th class="w-[20ch]">Color</th>
-                    <th>Class</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {% for shade in color.value %}
-                  {% assign classname = ".bg-" | append: name | append: "-" | append: shade.id %}
-                  {% if shade.id == 'DEFAULT' %}
-                    {% assign classname = '.bg-' | append: name %}
-                  {% endif %}
-                    <tr>
-                      <td>{{ shade.id }}</td>
-                      <td style="background-color: {{ shade.color }}">{{ shade.color }}</td>
-                      <td><code>{{ classname }}</code></td>
-                    </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
-
-      <section>
-        <h2 id="Blocks-Grids" class="mb-6 text-3xl font-heading lg:text-4xl">Blocks &amp; Grids</h2>
-      </section>
-
-      <section>
-        <h2 id="Buttons" class="mb-6 text-3xl font-heading lg:text-4xl">Buttons</h2>
-        <div class="prose">
-{% markdown %}
-Buttons are created by applying `.button` to an element. The button class is a utility class that applies padding, border, and background color.
-
-The button class can be combined with other utility classes to create different button styles. Changing button colors requires changing the background color, e.g. `bg-blue` to create a blue button.
-{% endmarkdown %}
-        </div>
-
-{%- capture code -%}
-<div class="flex flex-wrap gap-4">
-  <a href="#" class="button">Button Text</a>
-  <a href="#" class="button bg-blue">Button Text</a>
-  <a href="#" class="button bg-light-blue">Button Text</a>
-  <a href="#" class="button bg-green">Button Text</a>
-  <a href="#" class="button bg-purple">Button Text</a>
-  <a href="#" class="button bg-orange">Button Text</a>
-  <a href="#" class="bg-yellow-100 button">Button Text</a>
-  <button class="bg-green-300 button">Button Text</button>
-  <button class="text-white bg-blue-900 button">Button Text</button>
-</div>
-{%- endcapture -%}
-
-        <div class="mt-6">
-          {% include "code-snippet.html", code:code, lang:'html' %}
-        </div>
-      </section>
-
-      <section>
-        <h2 id="Forms" class="mb-6 text-3xl font-heading lg:text-4xl">Forms</h2>
-{% capture code %}
-<form class="max-w-2xl p-4 mx-auto bg-white rounded lg:p-12" method="POST">
-  <ul class="space-y-8">
-    <li>
-      <label for="fullname">Full Name</label>
-      <input type="text" name="fullname" id="fullname" placeholder="Your name" required>
-    </li>
-    <li>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="Your email" required>
-    </li>
-    <li>
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" placeholder="Your password" required>
-    </li>
-    <li>
-      <fieldset>
-        <legend>T-shirt Size</legend>
-        <label for="size-small">
-          <input type="radio" name="gender" id="size-small" value="small" required>
-          Small
-        </label>
-        <label for="size-medium">
-          <input type="radio" name="gender" id="size-medium" value="medium" required>
-          Medium
-        </label>
-        <label for="size-large">
-          <input type="radio" name="gender" id="size-large" value="large" required>
-          Large
-        </label>
-      </fieldset>
-    </li>
-    <li>
-      <fieldset>
-        <legend>Interests</legend>
-        <label for="interest-django">
-          <input type="checkbox" name="interests" id="interest-django" value="django">
-          Django
-        </label>
-        <label for="interest-python">
-          <input type="checkbox" name="interests" id="interest-python" value="python">
-          Python
-        </label>
-        <label for="interest-ml">
-          <input type="checkbox" name="interests" id="interest-ml" value="ml">
-          Machine Learning
-        </label>
-      </fieldset>
-    </li>
-    <li>
-      <label for="country">Country</label>
-      <select name="country" id="country" required>
-        <option value="">Select your country</option>
-        <option value="us">United States</option>
-        <option value="ca">Canada</option>
-        <option value="uk">United Kingdom</option>
-        <option value="au">Australia</option>
-      </select>
-    </li>
-    <li>
-      <label for="message">Message</label>
-      <textarea name="message" id="message" placeholder="Your message" required></textarea>
-    </li>
-  </ul>
-
-  <div class="mt-8">
-    <button id="submit" type="submit" class="button bg-light-blue">Submit</button>
-  </div>
-</form>
-{% endcapture %}
-
-        <div class="mt-6">
-          {% include "code-snippet.html", code:code, lang:'html' %}
-        </div>
-      </section>
-
-      <section>
-        <h2 id="Alerts" class="mb-6 text-3xl font-heading lg:text-4xl">Alerts</h2>
-{%- capture code -%}
-<section class="p-4 bg-orange-100 rounded">
-  <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
-  <div class="prose prose-lg">
-    <p>If you try to book and the website says the capacity is full, please call the hotel to try to book your room. You may need to mention that you're with the DjangoCon US group.</p>
-  </div>
-</section>
-{%- endcapture -%}
-
-        <div class="mt-6">
-          {% include "code-snippet.html", code:code, lang:'html' %}
-        </div>
-      </section>
-
-      <section>
-        <h2 id="Badges" class="mb-6 text-3xl font-heading lg:text-4xl">Badges</h2>
-        <div class="prose">
-{% markdown %}
-Badges are used to indicate status, denote a count, or to draw attention to an element. Badges are created by applying `.badge` to an element. Colors may be changed by applying a background color utility class, e.g. `bg-blue` to create a blue badge.
-{% endmarkdown %}
-        </div>
-
-{%- capture code -%}
-<div class="flex flex-wrap gap-2">
-  <span class="badge">🛜 Free Wi-Fi</span>
-  <span class="badge">🧑‍💻 Room for hallway hacking</span>
-  <span class="badge">🏙️ In the middle of downtown</span>
-</div>
-{%- endcapture -%}
-
-        <div class="mt-6">
-          {% include "code-snippet.html", code:code, lang:'html' %}
-        </div>
-      </section>
-
-      <section>
-        <h2 id="Cards" class="mb-6 text-3xl font-heading lg:text-4xl">Cards</h2>
-      </section>
-
-      <section>
-        <h2 id="People" class="mb-6 text-3xl font-heading lg:text-4xl">People</h2>
-
-
-      </section>
-
-      <section>
-        <h2 id="Schedule" class="mb-6 text-3xl font-heading lg:text-4xl">Schedule</h2>
-      </section>
-
-      <section>
-        <h2 id="Logo-List" class="mb-6 text-3xl font-heading lg:text-4xl">Logo List</h2>
-      </section>
-
-      <section>
-        <h2 id="Social" class="mb-6 text-3xl font-heading lg:text-4xl">Social Links</h2>
-      </section>
-
+          <div class="space-y-6">
+            {{ guide.content }}
+          </div>
+        </section>
+      {% endfor %}
     </div>
   </div>
 </div>

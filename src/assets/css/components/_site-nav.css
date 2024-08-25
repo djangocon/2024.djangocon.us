@@ -6,6 +6,10 @@
   @apply relative;
 }
 
+.site-nav a {
+  @apply no-underline;
+}
+
 .site-nav a:not(.button):hover {
   @apply text-purple underline;
 }

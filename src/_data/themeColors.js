@@ -1,3 +1,9 @@
+/*
+  This file adds the list of all colors to the global data object.
+  This is useful if you need to dynamically generate a list of colors in your templates.
+  For example, this data is used to generate the full color palette in the styleguide.
+*/
+
 const path = require('path');
 
 // Add a shortcode to import JSON from tailwind.config.js at the root of the project
