@@ -28,5 +28,16 @@
     "twitter": "https://twitter.com/djangocon",
     "facebook": "https://www.facebook.com/djangoconus/",
     "instagram": "https://www.instagram.com/djangocon/"
-  }
+  },
+
+  "sponsorsOrder": [
+    "Diamond",
+    "Platinum",
+    "Gold",
+    "Silver",
+    "Bronze",
+    "Coffee",
+    "Opportunity Grants",
+    "Community"
+  ]
 }

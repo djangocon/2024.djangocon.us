@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
     <email>{{ site.contact_us_email }}</email>
   </author>
   {%- for post in collections.posts reversed %}
-    {% capture post_url %}{{ site.domain }}{{ post.url }}{% endcapture %}
+    {% capture post_url %}{{ site.domain }}{{ post.url }}{%- endcapture -%}
     <entry>
       <title>{{ post.data.title }}</title>
       <link href="{{ site.domain }}{{ post.url }}" />

@@ -13,7 +13,6 @@ const { formatInTimeZone } = require('date-fns-tz');
 const siteConfig = require('./src/_data/site.json');
 const timezone = siteConfig.timezone || 'UTC'; // Default to 'UTC' if not specified
 
-
 module.exports = (config) => {
   setupCollections(config);
   setupSessions(config);
@@ -31,6 +30,8 @@ module.exports = (config) => {
     "src/_content/places/*.{png,jpg,jpeg,webp,svg}": "venue/",
   });
   config.addPassthroughCopy("CNAME");
+  config.addPassthroughCopy("ROBOTS.txt");
+
 
   /*
     Setup watch targets
