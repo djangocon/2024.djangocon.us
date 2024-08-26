@@ -85,7 +85,7 @@ function convertToLocalTime(datetime) {
   return localTimeString;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function covertScheduleToLocalTime() {
   // Convert date ranges
   const timeSpanElems = document.querySelectorAll('[data-local-time]');
 
@@ -103,4 +103,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeRender = `<span class="lowercase"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time> <span class="text-xs">(local time)</span></span>`;
     timeSpan.insertAdjacentHTML('afterend', timeRender);
   });
-});
+}
