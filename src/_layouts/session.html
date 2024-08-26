@@ -4,7 +4,7 @@
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
       <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-      <h1 class="my-4 text-3xl font-bold leading-tight lg:text-5xl">{{ title }}</h1>
+      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">{{ title }}</h1>
 
       <p class="flex flex-wrap items-center gap-4">
         <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -20,7 +20,7 @@
       </p>
 
       {% if room %}
-        <p class="mt-4">
+        <p class="mt-2">
           <b>{{ room }}</b>
 
           {% if difficulty %}
@@ -35,19 +35,53 @@
           {% endif %}
         </p>
       {% endif %}
-
-
     </div>
   </div>
 
   <div class="py-8 bg-gray-50 lg:py-10 block-container">
     <div class="wrapper narrow">
+      {% if video_url %}
+        {% assign youtube_id = video_url | replace:"https://youtu.be/","" %}
+        <figure class="aspect-video">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/{{ youtube_id }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen>
+          </iframe>
+        </figure>
+      {% endif %}
+
+      {% if video_url or slides_url %}
+        <section class="flex flex-wrap justify-center gap-4 p-8">
+          <a
+            href="{{ video_url }}"
+            class="button bg-blue">
+            <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Video</title><path d="M9 20v44h82V20zm34 10l20 12-20 12zM26 70c-2.046 0-3.788 1.24-4.563 3H13a2 2 0 1 0 0 4h8.438c.774 1.76 2.516 3 4.562 3 2.046 0 3.788-1.24 4.563-3H87a2 2 0 1 0 0-4H30.562c-.774-1.76-2.516-3-4.562-3z" overflow="visible"/></svg>
+            Video
+          </a>
+          {% if slides_url %}
+            <a
+              href="{{ slides_url }}"
+              class="button bg-orange">
+              <svg xmlns="http://www.w3.org/2000/svg" class="event-link-icon" viewBox="0 0 100 100"><title>Slideshow</title><path fill-rule="evenodd" d="M48.006 6v8.395H12v60.968h34.395l-15.03 15.03 3.422 3.42 15.996-15.997L66.78 93.813l3.42-3.42-15.028-15.03H88.85V14.395H52.845V6h-4.84zM26.232 31.888H58.07v-4.355H26.232v4.355zm0 10h45.483v-4.354H26.232v4.355zm0 10h12.275v-4.355H26.232v4.354zm0 10h30.645V57.53H26.232v4.355z"/></svg>
+              Slides
+            </a>
+          {% endif %}
+        </section>
+      {% endif %}
+
+
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
       <div class="prose lg:prose-lg">
         {{ content | markdown }}
       </div>
     </div>
   </div>
+
+
+
 
   {% if presenter_slugs %}
   <div class="pt-8 pb-16 block-container bg-light-blue">
@@ -61,7 +95,7 @@
               <section class="flex flex-wrap gap-6">
                 {% if presenter.data.photo != null and presenter.data.photo != "" %}
                   {% assign photo = 'src/_content/presenters/' | append: presenter.data.photo %}
-                  {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-36 h-36 lg:w-48 lg:h-48' %}
+                  {% image photo, './dist/presenters/', '/presenters/', presenter.data.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48' %}
                 {% endif %}
 
                 <div class="md:flex-1">

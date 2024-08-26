@@ -62,15 +62,21 @@
     @apply text-gray-500;
   }
 
+  a,
   .link {
     @apply underline;
   }
 
+  a:hover,
   .link:hover {
     @apply no-underline;
   }
 
-  .reverse-link:hover {
+  a.reverse-link {
+    @apply no-underline;
+  }
+
+  a.reverse-link:hover {
     @apply underline;
   }
 
@@ -85,7 +91,11 @@
   }
 
   .media {
-    @apply border-4 border-gray-100 rounded;
+    @apply rounded;
+  }
+
+  .avatar {
+    @apply block w-full object-cover object-left-top aspect-square;
   }
 
   .pageheading {

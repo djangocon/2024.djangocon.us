@@ -15,9 +15,9 @@
                   target="_blank"
                   rel="noopener noreferrer">
               {% endif %}
-              {% assign orientation_class = "h-16 w-auto" %}
+              {% assign orientation_class = "h-14 w-auto" %}
               {% if sponsor.data.logo.orientation == "portrait" %}
-                {% assign orientation_class = "h-28 w-auto" %}
+                {% assign orientation_class = "h-20 w-auto" %}
               {% endif %}
               <img
                 src="/sponsors/{{ sponsor.data.logo.filename }}"

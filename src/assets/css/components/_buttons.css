@@ -1,5 +1,5 @@
 .button {
-  @apply relative inline-flex items-center justify-center px-4 py-2 rounded-md;
+  @apply relative inline-flex items-center justify-center px-3 py-2 rounded-md;
   @apply border-2;
   @apply font-semibold text-base !no-underline;
 
