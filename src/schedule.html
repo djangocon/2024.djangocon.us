@@ -76,9 +76,11 @@ days:
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right">
-                    <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
-                    <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                  <h3 class="flex flex-col w-full gap-3 font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-8 lg:text-right">
+                    <span data-local-time class="lowercase">
+                      <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                      <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                    </span>
                   </h3>
                 </div>
                 <ul

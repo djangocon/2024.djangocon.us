@@ -67,3 +67,40 @@ document.addEventListener('click', function (evt) {
 /*
   Show sessions and schedule in local timezone
 */
+
+function convertToLocalTime(datetime) {
+  // Create a new Date object from the datetime
+  const date = new Date(datetime);
+
+  // Format the date to a locale string with options
+  const options = {
+    hour: 'numeric',
+    minute: 'numeric',
+    hour12: true // Set to false if you prefer 24-hour format
+  };
+
+  // Convert the date to the user's local timezone and format it
+  const localTimeString = date.toLocaleTimeString(undefined, options);
+
+  return localTimeString;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Convert date ranges
+  const timeSpanElems = document.querySelectorAll('[data-local-time]');
+
+  timeSpanElems.forEach((timeSpan) => {
+    const timeElems = timeSpan.querySelectorAll('time');
+    const convertedTimes = [];
+
+    timeElems.forEach((time) => {
+      const dateTime = time.getAttribute('datetime');
+      const localTime = convertToLocalTime(dateTime);
+
+      convertedTimes.push(localTime);
+    });
+
+    const timeRender = `<span class="lowercase"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time> <span class="text-xs">(local time)</span></span>`;
+    timeSpan.insertAdjacentHTML('afterend', timeRender);
+  });
+});
