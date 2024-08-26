@@ -42,7 +42,7 @@ Dates are formatted with [date-fns](https://date-fns.org/), due to some wonkines
 {{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}
 ```
 
-# Social Media Images
+## Social Media Images
 
 1. Presenter images are created at `/presenters/{{ slug }}/`
 2. Session images are created at `/{{ talks,tutorials }}/{{ slug }}/social/`
@@ -52,3 +52,14 @@ Dates are formatted with [date-fns](https://date-fns.org/), due to some wonkines
 1. When adding images, if they are below the "fold", consider adding a `loading="lazy"` attribute to the image tag.
 2. When adding images, consider adding an `alt` attribute to the image tag.
 3. Keep copy short and to the point. The site is most likely scanned, not read.
+4. Make sure to keep the styleguide up-to-date with any new components or styles.
+
+## Styleguide
+
+The styleguide lives at `/styleguide/` (respectively `styleguide.html`). The guide is built from content within `src/_content/styleguide/`. Each HTML page represents a section. Sections can be ordered with `order`. Each section can have a `description`.
+
+When using code samples, be sure to use `{% capture code %}` to capture sample and pass it to the `code-snippet.html` include like so:
+
+```liquid
+{% include "code-snippet.html", code:code, lang:'html' %}
+```
