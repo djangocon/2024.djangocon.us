@@ -1,5 +1,5 @@
 .block-container {
-  @apply py-14;
+  @apply py-12;
 }
 
 .wrapper {
@@ -20,7 +20,7 @@
 
 @screen lg {
   .block-container {
-    @apply py-16;
+    @apply py-14;
   }
 
   .hero {

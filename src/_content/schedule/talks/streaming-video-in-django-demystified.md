@@ -1,16 +1,16 @@
 ---
 category: talks
-start_datetime: 2024-09-24 14:30:00-04:00
-end_datetime: 2024-09-24 14:55:00-04:00
+start_datetime: 2024-09-25 15:00:00-04:00
+end_datetime: 2024-09-25 15:25:00-04:00
 permalink: /talks/streaming-video-in-django-demystified/
 presenter_slugs:
 - vaarun-sinha
-room: Grand Ballroom III
+room: Online talks
 tags:
 - async
 - thirdparty
 title: Streaming Video in Django | Demystified
-track: t1
+track: t2
 ---
 
 ## General details

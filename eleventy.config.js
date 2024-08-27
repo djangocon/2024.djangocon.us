@@ -13,7 +13,6 @@ const { formatInTimeZone } = require('date-fns-tz');
 const siteConfig = require('./src/_data/site.json');
 const timezone = siteConfig.timezone || 'UTC'; // Default to 'UTC' if not specified
 
-
 module.exports = (config) => {
   setupCollections(config);
   setupSessions(config);
@@ -27,10 +26,12 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/assets/js/");
   config.addPassthroughCopy("src/assets/favicons/");
   config.addPassthroughCopy({
-    "src/_content/sponsors/*.{png,jpg,jpeg,svg}": "sponsors/",
-    "src/_content/places/*.{png,jpg,jpeg,webp}": "venue/",
+    "src/_content/sponsors/*.{png,jpg,jpeg,webp,svg}": "sponsors/",
+    "src/_content/places/*.{png,jpg,jpeg,webp,svg}": "venue/",
   });
   config.addPassthroughCopy("CNAME");
+  config.addPassthroughCopy("ROBOTS.txt");
+
 
   /*
     Setup watch targets
@@ -41,8 +42,6 @@ module.exports = (config) => {
   /*
     Shortcodes
   */
-  config.addLiquidShortcode("year", () => `${new Date().getFullYear()}`);
-
   // TODO: Accept widths or support different widths
   config.addLiquidShortcode("image", async function(
     src,
@@ -94,6 +93,7 @@ module.exports = (config) => {
     return collection.find(item => item.fileSlug === slug);
   });
 
+  /* TODO: Make generic */
   config.addFilter("talksByPresenter", function talksByPresenter(collection = [], slug = "") {
     return collection.filter(item => item.data.presenter_slugs.includes(slug));
   });

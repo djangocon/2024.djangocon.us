@@ -2,6 +2,7 @@
   "domain": "https://2024.djangocon.us",
   "timezone": "America/New_York",
   "conf_year": 2024,
+  "phase": "active",
 
   "conduct_email": "conduct@djangocon.us",
   "contact_us_email": "hello@djangocon.us",
@@ -17,5 +18,26 @@
   "opportunity_grant_application": "https://forms.gle/LamfHzoXULdv63h18",
   "slack_link": "",
   "sponsorship_prospectus": "",
-  "ticket_link": "https://ti.to/defna/djangocon-us-2024"
+  "ticket_link": "https://ti.to/defna/djangocon-us-2024",
+  "photos_link": "https://flickr.com/photos/djangocon/albums/72177720312367244/",
+
+  "social": {
+    "flickr": "https://flickr.com/photos/djangocon/albums/",
+    "github": "https://github.com/djangocon/",
+    "mastodon": "https://fosstodon.org/@djangocon",
+    "twitter": "https://twitter.com/djangocon",
+    "facebook": "https://www.facebook.com/djangoconus/",
+    "instagram": "https://www.instagram.com/djangocon/"
+  },
+
+  "sponsorsOrder": [
+    "Diamond",
+    "Platinum",
+    "Gold",
+    "Silver",
+    "Bronze",
+    "Coffee",
+    "Opportunity Grants",
+    "Community"
+  ]
 }

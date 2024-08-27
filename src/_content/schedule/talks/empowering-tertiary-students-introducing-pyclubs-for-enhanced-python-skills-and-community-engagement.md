@@ -1,7 +1,7 @@
 ---
 category: talks
-start_datetime: 2024-09-23 15:30:00-04:00
-end_datetime: 2024-09-23 15:55:00-04:00
+start_datetime: 2024-09-23 15:00:00-04:00
+end_datetime: 2024-09-23 15:25:00-04:00
 permalink: /talks/empowering-tertiary-students-introducing-pyclubs-for-enhanced-python-skills-and-community-engagement/
 presenter_slugs:
 - johanan-oppong-amoateng
