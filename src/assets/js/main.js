@@ -85,7 +85,7 @@ function convertToLocalTime(datetime) {
   return localTimeString;
 }
 
-function covertScheduleToLocalTime() {
+function covertScheduleBlocksToLocalTime() {
   // Convert date ranges
   const timeSpanElems = document.querySelectorAll('[data-local-time]');
 
@@ -100,7 +100,19 @@ function covertScheduleToLocalTime() {
       convertedTimes.push(localTime);
     });
 
-    const timeRender = `<span class="lowercase"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time> <span class="text-xs">(local time)</span></span>`;
+    const timeRender = `<span class="convertedTimes lowercase"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time> <span class="text-xs">(local time)</span></span>`;
     timeSpan.insertAdjacentHTML('afterend', timeRender);
   });
 }
+
+document.getElementById('ShowInLocalTime').addEventListener('change', (event) => {
+  if (event.target.checked) {
+    localStorage.setItem('ShowInLocalTime', 'true');
+    covertScheduleBlocksToLocalTime();
+  } else {
+    localStorage.removeItem('ShowInLocalTime');
+    document.querySelectorAll('.convertedTimes').forEach((elem) => {
+      elem.remove();
+    });
+  }
+});
