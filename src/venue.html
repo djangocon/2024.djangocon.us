@@ -95,15 +95,14 @@ other_lodging:
       <section class="space-y-6 text-xl lg:text-2xl">
         <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Staying at the Durham Marriott City Center</h2>
         <p>
-         There are still rooms at the hotel.
-          Please don't wait to book your room!
+         The hotel room block is closed for 2024.
         </p>
         <ul class="flex flex-wrap gap-2">
           <li class="badge badge-blue">🛜 Free Wi-Fi</li>
           <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
           <li class="badge badge-blue">🏙️ In the middle of downtown</li>
         </ul>
-
+        {% comment %}
         <section class="p-4 bg-blue-100 rounded">
           <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
           <div class="prose prose-lg">
@@ -114,11 +113,12 @@ other_lodging:
             {% endmarkdown %}
           </div>
         </section>
-
+        <p>
           <a
             href="{{ site.hotel_reservation_link }}"
             class="button">Book a Room</a>
         </p>
+        {% endcomment %}
       </section>
     </div>
   </div>
@@ -130,12 +130,6 @@ other_lodging:
 
     <div class="grid-1-2">
       <div>
-        {% comment %}
-        <p class="alert">
-          Our room block at the Marriott is almost completely sold out, so check
-          out these other nearby options!
-        </p>
-        {% endcomment %}
 
         <ul class="grid gap-8 lg:grid-cols-2 lg:gap-8">
           {% for lodge in other_lodging %}
