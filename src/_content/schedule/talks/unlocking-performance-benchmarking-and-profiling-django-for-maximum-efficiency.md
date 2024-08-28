@@ -1,15 +1,15 @@
 ---
 category: talks
-start_datetime: 2024-09-23 16:20:00-04:00
-end_datetime: 2024-09-23 16:45:00-04:00
+start_datetime: 2024-09-24 12:50:00-04:00
+end_datetime: 2024-09-24 13:35:00-04:00
 permalink: /talks/unlocking-performance-benchmarking-and-profiling-django-for-maximum-efficiency/
 presenter_slugs:
 - ron-maravanyika
-room: Junior Ballroom
+room: Online talks
 tags:
 - performance
 title: 'Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency'
-track: t0
+track: t2
 ---
 
 In most cases performance issues are caused by a very small fraction of the application.  Identifying these bottlenecks can be a daunting task. Well, not anymore, we now have tools to easily identify these bottlenecks. In this talk we will talk about it all: the why, what and how to do profiling and benchmarking.
