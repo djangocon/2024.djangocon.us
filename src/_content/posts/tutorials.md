@@ -1,64 +1,36 @@
 ---
-title: "DjangoCon US 2024 Tutorials"
-layout: post
-
 author: Lidya K
 category: General
 published_datetime: 2024-08-18 07:56:00-04:00
+cover:
+    url: /assets/img/blog/tutorial-dcus2022.jpg
+    alt: "A presenter at DjangoCon US 2022 helping a pair of people working at their laptop. There are several other people in the background at their desks working on laptops."
+title: "Level up with tutorials at DjangoCon US 2024!"
 ---
-## We’re thrilled to announce the highly anticipated DjangoCon US 2024 Tutorials! 🐍
 
-🗓️ Date: Sunday, September 22
+Are you eager to sharpen your skills, connect with industry leaders, or simply expand your web development horizons? Then the [DjangoCon US 2024 tutorials](/schedule/#Day-1) are exactly what you need!
 
-📍 Location: [Durham Convention Center, Durham, NC](/venue/)
+Prepare to take your Django skills to the next level with our diverse lineup of in-depth tutorials. Whether you're a seasoned Django developer or just starting out, DjangoCon US 2024 has something for everyone.
 
-Gear up to boost your Django skills and elevate your web development expertise with a wide range of in-depth tutorials led by industry professionals. Whether you're an experienced Django developer or just beginning your journey, DjangoCon US 2024 offers something for everyone.
-Here’s a sneak peek of what’s in store:
+This year...
+we've got [docs](/tutorials/getting-documentation-done-now/),
+we've got [Celery](/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/),
+we've got [testing](/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/),
+we've got [APIs](/tutorials/building-your-first-api-with-django-and-django-rest-framework/),
+we've got [DevOps](/tutorials/django-devops/),
+and we've got [Wagtail](/tutorials/how-to-build-more-accessible-websites-with-wagtail/)!
 
-### 8:00 am - 9:00 am
+The biggest challenge is picking which you're going to attend. Our morning sessions (9:30am to 1:00pm) include:
 
-Continental Breakfast in Grand Ballroom I/II 
+- [Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis](/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/) led by Kuldeep Pisda
+- [pytest or Bust: Converting Your Django Tests to pytest led](/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/) led by Melanie Arbor
+- [🌐 Building Your First API with Django and Django Rest Framework](/tutorials/building-your-first-api-with-django-and-django-rest-framework/) led by Felipe de Morais
 
-### 8:00 am to 6:00 pm
+Our afternoon sessions (1:30pm to 5:00pm) include:
+- [Django DevOps](/tutorials/django-devops/) led by Lee Trout
+- [Getting documentation done, now](/tutorials/getting-documentation-done-now/) led by Daniele Procida
+- [How To Build More Accessible Websites with Wagtail](/tutorials/how-to-build-more-accessible-websites-with-wagtail/) led by Meagen Voss and Scott Cranfill
 
-Registration in front of Junior Ballroom 
+🚀 This is your chance to enhance your Django expertise, discover the latest best practices, connect with fellow developers, and gain insights from top industry experts.
 
-### 9:30 am - 1:00 pm
-
-#### Tutorial Track A
-
-Led by Kuldeep Pisda Description: Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis
-
-
-#### Tutorial Track B
-
-Led by Melanie Pisda Description: pytest or Bust: Converting Your Django Tests to pytest
-
-#### Tutorial Track C
-
-Led by Felipe de Morais Description: Building Your First API with Django and Django Rest Framework
-
-### 12:30 pm - 1:30 pm
-
-Lunch in Grand Ballroom I/II
-
-### 30 pm to 5:00 pm
-
-#### Tutorial Track A
-
-Led by Lee Trout Description: Django DevOps 
-
-#### Tutorial Track B
-
-Led by Daniele Procida Description: Getting documentation done, now 
-
-#### Tutorial Track C
-
-Led by Meagen Voss and Scott Cranfill Description: How To Build More Accessible Websites with Wagtail 
-
-🎉 This is your chance to: Enhance your Django expertise, discover the latest best practices, connect with fellow developers, and gain insights from top industry experts.
-
-🚀 Don’t miss out on this incredible opportunity to grow your skills and network with the Django community!
-For more information and updates, visit our [website.](https://2024.djangocon.us)
-
-Tutorials are a separate registration and are $199 per session. Buy tutorial tickets before they sell out! [Buy your ticket](https://ti.to/defna/djangocon-us-2024) today.
+Tutorials are a separate registration and are $199 per session. [Buy your ticket](https://ti.to/defna/djangocon-us-2024) today!
