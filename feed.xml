@@ -6,13 +6,45 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-08-28T23:46:16Z</updated
+    >2024-08-30T02:18:22Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Level up with tutorials at DjangoCon US 2024!</title>
+      <link href="https://2024.djangocon.us/news/tutorials/" />
+      <updated>2024-08-29T11:56:00Z</updated>
+      <id>https://2024.djangocon.us/news/tutorials/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Are you eager to sharpen your skills, connect with industry leaders, or simply expand your web development horizons? Then the &lt;a href=&#34;/schedule/#Day-1&#34;&gt;DjangoCon US 2024 tutorials&lt;/a&gt; are exactly what you need!&lt;/p&gt;
+&lt;p&gt;Prepare to take your Django skills to the next level with our diverse lineup of in-depth tutorials. Whether you&#39;re a seasoned Django developer or just starting out, DjangoCon US 2024 has something for everyone.&lt;/p&gt;
+&lt;p&gt;This year...&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/getting-documentation-done-now/&#34;&gt;docs&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/&#34;&gt;Celery&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/&#34;&gt;testing&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/building-your-first-api-with-django-and-django-rest-framework/&#34;&gt;APIs&lt;/a&gt;,&lt;br&gt;
+we&#39;ve got &lt;a href=&#34;/tutorials/django-devops/&#34;&gt;DevOps&lt;/a&gt;,&lt;br&gt;
+and we&#39;ve got &lt;a href=&#34;/tutorials/how-to-build-more-accessible-websites-with-wagtail/&#34;&gt;Wagtail&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;The biggest challenge is picking which you&#39;re going to attend. Our morning sessions (9:30am to 1:00pm) include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/&#34;&gt;Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and Redis&lt;/a&gt; led by Kuldeep Pisda&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/pytest-or-bust-converting-your-django-tests-to-pytest/&#34;&gt;pytest or Bust: Converting Your Django Tests to pytest led&lt;/a&gt; led by Melanie Arbor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/building-your-first-api-with-django-and-django-rest-framework/&#34;&gt;🌐 Building Your First API with Django and Django Rest Framework&lt;/a&gt; led by Felipe de Morais&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our afternoon sessions (1:30pm to 5:00pm) include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/django-devops/&#34;&gt;Django DevOps&lt;/a&gt; led by Lee Trout&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/getting-documentation-done-now/&#34;&gt;Getting documentation done, now&lt;/a&gt; led by Daniele Procida&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/tutorials/how-to-build-more-accessible-websites-with-wagtail/&#34;&gt;How To Build More Accessible Websites with Wagtail&lt;/a&gt; led by Meagen Voss and Scott Cranfill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;🚀 This is your chance to enhance your Django expertise, discover the latest best practices, connect with fellow developers, and gain insights from top industry experts.&lt;/p&gt;
+&lt;p&gt;Tutorials are a separate registration and are $199 per session. &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;Buy your ticket&lt;/a&gt; today!&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Get Active at DjangoCon US</title>
       <link href="https://2024.djangocon.us/news/get-active-at-djangocon-us/" />
