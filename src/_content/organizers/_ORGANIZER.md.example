@@ -1,0 +1,13 @@
+---
+name: Firstname Lastname
+hidden: false
+photo: photo.jpg
+role: "Assignment, Assignment"
+social:
+    bluesky: handle
+    github: handle
+    instagram: handle
+    mastodon: https://url.com/
+    twitter: handle
+    website: https://url.com/
+---
