@@ -68,6 +68,8 @@ document.addEventListener('click', function (evt) {
   Show sessions and schedule in local timezone
 */
 
+const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
 function convertToLocalTime(datetime) {
   // Create a new Date object from the datetime
   const date = new Date(datetime);
@@ -87,7 +89,7 @@ function convertToLocalTime(datetime) {
 
 function covertScheduleBlocksToLocalTime() {
   // Convert date ranges
-  const timeSpanElems = document.querySelectorAll('[data-local-time]');
+  const timeSpanElems = document.querySelectorAll('[data-local-time-range]');
 
   timeSpanElems.forEach((timeSpan) => {
     const timeElems = timeSpan.querySelectorAll('time');
@@ -100,10 +102,12 @@ function covertScheduleBlocksToLocalTime() {
       convertedTimes.push(localTime);
     });
 
-    const timeRender = `<span class="convertedTimes lowercase"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time> <span class="text-xs">(local time)</span></span>`;
+    const timeRender = `<span class="convertedTimes lowercase leading-tight border-t-2 pt-2 border-gray-100"><span class="block"><time>${convertedTimes[0]}</time> to <time>${convertedTimes[1]}</time></span> <span class="font-normal text-xs border-b-2 border-dashed" title="Your detected timezone is ${userTimeZone}">current timezone</span></span>`;
     timeSpan.insertAdjacentHTML('afterend', timeRender);
   });
 }
+
+
 
 document.getElementById('ShowInLocalTime').addEventListener('change', (event) => {
   if (event.target.checked) {

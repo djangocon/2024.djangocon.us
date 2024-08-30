@@ -35,7 +35,7 @@ days:
         {% for day in collections.sessionsByDateAndTime %}
         <li>
           <a href="#Day-{{ forloop.index }}" class="no-underline group">
-            <time class="flex flex-col" datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">
+            <time class="flex flex-col" data-local-time-day datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd HH:mm:ssXXX' }}">
               <span class="px-3 py-1 min-w-[8ch] text-2xl font-semibold text-center text-white bg-red rounded-t-md border-2 border-red group-hover:border-black group-hover:border-b-red">{{ day[0] | formatDateTime: "E" }}</span>
               <span class="px-3 py-1 text-xl text-center text-black bg-white border-2 border-t-0 border-gray-300 rounded-b-md group-hover:border-black">{{ day[0] | formatDateTime: "LLL d" }}</span>
             </time>
@@ -79,8 +79,8 @@ days:
             {% for slot in day[1] %}
               <div class="flex flex-wrap gap-4 lg:gap-8">
                 <div class="w-full md:w-48 sticky top-[120px] bg-white pb-2 z-10 lg:static lg:pt-6">
-                  <h3 class="flex flex-col w-full gap-3 font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-8 lg:text-right">
-                    <span data-local-time class="lowercase">
+                  <h3 class="flex flex-col w-full gap-1 font-medium text-gray-500 lg:pt-2 lg:sticky lg:top-8 lg:text-right">
+                    <span data-local-time-range class="lowercase">
                       <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
                       <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
                     </span>
