@@ -1,7 +1,7 @@
 ---
 author: Lidya K
 category: General
-published_datetime: 2024-08-18 07:56:00-04:00
+published_datetime: 2024-08-29 07:56:00-04:00
 cover:
     url: /assets/img/blog/tutorial-dcus2022.jpg
     alt: "A presenter at DjangoCon US 2022 helping a pair of people working at their laptop. There are several other people in the background at their desks working on laptops."
