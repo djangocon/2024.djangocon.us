@@ -2,7 +2,6 @@
 name: Firstname Lastname
 hidden: false
 photo: photo.jpg
-role: "Assignment, Assignment"
 
 # Mastodon and Website accept a URL. Other networks accept a handle.
 social:
@@ -13,3 +12,5 @@ social:
     twitter:
     website:
 ---
+
+Presenter's biography here.

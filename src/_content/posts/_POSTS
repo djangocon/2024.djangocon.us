@@ -9,8 +9,8 @@ Posts can be hidden by setting `hidden: true` in the front matter.
 ## Adding a new post
 
 1. Copy `_POST.md.example` to a new file and name it `seo-friendly-post-slug.md` (e.g. `announcing-djangocon.md`).
-2. Fill in the post metadata. Not all fields are shown every year. The most important fields are: `title`, `published_datetime`, and `cover`. `published_datetime` is used in sitemap.xml, RSS feed generation, and for sorting posts on the news page, so make sure it is accurate. `cover.alt` is used for accessibility.
-4. Add post content in Markdown format.
+2.
+3. Add post content in Markdown format.
 
 ### About cover photos
 
