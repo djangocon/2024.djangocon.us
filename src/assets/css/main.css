@@ -72,6 +72,10 @@
     @apply no-underline;
   }
 
+  :focus-visible {
+   outline: 6px solid theme('colors.red.DEFAULT');
+  }
+
   a.reverse-link {
     @apply no-underline;
   }
