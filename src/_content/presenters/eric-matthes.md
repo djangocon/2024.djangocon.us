@@ -6,7 +6,7 @@ permalink: /presenters/eric-matthes/
 photo: eric-matthes.jpg
 social:
     bluesky: null
-    github: null
+    github: ehmatthes
     instagram: null
     mastodon: https://fosstodon.org/@ematthes
     twitter: null
