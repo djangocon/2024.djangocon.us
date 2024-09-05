@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2024-09-010 12:00:00-04:00
+published_datetime: 2024-09-10 12:00:00-04:00
 layout: post
 title: Contribute to Django at the Contribution Sprints!
 
@@ -10,7 +10,7 @@ cover:
     alt: "Two Development Sprints attendees at DjangoCon US 2022 in San Diego, chatting."
 ---
 
-We're excited to talk to you about contribution sprints at DjangoCon US! They are being held Thursday, September 26th and Friday, September 27th at the Caktus offices and virtually on our conference Slack. They are free to attend and open to everyone.
+We're excited to talk to you about contribution sprints at DjangoCon US! They are being held Thursday, September 26th and Friday, September 27th at the [Caktus Group offices](https://maps.app.goo.gl/wwwXU12mFpNCph5n6) and virtually on our conference Slack. They are free to attend and open to everyone.
 
 ## What is a contribution sprint?
 
