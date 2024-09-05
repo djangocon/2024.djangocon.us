@@ -3,7 +3,7 @@ author: DjangoCon US Communications Team
 category: General
 published_datetime: 2024-09-06 12:00:00-04:00
 layout: post
-title: Board Game Night at DjangoCon US
+title: Board Game Night at DjangoCon US 2024
 
 cover:
     url: /assets/img/blog/board_games.jpg
