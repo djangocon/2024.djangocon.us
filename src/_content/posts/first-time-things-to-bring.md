@@ -21,16 +21,16 @@ There are coffee and tea in the conference center as well, so if you're a coffee
 ## :shirt: Comfortable clothes
 Everyone is welcome, and dress casually and comfortably, whether that's shorts, pants, a dress, or whatever makes you feel good. It’s up to you to decide what you would like to wear. As long as it isn’t a Code of Conduct violation, it’s pretty much up to you.
 
-Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy, but don't forget the weather outside!  It can get a little chilly in the evenings in Durham, NC.
+Some of the rooms can get a bit chilly, so you might want to have a jacket or sweater handy, but don't forget the weather outside!  It can get just a little chilly in the evenings in Durham in September.
 
 ## :phone: Cell phone
-It’s practically essential for survival in America. The mobile coverage is great in the venue area for all four major providers, so about any device will work.
+It’s practically essential for survival in America. The mobile coverage is great in the venue area for all three major providers, so about any device will work.
 
 ## :sunglasses: Sunglasses, sunscreen, and maybe a raincoat
-It’s Durham, NC. It’s going to be a bit chillier than last year's warm California weather. Preliminary forecasts show mostly dry weather on the conference days with highs around 65-70 °F (18-21 °C) and lows around 45-48 °F (7-9 °C). There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is cold outside, the sun can still burn you!
+It's a few week's earlier than last year's conference in Durham. Typical highs for mid-to-late September are around 78-80 &deg; F (25-27 &deg; C), and typical lows are 59-60 &deg; F (about 15 &deg; C). There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is looking like early autumn outside, the sun can still burn you!
 
 ## :popcorn: Snacks
-The Convention Center will have full breakfast, lunch, and snacks during the breaks (11:00 AM and 3:40 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you’ll probably want a snack before breakfast (8:30 AM on Monday, 9:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
+The Convention Center will have full breakfast, lunch, and snacks during the breaks (10:10 AM and 3:00 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you might want a snack before breakfast (7:30 AM on Monday, 8:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
 
 ## :running_shirt_with_sash: Exercise clothes
 Before or after a long day of conference talks, I like to at least get a brief workout in. [Get out and explore the city](/news/get-active-at-djangocon-us/) or get out to some of the outdoor spots we have suggested in the area! Go for a run, walk, or even a bike ride!
