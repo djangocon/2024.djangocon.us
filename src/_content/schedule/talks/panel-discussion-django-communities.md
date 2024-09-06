@@ -7,7 +7,7 @@ permalink: /talks/panel-discussion-mentoring-django/
 presenter_slugs:
 - lacey-henschel
 room: Junior Ballroom
-title: Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django
+title: "Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django"
 track: t0
 ---
 
@@ -27,6 +27,6 @@ Our panelists include:
 - **Afi Maame Dufie**, involved in Django Girls, PyLadies, and Black Python Devs
 - **Sarah Boyce**, Django Fellow, co-founder and mentor in Djangonaut Space
 - **Carlton Gibson**, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django's efforts in Google Summer of Code, and Django Girls coach and advisory board member.
-- **Velda Kiara**,  DEFNA director, former [AnitaB.org](http://anitab.org/) Kenya Community Lead, former Open Source Community Africa Nairobi organizer and contributor, participant in Djangonaut Space, and current contributor and leader of Black Python Devs
+- **Velda Kiara**, DEFNA director, former [AnitaB.org](http://anitab.org/) Kenya Community Lead, former Open Source Community Africa Nairobi organizer and contributor, participant in Djangonaut Space, and current contributor and leader of Black Python Devs
 
 Join us as we reflect, explore, and hopefully inspire even more excitement and support for our broader Django communities.
