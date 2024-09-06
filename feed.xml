@@ -6,7 +6,7 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-09-06T12:27:50Z</updated
+    >2024-09-06T18:17:33Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
@@ -23,6 +23,37 @@
 &lt;p&gt;Would you like to organize some hybrid gaming? Please do! Ken has graciously offered to organize board game night again, and we can&#39;t thank him enough for his continued support of DjangoCon US.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When&lt;/strong&gt;: 7:00-10:00 pm, Monday, September 23&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Where&lt;/strong&gt;: Junior Ballroom&lt;/p&gt;
+</content
+      >
+    </entry>
+    <entry>
+      <title>Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django</title>
+      <link href="https://2024.djangocon.us/news/introducing-discussion-panel/" />
+      <updated>2024-09-06T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/introducing-discussion-panel/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We&#39;re excited to announce our panel discussion for DjangoCon US 2024, &amp;quot;Open, friendly, and welcoming: on the history and future of mentoring in Django&amp;quot;!&lt;/p&gt;
+&lt;p&gt;Lacey Henschel will moderate a panel discussion on the history and future of communities within the Django community.&lt;br&gt;
+We&#39;ll explore how mentoring, community involvement, and support networks are important in keeping Django resilient. By highlighting the work of groups like &lt;a href=&#34;https://djangogirls.org&#34;&gt;Django Girls&lt;/a&gt;, &lt;a href=&#34;https://pyladies.com&#34;&gt;PyLadies&lt;/a&gt;, &lt;a href=&#34;https://djangonaut.space&#34;&gt;Djangonaut Space&lt;/a&gt;, and &lt;a href=&#34;https://blackpythondevs.com/&#34;&gt;Black Python Devs&lt;/a&gt;, we’ll see how these initiatives not only foster personal growth but also play a vital role in keeping the Django community strong and sustainable for the long term.&lt;/p&gt;
+&lt;p&gt;We’ll discuss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Panelists&#39; unique journeys in the Django community&lt;/li&gt;
+&lt;li&gt;The role of mentorship, sponsorship, and advocacy in these communities and in Django&#39;s future&lt;/li&gt;
+&lt;li&gt;Successes and challenges in building supportive, sustainable communities&lt;/li&gt;
+&lt;li&gt;How the Django community can keep investing in long-term success&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our panelists include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lacey Henschel&lt;/strong&gt;, moderator, former Django Girls contributor and organizer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keanya Phelps&lt;/strong&gt;, Django Girls organizer and participant, mentor in Djangonaut Space&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Afi Maame Dufie&lt;/strong&gt;, involved in Django Girls, PyLadies, and Black Python Devs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sarah Boyce&lt;/strong&gt;, Django Fellow, co-founder and mentor in Djangonaut Space&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Carlton Gibson&lt;/strong&gt;, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django&#39;s efforts in Google Summer of Code, and Django Girls coach and advisory board member.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Velda Kiara&lt;/strong&gt;,  DEFNA director, former &lt;a href=&#34;http://anitab.org/&#34;&gt;AnitaB.org&lt;/a&gt; Kenya Community Lead, former Open Source Community Africa Nairobi organizer and contributor, participant in Djangonaut Space, and current contributor and leader of Black Python Devs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This discussion will explore the significant impact of initiatives such as Django Girls, Djangonaut Space, PyLadies, and Black Python Devs on the Django community as a whole. The panel will delve into how these groups contribute to diversity, inclusivity, and skill development within the Django world, emphasizing the importance of continued support and improvement for these vital communities. Attendees can expect insightful discussions on the unique contributions of each group, their role in fostering new talent, and strategies for enhancing their effectiveness in the Django landscape.&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to be an experienced developer to get something out of this talk; this talk will be helpful to people starting out on their career track so they can know what might lie ahead as well as managers who want to better understand the developer career mindset.&lt;/p&gt;
+&lt;p&gt;Don&#39;t forget to &lt;a href=&#34;https://ti.to/defna/djangocon-us-2024&#34;&gt;buy your ticket&lt;/a&gt; and &lt;a href=&#34;/venue/&#34;&gt;reserve your hotel room&lt;/a&gt; today!&lt;/p&gt;
 </content
       >
     </entry>
