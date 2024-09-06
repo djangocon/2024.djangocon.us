@@ -1,15 +1,13 @@
 ---
 author: DjangoCon US Communication Team
 category: Program
-date: 2024-09-06 06:00:00-04:00
+published_datetime: 2024-09-06 06:00:00-04:00
 image: null
 layout: post
 title: 'Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django'
 ---
 
-# Announcing our panel discussion for DjangoCon US 2024: Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django
-
-We're excited to announce our panel discussion for DjangoCon US 2024!
+We're excited to announce our panel discussion for DjangoCon US 2024, "Open, friendly, and welcoming: on the history and future of mentoring in Django"!
 
 Lacey Henschel will moderate a panel discussion on the history and future of communities within the Django community.
 We'll explore how mentoring, community involvement, and support networks are important in keeping Django resilient. By highlighting the work of groups like [Django Girls](https://djangogirls.org), [PyLadies](https://pyladies.com), [Djangonaut Space](https://djangonaut.space), and [Black Python Devs](https://blackpythondevs.com/), we’ll see how these initiatives not only foster personal growth but also play a vital role in keeping the Django community strong and sustainable for the long term.
