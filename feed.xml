@@ -6,13 +6,26 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-09-03T18:12:05Z</updated
+    >2024-09-06T12:27:50Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Board Game Night at DjangoCon US 2024</title>
+      <link href="https://2024.djangocon.us/news/board-game-night/" />
+      <updated>2024-09-06T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/board-game-night/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Get together with other Djangonauts for board games and camaraderie! We&#39;ll have some games on hand, but feel free to bring your favorites! Talk to &lt;a href=&#34;https://twitter.com/KenWhitesell&#34;&gt;Ken Whitesell&lt;/a&gt; if you have questions.&lt;/p&gt;
+&lt;p&gt;Would you like to organize some hybrid gaming? Please do! Ken has graciously offered to organize board game night again, and we can&#39;t thank him enough for his continued support of DjangoCon US.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When&lt;/strong&gt;: 7:00-10:00 pm, Monday, September 23&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Where&lt;/strong&gt;: Junior Ballroom&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Level up with tutorials at DjangoCon US 2024!</title>
       <link href="https://2024.djangocon.us/news/tutorials/" />
