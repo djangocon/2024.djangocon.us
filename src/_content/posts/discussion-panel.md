@@ -4,30 +4,31 @@ category: Program
 date: 2024-09-06 06:00:00-04:00
 image: null
 layout: post
-title: 'Announcing Our Panel Discussion: Who put me in charge? Moving beyond day-to-day
-  coding in Django'
+title: 'Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django'
 ---
 
-# Announcing our panel discussion for DjangoCon US 2023: Who put me in charge? Moving beyond day-to-day coding in Django
+# Announcing our panel discussion for DjangoCon US 2023: Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django
 
 We're excited to announce our panel discussion for DjangoCon US 2024!
 
-Lacey Henschel, will host a panel discussion  about the ROI for the smaller communities on the larger django community and we need to keep doing it, and help make them better.
+acey Henschel will moderate a panel discussion on the history and future of communities within the Django community.
+We'll explore how mentoring, community involvement, and support networks are important in keeping Django resilient. By highlighting the work of groups like Django Girls, PyLadies, Djangonaut Space, and Black Python Devs, we’ll see how these initiatives not only foster personal growth but also play a vital role in keeping the Django community strong and sustainable for the long term.
 
-We'll discuss the impact of the following communities on the Django community:
+We’ll discuss:
 
-- Django Girls
-- Djangonaught Space
-- Pyladies
-- Black Python Devs
+- Panelists' unique journeys in the Django community
+- The role of mentorship, sponsorship, and advocacy in these communities and in Django's future
+- Successes and challenges in building supportive, sustainable communities
+- How the Django community can keep investing in long-term success
 
 Our panelists include:
 
-- Keanya Phelps, Django Girls Organizer and Djanonaut Space Participant and Support Mentor
-- Afi Maame Dufie, Member of Django Girls, Pyladies, Black Python Devs
-- Sarah Boyce, Django Fellow, Djangonaut Space co-founder and mentor
-- Carlton Gibson, former Django Fellow, Django Girls, Djangonaut Space mentor, Google Summer of Code
-- Ron Maravanyika, Black Python Devs, Co-founder ZimboPy, Current chair for PyCon Zimbabwe 2024, Founding member of Python Zimbabwe, Django Girls Organizer
+- **Lacey Henschel**, moderator, former Django Girls contributor and organizer
+- **Keanya Phelps**, Django Girls organizer and participant, mentor in Djangonaut Space
+- **Afi Maame Dufie**, involved in Django Girls, PyLadies, and Black Python Devs
+- **Sarah Boyce**, Django Fellow, co-founder and mentor in Djangonaut Space
+- **Carlton Gibson**, former Django Fellow, mentor in Djangonaut Space, mentor and coordinator of Django's efforts in Google Summer of Code, and Django Girls coach and advisory board member.
+- **Velda Kiara**,  DEFNA director, former [AnitaB.org](http://anitab.org/) Kenya Community Lead, former Open Source Community Africa Nairobi organizer and contributor, participant in Djangonaut Space, and current contributor and leader of Black Python Devs
 
 This discussion will explore the significant impact of initiatives such as Django Girls, Djangonaut Space, PyLadies, and Black Python Devs on the Django community as a whole. The panel will delve into how these groups contribute to diversity, inclusivity, and skill development within the Django world, emphasizing the importance of continued support and improvement for these vital communities. Attendees can expect insightful discussions on the unique contributions of each group, their role in fostering new talent, and strategies for enhancing their effectiveness in the Django landscape.
 
