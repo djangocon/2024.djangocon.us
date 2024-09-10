@@ -6,13 +6,49 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-09-07T13:10:42Z</updated
+    >2024-09-10T17:05:54Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Contribute to Django at the Contribution Sprints!</title>
+      <link href="https://2024.djangocon.us/news/contribution-sprints/" />
+      <updated>2024-09-10T16:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/contribution-sprints/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;We&#39;re excited to talk to you about contribution sprints at DjangoCon US! They are being held Thursday, September 26th and Friday, September 27th at the &lt;a href=&#34;https://maps.app.goo.gl/wwwXU12mFpNCph5n6&#34;&gt;Caktus Group offices&lt;/a&gt; and virtually on our conference Slack. They are free to attend and open to everyone.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-contribution-sprint%3F&#34; tabindex=&#34;-1&#34;&gt;What is a contribution sprint?&lt;/h2&gt;
+&lt;p&gt;Contribution Sprints are a superset of Development Sprints. They serve the same purpose while increasing the range of contribution types and opportunities.&lt;/p&gt;
+&lt;p&gt;Let&#39;s start with what some people already know: &lt;a href=&#34;https://2022.djangocon.us/news/dev-sprint-attendees/&#34;&gt;Development Sprints&lt;/a&gt;. Development Sprints are an opportunity for people who maintain open source projects (or want to get involved in doing so) to sit and work together on that goal. They&#39;ve mostly focused on contributing code, tests, and documentation. However, open source projects often need more than those things. This is especially true as the project grows in size and popularity. Development Sprints are one type of Contribution Sprint. &lt;strong&gt;However&lt;/strong&gt;...&lt;/p&gt;
+&lt;p&gt;Many of the new things a project needs as it grows fall under the idea of project governance. Here&#39;s a short list of general governance issues a project may face as it grows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General project governance (Who leads the project? How? How are decisions made? How are new leaders developed? How are conflicts resolved?)&lt;/li&gt;
+&lt;li&gt;Onboarding new contributors&lt;/li&gt;
+&lt;li&gt;Funding/Finance: does your project want it? Is it needed? Who will manage it? How will they manage it?&lt;/li&gt;
+&lt;li&gt;Project Marketing&lt;/li&gt;
+&lt;li&gt;Graphic/logo design&lt;/li&gt;
+&lt;li&gt;Project legal/licensing issues&lt;/li&gt;
+&lt;li&gt;Explicitly specifying a project&#39;s code, documentation and testing conventions. This is metadata for your Development Sprint. It provides details about how Development Sprint activities should be implemented.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is an excellent video on this topic by &lt;a href=&#34;https://www.youtube.com/watch?v=b2WHTNE4AZk&#34;&gt;Shauna Gordon-McKeon&lt;/a&gt;. The video was part of the PyCon US 2023 &lt;a href=&#34;https://www.youtube.com/@MaintainersSummit&#34;&gt;Maintainers Summit&lt;/a&gt;. If you maintain a project, or are interested in helping maintain one, I recommend checking out some of the other videos from the summit.&lt;/p&gt;
+&lt;h2 id=&#34;how-%26-why-to-lead-a-contribution-sprint&#34; tabindex=&#34;-1&#34;&gt;How &amp;amp; Why To Lead a Contribution Sprint&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;why&amp;quot; is clear: if you&#39;ve started to realize your project needs more help, especially with things beyond code, THIS is an opportunity to look for that extra help.&lt;/p&gt;
+&lt;p&gt;The &amp;quot;how&amp;quot; can be less clear, so here are some specific suggestions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Think about the non-code needs your project has. What areas have you as a maintainer struggled with that go beyond merging PRs, adding test coverage and improving documentation?&lt;/li&gt;
+&lt;li&gt;Ask for help in those areas.&lt;/li&gt;
+&lt;li&gt;Document the need for that help in your project&#39;s &lt;code&gt;Contribution&lt;/code&gt; documentation.&lt;/li&gt;
+&lt;li&gt;Make it clear in all of your project&#39;s communications that you&#39;re looking for this non-code help. Many people still think contributing to an open source project ONLY means code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-%26-why-to-join-a-contribution-sprint&#34; tabindex=&#34;-1&#34;&gt;How &amp;amp; Why to Join a Contribution Sprint&lt;/h2&gt;
+&lt;p&gt;The &amp;quot;why&amp;quot; can be different for everyone. Maybe you don&#39;t feel like you are &amp;quot;a good enough developer&amp;quot; to make a code contribution. That&#39;s almost definitely not true, but it is a feeling many people have. Perhaps you have skills in some of the non-code areas mentioned above and you&#39;d like to contribute using those skills.&lt;/p&gt;
+&lt;p&gt;The &amp;quot;how&amp;quot; requires some introspection, as well as identifying a project you&#39;d like to contribute to. I would refer you to the video by &lt;a href=&#34;https://www.youtube.com/watch?v=b2WHTNE4AZk&#34;&gt;Shauna Gordon-McKeon&lt;/a&gt;, and use that as a starting point for what skills you have that could help a project with it&#39;s governance. Then, contact projects you&#39;re interested in helping, to see if they&#39;ve recognized a need for your type of contribution. It&#39;s quite possible that a project either hasn&#39;t recognized the need, or has recognized it, but didn&#39;t know how to have it met. That&#39;s where YOU can come in.&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Board Game Night at DjangoCon US 2024</title>
       <link href="https://2024.djangocon.us/news/board-game-night/" />
