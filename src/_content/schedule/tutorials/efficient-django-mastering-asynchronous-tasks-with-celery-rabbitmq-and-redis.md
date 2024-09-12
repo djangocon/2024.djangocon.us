@@ -5,7 +5,7 @@ end_datetime: 2024-09-22 13:00:00-04:00
 permalink: /tutorials/efficient-django-mastering-asynchronous-tasks-with-celery-rabbitmq-and-redis/
 presenter_slugs:
 - kuldeep-pisda
-room: Tutorial Track A
+room: Junior Ballroom A1-A2
 tags:
 - celery
 title: 'Efficient Django: Mastering Asynchronous Tasks with Celery, RabbitMQ, and
