@@ -16,7 +16,7 @@ Ideally, all committees will have a chair and co-chair to allow for one or the o
 
 ## Conference Leadership
 
-The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You'll also lead the volunteer kickoff meetings in early 2024 (ideally mid-to-late January) and recruit organizers as you see fit. You'll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal).
+The conference chair and co-chair lead the conference, including coordinating between teams and making executive decisions (including approaching the DEFNA board when applicable). Expect to be in meetings with the venue and online conference provider, weekly organizer check-ins, monthly reports to the DEFNA board, and lots of questions on Slack. You'll also lead the volunteer kickoff meetings in early 2025 (ideally mid-to-late January) and recruit organizers as you see fit. You'll need to recommend an online conference provider to the DEFNA board (might be part of a sponsorship deal). This year we used [Venueless](https://venueless.org/), though that's not a requirement.
 
 At the conference, you'll be making speeches at the start of each day and the end-of-conference wrap-up in addition to coordinating setup, teardown, and everything in between.
 
@@ -36,7 +36,7 @@ The program committee is responsible for making sure that the schedule of tutori
 - Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you'd like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)
 - Recruit speaker mentors (start with the 2019, 2021, and 2022 reviewers and bring in more as you like)
 - Review proposals as they come in for anonymization (ideally, recruit one member of the program committee who will not be reviewing talks to do the anonymization before opening talks for review)
-- Recruit talk reviewers (the DEFNA board will send you the 2022 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 100 submissions, so having more reviewers lessens the load for individual talks
+- Recruit talk reviewers (the DEFNA board will send you the 2024 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 150 submissions, so having more reviewers lessens the load for individual talks
 - Decide on any tweaks to the format (Spanish-language talks? Keep the Deep Dive Day? This is your chance to put your mark on the program)
 - Review talks
 - Once reviews are completed, de-anonymize talks and filter for duplicate speakers, multiple speakers from the same organization, diversity goals, overlapping topics, and more
@@ -80,7 +80,7 @@ The OG committee is responsible for obtaining grants from the DSF and PSF and aw
 - Coordinate with visa (community) team as needed to approve invitation letter requests
 - Write transparency report giving a high-level overview of how the grants were awarded
 
-### At-conference responsibiities
+### At-conference responsibilities
 
 - Answer questions from grant recipients and the DEFNA board
 
@@ -95,12 +95,12 @@ Size: 2-4
 - Coordinate visa applications
 - Improve accessibility of the venue and conference as a whole
 
-### At-confrence responsibilities
+### At-conference responsibilities
 
 - Post sign-ups for lactation room and distribute keys as needed
 - Collect receipts for childcare reimbursement
 
-## Sponsorship Committtee
+## Sponsorship Committee
 
 Size: 2-4
 
@@ -201,6 +201,26 @@ The A/V committee is responsible for making everything look good. They handle co
 - Help keynote speakers get presentation mode working if needed
 - Answer lots and lots of questions
 
+## Online Team
+
+Size: 2-4
+
+### Pre-conference responsibilities
+
+- Select an online conference provider (work with the DEFNA board to do this)
+- Determine what activities or new approaches will be taken (maybe a Spanish or French watch-party, writing group, meet-and-greets, etc)
+- Prep the platform with content (schedule, speakers, FAQ, and other pages)
+- Make sure there's a plan or process (automated or manual) to get day of ticket purchases into the platform
+- Recruit online moderators/volunteers
+- Prepare/update the online volunteer handbook
+- Coordinate with AV chair to test the platform
+
+### At-conference responsibilities
+
+- Coordinate with online moderators
+- Engage with audience as able to
+- Help facilitate any other online activities
+
 ## Swag Committee
 
 Size: 1-2
@@ -245,21 +265,19 @@ Size: 2-4
 
 The communications committee is responsible for getting the word out about DCUS.
 
-Have you heard the expression "never tweet" (usually said on Twitter)? This is the opposite of that. Always tweet.
-
 ### Pre-conference responsibilities
 
 - Publish announcements and reminders on social media, the conference blog, and more (Django News, Python Community News, etc.)
 - Send copy to the Django Software Foundation to get major news events on the Django blog
 - Review, edit, and suggest copy for the other teams' announcements
-- Tweet. Lots of tweeting.
+- Tweet and toot. Lots of tweeting and tooting.
 - Select an "official emoji" for the conference (typically suggested by the design package for the year's website)
 - Boost and retweet speakers and organizers talking about the conference
-- Schedule tweets announcing talks and events
+- Schedule tweets and toots announcing talks and events
 
 ### At-conference responsibilities
 
-- Pay attention to the `#djangocon` topic on social media and mentions to `@djangocon` on Twitter
+- Pay attention to the `#DjangoCon` and `#DjangoConUS` topics on social media and mentions to `@djangocon` on Twitter
 - Boost speakers and organizers
 - Answer questions as they come up
 - Run the `#help-desk` channel on the conference attendee slack
@@ -285,7 +303,7 @@ This team is more free-flowing and writes scripts to make teams' lives easier. R
 
 Size: 2-4
 
-### Pre-conference responsibilies
+### Pre-conference responsibilities
 
 - Write blog posts announcing sprints
 - Invite people to launch special sessions (e.g. Carlton's ["Getting Started Contributing to Django"](https://2022.djangocon.us/sprints/getting-started-contributing-to-django/))
@@ -298,4 +316,4 @@ Size: 2-4
 
 ## Wrap-up
 
-To sign up for any of the teams (or just say "put me to work"), send an email to hello@djangocon.us and we'll put you on the list for the 2024 kickoff meeting. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some of the leadership roles).
+To sign up for any of the teams (or just say "put me to work"), email hello@djangocon.us, and we'll put you on the list for the 2025 kickoff meeting. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some leadership roles).
