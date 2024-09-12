@@ -7,6 +7,8 @@ const setupSessions = require('./lib/sessions');
 const setupFeed = require('./lib/feed');
 const markdown = require('./lib/markdown');
 
+const schema = require("@quasibit/eleventy-plugin-schema");
+
 const { formatInTimeZone } = require('date-fns-tz');
 
 // Read timezone from site.json
@@ -38,6 +40,12 @@ module.exports = (config) => {
     https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
   */
   config.addWatchTarget("src/assets/js/");
+  config.addWatchTarget("src/assets/css/");
+
+  /*
+    Plugins
+  */
+  config.addPlugin(schema);
 
   /*
     Shortcodes
@@ -117,6 +125,7 @@ module.exports = (config) => {
 
     // Use Liquid for templating
     // https://www.11ty.dev/docs/languages/liquid/
+    // Note: this could be updated to support multiple languages, if desired.
     htmlTemplateEngine: "liquid"
   }
 };

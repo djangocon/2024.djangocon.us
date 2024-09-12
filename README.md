@@ -12,6 +12,17 @@ This project uses Liquid for templating (except dates, see below). As such, you 
 
 * VS Code: [Liquid Language Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
 * [Liquid documentation](https://liquidjs.com/)
+* [Eleventy documentation](https://www.11ty.dev/docs/)
+* [Eleventy Liquid documentation](https://www.11ty.dev/docs/languages/liquid/)
+
+Please note that Eleventy's Liquid support is somewhere between Shopify's and Jekyll's. If you are moving from Jekyll in mindset, make sure to read the docs above.
+
+### Other Helpful Resources
+
+* [11ty Bundle](https://11tybundle.dev/) - Curated news, starter kits, and more.
+* [11ty Rocks](https://11ty.rocks/) - A collection of Eleventy resources, tips, and tricks.
+
+### Building
 
 Build and watch for local changes by running:
 

@@ -18,6 +18,7 @@
     --theme-text-color: #000;
 
     /* Colors */
+    /* If no colors configured here, see tailwind.config.js */
   }
 
   /*
@@ -207,12 +208,20 @@
 }
 
 @layer utilities {
+  /*
+    Cover is used to provide a large click target for cards, blocks, etc.
+    The best example is: user wants to click the card to navigate, not the card's button.
+  */
   .cover::before {
     @apply absolute left-0 top-0;
     @apply h-full w-full;
     content: '';
   }
 
+  /*
+    The bg-sep class is used to create a separator between sections.
+    It should create a very thin line.
+  */
   .bg-sep {
     background-image: linear-gradient(180deg, transparent 47%, theme(colors.gray.100) 50%, transparent 53%);
   }
