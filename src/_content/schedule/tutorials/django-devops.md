@@ -5,7 +5,7 @@ end_datetime: 2024-09-22 17:00:00-04:00
 permalink: /tutorials/django-devops/
 presenter_slugs:
 - lee-trout
-room: Tutorial Track A
+room: Junior Ballroom A1-A2
 tags:
 - infrastructure
 - deployment
@@ -13,10 +13,10 @@ title: Django DevOps
 track: t0
 ---
 
-This hands on tutorial will cover: 
+This hands on tutorial will cover:
 
 - Custom tooling using Django management commands
-- Creating and managing CI/CD pipelines using popular runners including GitHub Actions, CircleCI and GitLab CI 
+- Creating and managing CI/CD pipelines using popular runners including GitHub Actions, CircleCI and GitLab CI
 - Containerization with Docker and shallow comparison with alternatives
 - Deployment with and without a container orchestrator (Kubernetes)
 - App configuration including sensitive values

@@ -6,12 +6,12 @@ permalink: /tutorials/how-to-build-more-accessible-websites-with-wagtail/
 presenter_slugs:
 - meagen-voss
 - scott-cranfill
-room: Tutorial Track C
+room: Junior Ballroom D1-D2
 tags:
 - cms
 - accessibility
 title: How To Build More Accessible Websites with Wagtail
-track: t2
+track: t1
 ---
 
 In this tutorial, you'll learn:

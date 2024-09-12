@@ -5,11 +5,11 @@ end_datetime: 2024-09-22 13:00:00-04:00
 permalink: /tutorials/building-your-first-api-with-django-and-django-rest-framework/
 presenter_slugs:
 - felipe-de-morais
-room: Tutorial Track C
+room: Junior Ballroom D1-D2
 tags:
 - api
 title: "\U0001F310 Building Your First API with Django and Django Rest Framework"
-track: t2
+track: t1
 ---
 
 Join us at Django US 2024 for an exciting tutorial 🎓, where we'll dive into the world of web APIs using Python's beloved Django framework and the Django Rest Framework. This session is perfect for Python enthusiasts 🐍 eager to expand their web development skills in a practical, hands-on environment.
