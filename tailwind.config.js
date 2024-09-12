@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,md,liquid}"],
+  safelist: [
+    'border-t-green',
+    'border-t-light-blue',
+    'border-t-purple',
+    'border-t-orange'
+  ],
   theme: {
     extend: {
       backgroundImage: {
