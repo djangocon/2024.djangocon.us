@@ -6,13 +6,29 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-09-12T22:55:51Z</updated
+    >2024-09-13T20:42:43Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Black Python Devs Leadership Summit</title>
+      <link href="https://2024.djangocon.us/news/black-python-devs/" />
+      <updated>2024-09-13T06:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/black-python-devs/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;Hey Friends! We know you&#39;re looking forward to traveling into Durham next week for DjangoCon US and if you&#39;re arriving on or before the 21st we have something in store for you. Our Friends at &lt;a href=&#34;https://blackpythondevs.com&#34;&gt;Black Python Devs&lt;/a&gt; are happy to invite you to their First Ever LEADERSHIP SUMMIT and After Party presented by &lt;a href=&#34;https://www.caktusgroup.com&#34;&gt;Caktus Consulting Group, LLC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&#39;d love for you to join us for our afternoon session when our Keynote speaker Wesley Faulkner, Interactive talks from Abigagail Afi Gbadago, Tim Schilling, and Bamhare Kudzayi, and a panel featuring members of the PSF, DSF, BPD and More.&lt;br&gt;
+This event is focused on building leadership in the Python community at local and organizational levels.&lt;/p&gt;
+&lt;p&gt;After it&#39;s all said and done we&#39;ll head to the rooftop to mingle and chat with one another with some light drinks and snacks brought to you by our amazing friends at Caktus.&lt;/p&gt;
+&lt;p&gt;Did we mention that all of this is FREE!?&lt;/p&gt;
+&lt;p&gt;Learn More and Register Today at &lt;a href=&#34;https://blackpythondevs.com/leadership-summit-2024&#34;&gt;Leadership Summit&lt;/a&gt;&lt;br&gt;
+We hope to see you there!&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>Contribute to Django at the Contribution Sprints!</title>
       <link href="https://2024.djangocon.us/news/contribution-sprints/" />
