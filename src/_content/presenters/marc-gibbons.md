@@ -21,4 +21,4 @@ Passionate about enhancing the developer’s quality of life, Marc excels in tes
 
 As a two-time cancer survivor, Marc is on a mission to help and inspire others facing adversity. He founded Port Perry Pedals, an annual cycling fundraiser in the Greater Toronto Area, raising close to $120,000 since 2021 for healthcare in his community.
 
-Marc first appeared on the DjangoConUS stage in 2023 and has since jointed the team at Lincoln Loop.
+Marc first appeared on the DjangoConUS stage in 2023 and has since joined the team at Lincoln Loop.
