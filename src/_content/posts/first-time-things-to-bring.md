@@ -27,7 +27,7 @@ Some of the rooms can get a bit chilly, so you might want to have a jacket or sw
 It’s practically essential for survival in America. The mobile coverage is great in the venue area for all three major providers, so about any device will work.
 
 ## :sunglasses: Sunglasses, sunscreen, and maybe a raincoat
-It's a few week's earlier than last year's conference in Durham. Typical highs for mid-to-late September are around 78-80 &deg; F (25-27 &deg; C), and typical lows are 59-60 &deg; F (about 15 &deg; C). There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is looking like early autumn outside, the sun can still burn you!
+It's a few week's earlier than last year's conference in Durham. As of September 15, the very early forecast for the conference has highs  around 74-78 &deg; F (23-25 &deg; C), and lows around 60-63 &deg; F (about 15-17 &deg; C) with a little bit of rain here and there. There’s quite a bit of outdoor activities that we have suggested during your time here, so don't forget that even if it is looking like early autumn outside, the sun can still burn you!
 
 ## :popcorn: Snacks
 The Convention Center will have full breakfast, lunch, and snacks during the breaks (10:10 AM and 3:00 PM) on all conference days (Monday through Wednesday). If you’re an early riser like me, you might want a snack before breakfast (7:30 AM on Monday, 8:00 AM Tuesday and Wednesday). Also, if you have special dietary needs, it can’t hurt to have a spare snack on hand just in case.
