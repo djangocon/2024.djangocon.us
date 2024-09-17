@@ -169,14 +169,15 @@ The venue committee is responsible for coordinating plans between the other orga
 - Work with event venue and DEFNA to select catering menus (and providers if we're not contractually obligated to use one)
 - Work with hotel to coordinate room blocks
 - Work with venue to plan logistics (sponsor gear shipping, signage, etc.)
-- Allocate reward rooms in coordination with DEFNA board
+- Allocate rooms for keynotes and AV personnel in coordination with DEFNA board
+- Communicate needs, deadlines and policies to other teams
 - Order supplies for restroom stocking
 
 ### At-conference responsibilities
 
-- Review room guest list against ticket list to claim reward nights
+- Handle closeout of the room block with hotel and DEFNA board
 - Handle any last-minute requests from vendors/sponsors/organizers/etc.
-- Notify venue staff of any needs (bathroom cleanliness, meals to accommodate special diets, etc.)
+- Coordinate with venue staff about issues or needs (bathroom cleanliness, meals to accommodate special diets, etc.)
 
 ## Audio/Video (A/V) Committee
 
