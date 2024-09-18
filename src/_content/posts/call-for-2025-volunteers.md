@@ -317,6 +317,21 @@ Size: 2-4
 - Coordinate help desk
 - Direct people to lunches and breaks
 
+## Health & Safety Team
+
+Size: 1-2
+
+The health and safety committee enacts the health and safety policy each year. The policy itself is decided by DEFNA and is not part of this committee's responsibilities.
+
+### Pre-conference responsibilities
+- Order COVID tests and masks (if needed per policy)
+- Ensure that the health & safety check-in has volunteers
+- Coordinate the health and safety blog posts with the Comms team
+
+### At-conference responsibilities
+- Spend some volunteer time at the health & safety check-in (if it is part of the policy that year)
+- Answer health & safety questions as needed
+
 ## Wrap-up
 
 To sign up for any of the teams (or just say "put me to work"), email hello@djangocon.us, and we'll put you on the list for the 2025 kickoff meeting. We would love to have you! You do not have to have previous organizing experience (although we might prefer it for some leadership roles).
