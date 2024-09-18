@@ -254,11 +254,13 @@ The volunteer committee is responsible for cultivating new volunteers, which can
 - Determine what roles need on-site volunteer support (session chairs, session managers, registration desk, etc.)
 - Set up sign-up for on-site volunteers and online volunteers (moderators/cheerleaders)
 - Draft announcements for calls for volunteers
+- Communicate and coordinate with volunteers
 
 ### At-conference responsibilities
 
+- Lead volunteer orientation on the first morning of the conference
+- Create and provide volunteer instructions for each applicable area
 - Tell volunteers where to go
-- Give volunteers tools to succeed
 
 ## Communications Committee
 
