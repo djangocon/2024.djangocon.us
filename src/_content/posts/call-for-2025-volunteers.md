@@ -6,7 +6,7 @@ layout: post
 title: "Call for Volunteers: DjangoCon US 2025"
 ---
 
-As our program chair, Drew Winstel, mentioned in his opening remarks today, we would love to have more volunteers for DjangoCon US 2025. Expect to hear details on dates and venues within the next month or so.
+A great way to give back to the Django community is to help organize the next one. Perhaps you want to see something at DjangoCon US 2025. If that's you, we'd love to support your efforts in making that a reality. Or maybe you'd like to make sure the next people have the same wonderful experience you had this year. Regardless of your reason, we would love to have more volunteers for DjangoCon US 2025.
 
 We have some [documentation about the various roles](https://djangocon.github.io/djangocon-us-docs/), but here's a quick overview of the teams at DjangoCon US.
 
