@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 204-10-18 06:00:00
+published_datetime: 2025-08-23 06:00:00-04:00
 layout: post
 title: "Call for Volunteers: DjangoCon US 2025"
 ---
@@ -30,11 +30,11 @@ The program committee is responsible for making sure that the schedule of tutori
 
 ### Pre-conference responsibilities
 
-- Start the call for proposals process (ideally opening in February or March 2025)
+- Start the call for proposals process (ideally opening in February 2025)
 - Coordinate with the Opportunity Grants team to schedule the opening and closing of the CFP
 - Publish blog posts announcing the CFP, speaker mentors, and speaker resources
 - Recruit keynote speakers (the DEFNA board will offer suggestions, but if you have a message you'd like the keynotes to send, you have lots of latitude here, but keep in mind conference diversity goals)
-- Recruit speaker mentors (start with the 2019, 2021, and 2022 reviewers and bring in more as you like)
+- Recruit speaker mentors (start with the 2022-24 reviewers and bring in more as you like)
 - Review proposals as they come in for anonymization (ideally, recruit one member of the program committee who will not be reviewing talks to do the anonymization before opening talks for review)
 - Recruit talk reviewers (the DEFNA board will send you the 2024 reviewers, but more reviewers are encouraged, especially from diverse backgrounds). There will likely be over 150 submissions, so having more reviewers lessens the load for individual talks
 - Decide on any tweaks to the format (Spanish-language talks? Keep the Deep Dive Day? This is your chance to put your mark on the program)
