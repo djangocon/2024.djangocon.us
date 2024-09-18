@@ -80,7 +80,7 @@ There are 3 ways to get from the RDU airport to the Marriott:
 
 - Rideshare apps (Lyft and Uber generally have nationwide coverage; which you use is largely up to you) will generally get you where you need to go. It's about a $20-25 ride (plus tip) from the hotel to the airport in the absence of surge pricing. You'll pay using your phone. Use the app to find out where to get picked up. The ride should take about 20-25 minutes once you're in the car.
 - Traditional taxis may be hailed on the curb outside the airport. Follow signs for Ground Transportation and then try to wave down a cab that's going by. Fares will typically be a little more expensive ($30-35 perhaps plus tip), but licensing is stricter. Much like an Uber/Lyft, the trip should take about 20-25 minutes.
-- Durham is part of the [GoTriangle](https://gotriangle.org) Bus System that covers the Research Triangle. Fares are $2.50 per trip, and the route from the airport to the hotel takes approximately an hour including 10-minute walks on each end of the journey. Use the [Umo](https://gotriangle.org/UMO) app to make payments through your phone.
+- Durham is part of the [GoTriangle](https://gotriangle.org) Bus System that covers the Research Triangle. Fares are $2.50 per trip, and the route from the airport to the hotel takes approximately an hour including 10-minute walks on each end of the journey. Use the [Umo](https://gotriangle.org/UMO) app to make payments through your phone. **NOTE**: Once you're within the city of Durham, bus rides are [free until June 2025](https://godurhamtransit.org/news/godurham-fare-free-through-june-2025), but the airport is in Raleigh, so you'll still have to pay that $2.50 to get to and from the airport.
 
 ## Identification/Purchasing Alcohol
 
