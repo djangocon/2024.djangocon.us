@@ -5,7 +5,7 @@ name: United States PostgreSQL Association (PgUS)
 date: 2024-09-19
 logo:
     filename: postgresql.jpg
-    orientation: portrait
+    orientation: landscape
 url:
     target: 'https://postgresql.us'
     label: postgresql.us
