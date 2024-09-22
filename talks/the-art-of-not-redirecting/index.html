@@ -5,25 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://2024.djangocon.us/talks/django-from-first-principles/" />
+  <link rel="canonical" href="https://2024.djangocon.us/talks/the-art-of-not-redirecting/" />
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="" />
 
-  <meta property="og:title" content="Django from first principles" />
+  <meta property="og:title" content="The art of (not) redirecting" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="" />
-  <meta property="og:url" content="https://2024.djangocon.us/talks/django-from-first-principles/" />
+  <meta property="og:url" content="https://2024.djangocon.us/talks/the-art-of-not-redirecting/" />
   <meta property="og:site_name" content="DjangoCon US" />
 
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdjango-from-first-principles%2Fsocial/opengraph" />
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdjango-from-first-principles%2Fsocial/opengraph" />
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fthe-art-of-not-redirecting%2Fsocial/opengraph" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fthe-art-of-not-redirecting%2Fsocial/opengraph" />
 
 
-  <meta property="twitter:title" content="Django from first principles" />
+  <meta property="twitter:title" content="The art of (not) redirecting" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
 
@@ -34,7 +34,7 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>Django from first principles</title>
+  <title>The art of (not) redirecting</title>
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -139,7 +139,7 @@
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
       <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">Django from first principles</h1>
+      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">The art of (not) redirecting</h1>
 
       <p class="flex flex-wrap items-center gap-4">
         <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -173,9 +173,7 @@
 
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
       <div class="prose lg:prose-lg">
-        <p>Most Django tutorials begin by telling people to run <code>manage.py startproject</code>, followed by <code>manage.py startapp</code>. While this creates a project structure that's helpful to experienced Django developers, it throws a bunch of unnecessary complexity in front of someone new to building web apps. After running just these two commands, there are about 12 files to make sense of!</p>
-<p>In this talk we'll skip the <code>startproject</code> and <code>startapp</code> commands. Instead we'll start with a single file that serves a home page. We'll then build up a simple but non-trivial project, only adding complexity as it's needed. By the time the project is finished, we'll have a structure that's similar to what <code>startproject</code> and <code>startapp</code> generate. But, audience members will understand exactly why every part of the project exists, because it was only created out of necessity.</p>
-<p>This talk is not just for beginners. People new to Django will come away with an understanding of why typical Django projects are structured the way they are, and won't have to wonder about the complexity that these two commands generate. People who've had some experience with Django will understand the projects they've already been working with better. People who are quite experienced with Django will hopefully see the framework from a beginner's eyes, in a different way.</p>
+        <p>URLs are meant to never change, but change is the only constant of thriving products. As web developers we have the duty to not only design our URLs in a way that they withstand the passage of time, but also to &quot;never&quot; break old URLs when, in the face of inevitable change, we are forced to re-design them in order to keep a consistent experience in our evolving products. Join me in this practical journey to master URL design and evolution.</p>
 
       </div>
     </div>
@@ -196,12 +194,12 @@
               <section class="flex flex-wrap gap-6">
                 
                   
-                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Eric Matthes" loading="lazy" decoding="async" src="/presenters/eric-matthes-180.webp" width="512" height="512" srcset="/presenters/eric-matthes-180.webp 180w, /presenters/eric-matthes-300.webp 300w, /presenters/eric-matthes-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
+                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Lorenzo Peña" loading="lazy" decoding="async" src="/presenters/lorenzo-pena-180.webp" width="512" height="512" srcset="/presenters/lorenzo-pena-180.webp 180w, /presenters/lorenzo-pena-300.webp 300w, /presenters/lorenzo-pena-512.webp 512w" sizes="(max-width: 1024px) 180px, 180px">
                 
 
                 <div class="md:flex-1">
                   <span class="flex flex-col gap-2 mb-4">
-                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Eric Matthes</h3>
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Lorenzo Peña</h3>
                     
                   </span>
 
@@ -209,57 +207,30 @@
                     <ul class="flex flex-wrap gap-4 mt-auto">
                       
                       
-                        <li>
-                          <a
-                            href="https://github.com/ehmatthes"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="hover:text-social-github"
-                            aria-label="GitHub">
-                            <svg class="icon">
-                              <title>GitHub</title>
-                              <use xlink:href="#github-icon"></use>
-                            </svg>
-                          </a>
-                        </li>
                       
                       
                       
                         <li>
                           <a
-                            href="https://fosstodon.org/@ematthes"
+                            href="https://twitter.com/lorinkoz"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="hover:text-social-mastodon"
-                            aria-label="Mastodon">
+                            class="hover:text-social-twitter"
+                            aria-label="X.com">
                             <svg class="icon">
-                              <title>Mastodon</title>
-                              <use xlink:href="#mastodon-icon"></use>
+                              <title>X (Formerly Twitter)</title>
+                              <use xlink:href="#twitter-icon"></use>
                             </svg>
                           </a>
                         </li>
                       
-                      
-                      
-                        <li>
-                          <a
-                            href="https://www.mostlypython.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="hover:text-green"
-                            aria-label="Website">
-                            <svg class="icon">
-                              <use xlink:href="#web-icon"></use>
-                            </svg>
-                          </a>
-                        </li>
                       
                     </ul>
                   
 
                   
                     <div class="mt-4 prose">
-                      <p>Eric is the author of <a href="https://ehmatthes.github.io/pcc_3e/">Python Crash Course</a>, which has helped millions of people around the world learn Python. The final three chapters of the book include an introduction to Django. Eric currently writes a weekly newsletter called Mostly Python. He is also working on the <a href="https://django-simple-deploy.readthedocs.io/en/latest/">django-simple-deploy</a> package, which aims to make everyone's initial Django deployments go smoothly.</p>
+                      <p>Django user for almost 15 years. Co-creator and maintainer of django-pgschemas and django-unmigrate. Husband, father and fan of Zelda.</p>
 
                     </div>
                   
