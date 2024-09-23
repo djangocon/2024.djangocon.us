@@ -37,13 +37,13 @@
 - start_datetime: 2024-09-23 08:00:00-04:00
   end_datetime: 2024-09-23 17:30:00-04:00
   permalink: null
-  room: Meeting Room 4
+  room: Meeting Room 2
   title: Quiet Room
   track: t0
 - start_datetime: 2024-09-23 08:00:00-04:00
   end_datetime: 2024-09-23 17:30:00-04:00
   permalink: null
-  room: Meeting Room 2
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
 - start_datetime: 2024-09-23 10:10:00-04:00
@@ -97,13 +97,13 @@
 - start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 17:30:00-04:00
   permalink: null
-  room: Meeting Room 4
+  room: Meeting Room 2
   title: Quiet Room
   track: t0
 - start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 17:30:00-04:00
   permalink: null
-  room: Meeting Room 2
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
 - start_datetime: 2024-09-24 10:10:00-04:00
@@ -151,13 +151,13 @@
 - start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 17:30:00-04:00
   permalink: null
-  room: Meeting Room 4
+  room: Meeting Room 2
   title: Quiet Room
   track: t0
 - start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 17:30:00-04:00
   permalink: null
-  room: Meeting Room 2
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
 - start_datetime: 2024-09-25 10:10:00-04:00
