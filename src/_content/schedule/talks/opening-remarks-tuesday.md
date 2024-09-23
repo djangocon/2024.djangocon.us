@@ -10,4 +10,4 @@ room: Junior Ballroom
 title: Opening Remarks (Tuesday)
 track: t0
 ---
-Velda will introduce Tuesday's keynote and go over any administrative notes for the day
+Velda will introduce Tuesday's keynote and go over any administrative notes for the day.
