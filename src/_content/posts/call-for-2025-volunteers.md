@@ -26,7 +26,7 @@ These two roles have the highest time commitment and the most visibility. If you
 
 Size: 2-4
 
-The program committee is responsible for making sure that the schedule of tutorials and talks is the best it can be.
+The program committee is responsible for making sure that the schedule of tutorials and talks is the best it can be. There is both a high degree of influence over the tutorials and talks and a high time commitment when you're a chair of the program committee.
 
 ### Pre-conference responsibilities
 
