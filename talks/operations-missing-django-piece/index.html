@@ -5,25 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://2024.djangocon.us/talks/django-from-a-rails-perspective/" />
+  <link rel="canonical" href="https://2024.djangocon.us/talks/operations-missing-django-piece/" />
   <meta name="author" content="DjangoCon US" />
   <meta name="description" content="" />
 
-  <meta property="og:title" content="Django from a Rails Perspective" />
+  <meta property="og:title" content="Operations: The Missing Django Piece" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:description" content="" />
-  <meta property="og:url" content="https://2024.djangocon.us/talks/django-from-a-rails-perspective/" />
+  <meta property="og:url" content="https://2024.djangocon.us/talks/operations-missing-django-piece/" />
   <meta property="og:site_name" content="DjangoCon US" />
 
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   
-  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdjango-from-a-rails-perspective%2Fsocial/opengraph" />
-  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Fdjango-from-a-rails-perspective%2Fsocial/opengraph" />
+  <meta property="og:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Foperations-missing-django-piece%2Fsocial/opengraph" />
+  <meta property="twitter:image" content="https://v1.screenshot.11ty.dev/https%3A%2F%2F2024.djangocon.us%2Ftalks%2Foperations-missing-django-piece%2Fsocial/opengraph" />
 
 
-  <meta property="twitter:title" content="Django from a Rails Perspective" />
+  <meta property="twitter:title" content="Operations: The Missing Django Piece" />
   <meta name="twitter:site" content="@djangocon" />
   <meta name="twitter:creator" content="@DjangoCon US" />
 
@@ -34,7 +34,7 @@
   <link href="/assets/favicons/favicon.png" rel=icon type="image/png">
   <link href="/assets/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
-  <title>Django from a Rails Perspective</title>
+  <title>Operations: The Missing Django Piece</title>
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -139,7 +139,7 @@
   <div class="pb-8 lg:pb-10 hero">
     <div class="wrapper narrow">
       <a href="/schedule" class="reverse-link">&larr; Back to Schedule</a>
-      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">Django from a Rails Perspective</h1>
+      <h1 class="my-2 text-3xl font-bold leading-tight lg:text-5xl">Operations: The Missing Django Piece</h1>
 
       <p class="flex flex-wrap items-center gap-4">
         <span class="inline-flex flex-wrap items-center gap-[1ch] text-xl lg:text-2xl">
@@ -173,10 +173,7 @@
 
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
       <div class="prose lg:prose-lg">
-        <p>As a Rails fanatic, inheriting a mammoth Django application [along with a fresh list of features and upgrades] felt intimidating to the point of impossible. I want to share how I learned Django, what I learned about learning, and light the path for devs to follow my footsteps. For those questioning the value of switching their Rails experts into entirely new frameworks: fluency is valuable, but so is perspective.</p>
-<p>This talk will give you running start for your “translation dictionary”. In order to continue building on that foundation, I’ll provide several strategies for your educational journey.</p>
-<p>Don’t leave your code standard philosophies behind in Rails-land, either! Equipped with all the Django basics, I’ll help you draw direct parallels between Rails/Django for things like: code standards, architecture and technical designs, testing strategies, etc.</p>
-<p>There’s no one-size-fits-all approach to software development, yet there is plenty of value of finding a niche and focusing your career/team/company on locking down domain expertise. We shouldn’t default to using the frameworks that feel the most familiar for the sake of our comfort zones; the cost of switching domains can be reduced dramatically with an open mind and a translator!</p>
+        <p>In this talk, I’m going to demonstrate a new perspective on how to structure Django codebases using something I call “Operations”, so that Django codebases can scale well with any amount of features or complexity inside an application as it grows over time.</p>
 
       </div>
     </div>
@@ -196,10 +193,13 @@
             <li class="relative p-6 bg-white bg-lines lg:pt-10 card-effect-1">
               <section class="flex flex-wrap gap-6">
                 
+                  
+                  <img class="inline-block object-cover media object-left-top rounded aspect-square w-36 h-36 lg:w-48 lg:h-48" alt="Micah Lyle" loading="lazy" decoding="async" src="/presenters/micah-lyle-180.webp" width="400" height="400" srcset="/presenters/micah-lyle-180.webp 180w, /presenters/micah-lyle-300.webp 300w, /presenters/micah-lyle-400.webp 400w" sizes="(max-width: 1024px) 180px, 180px">
+                
 
                 <div class="md:flex-1">
                   <span class="flex flex-col gap-2 mb-4">
-                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Lisa Ciaccio</h3>
+                    <h3 class="text-xl font-semibold leading-4 lg:text-3xl">Micah Lyle</h3>
                     
                   </span>
 
@@ -212,7 +212,7 @@
                       
                         <li>
                           <a
-                            href="https://twitter.com/LisaChacho"
+                            href="https://twitter.com/micahlyle"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="hover:text-social-twitter"
@@ -227,7 +227,7 @@
                       
                         <li>
                           <a
-                            href="https://www.lisachacho.com"
+                            href="https://elyon.technology"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="hover:text-green"
@@ -243,9 +243,7 @@
 
                   
                     <div class="mt-4 prose">
-                      <p>Starting as a musician with no technical education, Lisa began her career as a software developer through a bootcamp in 2016. Despite working in technologies across the board, from Java pipelines to React web apps (and everything in between), Rails is her domain of expertise.</p>
-<p>While jumpstarting her own career, Lisa simultaneously built and ran an apprenticeship program for adults with no technical background; she ensured that the ladder she climbed was sturdy enough for the &gt;100 people who came up behind her and, in the process, discovered her passion for getting historically-excluded folx into tech.</p>
-<p>Nowadays, Lisa focuses her career on supporting tech startups with her skill and expertise.</p>
+                      <p>I'm a software architect and engineer, and co-run a design and software agency and consultancy called Elyon Technologies. Before that, I spent several years as a solo freelancer, working on a number of different projects and systems. Almost everything I did I built in Django (from scratch or on top of something existing), and I strongly focused on a niche specifically working on Django apps both through UpWork and also word of mouth referrals. I've gotten to build and architect software systems with Django across a number of different verticals which has provided both narrow/focused perspectives in the Django space but also helped me grow opinions on how codebases should be structured in the long run.</p>
 
                     </div>
                   
