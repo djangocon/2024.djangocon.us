@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2025-08-23 06:00:00-04:00
+published_datetime: 2024-09-25 13:00:00-04:00
 layout: post
 title: "Call for Volunteers: DjangoCon US 2025"
 ---
