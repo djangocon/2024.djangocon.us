@@ -1,0 +1,40 @@
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex flex-col flex-1 rounded group">
+    <header class="">
+      <div class="flex flex-wrap items-center justify-between order-1 gap-4">
+        {% if session.room %}
+          <p class="text-sm">{{ session.room }}</p>
+        {% endif %}
+      </div>
+
+      <h4 class="order-2 font-semibold leading-tight lg:text-lg">
+        {{ session.title }}
+      </h4>
+    </header>
+
+    {% if session.presenter_slugs %}
+        <ul class="flex items-center gap-4">
+          {% for presenter_slug in session.presenter_slugs %}
+            {% assign presenter = collections.presenters | find:presenter_slug %}
+            {% assign presenter = presenter.data %}
+
+            <li class="flex items-center gap-3">
+              {% if presenter.photo != null and presenter.photo != "" %}
+                {% assign photo = 'src/_content/presenters/' | append: presenter.photo %}
+                {% image photo, './dist/presenters/', '/presenters/', presenter.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top media aspect-square w-8 h-8' %}
+              {% endif %}
+
+              <span class="flex flex-col gap-[6px]">
+                <h6 class="leading-4">{{ presenter.name }}</h6>
+                {% if presenter.pronouns %}
+                  <span class="text-sm">
+                    ({{ presenter.pronouns }})
+                  </span>
+                {% endif %}
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+    {% endif %}
+  </section>
+</li>
