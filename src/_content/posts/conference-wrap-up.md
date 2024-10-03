@@ -15,7 +15,7 @@ What a fantastic year! DjangoCon US 2024 is officially over, but has left a last
 
 DjangoCon US is a volunteer-run conference that succeeds because of the dedicated people who give up their lunches, nights, and weekends to tackle tasks small and large. We are very lucky to have so many organizers that see the value this conference brings to the tech world and are willing to donate their time to bring it to fruition. 
 
-Thank you to the amazing teams we had running our media this year! The folks from American AV, White Coat Captioning, and ConFreaks were wonderful to work with. They all provided great suggestions on how we could make our video content better.
+Thank you to the amazing teams we had running our media this year! The folks from ConFreaks, White Coat Captioning, and American AV were wonderful to work with. They all provided great suggestions on how we could make our video content better.
 
 We also want to give a special thanks to the speakers, tutorial presenters and community interview team! We were lucky enough to have talks that made us examine both the human and technology ecosystems, while still helping us learn and making us laugh. Keep an eye on the [DjangoCon US YouTube channel](https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw) to catch the ones you missed or to re-watch your favorites from this year. Don't forget to look through our archive of talks through the years!
 
