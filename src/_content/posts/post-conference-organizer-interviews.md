@@ -1,11 +1,11 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-published_datetime: 2024-10-07 12:00:00
+published_datetime: 2024-10-03 12:00:00
 layout: post
 cover:
-    url: TODO
-    alt: The group photo of the DjangoCon US 2024 organizers
+    url: /assets/img/blog/dcus_2024_organizers.jpg
+    alt: The group photo of in-person DjangoCon US 2024 organizers
 title: "Reflecting on DjangoCon 2024"
 ---
 
