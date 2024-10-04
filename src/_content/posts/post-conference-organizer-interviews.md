@@ -6,7 +6,7 @@ layout: post
 cover:
     url: /assets/img/blog/dcus_2024_organizers.jpg
     alt: The group photo of in-person DjangoCon US 2024 organizers
-title: "Reflecting on DjangoCon 2024"
+title: "Reflecting on DjangoCon US 2024"
 ---
 
 Hello Djangonauts!
