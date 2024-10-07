@@ -6,7 +6,7 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-10-03T18:37:41Z</updated
+    >2024-10-07T21:15:01Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
@@ -19,13 +19,14 @@
       <updated>2024-10-07T06:00:00Z</updated>
       <id>https://2024.djangocon.us/news/conference-wrap-up/</id>
       <content xml:lang="en" type="html"
-        >&lt;p&gt;What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 386 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.&lt;/p&gt;
+        >&lt;p&gt;What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 450 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.&lt;/p&gt;
 &lt;p&gt;DjangoCon US is a volunteer-run conference that succeeds because of the dedicated people who give up their lunches, nights, and weekends to tackle tasks small and large. We are very lucky to have so many organizers that see the value this conference brings to the tech world and are willing to donate their time to bring it to fruition.&lt;/p&gt;
 &lt;p&gt;Thank you to the amazing teams we had running our media this year! The folks from ConFreaks, White Coat Captioning, and American AV were wonderful to work with. They all provided great suggestions on how we could make our video content better.&lt;/p&gt;
 &lt;p&gt;We also want to give a special thanks to the speakers, tutorial presenters and community interview team! We were lucky enough to have talks that made us examine both the human and technology ecosystems, while still helping us learn and making us laugh. Keep an eye on the &lt;a href=&#34;https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw&#34;&gt;DjangoCon US YouTube channel&lt;/a&gt; to catch the ones you missed or to re-watch your favorites from this year. Don&#39;t forget to look through our archive of talks through the years!&lt;/p&gt;
 &lt;p&gt;Lastly, we want to thank our sponsors. Without their contributions, DjangoCon US truly would not be possible. Sponsorship funding is how we are able to bring people to the conference who might not otherwise be able to attend, provide food and fun to our attendees, hire amazing media folks to make sure our attendees and speakers have the best possible experience, and post talks to YouTube so that people in our community who are unable to attend can share in the learning. We were sponsored by so many companies that truly care about the DjangoCon US community this year, and we are touched by their support.&lt;/p&gt;
 &lt;img src=&#34;/assets/img/blog/django_wave24.webp&#34; loading=&#34;lazy&#34; alt=&#34;The DjangoCon US 2024 attendees doing the wave&#34; style=&#34;display:block; float:right;&#34; /&gt;
 &lt;p&gt;We hope that everyone had a wonderful year at DjangoCon US 2024, and we hope to see you all in 2025! Keep an eye on our &lt;a href=&#34;https://fosstodon.org/@djangocon&#34;&gt;Mastodon account&lt;/a&gt; or &lt;a href=&#34;https://x.com/djangocon&#34;&gt;X/Twitter account&lt;/a&gt; for news about where we will be in 2025! If you&#39;re interested in being on the amazing organizing team that puts together DjangoCon US every year, &lt;a href=&#34;/news/call-for-2025-volunteers/&#34;&gt;you can find more information here&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit: The count of attendees was previously reported as 386. This count counted unique emails which excluded tickets that had not been assigned to people and excluded purchases from Friday through Tuesday.&lt;/em&gt;&lt;/p&gt;
 </content
       >
     </entry>
