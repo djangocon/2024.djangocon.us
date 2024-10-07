@@ -11,7 +11,7 @@ cover:
     alt: "The DjangoCon US 2024 attendees welcoming everyone to Durham, NC! It's hundreds of people standing with their arms extended outwards."
 ---
 
-What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 450[^1] folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.
+What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 450 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.
 
 DjangoCon US is a volunteer-run conference that succeeds because of the dedicated people who give up their lunches, nights, and weekends to tackle tasks small and large. We are very lucky to have so many organizers that see the value this conference brings to the tech world and are willing to donate their time to bring it to fruition. 
 
@@ -25,4 +25,4 @@ Lastly, we want to thank our sponsors. Without their contributions, DjangoCon US
 
 We hope that everyone had a wonderful year at DjangoCon US 2024, and we hope to see you all in 2025! Keep an eye on our [Mastodon account](https://fosstodon.org/@djangocon) or [X/Twitter account](https://x.com/djangocon) for news about where we will be in 2025! If you're interested in being on the amazing organizing team that puts together DjangoCon US every year, [you can find more information here](/news/call-for-2025-volunteers/)!
 
-[^1]: This was previously reported as 386. This count counted unique emails which excluded tickets that had not been assigned to people and excluded purchases from Friday through Tuesday.
+_Edit: The count of attendees was previously reported as 386. This count counted unique emails which excluded tickets that had not been assigned to people and excluded purchases from Friday through Tuesday._
