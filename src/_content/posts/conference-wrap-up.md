@@ -11,7 +11,7 @@ cover:
     alt: "The DjangoCon US 2024 attendees welcoming everyone to Durham, NC! It's hundreds of people standing with their arms extended outwards."
 ---
 
-What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 386 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.
+What a fantastic year! DjangoCon US 2024 is officially over, but has left a lasting impression. A heart-felt thank you to each of the 450 folks who attended this year. We had attendees, speakers, and sponsors from all over the world, and we are so thrilled to have such amazing representation from all the people that make up our community.
 
 DjangoCon US is a volunteer-run conference that succeeds because of the dedicated people who give up their lunches, nights, and weekends to tackle tasks small and large. We are very lucky to have so many organizers that see the value this conference brings to the tech world and are willing to donate their time to bring it to fruition. 
 
