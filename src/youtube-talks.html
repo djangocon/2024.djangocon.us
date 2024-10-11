@@ -24,26 +24,26 @@ permalink: /speaking/youtube/
         {% for slot in day[1] %}
           {% for session in slot.sessions %}
             {% if session.presenter_slugs %}
-              <div class="event-byline">
-                <div class="flex items-center justify-between">
+              <div class="event-byline grid grid-cols-1 gap-2">
+                <div class="flex items-center justify-between gap-2 mx-2">
                   <h4 class="flex-grow mr-2">
                     <span>{{ day[0] | formatDateTime: "LLL d " }}{{ slot.start | formatDateTime: "h:mm aaa" }} EDT -</span>
                     <span id="copy-{{ session.title|slugify }}-title">{{ session.title }}</span>
                   </h4>
+                  {% if post.video_url %}
+                    <div class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1 whitespace-nowrap" >
+                      <a href="{{ post.video_url }}">View on YouTube</a>
+                    </div>
+                  {% endif %}
                   <button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1 whitespace-nowrap" data-clipboard-action="copy" data-clipboard-target="#copy-{{ session.title|slugify }}-title">
                     Copy to clipboard
                   </button>
-                </div>
-
-                <div>
-                  <a href="{{ post.video_url }}">On YouTube</a>
                 </div>
 
                 <div class="relative">
 <textarea rows="10" id="copy-{{ session.title|slugify }}" class="w-full pr-32">
 {% include "youtube-copy-and-paste.html", session:session %}
 </textarea>
-
                   <button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1 absolute top-2 right-2" data-clipboard-action="copy" data-clipboard-target="#copy-{{ session.title|slugify }}">
                     Copy to clipboard
                   </button>
