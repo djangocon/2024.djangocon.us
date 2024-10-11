@@ -25,7 +25,8 @@
     "flickr": "https://flickr.com/photos/djangocon/albums/",
     "github": "https://github.com/djangocon/",
     "mastodon": "https://fosstodon.org/@djangocon",
-    "twitter": "https://twitter.com/djangocon",
+    "twitter": "https://x.com/djangocon",
+    "x": "https://x.com/djangocon",
     "facebook": "https://www.facebook.com/djangoconus/",
     "instagram": "https://www.instagram.com/djangocon/"
   },
