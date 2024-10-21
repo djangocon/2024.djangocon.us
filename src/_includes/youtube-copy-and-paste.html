@@ -6,14 +6,14 @@ LINKS:{% if session.presenter_slugs %}{% for presenter_slug in session.presenter
 Follow {{ presenter.name }} 👇
 {% if presenter.social.github %}On GitHub: https://github.com/{{ presenter.social.github }}
 {% endif %}{% if presenter.social.mastodon %}On Mastodon: {{ presenter.social.mastodon }}
-{% endif %}{% if presenter.social.twitter %}On Twitter: https://twitter.com/{{ presenter.social.twitter }}
+{% endif %}{% if presenter.social.twitter %}On X: https://x.com/{{ presenter.social.twitter }}
 {% endif %}{% if presenter.social.website %}Website: {{ presenter.social.website }}
 {% endif %}
 {% endfor %}{% endif %}
 
 Follow DjangoCon US 👇
 {{ site.social.mastodon }}
-{{ site.social.twitter }}
+{{ site.social.x }}
 
 Follow DEFNA 👇
 https://www.defna.org/
