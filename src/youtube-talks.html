@@ -28,7 +28,14 @@ permalink: /speaking/youtube/
                 <div class="flex items-center justify-between gap-2 mx-2">
                   <h4 class="flex-grow mr-2">
                     <span>{{ day[0] | formatDateTime: "LLL d " }}{{ slot.start | formatDateTime: "h:mm aaa" }} EDT -</span>
-                    <span id="copy-{{ session.title|slugify }}-title">{{ session.title }}</span>
+                    <span id="copy-{{ session.title|slugify }}-title">
+                      {{ session.title }} with
+                      {% for presenter_slug in session.presenter_slugs %}
+                        {% assign presenter = collections.presenters | find:presenter_slug %}
+                        {% if not forloop.first %} and {% endif %}
+                        {{ presenter.data.name }}
+                      {% endfor %}
+                    </span>
                   </h4>
                   {% if post.video_url %}
                     <div class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1 whitespace-nowrap" >
