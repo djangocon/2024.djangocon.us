@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - community
 title: 'If We Had $1,000,000: What Could The DSF Do With 4x Its Budget?'
+video_url: 'https://youtu.be/2uBsbSQ6cWU'
 track: t0
 ---
 

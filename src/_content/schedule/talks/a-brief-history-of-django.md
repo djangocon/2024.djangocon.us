@@ -10,6 +10,7 @@ tags:
 - internals
 - community
 title: A Brief History of Django
+video_url: 'https://youtu.be/yLwx4_099aQ'
 track: t0
 ---
 

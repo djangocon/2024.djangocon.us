@@ -9,6 +9,7 @@ room: Online talks
 tags:
 - community
 title: Project Management in Open Source
+video_url: 'https://youtu.be/0xotTtQh6Z0'
 track: t2
 ---
 

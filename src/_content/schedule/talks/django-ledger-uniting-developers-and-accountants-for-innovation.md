@@ -10,6 +10,7 @@ tags:
 - usecase
 - thirdparty
 title: Django Ledger | Uniting Developers and Accountants for Innovation.
+video_url: 'https://youtu.be/Sn7Z6ZN-DU8'
 track: t1
 ---
 

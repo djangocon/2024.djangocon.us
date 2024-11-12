@@ -9,6 +9,7 @@ room: Grand Ballroom III
 tags:
 - testing
 title: Lessons from E2E Testing Web Applications
+video_url: 'https://youtu.be/bh0JvUBc09w'
 track: t1
 ---
 

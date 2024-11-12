@@ -9,6 +9,7 @@ presenter_slugs:
 room: Junior Ballroom
 title: Keynote - Power to the People who Teach the People
 track: t0
+video_url: 'https://youtu.be/-GpMgu8Utks'
 ---
 
 One thing I absolutely love about the Python community is the fact that there are so many people with teacher's hearts. Teaching is an amazing thing, you can change a person's life just by spending some time with them, having conversations, showing them stuff. 

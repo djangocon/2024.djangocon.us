@@ -9,6 +9,7 @@ presenter_slugs:
 room: Junior Ballroom
 title: "Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django"
 track: t0
+video_url: 'https://youtu.be/SzrgDmMBipo'
 ---
 
 Lacey Henschel will moderate a panel discussion on the history and future of communities within the Django community.

@@ -9,6 +9,7 @@ presenter_slugs:
 room: Junior Ballroom
 title: Keynote - How To Be A Developer and Other Lies We Tell Ourselves
 track: t0
+video_url: 'https://youtu.be/YT579vCBgvA'
 ---
 
 In the children's book "Am I Even A Bee?" by Felicity Muth, Osmia begins feeling uneasy when she notices that she doesn't look like other bees at all. She even notices that some flies, moths, or beetles look more like bees than she does. Her perspective changes when she bumps into another unlikely bee named Xyla.
