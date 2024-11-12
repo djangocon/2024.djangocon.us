@@ -10,6 +10,7 @@ tags:
 - internals
 - frontend
 title: An Opinionated Guide to Modern Django Forms
+video_url: 'https://youtu.be/mpS9DLTSW88'
 track: t1
 ---
 

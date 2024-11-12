@@ -10,6 +10,7 @@ tags:
 - internals
 - usecase
 title: 'Upgrading EOL Django: A Journey from V1 to V5'
+video_url: 'https://youtu.be/OI7HsIyX0eQ'
 track: t2
 ---
 

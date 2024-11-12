@@ -12,6 +12,7 @@ tags:
 - community
 title: 'Django: the web framework that changed my life'
 track: t0
+video_url: 'https://youtu.be/X0Urp3RsKLY'
 ---
 
 The year was 2018. I was studying computer science at the University of Indonesia. I learned Django as part of a web programming course. At the time, Django felt just like any other framework out there – it's part of the tech stack that you use.

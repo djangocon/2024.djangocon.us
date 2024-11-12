@@ -10,6 +10,7 @@ tags:
 - postgres
 - performance
 title: 'PostgreSQL Beyond Django: Strategies to Get Max Performance'
+video_url: 'https://youtu.be/oDosT7ol9rw'
 track: t1
 ---
 

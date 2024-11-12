@@ -9,4 +9,5 @@ presenter_slugs:
 room: Junior Ballroom
 title: Opening Remarks (Wednesday)
 track: t0
+video_url: 'https://youtu.be/cL_3Zkhl-fY'
 ---

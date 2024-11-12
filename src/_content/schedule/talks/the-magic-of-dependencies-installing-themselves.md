@@ -10,6 +10,7 @@ tags:
 - python
 - thirdparty
 title: The Magic of Dependencies Installing Themselves
+video_url: 'https://youtu.be/908fpWtYyj0'
 track: t2
 ---
 
