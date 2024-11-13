@@ -40,6 +40,26 @@
 
   <div class="py-8 bg-gray-50 lg:py-10 block-container">
     <div class="wrapper narrow">
+      <section class="flex flex-wrap justify-center gap-4 p-8">
+        <section class="p-4 bg-orange-100 rounded">
+          <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">We're sorry!</h3>
+          <div class="prose prose-lg">
+            <p>
+              We made a mistake in processing the videos from DjangoCon US 2024. The sponsor
+              acknowledgements are missing our wonderful sponsor Wharton School of Business.
+              We deeply regret this and are working to re-upload videos with our correct
+              sponsor acknowledgements.
+            </p>
+            <p>
+              All videos have been marked as unlisted and will be removed in the future.
+              We expect the new, permanent videos to be uploaded in two weeks.
+            </p>
+          </div>
+        </section>
+      </section>
+      {% comment %}
+      Remove once we fix the sponsor credits in the youtube videos
+
       {% if video_url %}
         {% assign youtube_id = video_url | replace:"https://youtu.be/","" %}
         <figure class="aspect-video">
@@ -71,6 +91,7 @@
           {% endif %}
         </section>
       {% endif %}
+      {% endcomment %}
 
 
       <h2 class="mb-6 text-xl font-bold leading-tight lg:text-3xl">About this session</h2>
