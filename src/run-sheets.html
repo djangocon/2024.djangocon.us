@@ -1,0 +1,71 @@
+---
+title: DjangoCon US 2024 Run Sheets
+layout: default
+description: |
+  The schedule for DjangoCon US 2024.
+
+sitemap: false
+
+days:
+  - heading: Tutorials
+  - heading: "Talks: Day 1"
+  - heading: "Talks: Day 2"
+  - heading: "Talks: Deep Dives"
+  - heading: "Sprints: Day 1"
+  - heading: "Sprints: Day 2"
+---
+
+<style>
+	@media print {
+      #SiteHeader, #SiteFooter { display: none; }
+	    .pagebreak { page-break-after: always; } /* page-break-after works, as well */
+	}
+</style>
+
+<div class="p-4 ">
+  <div class="">
+    <div class="space-y-20">
+      {% for day in collections.sessionsByDateAndTime %}
+        <div class="relative">
+          <h2
+            class="w-full pt-3 bg-white pageheading "
+            id="Day-{{ forloop.index }}">
+              <a href="#Day-{{ forloop.index }}" class="reverse-link">
+                <span class="font-medium">{{ days[forloop.index0].heading }}</span> /
+                <time datetime="{{ day[0] | formatDateTime: 'yyyy-MM-dd' }}">{{ day[0] | formatDateTime: "EEEE, LLL d" }}</time>
+              </a>
+          </h2>
+
+          {% if days[forloop.index0].text %}
+            {{ days[forloop.index0].text | markdown }}
+          {% endif %}
+      
+          <div class="mt-4 space-y-8">
+            {% for slot in day[1] %}
+              <div class=""><!-- flex flex-wrap gap-4 lg:gap-8 -->
+                  <h3 class="py-1 mb-2 border-b-2 border-gray-700"><!-- w-full font-medium text-gray-500 lg:text-lg lg:py-6 lg:sticky lg:top-12 lg:text-right -->
+                    <time datetime="{{ slot.start }}">{{ slot.start | formatDateTime: "h:mm aaa" }}</time> to
+                    <time datetime="{{ slot.end }}">{{ slot.end | formatDateTime: "h:mm aaa" }}</time>
+                  </h3>
+
+                <ul
+                  class="flex flex-row flex-wrap flex-1 gap-4 rounded-md">
+                  {% comment %}
+                    Ideally up to 4 tracks, with some sessions spanning every track
+                  {% endcomment %}
+
+                  {%- assign color_classes = "border-t-green,border-t-light-blue,border-t-purple,border-t-orange" | split: "," %}
+                  {% for session in slot.sessions %}
+                    {%- assign color = color_classes[forloop.index0 | modulo: color_classes.size] %}
+                    {% include "session-card-runsheet.html", session:session, color_class:color %}
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endfor %}		
+            <div class="pagebreak"> </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
