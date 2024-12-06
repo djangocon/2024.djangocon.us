@@ -17,13 +17,13 @@ We caught up with a few of the participants after the conference to ask about th
 
 First up we have **Sanyam Khurana**. (Shout out to Brad Stricherz who worked with him on their project.)
 
-- **Project Background:**  “Our hackathon-winning project combines innovation and functionality to enhance road safety. We developed a mobile app with a Django backend, leveraging PostGIS to analyze accelerometer readings. The app alerts users when they exceed speed limits in specific areas, promoting safer driving behavior. A standout feature is the dynamic heatmap, inspired by Strava maps, which visualizes regions where speeding is prevalent. This tool serves as a warning for both road users and pedestrians, encouraging caution and helping to prevent accidents.”
-- **Experience:** “Participating in the hackathon was an incredible experience! We discovered new technologies like Django Ninja, which streamlined our API development process, and learned how to integrate spatial data with PostGIS to create impactful solutions. The collaborative environment and rapid prototyping taught us how powerful teamwork and innovative thinking can be. Winning was the cherry on top of an unforgettable journey!”
+- **Project Background:**  “Our hackathon-winning project combines innovation and functionality to enhance road safety. We developed a mobile app with a Django backend, leveraging [PostGIS](https://postgis.net/) to analyze accelerometer readings. The app alerts users when they exceed speed limits in specific areas, promoting safer driving behavior. A standout feature is the dynamic heatmap, inspired by [Strava](https://www.strava.com/) maps, which visualizes regions where speeding is prevalent. This tool serves as a warning for both road users and pedestrians, encouraging caution and helping to prevent accidents.”
+- **Experience:** “Participating in the hackathon was an incredible experience! We discovered new technologies like [Django Ninja](https://django-ninja.dev/), which streamlined our API development process, and learned how to integrate spatial data with PostGIS to create impactful solutions. The collaborative environment and rapid prototyping taught us how powerful teamwork and innovative thinking can be. Winning was the cherry on top of an unforgettable journey!”
 - Find Sanyam here:
     - [GitHub](https://github.com/CuriousLearner/)
     - [Twitter/X](https://x.com/ErSanyamKhurana)
     - [Mastodon](https://mastodon.social/@curiouslearner)
-- **Bonus:** [Hear Sanyam’s thoughts](https://www.youtube.com/watch?v=M7jthulASzo) on the conference as a whole as part of our DjangoCon US 2024 Perspectives series.
+- **Bonus:** [Hear Sanyam’s thoughts](https://www.youtube.com/watch?v=M7jthulASzo) on the conference as a whole as part of our [DjangoCon US 2024 Perspectives series](https://www.youtube.com/playlist?list=PL2NFhrDSOxgVFmeAjIMjIyNesLJbwj_-K).
 
 Second up we have **Nicholas LaJoie**.
 
