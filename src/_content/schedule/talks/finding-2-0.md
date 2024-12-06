@@ -10,7 +10,6 @@ tags:
 - career
 title: Finding 2.0
 track: t0
-video_url: 'https://youtu.be/GtslRj85DGA'
 ---
 
 In the world of library development, achieving version 2.0 often takes years, if it's achieved at all. Surprisingly, nearly 90% of packages published to PyPI using semantic versioning have a major release number of less than two. What makes reaching this milestone so elusive?

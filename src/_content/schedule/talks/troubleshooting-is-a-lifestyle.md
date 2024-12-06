@@ -9,7 +9,6 @@ room: Junior Ballroom
 tags:
 - career
 title: "Troubleshooting is a Lifestyle \U0001F60E"
-video_url: 'https://youtu.be/a7iUKbug82k'
 track: t0
 ---
 

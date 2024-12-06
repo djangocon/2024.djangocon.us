@@ -11,7 +11,6 @@ tags:
 title: 'Seamless Transition: How I Converted an Existing MySQL Database to be Fully
   Managed by Django Migrations Framework'
 track: t2
-video_url: 'https://youtu.be/-JLmeUC-JGM'
 ---
 
 In this presentation, I aim to demystify the complexities of database migrations in Django, catering to audiences with basic knowledge of the framework. Through a structured approach, I will delve into three key topics:

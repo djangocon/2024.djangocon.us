@@ -10,7 +10,6 @@ tags:
 - performance
 - deployment
 title: One Thousand and One Django Sites
-video_url: 'https://youtu.be/WRtrlFUmHHA'
 track: t1
 ---
 

@@ -11,7 +11,6 @@ tags:
 - thirdparty
 title: "Operations: The Missing Django Piece"
 track: t1
-video_url: 'https://youtu.be/J-_VQq_wrUs'
 ---
 
 In this talk, I’m going to demonstrate a new perspective on how to structure Django codebases using something I call “Operations”, so that Django codebases can scale well with any amount of features or complexity inside an application as it grows over time.

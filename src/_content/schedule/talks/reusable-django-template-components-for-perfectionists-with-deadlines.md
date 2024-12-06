@@ -10,7 +10,6 @@ tags:
 - frontend
 title: Django UI Components for Perfectionists with Deadlines
 track: t2
-video_url: 'https://youtu.be/KJjnPoDSmIc'
 ---
 
 We pay great attention to how to write composable python code (with inheritance, decorators, modules, namespaces, etc). But when it comes to architecting the templates of your website, this is often overlooked, which rapidly degenerates in tons of copy&paste of html, css and javascript.
