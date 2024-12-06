@@ -2,6 +2,7 @@
 author: Nathan Zeager
 category: General
 published_datetime: 2024-12-06 06:00:00-04:00
+layout: post
 title: "Hackathon Recap"
 
 cover:
