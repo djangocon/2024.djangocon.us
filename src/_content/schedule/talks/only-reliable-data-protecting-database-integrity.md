@@ -9,6 +9,7 @@ room: Grand Ballroom III
 tags:
 - orm
 title: 'Only reliable Data: Protecting Database Integrity'
+video_url: 'https://youtu.be/eLrfIcJ914w'
 track: t1
 ---
 

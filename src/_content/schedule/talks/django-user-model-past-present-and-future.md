@@ -8,6 +8,7 @@ presenter_slugs:
 room: Junior Ballroom
 tags: null
 title: 'Django User Model: Past, Present, and Future'
+video_url: 'https://youtu.be/pHe1jfd_En8'
 track: t0
 ---
 

@@ -12,6 +12,7 @@ tags:
 - thirdparty
 - gis
 title: Maps with Django
+video_url: 'https://youtu.be/QIYt1zuqzWY'
 track: t1
 ---
 

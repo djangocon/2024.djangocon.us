@@ -10,6 +10,7 @@ tags:
 - performance
 title: 'Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency'
 track: t2
+video_url: 'https://youtu.be/xpNaOsLNxx4'
 ---
 
 In most cases performance issues are caused by a very small fraction of the application.  Identifying these bottlenecks can be a daunting task. Well, not anymore, we now have tools to easily identify these bottlenecks. In this talk we will talk about it all: the why, what and how to do profiling and benchmarking.

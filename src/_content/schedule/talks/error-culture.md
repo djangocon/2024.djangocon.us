@@ -10,6 +10,7 @@ tags:
 - career
 - testing
 title: Error Culture
+video_url: 'https://youtu.be/eALdLBOaQS0'
 track: t0
 ---
 

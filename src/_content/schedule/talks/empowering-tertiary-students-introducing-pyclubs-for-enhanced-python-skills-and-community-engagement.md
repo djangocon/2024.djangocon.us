@@ -10,6 +10,7 @@ tags:
 - community
 title: 'Empowering Tertiary Students: Introducing PyClubs for Enhanced Python Skills
   and Community Engagement'
+video_url: 'https://youtu.be/9ekqBB-dBbQ'
 track: t2
 ---
 

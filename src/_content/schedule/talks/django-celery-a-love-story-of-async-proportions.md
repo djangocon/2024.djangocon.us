@@ -10,6 +10,7 @@ tags:
 - celery
 title: 'Django & Celery: A love story of async proportions'
 track: t2
+video_url: 'https://youtu.be/NCXtXDn4ppk'
 ---
 
 ### Django: A Framework for perfectionists with deadlines

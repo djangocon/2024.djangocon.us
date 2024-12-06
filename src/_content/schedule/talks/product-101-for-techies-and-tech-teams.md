@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - career
 title: Product 101 for Techies and Tech Teams
+video_url: 'https://youtu.be/hKAWrAP69tw'
 track: t0
 ---
 

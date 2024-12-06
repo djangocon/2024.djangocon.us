@@ -8,5 +8,6 @@ presenter_slugs:
 - peter-grandstaff
 room: Junior Ballroom
 title: Opening Remarks (Monday)
+video_url: 'https://youtu.be/ZGQI0NSM_40'
 track: t0
 ---

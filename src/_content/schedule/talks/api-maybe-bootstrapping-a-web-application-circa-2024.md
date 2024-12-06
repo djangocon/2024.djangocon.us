@@ -11,6 +11,7 @@ tags:
 - api
 title: 'API Maybe: Bootstrapping a Web Application circa 2024'
 track: t0
+video_url: 'https://youtu.be/9HPZRDLcTIw'
 ---
 
 The last couple of years seem to have changed everything. Particularly with HTMX, but also related technologies like Alpine.js and Tailwind CSS, we've rapidly gone from a world where seemingly the only option was "API First".

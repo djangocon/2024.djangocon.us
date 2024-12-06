@@ -9,5 +9,6 @@ presenter_slugs:
 room: Junior Ballroom
 title: Opening Remarks (Tuesday)
 track: t0
+video_url: 'https://youtu.be/pM_NdY87GRU'
 ---
 Velda will introduce Tuesday's keynote and go over any administrative notes for the day.

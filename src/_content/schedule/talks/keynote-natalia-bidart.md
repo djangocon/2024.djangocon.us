@@ -9,6 +9,7 @@ presenter_slugs:
 room: Junior Ballroom
 title: Keynote - The Fellowship of the Pony
 track: t0
+video_url: 'https://youtu.be/reYtEsqwIOU'
 ---
 This keynote will present the Django Fellowship program, highlighting its critical role in the maintenance and development of the Django project. It will cover the purpose and significance of the Fellowship, illustrating how it contributes to the project's overall success.
 

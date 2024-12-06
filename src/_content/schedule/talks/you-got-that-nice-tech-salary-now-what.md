@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - career
 title: You got that nice tech salary, now what?
+video_url: 'https://youtu.be/J0OrbAPKdHc'
 track: t0
 ---
 
