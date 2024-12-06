@@ -6,13 +6,48 @@
   <link href="https://2024.djangocon.us" rel="alternate"/>
 
   <updated
-    >2024-11-14T00:07:56Z</updated
+    >2024-12-06T17:03:29Z</updated
   >
   <id>https://2024.djangocon.us</id>
   <author>
     <name>DjangoCon US Team</name>
     <email>hello@djangocon.us</email>
   </author>
+    <entry>
+      <title>Hackathon Recap</title>
+      <link href="https://2024.djangocon.us/news/hackathon-recap/" />
+      <updated>2024-12-06T10:00:00Z</updated>
+      <id>https://2024.djangocon.us/news/hackathon-recap/</id>
+      <content xml:lang="en" type="html"
+        >&lt;p&gt;This year at DjangoCon US 2024 we were excited to offer our first-ever Hackathon! Participants could work individually or on a team across the week to build an app using Django to solve a problem of their choice. They then presented their app at the end of the week and answered questions about what they built, challenges they ran into, and how they might expand the project given more time. We had participants who were just starting to work with Django and some who had been doing it for years. It was exciting to see what everyone was able to put together in such a short amount of time, and highlighted that everyone in the Django community has a unique and important perspective to contribute.&lt;/p&gt;
+&lt;p&gt;We caught up with a few of the participants after the conference to ask about their experiences, and we wanted to share them with you.&lt;/p&gt;
+&lt;p&gt;First up we have &lt;strong&gt;Sanyam Khurana&lt;/strong&gt;. (Shout out to Brad Stricherz who worked with him on their project.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Background:&lt;/strong&gt;  “Our hackathon-winning project combines innovation and functionality to enhance road safety. We developed a mobile app with a Django backend, leveraging &lt;a href=&#34;https://postgis.net/&#34;&gt;PostGIS&lt;/a&gt; to analyze accelerometer readings. The app alerts users when they exceed speed limits in specific areas, promoting safer driving behavior. A standout feature is the dynamic heatmap, inspired by &lt;a href=&#34;https://www.strava.com/&#34;&gt;Strava&lt;/a&gt; maps, which visualizes regions where speeding is prevalent. This tool serves as a warning for both road users and pedestrians, encouraging caution and helping to prevent accidents.”&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; “Participating in the hackathon was an incredible experience! We discovered new technologies like &lt;a href=&#34;https://django-ninja.dev/&#34;&gt;Django Ninja&lt;/a&gt;, which streamlined our API development process, and learned how to integrate spatial data with PostGIS to create impactful solutions. The collaborative environment and rapid prototyping taught us how powerful teamwork and innovative thinking can be. Winning was the cherry on top of an unforgettable journey!”&lt;/li&gt;
+&lt;li&gt;Find Sanyam here:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CuriousLearner/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://x.com/ErSanyamKhurana&#34;&gt;Twitter/X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mastodon.social/@curiouslearner&#34;&gt;Mastodon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bonus:&lt;/strong&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=M7jthulASzo&#34;&gt;Hear Sanyam’s thoughts&lt;/a&gt; on the conference as a whole as part of our &lt;a href=&#34;https://www.youtube.com/playlist?list=PL2NFhrDSOxgVFmeAjIMjIyNesLJbwj_-K&#34;&gt;DjangoCon US 2024 Perspectives series&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Second up we have &lt;strong&gt;Nicholas LaJoie&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Experience:&lt;/strong&gt; “I was excited to hear that DjangoCon was hosting a hackathon this year. This was my first time attending the conference, and it served as a great outlet for me to immediately start applying some of the things I was learning during the talks. I spent a few days hacking together a lightweight IoT platform called &amp;quot;iotato&amp;quot; - the goal was to make a highly permissive (minimal auth/data formatting) API that could accept data from anything that can send a simple HTTP request (such as the Shortcuts app on my iPhone). I plan to keep building upon this project, with the hope of sharing it with the world this winter. A big thanks to all of the organizers and participants for making my first DjangoCon a memorable one - I look forward to the next one!”&lt;/li&gt;
+&lt;li&gt;Find Nicholas here:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lajoie.me/&#34;&gt;Personal Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SpudNiche&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you to Sanyam and Nicholas for sharing their experiences. We look forward to working with the community during next year’s hackathon and hope you will join us!&lt;/p&gt;
+</content
+      >
+    </entry>
     <entry>
       <title>2024 Conference Wrap Up</title>
       <link href="https://2024.djangocon.us/news/conference-wrap-up/" />
