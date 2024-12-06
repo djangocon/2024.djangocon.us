@@ -10,7 +10,6 @@ tags:
 - frontend
 title: 'Choosing Wisely: SPA vs. HTMX for Your Next Web Project'
 track: t0
-video_url: 'https://youtu.be/nTnX_CC6cK0'
 ---
 
 As web developers, we want to select the right architecture pattern for our projects. Web applications are inherently complex, and your choice will affect how you manage that complexity.

@@ -10,7 +10,6 @@ tags:
 - security
 title: 'Passkeys: Your password-free future'
 track: t1
-video_url: 'https://youtu.be/ylv_k8TRpPk'
 ---
 
 We'll start at the beginning, with a simple username and password login form, and explore various approaches that the web has taken to try to solve it.

@@ -11,7 +11,6 @@ tags:
 - thirdparty
 title: Pygoat - Learn django security the hard way
 track: t1
-video_url: 'https://youtu.be/-KcGTEVTUv4'
 ---
 
 Pygoat is an intentionally vulnerable Python Django application that can be used to learn to secure our Django apps. In this talk, we will attack a deployed Pygoat application, identify the underlying security issues in our code, and then secure it. We will learn about common security vulnerabilities (OWASP Top 10) in Django apps and how to fix them so that we can keep our applications safe from attackers.

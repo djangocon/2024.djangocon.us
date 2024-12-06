@@ -9,7 +9,6 @@ room: Junior Ballroom
 tags:
 - internals
 title: Hidden gems of Django 5.x
-video_url: 'https://youtu.be/zxiqJCQTax0'
 track: t0
 ---
 

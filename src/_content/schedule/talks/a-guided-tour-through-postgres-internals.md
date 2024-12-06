@@ -9,7 +9,6 @@ room: Junior Ballroom
 tags:
 - postgres
 title: A Guided Tour Through Postgres Internals
-video_url: 'https://youtu.be/nOeNOKBXdUs'
 track: t0
 ---
 

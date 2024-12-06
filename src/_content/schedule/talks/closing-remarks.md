@@ -8,6 +8,5 @@ presenter_slugs:
 - peter-grandstaff
 room: Junior Ballroom
 title: Closing Remarks
-video_url: 'https://youtu.be/im_DZvLGd5c'
 track: t0
 ---

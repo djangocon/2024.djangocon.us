@@ -9,7 +9,6 @@ room: Online talks
 tags:
 - thirdparty
 title: Introduction to OpenTelemetry with Django
-video_url: 'https://youtu.be/SS2q0NA4GFw'
 track: t2
 ---
 

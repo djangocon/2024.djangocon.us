@@ -9,7 +9,6 @@ room: Junior Ballroom
 tags:
 - internals
 title: 'The art of (not) redirecting'
-video_url: 'https://youtu.be/wKwOFCSd_xw'
 track: t0
 ---
 

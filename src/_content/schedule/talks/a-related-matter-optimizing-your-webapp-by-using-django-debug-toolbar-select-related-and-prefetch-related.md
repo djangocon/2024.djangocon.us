@@ -11,7 +11,6 @@ tags:
 - thirdparty
 title: 'A Related Matter: Optimizing your webapp by using django-debug-toolbar, select_related(),
   and prefetch_related()'
-video_url: 'https://youtu.be/PtrBQj9lPVA'
 track: t0
 ---
 
