@@ -11,7 +11,11 @@
 # 2. Make sure you're using git so reverting edited talk files is easy.
 # 3. Run the script.
 # 4. Go through the missing-talks.csv file and manually add the
-#    youtube_url to the markdown files.
+#    youtube_url to the markdown files.InnerTube.__init__(client='WEB')
+#    then disable the oauth usage.
+
+# At one point things didn't work and I had to modify
+# the pytube/innertube.py::
 
 import csv
 from dataclasses import dataclass
