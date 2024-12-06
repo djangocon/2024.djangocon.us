@@ -36,4 +36,4 @@ The incidents reveal a need for continued efforts to promote a respectful and in
 - **Encouraging Appropriate Communication**: Providing clear guidelines for communication, especially in professional contexts like job inquiries.
 
 ## Wrap-up
-Thank you for a wonderful DjangoCon US 2024!
+Thank you all for making DjangoCon US 2024 a memorable event! While some of the interactions we have discussed may have been uncomfortable, they serve as an important reminder that we, as a community, are continually growing and learning. By communicating openly, treating each other with respect, and practicing empathy, we can create a space where everyone feels valued and supported. Together, we will continue to build a stronger, more inclusive Django community.
