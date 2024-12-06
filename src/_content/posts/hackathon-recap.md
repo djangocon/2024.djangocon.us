@@ -10,9 +10,9 @@ cover:
 
 ---
 
-This year at DjangoCon US 2024 we were excited to offer our first ever Hackathon! Participants could work individually or on a team across the week to build an app using Django to solve a problem of their choice. They then presented their app at the end of the week and answered questions about what they built, challenges they ran into, and how they might expand the project given more time. We had participants who were just starting to work with Django and some who had been doing it for years. It was exciting to see what everyone was able to put together in such a short amount of time and highlighted that everyone in the Django community has an unique and important perspective to contribute.
+This year at DjangoCon US 2024 we were excited to offer our first-ever Hackathon! Participants could work individually or on a team across the week to build an app using Django to solve a problem of their choice. They then presented their app at the end of the week and answered questions about what they built, challenges they ran into, and how they might expand the project given more time. We had participants who were just starting to work with Django and some who had been doing it for years. It was exciting to see what everyone was able to put together in such a short amount of time, and highlighted that everyone in the Django community has a unique and important perspective to contribute.
 
-We caught up with a few of the participants after the conference to ask about their experiences and we wanted to share them with you.
+We caught up with a few of the participants after the conference to ask about their experiences, and we wanted to share them with you.
 
 First up we have **Sanyam Khurana**. (Shout out to Brad Stricherz who worked with him on their project.)
 
@@ -21,7 +21,7 @@ First up we have **Sanyam Khurana**. (Shout out to Brad Stricherz who worked wit
 - Find Sanyam here:
     - [GitHub](https://github.com/CuriousLearner/)
     - [Twitter/X](https://x.com/ErSanyamKhurana)
-    - [Mastadon](https://mastodon.social/@curiouslearner)
+    - [Mastodon](https://mastodon.social/@curiouslearner)
 - **Bonus:** [Hear Sanyam’s thoughts](https://www.youtube.com/watch?v=M7jthulASzo) on the conference as a whole as part of our DjangoCon US 2024 Perspectives series.
 
 Second up we have **Nicholas LaJoie**.
