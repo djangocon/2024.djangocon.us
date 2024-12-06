@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - career
 title: Finding 2.0
+video_url: 'https://youtu.be/6arB7lHr2hk'
 track: t0
 ---
 

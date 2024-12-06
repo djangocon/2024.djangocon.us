@@ -8,5 +8,6 @@ presenter_slugs:
 - kojo-idrissa
 room: Junior Ballroom
 title: Orientation
+video_url: 'https://youtu.be/NjpXssf-xIM'
 track: t0
 ---

@@ -10,6 +10,7 @@ room: Online talks
 tags:
 - performance
 title: 'Level Up Your Django Performance: Identifying and Taming N+1 Queries'
+video_url: 'https://youtu.be/FSUvocpOwME'
 track: t2
 ---
 

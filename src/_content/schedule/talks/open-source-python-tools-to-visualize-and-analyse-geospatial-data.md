@@ -11,6 +11,7 @@ tags:
 - thirdparty
 - gis
 title: Open-source Python tools to visualize and analyse geospatial data.
+video_url: 'https://youtu.be/eXed-Ff8H5Y'
 track: t1
 ---
 

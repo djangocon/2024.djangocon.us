@@ -9,6 +9,7 @@ room: Grand Ballroom III
 tags:
 - career
 title: 'Optimizing remote work: Pull Requests, Stand-ups, and emojis'
+video_url: 'https://youtu.be/3bGE445WMP8'
 track: t1
 ---
 

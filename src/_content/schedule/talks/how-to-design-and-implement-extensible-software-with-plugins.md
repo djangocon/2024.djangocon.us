@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - infrastructure
 title: How to design and implement extensible software with plugins
+video_url: 'https://youtu.be/IdTHaCo8gKY'
 track: t0
 ---
 

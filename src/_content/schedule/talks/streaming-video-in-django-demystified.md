@@ -10,6 +10,7 @@ tags:
 - async
 - thirdparty
 title: Streaming Video in Django | Demystified
+video_url: 'https://youtu.be/Uaavp62o9PQ'
 track: t2
 ---
 

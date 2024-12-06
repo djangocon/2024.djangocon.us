@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags:
 - usecase
 title: Fighting Homelessness with Django
+video_url: 'https://youtu.be/qzrDOveNim8'
 track: t0
 ---
 

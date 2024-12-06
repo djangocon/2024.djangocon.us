@@ -12,6 +12,7 @@ tags:
 - frontend
 - thirdparty
 title: WebRTC with Django, Channels, HTMX, and coturn
+video_url: 'https://youtu.be/8EJzcpw8i8s'
 track: t0
 ---
 

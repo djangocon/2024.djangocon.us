@@ -9,4 +9,5 @@ presenter_slugs:
 room: Junior Ballroom
 title: Lightning Talks (Tuesday)
 track: t0
+video_url: 'https://youtu.be/quJTNTYb2oI'
 ---

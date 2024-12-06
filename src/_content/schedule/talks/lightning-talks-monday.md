@@ -8,5 +8,6 @@ presenter_slugs:
 - andrew-mshar
 room: Junior Ballroom
 title: Lightning Talks (Monday)
+video_url: 'https://youtu.be/IQS2Pny_FeA'
 track: t0
 ---

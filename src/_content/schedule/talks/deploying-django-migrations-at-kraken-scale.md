@@ -9,6 +9,7 @@ room: Grand Ballroom III
 tags:
 - orm
 title: Deploying Django migrations at Kraken scale
+video_url: 'https://youtu.be/f3oIBd1enFE'
 track: t1
 ---
 

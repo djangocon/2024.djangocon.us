@@ -9,6 +9,7 @@ room: Junior Ballroom
 tags: null
 title: 'Faster, leaner, greener: 10x lower website carbon emissions'
 track: t0
+video_url: 'https://youtu.be/uC5lfegt4qQ'
 ---
 
 We’ll first look at a quantitative assessment of thousands of Django websites on the web, to get a good picture of the Django ecosystem’s overall emissions, and understand which specific aspects of a project contribute to overall power and resource usage.
