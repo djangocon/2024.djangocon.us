@@ -1,0 +1,168 @@
+
+<div class="pt-8 bg-repeat block-container bg-lines">
+  <div class="wrapper narrow">
+    <div class="space-y-8 text-center">
+      <img
+        src="/assets/img/theme/logo.svg"
+        alt="DjangoCon US"
+        class="h-12 mx-auto lg:h-24">
+
+      <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+        Join us for <strong>five days</strong><br/> of inspiration, education,<br/>and networking
+      </h1>
+
+      <p class="mb-4 text-2xl lg:text-3xl">
+        <strong>September 22-27, 2024</strong>
+      </p>
+
+      <p class="mb-6 text-2xl lg:text-3xl">
+        <a
+          href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+          target="_blank"
+          class="hover:text-blue link">Durham Convention Center<br/><strong>Durham, NC</strong></a>
+      </p>
+
+      <p class="flex flex-wrap justify-center gap-4">
+        <a
+          href="{{ site.ticket_link }}"
+          class="button bg-blue">Buy tickets</a>
+        <a
+          href="{{ site.mailing_list }}"
+          class="button">Join our mailing list</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <section>
+        <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl lg:mb-8">Book your hotel room</h2>
+        <div class="mb-4 space-y-4 text-lg">
+          <p>The conference will be hosted at the <a href="https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/" class="">Marriott Durham City Center</a>. Be sure to book your room by <strong>September 16!</strong>
+          <p>The hotel connects directly to the convention center.</p>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="{{ site.hotel_reservation_link }}" class="button">Book your room</a>
+          <a
+            class="button"
+            href="https://maps.google.com/maps?ll=35.997514,-78.902347&z=16&t=m&hl=en&gl=US&mapclient=embed&q=301%20W%20Morgan%20St%20Durham%2C%20NC%2027701"
+            target="_blank">View on map</a>
+        </div>
+
+
+        <figure class="mt-6">
+          <img
+            class="w-full media"
+            src="/assets/img/venue/durham-marriott-exterior.jpeg"
+            alt="Exterior photo of Durham Marriott City Center"
+          />
+          <figcaption>Durham Marriott City Center</figcaption>
+        </figure>
+      </section>
+
+      <div class="space-y-8">
+        <section>
+          <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl">Latest News</h2>
+
+          <ol class="divide-y" reversed>
+            {%- for post in collections.posts reversed -%}
+              {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+                {% if forloop.index0 < 3 %}
+                  <li>
+                    <article class="py-4">
+                      <time
+                        class="mb-2 text-sm tracking-wide text-gray-600 uppercase"
+                        datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+                      <h3 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h3>
+                    </article>
+                  </li>
+                {% endif %}
+              {% endunless %}
+            {%- endfor -%}
+          </ol>
+
+          <a class="button" href="/news/">Read more news</a>
+        </section>
+
+        <section class="p-4 bg-green-100 rounded">
+          <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
+          <p class="text-lg lg:text-xl">
+            Our
+            <a href="/speaking/" class="link">Call for Proposals</a>
+            and
+            <a href="/opportunity-grants/" class="link">Opportunity Grant applications</a>
+            are now open!
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-blue-600 block-container">
+  <div class="wrapper">
+    <div class="grid gap-8 lg:grid-cols-3 lg:gap-16">
+      <section class="relative flex flex-col gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-1">
+        <img src="/assets/img/theme/icons/Compass.svg" alt="A compass" class="w-16 h-16 icon" />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Learn from Django's Brightest</h3>
+        <p class="lg:text-lg">Every conference is packed with talks and workshops by Django veterans and enthusiastic first-time presenters. <a href="https://2022.djangocon.us/talks/" class="link">See last year's schedule</a></p>
+      </section>
+
+      <section class="relative flex flex-col gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-2">
+        <img src="/assets/img/theme/icons/People.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Let's Grow Together&mdash;Organize DjangoCon US</h3>
+
+        <p class="lg:text-lg">
+          <a href="https://2023.djangocon.us/news/call-for-2023-volunteers/">Help make the conference happen</a> by taking a leadership role on the organizing team, or volunteering to help out over the next several months.
+
+          <a href="mailto:hello@djangocon.us?subject=Organizing DjangoCon US 2023" class="link">Contact us to volunteer</a></p>
+      </section>
+
+      <section class="relative flex flex-col gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-3">
+        <img src="/assets/img/theme/icons/Document.svg" alt="An official document with words written on it." class="w-16 h-16 icon" />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Code of Conduct</h3>
+        <p class="lg:text-lg">
+          Participants are expected to be respectful to each other. DjangoCon US is a welcoming environment.
+          <a href="https://github.com/djangocon/2023.djangocon.us/blob/main/CODE_OF_CONDUCT.md" class="link">See our code of conduct</a>
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <div>
+        <figure>
+          <span class="photo-effect">
+            <img
+              class="w-full media"
+              src="/assets/img/crowd-1.jpg"
+              alt="DjangoCon US organizers and attendees"
+            />
+          </span>
+          <figcaption>DjangoCon Organizers and attendees</figcaption>
+        </figure>
+      </div>
+      <section>
+        <h2 class="mb-4 text-2xl font-bold font-heading lg:text-4xl">Sponsor DjangoCon US</h2>
+        <p class="text-lg">By giving to the community who builds and supports the software you use, you help ensure its happiness, health, and productivity. Sponsoring DjangoCon US also puts your brand in front of &gt;10,000 Python professionals and opportunities to speak directly to all of them.</p>
+
+        <div class="flex flex-wrap gap-4 mt-4">
+          <a
+            href="mailto:hello@djangocon.us?subject=Sponsoring DjangoCon US 2023"
+            class="button">Ask About Sponsorship</a>
+          <!--
+            <a
+            href="https://drive.google.com/file/d/12nkZ93LjEqVMwk-PZ9Ka_uQa99_1ZOYu/view"
+            class="button">See Our Prospectus</a>
+          -->
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

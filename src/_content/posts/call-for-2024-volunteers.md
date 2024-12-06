@@ -1,7 +1,7 @@
 ---
 author: Abigail Afi Gbadago
 category: General
-date: 2024-04-05 12:00:00-07:00
+published_datetime: 2024-04-05 12:00:00-07:00
 layout: post
 title: "Call for Volunteers: DjangoCon US 2024"
 ---

@@ -1,5 +1,5 @@
 <ul class="hidden site-nav lg:flex">
-  <li class="lg:sr-only"><a href="/">Home</a></li>
+  <li class="lg:hidden"><a href="/">Home</a></li>
   <li>
     <a href="/about"
     data-menu-trigger
@@ -11,6 +11,7 @@
       class="hidden site-nav-menu">
       <li><a href="/about/" role="menuitem">About DjangoCon US</a></li>
       <li><a href="/tickets/" role="menuitem">Tickets</a></li>
+      <li><a href="/hackathon/" role="menuitem">Hackathon</a></li>
       <li><a href="/faq/" role="menuitem">FAQ</a></li>
       <li><a href="/conduct/" role="menuitem">Code of Conduct</a></li>
       <li><a href="/public-health/" role="menuitem">Public Health</a></li>
@@ -20,7 +21,21 @@
     </ul>
   </li>
   <li><a href="/schedule/">Schedule</a></li>
-  <li><a href="/venue/">Venue</a></li>
+  <li><a href="/venue/"
+    data-menu-trigger
+    aria-haspopup="true"
+    aria-expanded="false">Venue</a>
+    <ul
+      data-menu-list
+      role="menu"
+      class="hidden site-nav-menu">
+      <li><a href="/venue/#welcome">Welcome to Durham!</a></li>
+      <li><a href="/venue/#hotel">Staying in Durham</a></li>
+      <li><a href="/venue/#places">Around Durham</a></li>
+      <li><a href="/venue/#accessibility">Accessibility</a></li>
+      <li><a href="/room-sharing/" role="menuitem">Room Sharing</a></li>
+    </ul>
+  </li>
   <li>
     <a href="/speaking/"
       data-menu-trigger

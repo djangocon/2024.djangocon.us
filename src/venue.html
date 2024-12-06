@@ -12,7 +12,7 @@ other_lodging:
   - name: Unscripted Durham
     price_night: $226
     website: https://www.unscriptedhotels.com/
-    feature: Most inexpensive and walkable option
+    feature: Most inexpensive and walkable (&lt;0.1 miles) option
   - name: Holiday Inn Express Durham
     price_night: $151
     website: https://www.ihg.com/holidayinnexpress/hotels/us/en/durham/rduhm/hoteldetail
@@ -21,13 +21,20 @@ other_lodging:
     price_night: $191
     website: https://www.hilton.com/en/hotels/rdumcgi-hilton-garden-inn-durham-university-medical-center/
     feature: Nearest Hilton brand option
-
+  - name: Residence Inn Durham McPherson/Duke University Medical Center Area
+    price_night: $234
+    website: https://www.marriott.com/en-us/hotels/rdudd-residence-inn-durham-mcpherson-duke-university-medical-center-area/overview/
+    feature: Walkable (0.7 miles)
+  - name: SpringHill Suites Durham City View
+    price_night: $209
+    website: https://www.marriott.com/en-us/hotels/rduss-springhill-suites-durham-city-view/overview/
+    feature: Walkable (0.7 miles), relatively inexpensive
 ---
 
 <div class="block-container">
   <div class="wrapper">
     <div class="grid-1-2">
-      <section>
+      <section id="welcome">
         <h1 class="mb-4 pageheading">Welcome to Durham!</h1>
         <div class="space-y-6 text-xl lg:text-2xl">
           <p>
@@ -64,7 +71,8 @@ other_lodging:
 
             <span class="order-1 block leading-tight">
               <strong>Durham Convention Center</strong> <br>
-              <small>301 W Morgan St, Durham, NC 27701</small>
+              <small>301 W Morgan St, Durham, NC 27701</small> <br>
+              <small><a href="tel:+19197686000">+1 (919) 768-6000</a></small>
             </span>
         </div>
       </div>
@@ -72,7 +80,7 @@ other_lodging:
   </div>
 </div>
 
-<div class="block-container bg-gray-50" id="welcome">
+<div class="block-container bg-gray-50" id="hotel">
   <div class="wrapper">
     <div class="grid-1-2">
       <figure>
@@ -87,27 +95,31 @@ other_lodging:
       <section class="space-y-6 text-xl lg:text-2xl">
         <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">Staying at the Durham Marriott City Center</h2>
         <p>
-         There are still rooms at the hotel.
-          Please don't wait to book your room!
+         The hotel room block is closed for 2024. Please check other lodging options below or attempt to
+         <a href="https://www.marriott.com/en-us/hotels/rducv-durham-marriott-city-center/overview/">book a room</a> at the normal retail rates.
         </p>
         <ul class="flex flex-wrap gap-2">
           <li class="badge badge-blue">🛜 Free Wi-Fi</li>
           <li class="badge badge-blue">🧑‍💻 Room for hallway hacking</li>
           <li class="badge badge-blue">🏙️ In the middle of downtown</li>
         </ul>
-
         {% comment %}
-        <!-- TODO: Alert -->
-          <p>
-            ATTENTION!: If you try to book and it says the capacity is full, please
-            call the hotel to try to book your room.
-          </p>
-        {% endcomment %}
+        <section class="p-4 bg-blue-100 rounded">
+          <h3 class="mb-4 text-lg font-bold font-heading lg:text-2xl">Attention!</h3>
+          <div class="prose prose-lg">
+            {% markdown %}
+              If you try to book and the website says the capacity is full, please call the hotel to try to book your room. You may need to mention that you're with the DjangoCon US group.
+
+              If you run into difficulties, please reach out to the organizers for help at [{{site.contact_us_email}}](mailto:{{site.contact_us_email}}).
+            {% endmarkdown %}
+          </div>
+        </section>
         <p>
           <a
             href="{{ site.hotel_reservation_link }}"
             class="button">Book a Room</a>
         </p>
+        {% endcomment %}
       </section>
     </div>
   </div>
@@ -119,12 +131,6 @@ other_lodging:
 
     <div class="grid-1-2">
       <div>
-        {% comment %}
-        <p class="alert">
-          Our room block at the Marriott is almost completely sold out, so check
-          out these other nearby options!
-        </p>
-        {% endcomment %}
 
         <ul class="grid gap-8 lg:grid-cols-2 lg:gap-8">
           {% for lodge in other_lodging %}
@@ -164,7 +170,7 @@ other_lodging:
 <div class="block-container">
   <div class="wrapper">
     <header class="mb-12">
-      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">Around Durham</h2>
+      <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl" id="places">Around Durham</h2>
       <p class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
         Public transportation is available via the
         <a href="https://gotriangle.org/maps-schedules/gotriangle" class="link">GoTriangle</a>
@@ -201,7 +207,7 @@ other_lodging:
 
 <div class="block-container">
   <div class="wrapper">
-    <header class="mb-12">
+    <header class="mb-12" id="accessibility">
       <h2 class="mb-6 text-3xl font-bold font-heading lg:text-5xl">An Accessible Experience</h2>
       <div class="space-y-6 text-xl lg:text-2xl max-w-[60rem]">
         <p>

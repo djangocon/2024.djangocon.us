@@ -1,9 +1,13 @@
 .site-nav {
-  @apply flex-col w-full gap-6 py-8 text-xl font-semibold lg:flex-row lg:gap-8 lg:items-center lg:py-0 lg:flex flex-1 lg:justify-end;
+  @apply flex-col w-full gap-6 py-8 text-xl font-semibold lg:flex-row lg:gap-4 lg:items-center lg:py-0 lg:flex flex-1 md:text-lg lg:text-lg lg:justify-end xl:text-xl xl:gap-6;
 }
 
 .site-nav li {
   @apply relative;
+}
+
+.site-nav a {
+  @apply no-underline;
 }
 
 .site-nav a:not(.button):hover {
@@ -11,7 +15,7 @@
 }
 
 .site-nav-menu {
-  @apply flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[24ch] lg:p-6 rounded font-medium;
+  @apply flex-col hidden gap-6 px-4 py-2 mt-2 border-l-4 border-purple lg:absolute lg:top-full lg:border-4 lg:bg-white lg:left-1/2 lg:translate-x-[-50%] lg:w-[26ch] lg:p-6 rounded font-medium;
 }
 
 [data-menu-trigger] {

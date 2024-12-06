@@ -1,8 +1,8 @@
 ---
-hidden: true
+hidden: false
 level: Bronze
 name: TestDriven.io
-date: 2022-08-08
+date: 2024-08-16
 logo:
     filename: black_preferred_TestDriven.png
     orientation: landscape

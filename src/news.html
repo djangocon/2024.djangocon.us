@@ -19,20 +19,20 @@ layout: default
 
 <div class="pt-6 pb-16">
   <div class="max-w-[45rem] px-4 mx-auto">
-    <ol class="space-y-4 divide-y" reversed>
+    <ol class="divide-y" reversed>
       {%- for post in collections.posts reversed -%}
         {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
-          {% assign heading_size = 'lg:text-3xl' %}
+          {% assign heading_size = 'lg:text-2xl' %}
           {% if forloop.first %}
-            {% assign heading_size = 'lg:text-4xl' %}
+            {% assign heading_size = 'lg:text-3xl' %}
           {% endif %}
 
           <li>
             <article class="py-6">
               <time
-                class="mb-2 tracking-wide text-gray-600 uppercase block-container"
-                datetime="{{ post.date }}">{{ post.date | formatDateTime: "MMMM d, yyyy" }}</time>
-              <h2 class="text-2xl font-heading font-semibold {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+                class="mb-2 tracking-wide text-gray-600 uppercase"
+                datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+              <h2 class="text-xl font-heading font-semibold {{ heading_size }}"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
 
               {%- if post.data.page.excerpt -%}
                 <div class="mt-4 prose lg:prose-lg">

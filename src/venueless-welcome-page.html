@@ -1,0 +1,139 @@
+---
+layout: default
+
+title: Venueless Welcome Page
+description: Online Welcome
+---
+
+<div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2 bg-lines">
+  <div class="wrapper">
+    <div class="flex flex-col gap-8 lg:flex-row">
+      <section class="self-center w-full pb-4 lg:flex-1">
+        <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
+          Welcome to DjangoCon US 2024 Online
+        </h1>
+        <br>
+        <!-- <p class="mb-4 text-2xl lg:text-3xl">
+          <strong>Venueless</strong>
+        </p> -->
+
+        <p class="mb-6 text-2xl lg:text-3xl">
+          <!-- <a
+            href="https://www.marriott.com/events/start.mi?id=1674740649947&key=GRP"
+            target="_blank"
+            class="hover:text-blue reverse-link">Durham Convention Center<br/><strong>Durham, NC</strong></a> -->
+            We are so happy to be hosting you online. We will be hosting discussions on
+            <a href="https://djangoconus2024.slack.com">Slack</a> and are looking forward to chatting with
+            you there while watching the conference. <br /><br />We have two stages, Junior Ballroom and Grand Ballroom III where you can watch speakers
+            while you ask questions in our Slack.
+        </p>
+
+
+      </section>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray-100 block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <section class="flex flex-col items-start justify-center mb-6 sm:mb-0">
+        <h2 class="mb-4 text-3xl font-bold leading-relaxed font-heading lg:text-5xl">Looking for something?</h2>
+        <p class="mb-6 text-xl lg:text-2xl">
+
+        </p>
+        <img
+        src="/assets/img/blog/catherine-registration-desk.jpg"/>
+      </section>
+      <div>
+        <ul class="space-y-10">
+          <li>
+            <h2 class="mb-4 text-xl font-bold leading-relaxed font-heading lg:text-3xl"><a href="https://djangoconus2024.slack.com">Slack</a></h2>
+            <p>This is where we will be chatting. Come ask the speakers questions.
+              Here you can also look at job opportunities, find the help desk, announcements updating speaker times, and hang out with us</p>
+          </li>
+          <li>
+            <h2 class="mb-4 text-xl font-bold leading-relaxed font-heading lg:text-3xl"><a href="https://dcus24.venueless.events/rooms/a3ca2fcf-1e7b-4eed-8d12-833fb9c6b43d">Sponsors</a></h2>
+            <p>We are so lucky to have such amazing support from the community. Come see what our community is up to!</p>
+          </li>
+          <li>
+            <h2 class="mb-4 text-xl font-bold leading-relaxed font-heading lg:text-3xl"><a href="https://dcus24.venueless.events/rooms/156ce352-a5a0-40f8-9359-c9a762ec2183">Help!</a></h2>
+            <p>Have general question about Venueless? Need help accessing Slack? General technical issues? Looking for information about accessibility? This is the place.</p>
+          </li>
+          <li>
+            <h2 class="mb-4 text-xl font-bold leading-relaxed font-heading lg:text-3xl"><a href="https://dcus24.venueless.events/rooms/68fb19ba-996f-4e88-9c3f-8125c7e86c0e">Code of Conduct</a></h2>
+            <p>DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical
+              appearance, body size, race, or religion.  If you need help or more information about our Code Of Conduct, access it on this page.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block-container bg-blue">
+  <div class="wrapper">
+    <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-5xl max-w-[20ch] mx-auto">Our Two Tracks</h2>
+    <h2 class="mb-8 text-2xl font-bold text-center font-heading lg:text-3xl max-w-[20ch] mx-auto">See our <strong><a href="https://dcus24.venueless.events/schedule" class="link">Schedule</a></strong>.</h2>
+
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-16">
+      <section class="relative flex flex-col items-center gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-1">
+        <a href="https://dcus24.venueless.events/rooms/f2fc9f50-b0cd-4c15-a692-919111fb8b08"><img src="/assets/img/theme/icons/Compass.svg" alt="Two people. One person is standing slightly in front of the other." class="w-16 h-16 icon" />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Junior Ballroom</h3></a>
+      </section>
+
+      <section class="relative flex flex-col items-center gap-4 p-6 bg-white bg-lines lg:pt-10 card-effect-2">
+        <a href="https://dcus24.venueless.events/rooms/f18501f2-a51f-4e1c-8563-e4c97ae4653e"><img src="/assets/img/theme/icons/Globe.svg" alt="An official document with words written on it." class="w-16 h-16 icon" />
+        <h3 class="text-lg font-bold lg:text-2xl font-heading">Grand Ballroom III</h3></a>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <div class="grid-1-2">
+      <figure>
+        <span class="block h-full photo-effect">
+          <img
+            src="/assets/img/noah.jpg"
+            loading="lazy"
+            alt="Noah Alorwu smiling for a picture."
+            class="object-cover w-full h-full">
+        </span>
+      </figure>
+      <section>
+        <h2 class="mb-8 text-2xl font-bold font-heading lg:text-5xl">Latest News</h2>
+
+        <ol class="divide-y" reversed>
+          {%- for post in collections.posts reversed -%}
+            {% unless post.hidden or post.category == 'talk' or post.category == 'tutorial' %}
+              {% if forloop.index0 < 3 %}
+                <li>
+                  <article class="py-6">
+                    <time
+                      class="mb-2 tracking-wide text-gray-600 uppercase"
+                      datetime="{{ post.date }}">{{ post.data.published_datetime | formatDateTime: "MMMM d, yyyy" }}</time>
+                    <h2 class="text-xl font-semibold font-heading lg:text-2xl"><a href="{{ post.url }}" class="reverse-link">{{ post.data.title | escape }}</a></h2>
+                  </article>
+                </li>
+              {% endif %}
+            {% endunless %}
+          {%- endfor -%}
+        </ol>
+
+        <a class="button" href="/news/">Read More News</a>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="block-container">
+  <div class="wrapper">
+    <h2 class="mb-10 text-2xl font-bold text-center font-heading lg:text-5xl">Our Sponsors</h2>
+
+    {% include "sponsor-listing.html" %}
+  </div>
+</div>

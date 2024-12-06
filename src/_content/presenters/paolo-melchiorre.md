@@ -6,7 +6,7 @@ permalink: /presenters/paolo-melchiorre/
 photo: paolo-melchiorre.jpeg
 social:
     bluesky: null
-    github: null
+    github: pauloxnet
     instagram: null
     mastodon: https://fosstodon.org/@paulox
     twitter: pauloxnet

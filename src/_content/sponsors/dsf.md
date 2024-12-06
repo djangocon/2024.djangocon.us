@@ -1,8 +1,8 @@
 ---
 hidden: false
-level: Opportunity Grant
+level: Opportunity Grants
 name: Django Software Foundation
-date: 2021-10-04
+date: 2024-08-19
 logo:
     filename: django-logo-positive.svg
     orientation: landscape

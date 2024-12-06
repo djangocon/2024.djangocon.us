@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,md,liquid}"],
+  safelist: [
+    'border-t-green',
+    'border-t-light-blue',
+    'border-t-purple',
+    'border-t-orange'
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -101,13 +107,15 @@ module.exports = {
           '900': '#67381c',
           '950': '#3c1c0c',
         },
-        'social-bluesky': '#1185fe',
-        'social-facebook': '#0866ff',
-        'social-instagram': '#ff0069',
-        'social-linkedin': '#2d64bc',
-        'social-twitter': '#4a99e9',
-        'social-github': '#7041c0',
-        'social-mastodon': '#6364FF',
+        'social': {
+          'bluesky': '#1185fe',
+          'facebook': '#0866ff',
+          'instagram': '#ff0069',
+          'linkedin': '#2d64bc',
+          'twitter': '#4a99e9',
+          'github': '#7041c0',
+          'mastodon': '#6364FF',
+        }
       },
       fontSize: {
         '5xl': ['3rem', 1.1]

@@ -19,11 +19,11 @@ eleventyExcludeFromCollections: true
     <email>{{ site.contact_us_email }}</email>
   </author>
   {%- for post in collections.posts reversed %}
-    {% capture post_url %}{{ site.domain }}{{ post.url }}{% endcapture %}
+    {% capture post_url %}{{ site.domain }}{{ post.url }}{%- endcapture -%}
     <entry>
       <title>{{ post.data.title }}</title>
       <link href="{{ site.domain }}{{ post.url }}" />
-      <updated>{{ post.date | dateToRfc3339 }}</updated>
+      <updated>{{ post.data.published_datetime | dateToRfc3339 }}</updated>
       <id>{{ post_url }}</id>
       <content xml:lang="en" type="html"
         >{{ post.templateContent| escape }}</content

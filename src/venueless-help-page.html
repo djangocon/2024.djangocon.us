@@ -1,0 +1,44 @@
+---
+layout: default
+title: Help Page
+description: Find Help
+---
+
+<div class="hero">
+  <div class="wrapper">
+    <header class="flex flex-wrap items-center gap-8 lg:gap-16">
+      <img
+        src="/assets/img/misc/help-illustration.png"
+        alt="welcome"
+        class="hidden w-full max-w-80 md:block" />
+      <div class="flex-1 max-w-screen-lg">
+        <h1 class="mb-8 pageheading">{{ title }}</h1>
+        <p class="subheading">
+          Need Help? This is the place! Or, visit our <a href="https://djangoconus2024.slack.com">Slack</a>.
+        </p>
+      </div>
+    </header>
+  </div>
+</div>
+<div class="block-container bg-blue">
+  <div class="wrapper">
+    <div class="grid gap-4 lg:grid-cols-4">
+        <div class="p-4 bg-gray-100">
+          <span class="text-xl font-bold">General Venueless Questions?</span>
+          <p class="">Come Visit Our Help Desk in <a href="https://djangoconus2024.slack.com">Slack </a></p>
+        </div>
+        <div class="p-4 bg-gray-200">
+          <span class="text-xl font-bold">Technical Issues?</span>
+          <p>Come Visit Our Help Desk in <a href="https://djangoconus2024.slack.com">Slack </a></p>
+        </div>
+        <div class="p-4 bg-gray-200">
+          <span class="text-xl font-bold">Problems Accessing Slack?</span>
+          <p>Email Us!! <a href="mailto:{{site.contact_us_email}}">hello@djangocon.us</a></p>
+        </div>
+        <div class="p-4 bg-gray-200">
+          <span class="text-xl font-bold">Code of Conduct Issues?</span>
+          <p>Visit Our <a href="/conduct/">Code of Conduct Page.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>

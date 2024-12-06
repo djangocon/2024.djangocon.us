@@ -1,196 +1,202 @@
-- datetime: 2024-09-22 08:00:00-04:00
+- start_datetime: 2024-09-22 08:00:00-04:00
   end_datetime: 2024-09-22 09:00:00-04:00
-  permalink: null
+  permalink: /catering-menus/#sunday-breakfast
   room: Grand Ballroom I/II
-  title: Continental Breakfast
+  title: Breakfast
   track: t0
-- datetime: 2024-09-22 08:00:00-04:00
+- start_datetime: 2024-09-22 08:00:00-04:00
   end_datetime: 2024-09-22 18:00:00-04:00
   permalink: null
   room: In front of Junior Ballroom
   title: Registration
   track: t0
-- datetime: 2024-09-22 12:30:00-04:00
+- start_datetime: 2024-09-22 12:30:00-04:00
   end_datetime: 2024-09-22 13:30:00-04:00
-  permalink: null
+  permalink: /catering-menus/#sunday-lunch
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
-- datetime: 2024-09-23 07:30:00-04:00
+- start_datetime: 2024-09-23 07:30:00-04:00
   end_datetime: 2024-09-23 08:30:00-04:00
-  permalink: null
+  permalink: /catering-menus/#monday-breakfast
   room: Grand Ballroom I/II
-  title: Continental Breakfast
+  title: Breakfast
   track: t0
-- datetime: 2024-09-23 07:30:00-04:00
+- start_datetime: 2024-09-23 07:30:00-04:00
   end_datetime: 2024-09-23 17:30:00-04:00
   permalink: null
   room: In front of Junior Ballroom
   title: Registration
   track: t0
-- datetime: 2024-09-23 08:00:00-04:00
+- start_datetime: 2024-09-23 08:00:00-04:00
   end_datetime: 2024-09-23 17:30:00-04:00
   permalink: null
   room: Meeting Room 1
   title: Lactation Room
   track: t0
-- datetime: 2024-09-23 08:00:00-04:00
-  end_datetime: 2024-09-23 17:30:00-04:00
-  permalink: null
-  room: Meeting Room 4
-  title: Quiet Room
-  track: t0
-- datetime: 2024-09-23 08:00:00-04:00
+- start_datetime: 2024-09-23 08:00:00-04:00
   end_datetime: 2024-09-23 17:30:00-04:00
   permalink: null
   room: Meeting Room 2
+  title: Quiet Room
+  track: t0
+- start_datetime: 2024-09-23 08:00:00-04:00
+  end_datetime: 2024-09-23 17:30:00-04:00
+  permalink: null
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
-- datetime: 2024-09-23 10:10:00-04:00
+- start_datetime: 2024-09-23 10:10:00-04:00
   end_datetime: 2024-09-23 10:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#monday-morning-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-23 12:00:00-04:00
+- start_datetime: 2024-09-23 12:00:00-04:00
   end_datetime: 2024-09-23 12:50:00-04:00
   permalink: null
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
-- datetime: 2024-09-23 12:50:00-04:00
+- start_datetime: 2024-09-23 12:50:00-04:00
   end_datetime: 2024-09-23 13:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#monday-lunch
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
-- datetime: 2024-09-23 15:30:00-04:00
-  end_datetime: 2024-09-23 15:55:00-04:00
-  permalink: null
+- start_datetime: 2024-09-23 15:00:00-04:00
+  end_datetime: 2024-09-23 15:25:00-04:00
+  permalink: /catering-menus/#monday-afternoon-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-23 19:00:00-04:00
+- start_datetime: 2024-09-23 19:00:00-04:00
   end_datetime: 2024-09-23 22:00:00-04:00
   permalink: null
   room: Junior Ballroom
   title: Board Game Night
   track: t0
-- datetime: 2024-09-24 08:00:00-04:00
+- start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 09:00:00-04:00
-  permalink: null
+  permalink: /catering-menus/#tuesday-breakfast
   room: Grand Ballroom I/II
-  title: Continental Breakfast
+  title: Breakfast
   track: t0
-- datetime: 2024-09-24 08:00:00-04:00
+- start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 17:30:00-04:00
   permalink: null
   room: In front of Junior Ballroom
   title: Registration
   track: t0
-- datetime: 2024-09-24 08:00:00-04:00
+- start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 17:30:00-04:00
   permalink: null
   room: Meeting Room 1
   title: Lactation Room
   track: t0
-- datetime: 2024-09-24 08:00:00-04:00
-  end_datetime: 2024-09-24 17:30:00-04:00
-  permalink: null
-  room: Meeting Room 4
-  title: Quiet Room
-  track: t0
-- datetime: 2024-09-24 08:00:00-04:00
+- start_datetime: 2024-09-24 08:00:00-04:00
   end_datetime: 2024-09-24 17:30:00-04:00
   permalink: null
   room: Meeting Room 2
+  title: Quiet Room
+  track: t0
+- start_datetime: 2024-09-24 08:00:00-04:00
+  end_datetime: 2024-09-24 17:30:00-04:00
+  permalink: null
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
-- datetime: 2024-09-24 10:10:00-04:00
+- start_datetime: 2024-09-24 10:10:00-04:00
   end_datetime: 2024-09-24 10:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#tuesday-morning-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-24 12:00:00-04:00
+- start_datetime: 2024-09-24 12:00:00-04:00
   end_datetime: 2024-09-24 12:50:00-04:00
-  permalink: null
+  permalink: /catering-menus/#tuesday-lunch
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
-- datetime: 2024-09-24 12:50:00-04:00
+- start_datetime: 2024-09-24 12:50:00-04:00
   end_datetime: 2024-09-24 13:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#tuesday-lunch
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
-- datetime: 2024-09-24 15:00:00-04:00
+- start_datetime: 2024-09-24 15:00:00-04:00
   end_datetime: 2024-09-24 15:25:00-04:00
-  permalink: null
+  permalink: /catering-menus/#tuesday-afternoon-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-25 08:00:00-04:00
+- start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 09:00:00-04:00
-  permalink: null
+  permalink: /catering-menus/#wednesday-breakfast
   room: Grand Ballroom I/II
-  title: Continental Breakfast
+  title: Breakfast
   track: t0
-- datetime: 2024-09-25 08:00:00-04:00
+- start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 17:30:00-04:00
   permalink: null
   room: In front of Junior Ballroom
   title: Registration
   track: t0
-- datetime: 2024-09-25 08:00:00-04:00
+- start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 17:30:00-04:00
   permalink: null
   room: Meeting Room 1
   title: Lactation Room
   track: t0
-- datetime: 2024-09-25 08:00:00-04:00
-  end_datetime: 2024-09-25 17:30:00-04:00
-  permalink: null
-  room: Meeting Room 4
-  title: Quiet Room
-  track: t0
-- datetime: 2024-09-25 08:00:00-04:00
+- start_datetime: 2024-09-25 08:00:00-04:00
   end_datetime: 2024-09-25 17:30:00-04:00
   permalink: null
   room: Meeting Room 2
+  title: Quiet Room
+  track: t0
+- start_datetime: 2024-09-25 08:00:00-04:00
+  end_datetime: 2024-09-25 17:30:00-04:00
+  permalink: null
+  room: Meeting Room 3
   title: Speaker Green Room
   track: t0
-- datetime: 2024-09-25 10:10:00-04:00
+- start_datetime: 2024-09-25 10:10:00-04:00
   end_datetime: 2024-09-25 10:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#wednesday-morning-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-25 12:00:00-04:00
+- start_datetime: 2024-09-25 12:00:00-04:00
   end_datetime: 2024-09-25 12:50:00-04:00
-  permalink: null
+  permalink: /catering-menus/#wednesday-lunch
   room: Grand Ballroom I/II
   title: Early Lunch
   track: t0
-- datetime: 2024-09-25 12:50:00-04:00
+- start_datetime: 2024-09-25 12:50:00-04:00
   end_datetime: 2024-09-25 13:35:00-04:00
-  permalink: null
+  permalink: /catering-menus/#wednesday-lunch
   room: Grand Ballroom I/II
   title: Lunch
   track: t0
-- datetime: 2024-09-25 15:00:00-04:00
+- start_datetime: 2024-09-25 15:00:00-04:00
   end_datetime: 2024-09-25 15:25:00-04:00
-  permalink: null
+  permalink: /catering-menus/#wednesday-afternoon-break
   room: Grand Ballroom I/II
-  title: Break
+  title: Break (snacks available)
   track: t0
-- datetime: 2024-09-26 09:00:00-04:00
+- start_datetime: 2024-09-26 10:00:00-04:00
+  end_datetime: 2024-09-26 12:00:00-04:00
+  permalink: "/hackathon/"
+  room: Caktus Group
+  title: Hackathon Presentations
+  track: t0
+- start_datetime: 2024-09-26 09:00:00-04:00
   end_datetime: 2024-09-26 17:00:00-04:00
   permalink: null
   room: Caktus Group
   title: Contribution Sprints
   track: t0
-- datetime: 2024-09-27 09:00:00-04:00
+- start_datetime: 2024-09-27 09:00:00-04:00
   end_datetime: 2024-09-27 17:00:00-04:00
   permalink: null
   room: Caktus Group

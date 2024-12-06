@@ -1,7 +1,7 @@
 ---
 author: DjangoCon US Communications Team
 category: General
-date: 2024-07-16 06:00:00
+published_datetime: 2024-07-16 06:00:00
 cover:
     url: /assets/img/blog/DjangoConUS_2023_BPawlik.jpg
     alt: "BPawlik at DjangoCon US 2023"

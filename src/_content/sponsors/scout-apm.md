@@ -1,11 +1,11 @@
 ---
-hidden: true
-level: Gold
+hidden: false
+level: Bronze
 name: Scout APM
-date: 2023-09-10
+date: 2024-08-16
 logo:
-    filename: ScoutAPM_logo_rounded_square.png
-    orientation: portrait
+    filename: scout-monitoring-logo-horizontal.png 
+    orientation: landscape
 url:
     target: >-
         https://scoutapm.com/python-monitoring?utm_campaign=event_link&utm_medium=event&utm_source=djangocon

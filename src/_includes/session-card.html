@@ -1,5 +1,5 @@
-<li class="flex flex-col flex-1">
-  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-8 lg:p-6 {{ color_class }}">
+<li class="flex flex-col flex-1 min-w-[280px]">
+  <section class="relative flex-1 bg-white rounded p-4 group flex flex-col border-2 border-gray-300 border-t-4 {{ color_class }}">
     <header class="space-y-4">
       <div class="flex flex-wrap items-center justify-between order-1 gap-4">
         {% if session.room %}
@@ -16,7 +16,7 @@
 
       <h4 class="order-2 font-semibold leading-tight lg:text-lg">
         {% if session.permalink %}
-          <a href="{{ session.permalink }}" class="cover group-hover:underline">{{ session.title }}</a>
+          <a href="{{ session.permalink }}" class="no-underline cover group-hover:underline">{{ session.title }}</a>
         {% else %}
           {{ session.title }}
         {% endif %}
@@ -34,7 +34,7 @@
             <li class="flex flex-wrap items-center gap-3">
               {% if presenter.photo != null and presenter.photo != "" %}
                 {% assign photo = 'src/_content/presenters/' | append: presenter.photo %}
-                {% image photo, './dist/presenters/', '/presenters/', presenter.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top aspect-square rounded-full w-12 h-12' %}
+                {% image photo, './dist/presenters/', '/presenters/', presenter.name, '(max-width: 1024px) 180px, 180px', 'inline-block object-cover object-left-top media aspect-square w-12 h-12' %}
               {% endif %}
 
               <span class="flex flex-col gap-[6px]">
