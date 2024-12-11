@@ -2,8 +2,7 @@
   "domain": "https://2024.djangocon.us",
   "timezone": "America/New_York",
   "conf_year": 2024,
-  "phase": "active",
-
+  "phase": "archived",
   "conduct_email": "conduct@djangocon.us",
   "contact_us_email": "hello@djangocon.us",
   "opportunity_grants_email": "grants@djangocon.us",
@@ -20,6 +19,7 @@
   "sponsorship_prospectus": "",
   "ticket_link": "https://ti.to/defna/djangocon-us-2024",
   "photos_link": "https://flickr.com/photos/djangocon/albums/72177720312367244/",
+  "youtube_link": "https://www.youtube.com/playlist?list=PL2NFhrDSOxgWqE_5w5CX2iUR7-P1D0ny7",
 
   "social": {
     "flickr": "https://flickr.com/photos/djangocon/albums/",
