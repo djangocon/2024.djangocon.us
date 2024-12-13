@@ -1,8 +1,8 @@
 <!-- Hero -->
-<div class="pt-8 pb-0 bg-repeat border-b-4 border-black lg:pt-2 bg-lines">
-  <div class="wrapper">
-    <div class="flex flex-col items-center gap-8 lg:flex-row">
-      <section class="self-center w-full pb-4 lg:flex-1">
+<div class="pt-8 pb-0 bg-repeat border-b-4 border-blue-400 lg:pt-2 bg-lines">
+  <div class="wrapper my-8">
+    <div class="flex flex-col pt-4 items-center gap-8 ">
+      <section class="text-center self-center">
         <h1 class="mb-4 text-4xl font-extrabold leading-tight lg:text-5xl">
           {{ site.conf_year }} DjangoCon US Recap
         </h1>
@@ -12,13 +12,15 @@
         </p>
       </section>
 
-      <div class="self-end py-8 lg:max-w-2xl">
+      <div class="py-4">
         <img
           src="/assets/img/theme/welcome-durham.svg"
           alt="The word Durham surrounded by colorful characters and stickers"
           aria-hidden="true"
         />
-      </div>
+      </div> 
+
+      <a href="{{ site.youtube_link }}" class="button bg-yellow my-4">Watch Talks on YouTube</a>
     </div>
   </div>
 </div>
@@ -26,60 +28,28 @@
 <!-- Secondary -->
 <div class="block-container">
   <div class="wrapper">
-    <div class="grid gap-8 lg:grid-cols-5 lg:gap-16">
-      <figure class="block h-full lg:col-span-3 photo-effect">
-        {% comment %}
-          Ideal 1200x630 image
-        {% endcomment %}
-        <img
-          src="https://picsum.photos/1200/630"
-          alt=""
-          loading="lazy"
-          class="object-cover w-full h-full"
-          />
-      </figure>
+    <div class=" mx-auto gap-4 max-w-3xl :grid-cols-1">
+      <h2 class="mb-8 subheading">DjangoCon US {{ site.conf_year }} was hosted in Durham, North Carolina for the second time and brought together over 300 attendees from all over the world!</h2>
 
-      <section class="lg:col-span-2">
-        <h2 class="mb-8 subheading">DjangoCon US {{ site.conf_year }} was hosted in Durham, North Carolina for the first time and hosted 000 attendees from all over the world!</h2>
-
-        <h3 class="mb-6 text-lg font-heading lg:text-xl">
-          <b>Font memory from {{ site.conf_year }}?</b>
-          <br/>Share it with us:</h3>
-          {% include "conf-social-share.html" %}
-      </section>
-
-      <section class="prose prose-lg lg:col-span-3">
+      <section class="prose prose-lg">
         {% markdown %}
-From tutorials on Airflow and Postgres to talks about contributing to Django and diversity, equity and inclusion to hallway tracks and sprint contributions, 2023 was another fantastic year for DjangoCon US!
+        Wow, what a ride! With three days of Django magic and two days of sprints, over 440 of us came together both online and in-person to learn, share and grow.
 
-Every year, DjangoCon US works hard to make our program better and more accessible, and this year we're super proud of the features we had:
-
-*   **Deep Dive Day**, a single-track conference day dedicated to talks that go into more detail on Django topics
-*   Accessibility wins: Once again we provided subsidized child care, a **dedicated lactation room** and **live captioning** for all talks
-*   **Travel stipends** for all speakers
-*   **Technology reimbursement** for online presenters
-
-Thanks to our generous sponsors, who helped make these conference dreams a reality.
+        DjangoCon US continues to be a hallmark event for the Django community, and strives to bring together the people behind the projects we all know and love. We had a great time learning from each other, sharing our experiences, and making new friends.
+        
+        We thank our fantastic sponsors, speakers, volunteers, and the City of Durham for making this event possible.
         {% endmarkdown %}
       </section>
-      <div class="flex flex-col items-center justify-center gap-6 lg:col-span-2">
-        <img
-          src="/assets/img/theme/graphics/sponsor.svg"
-          alt="The words 'Thank you'"
-          class="w-full" />
-      </div>
     </div>
   </div>
 </div>
-
 
 <!-- Talk highlights -->
 <div class="bg-gray-100 block-container">
   <div class="wrapper">
     <section class="mb-8 text-center">
       <h2 class="mb-4 text-2xl font-bold font-heading lg:text-5xl">Awesome Talks and Tutorials</h2>
-      <p class="mb-6 text-lg lg:text-xl">We featured over 50 talks & tutorials this year. Here are some crowd favorites!</p>
-      <a href="/schedule/" class="button">View the full schedule</a>
+      <p class="mb-6 text-lg lg:text-xl">Speakers shared over 50 talks & tutorials this year. Here are some crowd favorites!</p>
     </section>
 
     <ul class="grid gap-8 lg:grid-cols-3 auto-rows-fr">
@@ -90,9 +60,13 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
         {%- include "session-card.html", session:session.data, color_class: color_class %}
       {%- endfor %}
     </ul>
+
+    <section class="my-8 text-center">
+      <a href="{{ site.youtube_link }}" class="button bg-yellow">Watch Talks on YouTube</a>
+      <a href="/schedule" class="button bg-yellow">See list of all talks</a>
+    </section>
   </div>
 </div>
-
 
 <!-- Presenters -->
 <div class="block-container">
@@ -102,65 +76,7 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
   </div>
 </div>
 
-
-<!-- Stats -->
-<div class="bg-purple block-container">
-  <div class="wrapper">
-    <div class="grid-1-2">
-      <section class="flex flex-col justify-center">
-        <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">{{ site.conf_year }} By the Numbers</h2>
-        <p class="mb-6 text-xl lg:text-2xl">
-          {{ site.conf_year }} was an amazing year for attendance, sponsorship,
-          talks, food, really everything that goes into making a conference
-          great.
-        </p>
-      </section>
-      <div>
-        <div class="overflow-x-auto">
-          <table class="text-lg">
-            <thead>
-              <tr>
-                <th>What?</th>
-                <th>Tell me about it.</th>
-              </tr>
-            </thead>
-            <tbody class="bg-white">
-              <tr>
-                <td>In-person Attendees</td>
-                <td>276</td>
-              </tr>
-              <tr>
-                <td>Online Attendees</td>
-                <td>167</td>
-              </tr>
-              <tr>
-                <td>Tutorial Attendees</td>
-                <td>42</td>
-              </tr>
-              <tr>
-                <td>Tutorials</td>
-                <td>{{ collections.tutorials | size }}</td>
-              </tr>
-              <tr>
-                <td>Talks</td>
-                <td>{{ collections.talks | size }}</td>
-              </tr>
-              <tr>
-                <td>Virtual Co-writing Sessions</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Trivia Questions</td>
-                <td>15</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+<!-- Photos -->
 <div class="block-container">
   <div class="wrapper">
     <div class="grid lg:grid-cols-3 auto-rows-fr">
@@ -187,7 +103,7 @@ Thanks to our generous sponsors, who helped make these conference dreams a reali
 </div>
 
 <!-- Organizers -->
-<div class="block-container">
+<div class="block-container bg-gray-100">
   <div class="wrapper">
     <h2 class="mb-4 text-3xl font-bold font-heading lg:text-5xl">DjangoCon US {{ site.conf_year }} was<br/> possible through lots of ❤️</h2>
     <p class="mb-6 text-xl lg:text-2xl">
