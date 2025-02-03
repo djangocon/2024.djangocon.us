@@ -1,6 +1,6 @@
 ---
 name: ISSAKA HAMA Barhamou
-photo: hama-barhamou.png
+photo: hama-barhamou.jpeg
 role: Website team
 hidden: true
 social:

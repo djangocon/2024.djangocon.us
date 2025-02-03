@@ -1,6 +1,6 @@
 ---
 name: Hope Adoli
-photo: hope-adoli.png
+photo: hope-adoli.jpeg
 role: Website, Social media/communications, Swags
 social:
     twitter: uxkafui
