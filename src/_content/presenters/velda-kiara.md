@@ -1,6 +1,6 @@
 ---
 name: Velda Kiara
-photo: velda-kiara.png
+photo: velda-kiara.jpeg
 role: Code of Conduct Team, Website
 social:
     twitter: VeldaKiara
