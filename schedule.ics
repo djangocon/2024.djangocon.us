@@ -1,0 +1,931 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DjangoCon US 2024//Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DjangoCon US 2024
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:DjangoCon US 2024 Conference Schedule
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T113000
+DTEND;TZID=America/New_York:20240925T115500
+DTSTAMP:20240925T113000Z
+UID:a-brief-history-of-django@https://2024.djangocon.us
+SUMMARY:A Brief History of Django
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Frank Wiles\n\nWe are better programmers than historians or archivists.  There are a few great stories from the very early days of Django and how we managed to get it Open Sourced.   They are told in the hallways and at dinner amongst us old timers, but as Django is poised to enter its second decade it seems appropriate to record some of these stories for posterity.
+ 
+ How did the make up of the team and The World Company itself impact early Django design choices?
+ The infamous meeting where we got approval to Open Source Django
+ Why the BSD license?
+ Did we know what we were doing?
+ 
+ 
+URL:https://2024.djangocon.us/talks/a-brief-history-of-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T143000
+DTEND;TZID=America/New_York:20240925T145500
+DTSTAMP:20240925T143000Z
+UID:a-guided-tour-through-postgres-internals@https://2024.djangocon.us
+SUMMARY:A Guided Tour Through Postgres Internals
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Elizabeth Garrett Christensen\n\nExercising your Postgres skills on this tour will give you a leg up in working with your Django app and understanding performance related to your database. The guide will provide all the gear, necessary commands, and queries for your adventure. You don’t want to miss the view of your database when we get to the top. All skill levels are welcome.
+ 
+URL:https://2024.djangocon.us/talks/a-guided-tour-through-postgres-internals/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T143000
+DTEND;TZID=America/New_York:20240923T145500
+DTSTAMP:20240923T143000Z
+UID:a-related-matter-optimizing-your-webapp-by-using-django-debug-toolbar-select-related-and-prefetch-related@https://2024.djangocon.us
+SUMMARY:A Related Matter: Optimizing your webapp by using django-debug-toolbar, select_related(), and prefetch_related()
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Christopher Adams\n\nWhat happens in an HTTP request-response cycle is often difficult to understand. Optimizing database queries is a crucial aspect of web development, yet it often remains shrouded in mystery for many beginners. By attending this talk, attendees will gain practical insights into how to leverage django-debug-toolbar to inspect an HTTP request-response cycle. By revealing and fixing pathological queries, developers can improve application performance and user experience. The talk will cover indexing, select_related, prefetching, and other optimization strategies.
+ During the session, I will guide attendees through the following key points:
+ 
+ Understanding Query Execution: Exploring the anatomy of a QuerySet, focusing on immutability, lazy evaluation, and the fact that a QuerySet is not a query.
+ Introduction to django-debug-toolbar: An overview of what django-debug-toolbar is and how it can be integrated into Django projects.
+ Identifying Pathological Queries: Techniques for using djan...
+URL:https://2024.djangocon.us/talks/a-related-matter-optimizing-your-webapp-by-using-django-debug-toolbar-select-related-and-prefetch-related/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T134000
+DTEND;TZID=America/New_York:20240923T142500
+DTSTAMP:20240923T134000Z
+UID:an-opinionated-guide-to-modern-django-forms@https://2024.djangocon.us
+SUMMARY:An Opinionated Guide to Modern Django Forms
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Josh Thomas\n\nDjango forms have experienced a significant renaissance within the Django community, after years of being what felt like an afterthought. Recent releases to Django have brought major improvements to built-in form templating and rendering. Instead of writing APIs to support forms rendered by the JS framework of the week, you can now use Django forms to render dynamic, interactive, responsive forms using only the batteries provided by Django, various third-party Django packages, and a handful of small, focused JavaScript utility libraries. And if you're willing to do a little bit of the leg work yourself, you can even get by without those third-party Django packages.
+ In recent years, web development has started to see a shift away from complex JavaScript-heavy architectures toward more streamlined, HTML-centric approaches. Technologies like HTMX and Unpoly.js enable SPA-like experiences through server-rendered HTML, pairing nicely with Django’s template language. Similarly, libraries...
+URL:https://2024.djangocon.us/talks/an-opinionated-guide-to-modern-django-forms/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T160000
+DTEND;TZID=America/New_York:20240925T162500
+DTSTAMP:20240925T160000Z
+UID:api-maybe-bootstrapping-a-web-application-circa-2024@https://2024.djangocon.us
+SUMMARY:API Maybe: Bootstrapping a Web Application circa 2024
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Carlton Gibson\n\nThe last couple of years seem to have changed everything. Particularly with HTMX, but also related technologies like Alpine.js and Tailwind CSS, we've rapidly gone from a world where seemingly the only option was &quot;API First&quot;.
+ This is the story of bootstrapping a new application in these latter days. On a core of almost old-school Django combined with HTMX, with a just sprinkling of Alpine.js, we've been able to build a rich and interactive web application, with hardly a JSON response or payload in sight.
+ We'll show the integration patterns we've learnt, and what the limits of those might be.
+ Finally, we'll look at what the future might bring. As we grow the application we're looking whether we will need edge computing, offline, and richer behaviour purely on the client. Is that the limit of the hypermedia driven approach? Is that where we need an API? It's not clear: it's still very much &quot;API Maybe&quot;.
+ 
+URL:https://2024.djangocon.us/talks/api-maybe-bootstrapping-a-web-application-circa-2024/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T104000
+DTEND;TZID=America/New_York:20240923T112500
+DTSTAMP:20240923T104000Z
+UID:choosing-wisely-spa-vs-htmx-for-your-next-web-project@https://2024.djangocon.us
+SUMMARY:Choosing Wisely: SPA vs. HTMX for Your Next Web Project
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Chris May\n\nAs web developers, we want to select the right architecture pattern for our projects. Web applications are inherently complex, and your choice will affect how you manage that complexity.
+ Choosing a SPA pattern offers rich user experiences with rich interactivity and navigational transitions, but it also introduces complexity in state management, development cost, maintenance, security, and performance.
+ On the other hand, server-rendered applications have been around for decades and have, until recently, struggled to match the user experience of SPAs. However, thanks to the evolution of browser standards and a crop of lightweight JavaScript frameworks, server-rendered apps have caught up and are once again a compelling option.
+ In this talk, we'll delve into the factors influencing the choice between SPAs and server-rendered apps. We'll discuss considerations such as:
+ 
+ State Management: Your choices affect how you'll need to manage the state of today's data-rich apps.
+ User Exper...
+URL:https://2024.djangocon.us/talks/choosing-wisely-spa-vs-htmx-for-your-next-web-project/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T172000
+DTEND;TZID=America/New_York:20240925T174000
+DTSTAMP:20240925T172000Z
+UID:closing-remarks@https://2024.djangocon.us
+SUMMARY:Closing Remarks
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Peter Grandstaff\n\n
+URL:https://2024.djangocon.us/talks/closing-remarks/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T162000
+DTEND;TZID=America/New_York:20240924T164500
+DTSTAMP:20240924T162000Z
+UID:deploying-django-migrations-at-kraken-scale@https://2024.djangocon.us
+SUMMARY:Deploying Django migrations at Kraken scale
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Tim Bell\n\nKraken is an energy retail system built on Django. It is currently in use by over 20 clients around the world, including the largest energy retailer in the UK, Octopus Energy, which developed Kraken.
+ When Kraken started out over 8 years ago supporting a single small client, applying Django migrations to make database schema changes was easy. Any migration that might be slightly dangerous was deployed outside business hours when the system was relatively quiet and there was no risk of disrupting the work of customer service staff. Kraken has now grown: the code has around 350 Django apps, with over 9000 migration files between them, and some database tables have billions of rows. With Kraken operating in 8 time zones around the globe, there is now no such thing as &quot;outside business hours&quot;. We have needed to find other ways of deploying migrations that might be risky.
+ There are two main risk factors with applying migrations: taking exclusive database locks, and needing a l...
+URL:https://2024.djangocon.us/talks/deploying-django-migrations-at-kraken-scale/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T104000
+DTEND;TZID=America/New_York:20240924T112500
+DTSTAMP:20240924T104000Z
+UID:django-alpine-js-htmx-ups-downs@https://2024.djangocon.us
+SUMMARY:Django + Alpine.js + htmx Ups & Downs
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Karen Tracey\n\nA few years ago we started to hear about the toolkits htmx and Alpine.js as a powerful combination that could  be used with Django to enable development of web applications that offer user experience akin to a single page application without the overhead of adopting a heavyweight front-end framework such as React. We were excited by the promise and adopted these tools in a few projects. In this talk we'll cover:
+ 
+ The promise we saw in this tool combination
+ The upside: examples of exciting wins in ways of using these tools that we recommend continuing
+ The downside: some rough edges and areas of concern where we recommend caution
+ Our overall assessment and plans regarding continued use of this combination
+ 
+ 
+URL:https://2024.djangocon.us/talks/django-alpine-js-htmx-ups-downs/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T125000
+DTEND;TZID=America/New_York:20240925T133500
+DTSTAMP:20240925T125000Z
+UID:django-celery-a-love-story-of-async-proportions@https://2024.djangocon.us
+SUMMARY:Django & Celery: A love story of async proportions
+LOCATION:Online talks
+DESCRIPTION:Presenter: Hugo Bessa\n\nDjango: A Framework for perfectionists with deadlines
+ 
+ Batteries included: Security, Authentication, Authorization, Administration, robust and mature ORM, etc.
+ Opinionated: Django defines the right path for doing things with it. And this open doors for building extensions.
+ Strong Community: Open source packages, events, meetups, active development of the main framework
+ 
+ Django's performance issue is a thing. We need to be careful with:
+ 
+ Avoiding N+1s
+ Caching
+ Database indexes
+ Data denormalization
+ Running operations in the background
+ 
+ Why running operations in the background?
+ 
+ Each Django process loads the framework core
+ It's expensive to have too many processes
+ Requests hold one Django process each while being processed
+ Requests should be processed quickly so we don't hold a process for too long
+ We need to give feedback to the user quickly, so they can move forward with other operations
+ 
+ What is Celery?
+ Asynchronous task queue or job queue which is based on dis...
+URL:https://2024.djangocon.us/talks/django-celery-a-love-story-of-async-proportions/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T113000
+DTEND;TZID=America/New_York:20240923T115500
+DTSTAMP:20240923T113000Z
+UID:django-ledger-uniting-developers-and-accountants-for-innovation@https://2024.djangocon.us
+SUMMARY:Django Ledger | Uniting Developers and Accountants for Innovation.
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Miguel Sanda\n\nWhy Django Ledger?
+ In the world of money apps, it's not just about transactions; it's about understanding how each financial decision ripples out. It's like dropping a pebble in a pond and watching the waves spread. Every dollar spent or saved can have a bigger effect than you realize. Django Ledger looks at both sides of the money picture because it is a double entry accounting system. This capability makes sure the insights aren't just whole, but you can act on them right away. It's like having a financial monitor that helps you see the bigger picture to take the right steps forward.
+ I'm a developer, why should I care?.
+ Developers aren't accountants, and accountants aren't exactly tech savvy. It feels like they're worlds apart. But what if we could bring them together? Imagine the power of combining the skills and knowledge of both sides to create something truly amazing and innovative.
+ By using Django Ledger's capabilities to implement transaction blueprints, developers can e...
+URL:https://2024.djangocon.us/talks/django-ledger-uniting-developers-and-accountants-for-innovation/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T165000
+DTEND;TZID=America/New_York:20240923T171500
+DTSTAMP:20240923T165000Z
+UID:django-the-web-framework-that-changed-my-life@https://2024.djangocon.us
+SUMMARY:Django: the web framework that changed my life
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Sage Abdullah\n\nThe year was 2018. I was studying computer science at the University of Indonesia. I learned Django as part of a web programming course. At the time, Django felt just like any other framework out there – it's part of the tech stack that you use.
+ A year later, I tried my luck with Django in Google Summer of Code. I took a deep dive into Django's codebase to implement the cross-database JSONField. The feature managed to make it in Django 3.1.
+ Fast forward to now, I've got a job in the UK to work on the Django-powered Wagtail CMS.  Since then, I've had the opportunity to give talks at conferences in Europe and the US, including this one.
+ This is a story of how Django changed my life people's lives – and how you played a part in it.
+ In this talk, we'll go through:
+ 
+ How Django can be used to teach web programming
+ Django's participation in Google Summer of Code
+ The awesome Django community and what it means for us
+ What we can do to make Django change the lives of even more people...
+URL:https://2024.djangocon.us/talks/django-the-web-framework-that-changed-my-life/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T153000
+DTEND;TZID=America/New_York:20240925T155500
+DTSTAMP:20240925T153000Z
+UID:django-user-model-past-present-and-future@https://2024.djangocon.us
+SUMMARY:Django User Model: Past, Present, and Future
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Will Vincent\n\nDjango's default User model is now 20 years old and, in the words of former Django Fellow Carlton Gibson, a &quot;leaky battery.&quot; This talk examines the historical basis for User and past efforts to update or replace it. It evaluates current best practices, including custom user models and third-party packages, that support modern user authentication patterns. And it looks forward to future updates to User that support Django's goal of advancing the state of the art in web development.
+ 
+URL:https://2024.djangocon.us/talks/django-user-model-past-present-and-future/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T150000
+DTEND;TZID=America/New_York:20240923T152500
+DTSTAMP:20240923T150000Z
+UID:empowering-tertiary-students-introducing-pyclubs-for-enhanced-python-skills-and-community-engagement@https://2024.djangocon.us
+SUMMARY:Empowering Tertiary Students: Introducing PyClubs for Enhanced Python Skills and Community Engagement
+LOCATION:Online talks
+DESCRIPTION:Presenter: Johanan Oppong Amoateng\n\nDescription:
+ PyClubs, an initiative spearheaded by Python Ghana, represents a groundbreaking effort to empower tertiary students across the nation through the power of Python programming. As a leading organization dedicated to promoting Python and fostering a vibrant tech ecosystem in Ghana, Python Ghana has taken the initiative to launch PyClubs in collaboration with universities and colleges.
+ PyClubs serve as dynamic hubs where students can come together to enhance their Python skills, collaborate on innovative projects, and engage with a supportive community of fellow enthusiasts. Under the guidance and support of Python Ghana, PyClubs provide students with access to resources, mentorship, and networking opportunities that are essential for success in today's tech-driven world.
+ This talk shines a spotlight on the transformative impact of PyClubs as an initiative of Python Ghana. By harnessing Python Ghana's expertise, networks, and resources, PyClubs offer students a unique pl...
+URL:https://2024.djangocon.us/talks/empowering-tertiary-students-introducing-pyclubs-for-enhanced-python-skills-and-community-engagement/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T113000
+DTEND;TZID=America/New_York:20240923T115500
+DTSTAMP:20240923T113000Z
+UID:error-culture@https://2024.djangocon.us
+SUMMARY:Error Culture
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Ryan Cheley\n\nIn my talk titled &quot;Error Culture,&quot; I take a deep dive into the widespread but often overlooked issue of how organizations manage error alerts in technology and programming domains. The core of my discussion revolves around the concept of 'error culture'—the organizational tendency to ignore or minimize the significance of error notifications due to their frequency and the false perception of irrelevance. This paradox arises from our dependency on technology and the need to be alerted to failures, which results in a deluge of alerts, many of which are false positives or not actionable, leading to a dangerous desensitization to potentially critical warnings.
+ Through my analysis, I address the serious consequences of error culture, such as the risk it poses by allowing significant alerts to slip through the cracks and the challenges it creates in integrating new team members who lack critical, undocumented knowledge. I pinpoint several root causes behind this phenomenon, inc...
+URL:https://2024.djangocon.us/talks/error-culture/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T162000
+DTEND;TZID=America/New_York:20240924T164500
+DTSTAMP:20240924T162000Z
+UID:faster-leaner-greener-10x-lower-website-carbon-emissions@https://2024.djangocon.us
+SUMMARY:Faster, leaner, greener: 10x lower website carbon emissions
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Thibaud Colas\n\nWe’ll first look at a quantitative assessment of thousands of Django websites on the web, to get a good picture of the Django ecosystem’s overall emissions, and understand which specific aspects of a project contribute to overall power and resource usage.
+ We’ll then dive deeper on a single Django website’s energy use, studying djangoproject.com specifically, as a good example of a high-traffic website with a big footprint. We’ll use different performance testing, power measurement, and generic static analysis tools to understand how the site could be improved. We will review common issues, straightforward improvements, and more “pie in the sky” changes that are attainable with effort:
+ 
+ Energy consumption of front-end technology (React, HTMX, vanilla JS)
+ How design affects emissions (light vs. dark mode, image assets, fonts)
+ Application server: serverless Django options to reduce emissions
+ Database: how SQLite and other &quot;serverless&quot; database options can reduce emissio...
+URL:https://2024.djangocon.us/talks/faster-leaner-greener-10x-lower-website-carbon-emissions/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T165000
+DTEND;TZID=America/New_York:20240924T171500
+DTSTAMP:20240924T165000Z
+UID:fighting-homelessness-with-django@https://2024.djangocon.us
+SUMMARY:Fighting Homelessness with Django
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Benjamin "Zags" Zagorsky\n\nMy company built CHAMP, the online application for state-aided subsidized housing for the state of Massachusetts.  We did it in Django.  This site is used to find housing for thousands of low-income and homeless applicants a year.  The site handles over 10,000 monthly users at all times of day.  We've supported it in production for over five years, and deployed major new features continuously throughout that time.
+ In this talk, we'll cover the best tricks of Django we used to build the site, as well as the biggest challenges we faced and how we solved them.  This includes:
+ 
+ Using Django with Vue
+ Keeping the site running fast despite high user load and large data volumes
+ Managing duplicate applications in the system
+ Regularly replicating gigabytes of data to a data warehouse
+ Migrating data from 230 organizations into the system
+ Zero-downtime deployments
+ And more!
+ 
+ 
+URL:https://2024.djangocon.us/talks/fighting-homelessness-with-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T134000
+DTEND;TZID=America/New_York:20240924T142500
+DTSTAMP:20240924T134000Z
+UID:finding-2-0@https://2024.djangocon.us
+SUMMARY:Finding 2.0
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Marc Gibbons\n\nIn the world of library development, achieving version 2.0 often takes years, if it's achieved at all. Surprisingly, nearly 90% of packages published to PyPI using semantic versioning have a major release number of less than two. What makes reaching this milestone so elusive?
+ If we applied software versioning to our lives, what version would we give ourselves? Perhaps in our formative years as students, we'd be a part of a 0.x series, and as we establish careers and become self-sufficient, we might progress to a 1.x scheme. But do we settle there?
+ Just like software libraries, our lives require maintenance, and despite our best intentions, hacks and workarounds inevitably infiltrate our routines. As these multiply and compound, our health can suffer. Do we wait for disaster to strike? Or, can we take a proactive approach in not only addressing problem areas but also striving for more?
+ Together, we'll explore certain risks to our wellbeing inherent to our profession as software de...
+URL:https://2024.djangocon.us/talks/finding-2-0/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T104000
+DTEND;TZID=America/New_York:20240925T112500
+DTSTAMP:20240925T104000Z
+UID:hidden-gems-of-django-5-x@https://2024.djangocon.us
+SUMMARY:Hidden gems of Django 5.x
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Sarah Boyce\n\nDid you know Django doesn't include any bug fixes or code optimisations in it's release notes?
+ Each feature release (.0, .1, .2) only draws attention to a handful of features and classes many as &quot;minor&quot;, restricting them to a very small summarising bullet point.
+ If you're looking for more reasons to upgrade to the latest feature branch or are curious about hidden gems - this is the talk for you.
+ 
+URL:https://2024.djangocon.us/talks/hidden-gems-of-django-5-x/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T153000
+DTEND;TZID=America/New_York:20240924T161500
+DTSTAMP:20240924T153000Z
+UID:how-to-design-and-implement-extensible-software-with-plugins@https://2024.djangocon.us
+SUMMARY:How to design and implement extensible software with plugins
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Simon Willison\n\nThis talk will cover:
+ 
+ When to consider adding plugin support to your project
+ Understanding Pluggy, the Python world's most mature plugin mechanism and possibly the most effective plugin framework in any language
+ How entrypoints enable simply installing a new Python package to register it as an installed plugin
+ How to effectively design your plugin hooks: the ways in which your software can be customized by plugins
+ Traps to avoid in implementing plugins
+ Documentation! How to ensure potential authors have everything they need to start writing plugins
+ 
+ I'll illustrate the talk with examples of different plugin patterns I have tried in my own software.
+ 
+URL:https://2024.djangocon.us/talks/how-to-design-and-implement-extensible-software-with-plugins/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T113000
+DTEND;TZID=America/New_York:20240924T115500
+DTSTAMP:20240924T113000Z
+UID:if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget@https://2024.djangocon.us
+SUMMARY:If We Had $1,000,000: What Could The DSF Do With 4x Its Budget?
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Jacob Kaplan-Moss\n\nThis talk comes to you in three parts:
+ Part 1: the DSF's budget. That (roughly) $250k annual budget: where does it come from and where does it go? I'll break down our various sources of funding and the major ways we spend money. I'll look mostly at the 2024 budget, but will talk a bit about how these numbers fluctuate over time.
+ Part 2: If We Had $1,000,000. Let's imagine that magically our budget grew by 4x, to $1m a year. What would we be able to do with all that money? What a budget that size mean to Django developers and the global Django community. I'll talk about a all wish list items that I and other DSF members have -- things the DSF could be doing, but isn't, because we don't have the cash.
+ Part 3: How Do We Get There? Unfortunately, we can't magic a 4x budget increase into existence — we have to do the work. How might we -- people both within and outside the DSF -- move towards increased funding. How can we incrementally move towards a future where the DSF is able to do...
+URL:https://2024.djangocon.us/talks/if-we-had-1000000-what-could-the-dsf-do-with-4x-its-budget/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T101000
+DTEND;TZID=America/New_York:20240925T103500
+DTSTAMP:20240925T101000Z
+UID:introduction-to-opentelemetry-with-django@https://2024.djangocon.us
+SUMMARY:Introduction to OpenTelemetry with Django
+LOCATION:Online talks
+DESCRIPTION:Presenter: Jessica Garson\n\nOpenTelemetry (OTel) is an observability framework for cloud-native software. It provides standardized APIs, libraries, and tools to collect telemetry data such as metrics, logs, and traces. OTel is open source and vendor neutral, designed to work with any backend system.
+ This talk will present several examples demonstrating why logs alone may be insufficient, along with the benefits of incorporating extra signals. These benefits include enhanced visibility into the execution flow and call timing, metrics on how users utilize services to pinpoint unnecessary ones, and the ability to detect patterns, such as peak usage times, which aids in production planning and scaling.
+ 
+URL:https://2024.djangocon.us/talks/introduction-to-opentelemetry-with-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T091500
+DTEND;TZID=America/New_York:20240924T100000
+DTSTAMP:20240924T091500Z
+UID:keynote-mario-munoz@https://2024.djangocon.us
+SUMMARY:Keynote - How To Be A Developer and Other Lies We Tell Ourselves
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Mario Munoz\n\nIn the children's book &quot;Am I Even A Bee?&quot; by Felicity Muth, Osmia begins feeling uneasy when she notices that she doesn't look like other bees at all. She even notices that some flies, moths, or beetles look more like bees than she does. Her perspective changes when she bumps into another unlikely bee named Xyla.
+ Our journey as developers sometimes follows a similar pattern. We may question what it means to be a developer in the first place and we're not quite sure how we fit in. On the other end, when we grow to be more experienced, we may inadvertently (or sometimes consciously) make it more difficult for others to belong.
+ What is the role of community in an individual's sense of identity, and what are some of the ways that we try to come to terms with our place within the developer landscape? Let's find out... together!
+ 
+URL:https://2024.djangocon.us/talks/keynote-tuesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T091500
+DTEND;TZID=America/New_York:20240925T100000
+DTSTAMP:20240925T091500Z
+UID:keynote-natalia-bidart@https://2024.djangocon.us
+SUMMARY:Keynote - The Fellowship of the Pony
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Natalia Bidart\n\nThis keynote will present the Django Fellowship program, highlighting its critical role in the maintenance and development of the Django project. It will cover the purpose and significance of the Fellowship, illustrating how it contributes to the project's overall success.
+ The talk will explore the daily tasks and responsibilities of a Django Fellow, including their priorities and key activities, with a focus on the contributing process . We will reflect on how we can make the most of the current Fellowship program, which is supported by 1.5 Fellows, and also on how the active involvement of the community is essential to Django's evolution.
+ 
+URL:https://2024.djangocon.us/talks/keynote-wednesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T091500
+DTEND;TZID=America/New_York:20240923T100000
+DTSTAMP:20240923T091500Z
+UID:keynote-sheena-oconnell@https://2024.djangocon.us
+SUMMARY:Keynote - Power to the People who Teach the People
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Sheena O'Connell\n\nOne thing I absolutely love about the Python community is the fact that there are so many people with teacher's hearts. Teaching is an amazing thing, you can change a person's life just by spending some time with them, having conversations, showing them stuff.
+ It's normal for people with software development skills to take on teaching roles - this might be through formal or informal workplace mentorship, community involvement, through being hired to teach or any number of other situations. Teaching and sharing knowledge is often a part of the job.
+ Software development and teaching are two distinct skill sets. There is a science to teaching and learning - there is a robust body of knowledge, there are techniques, mindsets and patterns that make teaching effective. And, on the flip side, there are mistakes, anti-patterns and myths that are very much worth avoiding.
+ It's perfectly normal for software developers to take on teaching roles and responsibilities, but it's exceedingly rar...
+URL:https://2024.djangocon.us/talks/keynote-monday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T134000
+DTEND;TZID=America/New_York:20240924T142500
+DTSTAMP:20240924T134000Z
+UID:lessons-from-e2e-testing-web-applications@https://2024.djangocon.us
+SUMMARY:Lessons from E2E Testing Web Applications
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Avindra Fernando\n\nLots of companies are investing in end to end testing to release high quality software and remain competitive in today’s market. Now with libraries like Cypress and Playwright, end to end testing web applications have become very intuitive and a whole lot of fun.
+ Over the years, after working with these tools, there are many lessons that I have learned the hard way. These valuable lessons taught me how to write robust and reliable tests that vastly improved the quality of my applications.
+ In this session, let's discuss best practices that I found useful to write E2E tests. These guidelines will enable you to release high quality software to your clients.
+ 
+URL:https://2024.djangocon.us/talks/lessons-from-e2e-testing-web-applications/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T150000
+DTEND;TZID=America/New_York:20240924T152500
+DTSTAMP:20240924T150000Z
+UID:level-up-your-django-performance-identifying-and-taming-n-1-queries@https://2024.djangocon.us
+SUMMARY:Level Up Your Django Performance: Identifying and Taming N+1 Queries
+LOCATION:Online talks
+DESCRIPTION:Presenter: Mohammad Ahtasham ul Hassan\nPresenter: Shafqat Farhan Ahmed\n\nIn this presentation, attendees will embark on a journey to understand and overcome the notorious N+1 query problem in Django development. The session will begin with an exploration of the importance of performance optimization in Django applications, emphasizing the critical role of efficient database queries in achieving robust and scalable web solutions.
+ We will delve into the intricacies of the N+1 query problem, unraveling its origins and impact on application performance. Through real-world examples and case studies, attendees will gain a deeper understanding of how N+1 queries manifest and the detrimental effects they can have on Django applications, such as increased latency, decreased throughput, and degraded user experience.
+ The core of the presentation will focus on practical solutions to mitigate the N+1 query problem and optimize Django code for enhanced performance. Attendees will learn how to identify N+1 queries in their projects and understand the underlying cause...
+URL:https://2024.djangocon.us/talks/level-up-your-django-performance-identifying-and-taming-n-1-queries/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T120000
+DTEND;TZID=America/New_York:20240923T125000
+DTSTAMP:20240923T120000Z
+UID:lightning-talks-monday@https://2024.djangocon.us
+SUMMARY:Lightning Talks (Monday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Andrew Mshar\n\n
+URL:https://2024.djangocon.us/talks/lightning-talks-monday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T120000
+DTEND;TZID=America/New_York:20240924T125000
+DTSTAMP:20240924T120000Z
+UID:lightning-talks-tuesday@https://2024.djangocon.us
+SUMMARY:Lightning Talks (Tuesday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Andrew Mshar\n\n
+URL:https://2024.djangocon.us/talks/lightning-talks-tuesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T120000
+DTEND;TZID=America/New_York:20240925T125000
+DTSTAMP:20240925T120000Z
+UID:lightning-talks-wednesday@https://2024.djangocon.us
+SUMMARY:Lightning Talks (Wednesday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Andrew Mshar\n\n
+URL:https://2024.djangocon.us/talks/lightning-talks-wednesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T113000
+DTEND;TZID=America/New_York:20240924T115500
+DTSTAMP:20240924T113000Z
+UID:maps-with-django@https://2024.djangocon.us
+SUMMARY:Maps with Django
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Paolo Melchiorre\n\nA map in a website is the best way to make geographic data easily accessible to users because it represents, in a simple way, the information relating to a specific geographical area and is used by many online services.
+ In this talk, we'll see how to create a web map with the Python based web framework Django using its GeoDjango module, storing geographic data in your local database on which to run geospatial queries.
+ Through this talk, you can learn how to add a map to your website, starting from a simple map based on Spatialite/SQLite up to a more complex and interactive map based on PostGIS/PostgreSQL.
+ The talk will be structured like a hike in the mountains, it will start gradually and then increase in difficulty, stopping in key passages and then arriving at the final goal.
+ 
+URL:https://2024.djangocon.us/talks/maps-with-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T162000
+DTEND;TZID=America/New_York:20240923T164500
+DTSTAMP:20240923T162000Z
+UID:one-thousand-and-one-django-sites@https://2024.djangocon.us
+SUMMARY:One Thousand and One Django Sites
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Vince Salvino\n\nThis talk will touch on strategies and challenges we have encountered along our journey of hosting over 1,000 Django/Wagtail sites. Told in the storybook style of &quot;One Thousand and One Nights&quot; (a.k.a. &quot;Arabian Nights&quot;) this talk will feature real-world anecdotes about: technical architecture, business challenges, financial challenges, customer support, and security challenges such as dealing with onslaughts of spammers and attack vectors.
+ 
+URL:https://2024.djangocon.us/talks/one-thousand-and-one-django-sites/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T143000
+DTEND;TZID=America/New_York:20240924T145500
+DTSTAMP:20240924T143000Z
+UID:only-reliable-data-protecting-database-integrity@https://2024.djangocon.us
+SUMMARY:Only reliable Data: Protecting Database Integrity
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Eva Nanyonga\n\nDatabase transactions are incredibly important for the reliability of financial operations. The reliability and accuracy of these tarnsactions hinge upon robust database integrity measures. This presentation will explore key concepts essential to maintaining database integrity within financial ledger environments using the Django Framework.
+ Attendees will gain insights into the following aspects:
+ 
+ Transaction Atomicity: Understanding how atomic database transactions are performed in Django to ensure data consistency.
+ Concurrency Control: Using the Django ORM to manage concurrent transactions to safeguard data against corruption.
+ Durability through Logging: Performing transaction logging to ensuring help teams recover from failures.
+ 
+ This talk will address real-world challenges and considerations in implementing and maintaining database integrity using the Django framework. Practical examples and case studies will be shared to illustrate the application of database integrity w...
+URL:https://2024.djangocon.us/talks/only-reliable-data-protecting-database-integrity/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T143000
+DTEND;TZID=America/New_York:20240923T145500
+DTSTAMP:20240923T143000Z
+UID:open-source-python-tools-to-visualize-and-analyse-geospatial-data@https://2024.djangocon.us
+SUMMARY:Open-source Python tools to visualize and analyse geospatial data.
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Samweli Mwakisambwe\n\nThe talk will provide an overview of the available Python related geospatial tools that can be used to analyze location data highlighting the possibilities and the potential of this attendees will be able to grasp what tools they can use to access particular location data.
+ Among the available python geospatial tools we will discuss the main and most used in accessing location data types raster and vector, we will have a look at how these base tools can be used to access the types and their benefits.
+ We will then dive into one of the tools called QGIS and use it as an exemplar of how we can now interact, analyze, and visualize geospatial data in Python. A step-by-step guide on how to import and use QGIS features in Python.
+ QGIS is a freely downloadable open-source GIS software suite that contains a desktop option, mobile, and web components. QGIS version 3.14 was released with a Temporal Controller an interesting feature that allows immersive and creative visualization of time-bas...
+URL:https://2024.djangocon.us/talks/open-source-python-tools-to-visualize-and-analyse-geospatial-data/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T090000
+DTEND;TZID=America/New_York:20240923T091500
+DTSTAMP:20240923T090000Z
+UID:opening-remarks-monday@https://2024.djangocon.us
+SUMMARY:Opening Remarks (Monday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Peter Grandstaff\n\n
+URL:https://2024.djangocon.us/talks/opening-remarks-monday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T090000
+DTEND;TZID=America/New_York:20240924T091500
+DTSTAMP:20240924T090000Z
+UID:opening-remarks-tuesday@https://2024.djangocon.us
+SUMMARY:Opening Remarks (Tuesday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Velda Kiara\n\nVelda will introduce Tuesday's keynote and go over any administrative notes for the day.
+ 
+URL:https://2024.djangocon.us/talks/opening-remarks-tuesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T090000
+DTEND;TZID=America/New_York:20240925T091500
+DTSTAMP:20240925T090000Z
+UID:opening-remarks-wednesday@https://2024.djangocon.us
+SUMMARY:Opening Remarks (Wednesday)
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Peter Grandstaff\n\n
+URL:https://2024.djangocon.us/talks/opening-remarks-wednesday/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T165000
+DTEND;TZID=America/New_York:20240924T171500
+DTSTAMP:20240924T165000Z
+UID:operations-the-missing-django-piece@https://2024.djangocon.us
+SUMMARY:Operations: The Missing Django Piece
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Micah Lyle\n\nIn this talk, I’m going to demonstrate a new perspective on how to structure Django codebases using something I call “Operations”, so that Django codebases can scale well with any amount of features or complexity inside an application as it grows over time.
+ 
+URL:https://2024.djangocon.us/talks/operations-missing-django-piece/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T153000
+DTEND;TZID=America/New_York:20240924T161500
+DTSTAMP:20240924T153000Z
+UID:optimizing-remote-work-pull-requests-stand-ups-and-emojis@https://2024.djangocon.us
+SUMMARY:Optimizing remote work: Pull Requests, Stand-ups, and emojis
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Kasey Kelly\n\nPositive asynchronous working relationships have always been a core feature of what makes Django successful. Many of us have spent our careers working asynchronously across International borders and timezones, but it's new to many of our clients, employers, and project stakeholders.
+ In this talk, I'd like to discuss an important ingredient of successful asynchronous work: clear, concise communication. We'll discuss the importance of establishing clear boundaries and expectations early and often. We'll learn how to write excellent issues and pull requests, and how to tailor your writing to various audiences and purposes that arise in every project. We'll talk about when scheduling a meeting is actually a good idea, and how to communicate your successes, status reports, and blockers to those who need to know.
+ Clear communication is the key to good working relationships. Good working relationships make for happier, more productive teams, healthier work/life balance, and ultimately op...
+URL:https://2024.djangocon.us/talks/optimizing-remote-work-pull-requests-stand-ups-and-emojis/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T083000
+DTEND;TZID=America/New_York:20240923T090000
+DTSTAMP:20240923T083000Z
+UID:orientation@https://2024.djangocon.us
+SUMMARY:Orientation
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Kojo Idrissa\n\n
+URL:https://2024.djangocon.us/talks/orientation/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T163000
+DTEND;TZID=America/New_York:20240925T171500
+DTSTAMP:20240925T163000Z
+UID:panel-discussion-django-communities@https://2024.djangocon.us
+SUMMARY:Panel Discussion: Open, friendly, and welcoming: on the history and future of mentoring in Django
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Lacey Henschel\n\nLacey Henschel will moderate a panel discussion on the history and future of communities within the Django community.
+ We'll explore how mentoring, community involvement, and support networks are important in keeping Django resilient. By highlighting the work of groups like Django Girls, PyLadies, Djangonaut Space, and Black Python Devs, we’ll see how these initiatives not only foster personal growth but also play a vital role in keeping the Django community strong and sustainable for the long term.
+ We’ll discuss:
+ 
+ Panelists' unique journeys in the Django community
+ The role of mentorship, sponsorship, and advocacy in these communities and in Django's future
+ Successes and challenges in building supportive, sustainable communities
+ How the Django community can keep investing in long-term success
+ 
+ Our panelists include:
+ 
+ Lacey Henschel, moderator, former Django Girls contributor and organizer
+ Keanya Phelps, Django Girls organizer and participant, mentor in Djangonaut Space
+ A...
+URL:https://2024.djangocon.us/talks/panel-discussion-mentoring-django/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T153000
+DTEND;TZID=America/New_York:20240923T161500
+DTSTAMP:20240923T153000Z
+UID:passkeys-your-password-free-future@https://2024.djangocon.us
+SUMMARY:Passkeys: Your password-free future
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Ryan Hiebert\n\nWe'll start at the beginning, with a simple username and password login form, and explore various approaches that the web has taken to try to solve it.
+ We'll explore briefly OpenID (remember that?), Federation, Single Sign-on, Magic Links, and Login Codes, and why each of them has usability drawbacks that often mean that the username and password, especially combined with a password manager, just can't be beat for its user experience.
+ Passkeys, however, are the better option that we've been waiting for. There are still some important trade-offs, but are a much better fit for consumer applications, with a user experience that is quite comparable to using a password manager.
+ They can be a simple login button, or they can augment a username and password dialog very similarly to a password manager's autocomplete. Finally, we have a way that gives a good user experience and doesn't have us storing a potentially shared secret!
+ Now that we've motivated passkeys, we'll explore how we ca...
+URL:https://2024.djangocon.us/talks/passkeys-your-password-free-future/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T104000
+DTEND;TZID=America/New_York:20240923T112500
+DTSTAMP:20240923T104000Z
+UID:path-user-user-username-user-view-profile@https://2024.djangocon.us
+SUMMARY:path('/user/&lt;user.username:user&gt;/', view_profile)
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Willem Van Onsem\n\nSince Django-2.0, most people use path converters instead of regexes to describe the different URL patterns, and how these will trigger views. One can use the already builtin path converters, but also define new ones to parse dates, booleans, etc. more effectively. One can not only define a pattern, but also provide methods to convert between Python objects and URL fragments.
+ That last feature can be used to automatically fetch model objects if the path contains the value for the primary key of the model object, or another unique field. We thus avoid writing queries to fetch the objects, but can also turn these into lazy objects where we postpone the roundtrip to the database, until the view needs that object, and thus save a roundtrip if the view has a codepath that does not require the object. Some databases also allow to combine multiple queries in one roundtrip, so we can combine all the objects that go to the same database, limiting the roundtrips further.
+ A problem with path...
+URL:https://2024.djangocon.us/talks/path-user-user-username-user-view-profile/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T104000
+DTEND;TZID=America/New_York:20240924T112500
+DTSTAMP:20240924T104000Z
+UID:postgresql-beyond-django-strategies-to-get-max-performance@https://2024.djangocon.us
+SUMMARY:PostgreSQL Beyond Django: Strategies to Get Max Performance
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Álvaro Justen\n\nPostgreSQL has been evolving in functionality and performance for decades, yet we often fail to extract full potential of the most advanced FL/OSS RDBMS. In this talk, I'll cover techniques for optimizing database performance and reducing space usage, beyond the basics of modeling and indexing and exploring powerful features such as triggers and bulk data import/export (not the Django one).
+ If you want to handle millions of records easily and lower your infrastructure costs, this talk is for you! All the features mentioned will be presented using a simple Django app, created specifically for this talk. Topics to be covered:
+ 
+ Introduction of the speaker
+ Context about the dataset used on examples (52M+ rows)
+ Issues caused by inadequate data modeling (from wrong types to field ordering)
+ Understanding query execution
+ Indexing, triggers, and other tools
+ Using postgres' full-text search the right way
+ Importing and exporting large amounts of data with Python
+ 
+ 
+URL:https://2024.djangocon.us/talks/postgresql-beyond-django-strategies-to-get-max-performance/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T153000
+DTEND;TZID=America/New_York:20240923T161500
+DTSTAMP:20240923T153000Z
+UID:product-101-for-techies-and-tech-teams@https://2024.djangocon.us
+SUMMARY:Product 101 for Techies and Tech Teams
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Amanda Savluchinske\n\nIn this talk, I intend to cover basic product concepts with the goal of sparking engineers' interest in how their work can have a greater impact in their users' lives. In my opinion, everyone in tech should be able to speak a little of their colleagues' language so that we can better collaborate and be more efficient as teams. With that said, I believe any engineers who would like to become more product-minded will benefit from attending as the talk covers the most common topics in that knowledge domain, serving as an introduction to the product world.
+ 
+URL:https://2024.djangocon.us/talks/product-101-for-techies-and-tech-teams/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T125000
+DTEND;TZID=America/New_York:20240923T133500
+DTSTAMP:20240923T125000Z
+UID:project-management-in-open-source@https://2024.djangocon.us
+SUMMARY:Project Management in Open Source
+LOCATION:Online talks
+DESCRIPTION:Presenter: Harmony Elendu\n\nThis Session will highlight and expand on better practices of Project Management in open-source while focusing on exploring the complexities of leading projects, maximizing various forms of collaboration, decentralized decision-making, and community-driven innovation promoting inclusivity.
+ There will be interactive sessions and case studies to provide practical insights and how to navigate various forms of challenges and opportunities to aid my  objectives which include
+ 
+ Equiping project managers, developers and enthusiasts with the right information and knowledge
+ ⁠Ways of maximising diverse talents in projects
+ ⁠Fostering transparency in all areas
+ ⁠Forms of promoting and encouraging volunteer-driven teams
+ 
+ 
+URL:https://2024.djangocon.us/talks/project-management-in-open-source/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T165000
+DTEND;TZID=America/New_York:20240923T171500
+DTSTAMP:20240923T165000Z
+UID:pygoat-learn-django-security-the-hard-way@https://2024.djangocon.us
+SUMMARY:Pygoat - Learn django security the hard way
+LOCATION:Grand Ballroom III
+DESCRIPTION:Presenter: Adarsh Divakaran\n\nPygoat is an intentionally vulnerable Python Django application that can be used to learn to secure our Django apps. In this talk, we will attack a deployed Pygoat application, identify the underlying security issues in our code, and then secure it. We will learn about common security vulnerabilities (OWASP Top 10) in Django apps and how to fix them so that we can keep our applications safe from attackers.
+ 
+URL:https://2024.djangocon.us/talks/pygoat-learn-django-security-the-hard-way/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T172000
+DTEND;TZID=America/New_York:20240924T174500
+DTSTAMP:20240924T172000Z
+UID:reusable-django-template-components-for-perfectionists-with-deadlines@https://2024.djangocon.us
+SUMMARY:Django UI Components for Perfectionists with Deadlines
+LOCATION:Online talks
+DESCRIPTION:Presenter: Hernan Lozano\n\nWe pay great attention to how to write composable python code (with inheritance, decorators, modules, namespaces, etc). But when it comes to architecting the templates of your website, this is often overlooked, which rapidly degenerates in tons of copy&amp;paste of html, css and javascript.
+ Some might say that this is what React or Vue (et al) are all about and already solve, but having to render HTML on the client can increase the complexity of the application (introducing build steps, another language, more dependencies, etc).
+ Writing reusable and composable UI components can be achieved using the good 'ol django templates, with the help of some libraries to fill in the gaps (like django-components, django-cotton and TailwindCSS) that we will explore and suggest as a possible solution.
+ 
+URL:https://2024.djangocon.us/talks/reusable-django-template-components-for-perfectionists-with-deadlines/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T101000
+DTEND;TZID=America/New_York:20240924T103500
+DTSTAMP:20240924T101000Z
+UID:seamless-transition-how-i-converted-an-existing-mysql-database-to-be-fully-managed-by-django-migrations-framework@https://2024.djangocon.us
+SUMMARY:Seamless Transition: How I Converted an Existing MySQL Database to be Fully Managed by Django Migrations Framework
+LOCATION:Online talks
+DESCRIPTION:Presenter: Daniel Ramas\n\nIn this presentation, I aim to demystify the complexities of database migrations in Django, catering to audiences with basic knowledge of the framework. Through a structured approach, I will delve into three key topics:
+ 
+ Understanding Django's Migration Process: I will elucidate how Django determines and executes migrations, shedding light on the underlying mechanisms that govern this process.
+ Managing Dependencies in Migration Files: Delving deeper, I'll explore how dependencies within migration files impact the migration process, offering insights into best practices to navigate potential challenges.
+ Practical Steps for Migrating an Existing Database: Leveraging my own experience, I will guide attendees through a step-by-step methodology for migrating an existing database to Django. This will include:
+ 
+ 
+ Ensuring consistency in the id field type and configuring the DEFAULT_AUTO_FIELD setting accordingly. I'll also address strategies for handling inconsistencies.
+ Utilizing '...
+URL:https://2024.djangocon.us/talks/seamless-transition-how-i-converted-an-existing-mysql-database-to-be-fully-managed-by-django-migrations-framework/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T150000
+DTEND;TZID=America/New_York:20240925T152500
+DTSTAMP:20240925T150000Z
+UID:streaming-video-in-django-demystified@https://2024.djangocon.us
+SUMMARY:Streaming Video in Django | Demystified
+LOCATION:Online talks
+DESCRIPTION:Presenter: Vaarun Sinha\n\nGeneral details
+ Level: All
+ Categories : Async, Django Channels, Video processing
+ Table of Contents
+ 
+ 
+ Introduction
+ 
+ Brief overview of video streaming
+ Explain me like I'm 5 : How does Video Streaming work?
+ 
+ 
+ 
+ Video Streaming Protocols
+ 
+ Understanding HLS (HTTP Live Streaming)
+ Overview of MPEG-DASH (Dynamic Adaptive Streaming over HTTP)
+ HLS vs MPEG-DASH: A comparative analysis
+ 
+ 
+ 
+ Media Processing Approaches
+ 
+ Defining the model for media processing
+ Introduction to FFmpeg
+ Exploring Microservices for Media Processing
+ Celery Task: An asynchronous processing approach
+ Async vs Sync model functions : Model Function Approach
+ Handling media processing on upload
+ Make the user do all the work Approach
+ 
+ 
+ 
+ Video Streaming Implementation
+ 
+ Frontend demonstration with media file logic
+ 
+ 
+ 
+ Scaling Video Streaming with Django Channels
+ 
+ Explaining the role of Django Channels
+ Diagram illustrating how Django Channels facilitates scaling
+ Code samples demonstrating Dj...
+URL:https://2024.djangocon.us/talks/streaming-video-in-django-demystified/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T162000
+DTEND;TZID=America/New_York:20240923T164500
+DTSTAMP:20240923T162000Z
+UID:the-art-of-not-redirecting@https://2024.djangocon.us
+SUMMARY:The art of (not) redirecting
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Lorenzo Peña\n\nURLs are meant to never change, but change is the only constant of thriving products. As web developers we have the duty to not only design our URLs in a way that they withstand the passage of time, but also to &quot;never&quot; break old URLs when, in the face of inevitable change, we are forced to re-design them in order to keep a consistent experience in our evolving products. Join me in this practical journey to master URL design and evolution.
+ 
+URL:https://2024.djangocon.us/talks/the-art-of-not-redirecting/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T101000
+DTEND;TZID=America/New_York:20240923T103500
+DTSTAMP:20240923T101000Z
+UID:the-magic-of-dependencies-installing-themselves@https://2024.djangocon.us
+SUMMARY:The Magic of Dependencies Installing Themselves
+LOCATION:Online talks
+DESCRIPTION:Presenter: Ilerioluwakiiye Abolade\n\nWhen you write a Python script that has dependencies, the standard has always been to use a separate file like requirements.txt or pyproject.toml (using Tom’s Obvious, Minimal Language format) for handling the dependencies from external libraries. To share these scripts that are dependent on external libraries or other versions of Python, the process becomes more complex since the receiver has no choice but to create a new virtual environment with all the necessary dependencies. It becomes even more cumbersome in educational settings or among collaborators, where people might have different levels of Python expertise.
+ With the introduction of PEP 723, we’ve brought simplicity to our code, as we can now embed dependencies directly in a single file script. In this talk, we will explore this new method that enhances our productivity by making it easier to share, deploy, and work with Python scripts, making working with Django closer to being seamless.
+ 
+URL:https://2024.djangocon.us/talks/the-magic-of-dependencies-installing-themselves/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T134000
+DTEND;TZID=America/New_York:20240923T142500
+DTSTAMP:20240923T134000Z
+UID:troubleshooting-is-a-lifestyle@https://2024.djangocon.us
+SUMMARY:Troubleshooting is a Lifestyle 😎
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Jack Linke\n\nAudience Level
+ Beginner to Intermediate
+ This talk is suitable for anyone who wants to improve their troubleshooting skills, regardless of their industry or technical background. No prior troubleshooting experience is required, but a basic understanding of technology concepts will be helpful. We will start with general concepts, and move into some practical and technical examples specific to Django and Python.
+ Objectives
+ By the end of this talk, attendees will understand how to:
+ 
+ Break down complex problems into manageable parts
+ Utilize the tools and resources available for effective troubleshooting
+ Learn to ask for help and leverage online communities
+ Avoid tunnel vision and maintain a broad perspective when diagnosing issues
+ Document the troubleshooting process to track progress and learn from experiences
+ 
+ Outline
+ 
+ Introduction (4 minutes)
+ 
+ My background in electronics design, radar maintenance, and software development
+ 
+ 
+ The Troubleshooting Mindset (5 minutes)
+ ...
+URL:https://2024.djangocon.us/talks/troubleshooting-is-a-lifestyle/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240923T172000
+DTEND;TZID=America/New_York:20240923T174500
+DTSTAMP:20240923T172000Z
+UID:unlocking-performance-benchmarking-and-profiling-django-for-maximum-efficiency@https://2024.djangocon.us
+SUMMARY:Unlocking Performance: Benchmarking and profiling Django for Maximum Efficiency
+LOCATION:Online talks
+DESCRIPTION:Presenter: Ron Maravanyika\n\nIn most cases performance issues are caused by a very small fraction of the application.  Identifying these bottlenecks can be a daunting task. Well, not anymore, we now have tools to easily identify these bottlenecks. In this talk we will talk about it all: the why, what and how to do profiling and benchmarking.
+ We will look at django-silk for profiling while for benchmarking we will be using the ever reliable pytest-benchmark. We will cover the basics and slowly move into seeing things like the actual raw query buried which is buried in Django. Lastly l will share tips on how to avoid over running your services while try to optimise. This talk is suitable for intermediate to senior developers, however junior developers can also benefit.
+ 
+URL:https://2024.djangocon.us/talks/unlocking-performance-benchmarking-and-profiling-django-for-maximum-efficiency/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T125000
+DTEND;TZID=America/New_York:20240924T133500
+DTSTAMP:20240924T125000Z
+UID:upgrading-eol-django-a-journey-from-v1-to-v5@https://2024.djangocon.us
+SUMMARY:Upgrading EOL Django: A Journey from V1 to V5
+LOCATION:Online talks
+DESCRIPTION:Presenter: Michael Riley\n\nFinding out that an application is using a legacy version of a framework can be a stressful and intimidating task, knowing that you're going to be responsible for bringing the application back to a supported version.  This talk will cover what this type of journey would look like in the Django ecosystem by using a real world example of a small Django project that was acquired from its original developer. We will be covering multiple different scenarios and also be providing helpful tips for approaching legacy applications in general along the way.
+ By the end of the talk, the attendees will be able to:
+ 
+ Know where to find critical documentation for moving between Django versions
+ Identify the ideal upgrade path
+ Learn and Explore ways to deal with legacy code
+ How to effectively evaluate which version of dependencies need to be upgraded to.
+ 
+ 
+URL:https://2024.djangocon.us/talks/upgrading-eol-django-a-journey-from-v1-to-v5/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240925T134000
+DTEND;TZID=America/New_York:20240925T142500
+DTSTAMP:20240925T134000Z
+UID:webrtc-with-django-channels-htmx-and-coturn@https://2024.djangocon.us
+SUMMARY:WebRTC with Django, Channels, HTMX, and coturn
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Ken Whitesell\n\nAudio/Video conferencing has become standard in many areas for augmenting communications among individuals. Modern browsers facilitate this by including support for Web Real Time Communications (WebRTC).
+ WebRTC itself is a point-to-point protocol, which means that two browsers using this for a video call are talking directly to each other. But, before that can happen, the those browsers need to know that each other exists and are looking to establish this connection. Then they need to negotiate the parameters for the connection.
+ Then there are many network-related issues that can affect the ability for those two browsers to connect.  Things like firewalls and Network Address Translation (NAT) can affect how each side &quot;sees&quot; the other side, further complicating the situation.
+ All these issues have known solutions. The WebRTC APIs have matured to the point where they can be considered reasonably stable and reliable. It has become practical to incorporate these solutions i...
+URL:https://2024.djangocon.us/talks/webrtc-with-django-channels-htmx-and-coturn/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240924T143000
+DTEND;TZID=America/New_York:20240924T145500
+DTSTAMP:20240924T143000Z
+UID:you-got-that-nice-tech-salary-now-what@https://2024.djangocon.us
+SUMMARY:You got that nice tech salary, now what?
+LOCATION:Junior Ballroom
+DESCRIPTION:Presenter: Tim Schilling\n\nTalking about finances is awful.
+ There are several things I'd rather talk about with a group of strangers before finances. However, I believe that as a part of the tech community, there's a moral responsibility to make sound personal financial decisions because you earn a comfortable salary. I have made several mistakes along my career, and I'm probably still making some. The goal here is to make it a bit easier for us to have these conversations.
+ I was the first in my family to graduate from college. One of my parents attended some college. They knew how to balance a budget, and they knew to max your employer's 401k matching program. Beyond that, there wasn't much of a plan.
+ I didn't have any financial literacy when I entered the tech industry. In fact, I fell prey to a corporate insurance provider, bought an insurance-investment type product and contributed to it for years! I've left money in my savings account because I was scared of the market.
+ At the end of this talk you wi...
+URL:https://2024.djangocon.us/talks/you-got-that-nice-tech-salary-now-what/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
